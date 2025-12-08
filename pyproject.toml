@@ -1,0 +1,14 @@
+[project]
+name = "insights"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+    "google-cloud-storage>=2.14.0",
+    "tenacity>=8.2.3",
+    "datasets>=4.4.1",
+]
