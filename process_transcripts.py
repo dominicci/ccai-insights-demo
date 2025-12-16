@@ -7,7 +7,7 @@ import pandas as pd
 from google.cloud import storage
 from google.api_core.exceptions import NotFound, Forbidden
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
-from datasets import load_dataset
+from datasets import load_dataset, Features, Value, Sequence
 
 # fetch the dataset from GCS gs://ssi-lab-sandbox-1-ccai-demo/call-center-transcripts-dataset/
 # contains call_recordings.csv, data_description.csv, WAV files, and a README.md
@@ -56,81 +56,249 @@ def fetch_dataset(bucket_name, dataset_prefix):
         raise e
 
 
-# load the dataset from the CSV file
-def load_csv_dataset(local_dataset_dir, bucket_name, dataset_prefix):
-    csv_path = os.path.join(local_dataset_dir, "call_recordings.csv")
-    if not os.path.exists(csv_path):
-        print(f"CSV file not found at {csv_path}. Attempting to fetch...")
-        try:
-            fetch_dataset(bucket_name, dataset_prefix)
-        except Exception as e:
-            print(f"Failed to fetch dataset: {e}")
-            return None
 
-    if os.path.exists(csv_path):
-         df = pd.read_csv(csv_path, dtype={'Order Number': object})
-         return df
-    else:
-        print("Failed to load dataset: CSV file still missing after fetch attempt.")
-        return None
-
-# iterate through the CSV and build the JSON structure.
-# handle the case where the CSV doesn't exist
-# handle the case where the CSV has invalid data
-def process_transcripts(data_source, output_dir, source_type="csv"):
+# --- NEW VALIDATION FUNCTION ---
+def is_valid_ccai_format(data):
+    """
+    Checks if the JSON data is already in valid CCAI Insights format.
+    Criteria:
+    1. Has 'entries' list.
+    2. Entries have 'speakerId' and 'start_timestamp_usec'.
+    """
+    if "entries" not in data or not isinstance(data["entries"], list):
+        return False
     
+    if len(data["entries"]) > 0:
+        first_entry = data["entries"][0]
+        if "speakerId" in first_entry and "start_timestamp_usec" in first_entry:
+            return True
+    
+    return False
+
+# --- UPDATED PROCESSING LOGIC ---
+def process_source_directory(source_path, output_dir):
+    """
+    Iterates through a directory and decides how to handle each file
+    based on its extension and content.
+    """
     os.makedirs(output_dir, exist_ok=True)
+    count_processed = 0
+    count_passthrough = 0
+
+    # Handle single file or directory
+    files_to_process = []
+    if os.path.isfile(source_path):
+        files_to_process.append(source_path)
+    elif os.path.isdir(source_path):
+        for root, _, files in os.walk(source_path):
+            for file in files:
+                files_to_process.append(os.path.join(root, file))
+
+    print(f"Scanning {len(files_to_process)} files in '{source_path}'...")
+
+    for file_path in files_to_process:
+        filename = os.path.basename(file_path)
+        
+        # CASE 1: JSON FILES (Could be Synthetic or Raw)
+        if filename.lower().endswith(".json"):
+            try:
+                with open(file_path, 'r') as f:
+                    data = json.load(f)
+                
+                # DECISION: Is it already perfect?
+                if is_valid_ccai_format(data):
+                    # PASS-THROUGH: Just copy to output dir
+                    print(f"  [PASS-THROUGH] Valid CCAI JSON detected: {filename}")
+                    output_path = os.path.join(output_dir, filename)
+                    with open(output_path, 'w') as f_out:
+                        json.dump(data, f_out, indent=4)
+                    count_passthrough += 1
+                else:
+                    # RE-PROCESS: It's JSON but likely raw/monolithic
+                    # (Assumes 'text' field exists in the JSON root or entries)
+                    # Implementation detail: Extract text and run segment_text
+                    print(f"  [PROCESS] Raw JSON detected: {filename}")
+                    # ... Logic to extract text from raw JSON would go here ...
+                    # For now, let's assume raw JSONs are just simple text wrappers
+                    pass 
+
+            except Exception as e:
+                print(f"Error reading JSON {filename}: {e}")
+
+        # CASE 2: CSV FILES (Raw Data)
+        elif filename.lower().endswith(".csv"):
+            print(f"  [PROCESS] CSV detected: {filename}")
+            try:
+                df = pd.read_csv(file_path, dtype={'Order Number': object}).fillna("N/A")
+                for index, row in df.iterrows():
+                    # Handle missing columns gracefully
+                    c_id = row.get('id', f"csv_{index}")
+                    text = row.get('Transcript', "")
+                    c_type = row.get('Type', "General")
+                    c_name = row.get('Name', "Unknown")
+                    order_num = row.get('Order Number', "N/A")
+                    
+                    if text:
+                        process_single_transcript(c_id, text, c_type, c_name, order_num, output_dir)
+                        count_processed += 1
+            except Exception as e:
+                print(f"Error processing CSV {filename}: {e}")
+
+    print(f"\\nSummary: {count_passthrough} files passed through, {count_processed} files processed.")
+
+
+import re
+
+# ... (existing imports but re is new)
+
+def segment_text(text, customer_name="Unknown"):
+    """
+    Segments text using an IVR-aware state machine and keyword scoring.
+    1. Starts in IVR_SYSTEM mode.
+    2. Switches to Conversation mode upon detecting human anchor phrases.
+    3. Assigns roles based on keyword scoring (Positive=Agent, Negative=Customer).
+    4. Uses customer_name metadata as a super keyword for self-identification.
+    5. Calculates timestamps based on character length (~15 chars/sec).
+    """
     
-    count = 0
+    # --- CONFIGURATION ---
+    # Regex triggers that signal the IVR is done and a human has picked up
+    ivr_handoff_triggers = [
+        r"this is", 
+        r"my name is", 
+        r"how can i help",
+        r"speaking with you"
+    ]
 
-    if source_type == "csv":
-        print("Processing CSV dataset...")
-        if data_source is None:
-            print("No dataframe provided to process.")
-            return
+    # Keyword Scoring: Positive = Agent, Negative = Customer
+    keyword_map = [
+        (r"thank you for calling", 5),
+        (r"how can i help", 5),
+        (r"my name is", 3),
+        (r"appointments", 2),
+        (r"hold on", 3),
+        (r"text message", 3),
+        (r"reach you back", 3),
+        (r"correct\?", 2),
+        (r"i'm calling", -5),  # Strong customer indicator
+        (r"i need", -4),
+        (r"i want", -4),
+        (r"what time", -4),
+        (r"you open", -4),
+        (r"my number", -3),
+        (r"you close", -4),
+        (r"look at car", -3)
+    ]
 
-        # Fill NaN values with "N/A" to avoid invalid JSON and match requirements
-        df_filled = data_source.fillna("N/A")
+    # --- PRE-PROCESSING ---
+    # Clean up text and split by terminal punctuation (. ? !)
+    # The lookbehind (?<=[.?!]) ensures we keep the punctuation with the sentence.
+    clean_text = re.sub(r'\s+', ' ', text).strip()
+    sentences = re.split(r'(?<=[.?!])\s+', clean_text)
 
-        # iterate through the CSV and build the JSON structure.
-        for index, row in df_filled.iterrows():
-            conversation_id = row['id']
-            process_single_transcript(
-                conversation_id,
-                row['Transcript'],
-                row['Type'],
-                row['Name'],
-                row['Order Number'],
-                output_dir
-            )
-            count += 1
-            
-    elif source_type == "huggingface":
-        print("Processing Hugging Face dataset...")
-        # Iterate through the streaming dataset
-        for i, row in enumerate(data_source):
-            # Generate an ID since the dataset doesn't seem to have one
-            conversation_id = f"hf_call_{i+1:04d}"
-            
-            # The new dataset has 'text' but lacks metadata like 'Type', 'Name', 'Order Number'
-            # We'll use placeholders for now
-            process_single_transcript(
-                conversation_id,
-                row['text'],
-                "General Inquiry", # Placeholder
-                "Unknown Customer", # Placeholder
-                "N/A",
-                output_dir
-            )
-            count += 1
-            
-            # Limit for demo purposes if needed, or remove to process all
-            if count >= 100: 
-                break
+    entries = []
+    
+    # State Variables
+    is_ivr_active = True 
+    current_role = "IVR_SYSTEM"  # Start as system
+    previous_role = None
+    consecutive_turns = 0
+    current_timestamp = 0
+    
+    for sentence in sentences:
+        if not sentence.strip():
+            continue
 
-    print(f"Successfully processed {count} transcripts to '{output_dir}' directory.")
+        sentence_lower = sentence.lower()
+        
+        # 1. CHECK FOR HANDOFF (IVR -> HUMAN)
+        if is_ivr_active:
+            for trigger in ivr_handoff_triggers:
+                if re.search(trigger, sentence_lower):
+                    is_ivr_active = False 
+                    current_role = "AGENT"  # Humans usually speak first after pickup
+                    break
+        
+        # Track for monologue breaking
+        if current_role == previous_role:
+            consecutive_turns += 1
+        else:
+            consecutive_turns = 1
+        
+        # 2. METADATA OVERRIDE (Highest Priority)
+        # If the customer's name appears in the text, it's likely the customer introducing themselves.
+        # Exclude "Unknown Customer" or "N/A" placeholders.
+        name_match = False
+        if customer_name and customer_name.lower() not in ["unknown customer", "n/a", "unknown"]:
+            # Check if the full name appears in the sentence
+            if customer_name.lower() in sentence_lower:
+                current_role = "CUSTOMER"
+                name_match = True
+                is_ivr_active = False  # <--- ADD THIS LINE TO KILL THE IVR
+
+        # 3. DETERMINE ROLE (Only run if metadata didn't catch it)
+        if not name_match:
+            if is_ivr_active:
+                current_role = "IVR_SYSTEM"
+                speaker_id = "SYSTEM"
+                user_id = 0
+            else:
+                # Score the sentence to see if we should switch speakers
+                score = 0
+                for regex, weight in keyword_map:
+                    if re.search(regex, sentence_lower):
+                        score += weight
+                
+                # Threshold Logic
+                if score >= 2:
+                    current_role = "AGENT"
+                elif score <= -2:
+                    current_role = "CUSTOMER"
+                else:
+                    # NEUTRAL SCORE LOGIC (Stickiness + Monologue Breaker)
+                    if previous_role and consecutive_turns >= 3 and len(sentence.split()) < 5:
+                        # Break monologue: if same speaker for 3+ turns and short sentence, switch
+                        current_role = "CUSTOMER" if previous_role == "AGENT" else "AGENT"
+                    else:
+                        # Keep previous speaker (stickiness)
+                        current_role = previous_role if previous_role else "AGENT"
+        
+        # Set speaker_id and user_id based on final role
+        if current_role == "IVR_SYSTEM":
+            speaker_id = "SYSTEM"
+            user_id = 0
+        else:
+            speaker_id = "AGENT" if current_role == "AGENT" else "CUSTOMER"
+            user_id = 2 if current_role == "AGENT" else 1
+
+        # 4. CALCULATE DURATION
+        # Estimate: 15 chars ~ 1 second (1,000,000 usec)
+        char_count = len(sentence)
+        duration_usec = int((char_count / 15) * 1000000)
+        
+        # Ensure minimum duration of 0.5 seconds to avoid zero-length glitches
+        duration_usec = max(duration_usec, 500000)
+
+        entry = {
+            "text": sentence.strip(),
+            "speakerId": speaker_id,
+            "role": current_role,
+            "user_id": user_id,
+            "start_timestamp_usec": current_timestamp
+        }
+        
+        entries.append(entry)
+        
+        # Update state for next iteration
+        previous_role = current_role
+        current_timestamp += duration_usec
+
+    return entries
 
 def process_single_transcript(conversation_id, text, call_type, customer_name, order_number, output_dir):
+    
+    segmented_entries = segment_text(text, customer_name)
+    
     conversation_data = {
         "conversation_info": {
             "conversation_id": conversation_id,
@@ -140,14 +308,7 @@ def process_single_transcript(conversation_id, text, call_type, customer_name, o
                 "order_number": order_number
             }
         },
-        "entries": [
-            {
-                "text": text,
-                "role": "CUSTOMER",
-                "user_id": 1,
-                "start_timestamp_usec": 0
-            }
-        ]
+        "entries": segmented_entries
     }
     
     file_path = os.path.join(output_dir, f"{conversation_id}.json")
@@ -194,33 +355,23 @@ def upload_json_files(bucket_name, dataset_prefix, output_dir):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process call center transcripts.")
-    parser.add_argument("--dataset_name", type=str, default="AIxBlock/92k-real-world-call-center-scripts-english", help="Hugging Face dataset name")
-    parser.add_argument("--output_dir", type=str, default="transcripts_json", help="Output directory for JSON files")
+    parser = argparse.ArgumentParser(description="Ingest and process call center data.")
+    # Changed argument from 'local_dataset_dir' to generic 'source_path'
+    parser.add_argument("--source_path", type=str, required=True, help="Path to input file or directory")
+    parser.add_argument("--output_dir", type=str, default="transcripts_json", help="Output directory")
     parser.add_argument("--bucket_name", type=str, default="ssi-lab-sandbox-1-ccai-demo", help="GCS bucket name")
-    parser.add_argument("--dataset_prefix", type=str, default="call-center-transcripts-dataset/", help="GCS dataset prefix")
-    parser.add_argument("--local_dataset_dir", type=str, default="call-center-transcripts-dataset", help="Local directory for CSV dataset")
-    parser.add_argument("--source_type", type=str, choices=["csv", "huggingface"], default="csv", help="Source of the dataset")
-
+    parser.add_argument("--dataset_prefix", type=str, default="call-center-transcripts-dataset/", help="GCS prefix")
+    
     args = parser.parse_args()
 
-    if args.source_type == "csv":
-        df = load_csv_dataset(args.local_dataset_dir, args.bucket_name, args.dataset_prefix)
-        if df is not None:
-            process_transcripts(df, args.output_dir, source_type="csv")
-    
-    elif args.source_type == "huggingface":
-        print(f"Loading dataset {args.dataset_name} from Hugging Face (streaming)...")
-        try:
-            # Use streaming=True to avoid schema errors with mixed types
-            dataset = load_dataset(args.dataset_name, streaming=True)
-            process_transcripts(dataset['train'], args.output_dir, source_type="huggingface")
-        except Exception as e:
-            print(f"Failed to load/process Hugging Face dataset: {e}")
+    # 1. Process/Ingest Data
+    process_source_directory(args.source_path, args.output_dir)
 
+    # 2. Upload Results
     try:
         upload_json_files(args.bucket_name, args.dataset_prefix, args.output_dir)
     except Exception as e:
-        print(f"Upload failed after retries: {e}")
+        print(f"Upload failed: {e}")
+
 
 

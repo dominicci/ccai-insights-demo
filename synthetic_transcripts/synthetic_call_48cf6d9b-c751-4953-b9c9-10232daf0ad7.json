@@ -1,0 +1,175 @@
+{
+    "conversation_info": {
+        "conversation_id": "48cf6d9b-c751-4953-b9c9-10232daf0ad7",
+        "metadata": {
+            "call_type": "Technical Support Tier 2",
+            "customer_sentiment": "Positive",
+            "outcome": "Resolved",
+            "generated_by": "synthetic_script_v3_quality",
+            "is_transfer": "True"
+        }
+    },
+    "entries": [
+        {
+            "text": "Thank you for calling Tech Support. Please state the nature of your issue.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 0
+        },
+        {
+            "text": "Hi, I'm having trouble with my computer. It keeps showing an error code.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 5133333
+        },
+        {
+            "text": "I\u2019m sorry to hear that you\u2019re experiencing issues. Please hold while I connect you to a technical specialist.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 10133333
+        },
+        {
+            "text": "Hello, this is Sarah from Tier 2 Technical Support. I understand you\u2019re seeing an error code on your computer. Can you please provide me with the code?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 17599999
+        },
+        {
+            "text": "Yes, the error code is 0x0000007B.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 27866665
+        },
+        {
+            "text": "Thank you for that information. This error code typically indicates a potential hardware failure or an issue with your disk drive. Let\u2019s proceed with some advanced troubleshooting.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 30333331
+        },
+        {
+            "text": "Okay, what do I need to do?",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 42533331
+        },
+        {
+            "text": "First, I need you to check if all hardware connections are secure. Can you confirm that?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 44533331
+        },
+        {
+            "text": "Yes, everything seems to be connected properly.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 50599997
+        },
+        {
+            "text": "Great! Now, let\u2019s boot into Safe Mode and run a disk check. I\u2019ll guide you through this.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 53933330
+        },
+        {
+            "text": "I'm ready.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 59999996
+        },
+        {
+            "text": "Please restart your computer and press F8 repeatedly until you see the Advanced Boot Options menu. Select 'Safe Mode with Command Prompt.'",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 60866662
+        },
+        {
+            "text": "I see the menu now. I\u2019m selecting Safe Mode.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 70266662
+        },
+        {
+            "text": "Perfect. Once you're in the Command Prompt, type 'chkdsk /f' and hit enter.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 73399995
+        },
+        {
+            "text": "It's running now\u2026 it found some errors and is fixing them.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 78599995
+        },
+        {
+            "text": "That\u2019s a good sign. Let it complete the process. After that, reboot your system normally.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 82666661
+        },
+        {
+            "text": "Okay, it\u2019s rebooting now.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 88799994
+        },
+        {
+            "text": "What do you see on the screen?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 90666660
+        },
+        {
+            "text": "It booted up normally! No error code.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 92866660
+        },
+        {
+            "text": "Fantastic! It seems we've resolved the issue. Sometimes these error codes are related to underlying hardware problems which can be fixed with disk checks.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 95533326
+        },
+        {
+            "text": "I really appreciate your help!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 105999992
+        },
+        {
+            "text": "You\u2019re welcome! If you have any more questions or run into any issues, don't hesitate to call back. Have a great day!",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 204,
+            "start_timestamp_usec": 108199992
+        },
+        {
+            "text": "Thanks again! I\u2019m really happy with the support!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 27472,
+            "start_timestamp_usec": 116199992
+        }
+    ]
+}
