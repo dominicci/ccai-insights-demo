@@ -56,96 +56,79 @@ def fetch_dataset(bucket_name, dataset_prefix):
         raise e
 
 
+# load the dataset from the CSV file
+def load_csv_dataset(local_dataset_dir, bucket_name, dataset_prefix):
+    csv_path = os.path.join(local_dataset_dir, "call_recordings.csv")
+    if not os.path.exists(csv_path):
+        print(f"CSV file not found at {csv_path}. Attempting to fetch...")
+        try:
+            fetch_dataset(bucket_name, dataset_prefix)
+        except Exception as e:
+            print(f"Failed to fetch dataset: {e}")
+            return None
 
-# --- NEW VALIDATION FUNCTION ---
-def is_valid_ccai_format(data):
-    """
-    Checks if the JSON data is already in valid CCAI Insights format.
-    Criteria:
-    1. Has 'entries' list.
-    2. Entries have 'speakerId' and 'start_timestamp_usec'.
-    """
-    if "entries" not in data or not isinstance(data["entries"], list):
-        return False
-    
-    if len(data["entries"]) > 0:
-        first_entry = data["entries"][0]
-        if "speakerId" in first_entry and "start_timestamp_usec" in first_entry:
-            return True
-    
-    return False
+    if os.path.exists(csv_path):
+         df = pd.read_csv(csv_path, dtype={'Order Number': object})
+         return df
+    else:
+        print("Failed to load dataset: CSV file still missing after fetch attempt.")
+        return None
 
-# --- UPDATED PROCESSING LOGIC ---
-def process_source_directory(source_path, output_dir):
-    """
-    Iterates through a directory and decides how to handle each file
-    based on its extension and content.
-    """
+# iterate through the CSV and build the JSON structure.
+# handle the case where the CSV doesn't exist
+# handle the case where the CSV has invalid data
+def process_transcripts(data_source, output_dir, source_type="csv"):
+    
     os.makedirs(output_dir, exist_ok=True)
-    count_processed = 0
-    count_passthrough = 0
+    
+    count = 0
 
-    # Handle single file or directory
-    files_to_process = []
-    if os.path.isfile(source_path):
-        files_to_process.append(source_path)
-    elif os.path.isdir(source_path):
-        for root, _, files in os.walk(source_path):
-            for file in files:
-                files_to_process.append(os.path.join(root, file))
+    if source_type == "csv":
+        print("Processing CSV dataset...")
+        if data_source is None:
+            print("No dataframe provided to process.")
+            return
 
-    print(f"Scanning {len(files_to_process)} files in '{source_path}'...")
+        # Fill NaN values with "N/A" to avoid invalid JSON and match requirements
+        df_filled = data_source.fillna("N/A")
 
-    for file_path in files_to_process:
-        filename = os.path.basename(file_path)
-        
-        # CASE 1: JSON FILES (Could be Synthetic or Raw)
-        if filename.lower().endswith(".json"):
-            try:
-                with open(file_path, 'r') as f:
-                    data = json.load(f)
-                
-                # DECISION: Is it already perfect?
-                if is_valid_ccai_format(data):
-                    # PASS-THROUGH: Just copy to output dir
-                    print(f"  [PASS-THROUGH] Valid CCAI JSON detected: {filename}")
-                    output_path = os.path.join(output_dir, filename)
-                    with open(output_path, 'w') as f_out:
-                        json.dump(data, f_out, indent=4)
-                    count_passthrough += 1
-                else:
-                    # RE-PROCESS: It's JSON but likely raw/monolithic
-                    # (Assumes 'text' field exists in the JSON root or entries)
-                    # Implementation detail: Extract text and run segment_text
-                    print(f"  [PROCESS] Raw JSON detected: {filename}")
-                    # ... Logic to extract text from raw JSON would go here ...
-                    # For now, let's assume raw JSONs are just simple text wrappers
-                    pass 
+        # iterate through the CSV and build the JSON structure.
+        for index, row in df_filled.iterrows():
+            conversation_id = row['id']
+            process_single_transcript(
+                conversation_id,
+                row['Transcript'],
+                row['Type'],
+                row['Name'],
+                row['Order Number'],
+                output_dir
+            )
+            count += 1
+            
+    elif source_type == "huggingface":
+        print("Processing Hugging Face dataset...")
+        # Iterate through the streaming dataset
+        for i, row in enumerate(data_source):
+            # Generate an ID since the dataset doesn't seem to have one
+            conversation_id = f"hf_call_{i+1:04d}"
+            
+            # The new dataset has 'text' but lacks metadata like 'Type', 'Name', 'Order Number'
+            # We'll use placeholders for now
+            process_single_transcript(
+                conversation_id,
+                row['text'],
+                "General Inquiry", # Placeholder
+                "Unknown Customer", # Placeholder
+                "N/A",
+                output_dir
+            )
+            count += 1
+            
+            # Limit for demo purposes if needed, or remove to process all
+            if count >= 100: 
+                break
 
-            except Exception as e:
-                print(f"Error reading JSON {filename}: {e}")
-
-        # CASE 2: CSV FILES (Raw Data)
-        elif filename.lower().endswith(".csv"):
-            print(f"  [PROCESS] CSV detected: {filename}")
-            try:
-                df = pd.read_csv(file_path, dtype={'Order Number': object}).fillna("N/A")
-                for index, row in df.iterrows():
-                    # Handle missing columns gracefully
-                    c_id = row.get('id', f"csv_{index}")
-                    text = row.get('Transcript', "")
-                    c_type = row.get('Type', "General")
-                    c_name = row.get('Name', "Unknown")
-                    order_num = row.get('Order Number', "N/A")
-                    
-                    if text:
-                        process_single_transcript(c_id, text, c_type, c_name, order_num, output_dir)
-                        count_processed += 1
-            except Exception as e:
-                print(f"Error processing CSV {filename}: {e}")
-
-    print(f"\\nSummary: {count_passthrough} files passed through, {count_processed} files processed.")
-
+    print(f"Successfully processed {count} transcripts to '{output_dir}' directory.")
 
 import re
 
@@ -355,23 +338,67 @@ def upload_json_files(bucket_name, dataset_prefix, output_dir):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Ingest and process call center data.")
-    # Changed argument from 'local_dataset_dir' to generic 'source_path'
-    parser.add_argument("--source_path", type=str, required=True, help="Path to input file or directory")
-    parser.add_argument("--output_dir", type=str, default="transcripts_json", help="Output directory")
+    parser = argparse.ArgumentParser(description="Process call center transcripts.")
+    parser.add_argument("--dataset_name", type=str, default="AIxBlock/92k-real-world-call-center-scripts-english", help="Hugging Face dataset name")
+    parser.add_argument("--output_dir", type=str, default="transcripts_json", help="Output directory for JSON files")
     parser.add_argument("--bucket_name", type=str, default="ssi-lab-sandbox-1-ccai-demo", help="GCS bucket name")
-    parser.add_argument("--dataset_prefix", type=str, default="call-center-transcripts-dataset/", help="GCS prefix")
-    
+    parser.add_argument("--dataset_prefix", type=str, default="call-center-transcripts-dataset/", help="GCS dataset prefix")
+    parser.add_argument("--local_dataset_dir", type=str, default="call-center-transcripts-dataset", help="Local directory for CSV dataset")
+    parser.add_argument("--source_type", type=str, choices=["csv", "huggingface"], default="csv", help="Source of the dataset")
+
     args = parser.parse_args()
 
-    # 1. Process/Ingest Data
-    process_source_directory(args.source_path, args.output_dir)
+    if args.source_type == "csv":
+        df = load_csv_dataset(args.local_dataset_dir, args.bucket_name, args.dataset_prefix)
+        if df is not None:
+            process_transcripts(df, args.output_dir, source_type="csv")
+    
+    elif args.source_type == "huggingface":
+        print(f"Loading dataset {args.dataset_name} from Hugging Face (streaming)...")
+        try:
+            # Use streaming=True to avoid schema errors with mixed types
+            dataset = load_dataset(args.dataset_name, streaming=True)
+            
+            # Use manual iteration with error handling to skip malformed rows
+            count = 0
+            output_dir = args.output_dir
+            os.makedirs(output_dir, exist_ok=True)
+            iterator = iter(dataset['train'])
+            while True:
+                try:
+                    row = next(iterator)
+                    
+                    # Generate an ID since the dataset doesn't seem to have one
+                    # We use count as index approximation since enumerate is complicated with skip
+                    conversation_id = f"hf_call_{count+1:04d}"
+                    
+                    # The new dataset has 'text' but lacks metadata like 'Type', 'Name', 'Order Number'
+                    process_single_transcript(
+                        conversation_id,
+                        row['text'],
+                        "General Inquiry", # Placeholder
+                        "Unknown Customer", # Placeholder
+                        "N/A",
+                        output_dir
+                    )
+                    count += 1
+                    
+                    # Limit for demo purposes if needed, or remove to process all
+                    if count >= 100: 
+                        break
+                        
+                except StopIteration:
+                    break
+                except Exception as e:
+                    print(f"Skipping row due to load error: {e}")
+                    continue
 
-    # 2. Upload Results
+        except Exception as e:
+            print(f"Failed to load/process Hugging Face dataset: {e}")
+
     try:
         upload_json_files(args.bucket_name, args.dataset_prefix, args.output_dir)
     except Exception as e:
-        print(f"Upload failed: {e}")
-
+        print(f"Upload failed after retries: {e}")
 
 

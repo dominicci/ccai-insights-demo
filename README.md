@@ -1,74 +1,55 @@
-# CCAI Insights - Transcript Processor
+# CCAI Synthetic Data Generator
 
-This project processes call center transcripts from CSV format into structured JSON files and integrates with Google Cloud Storage (GCS) for data retrieval and storage.
+A toolkit for generating high-quality synthetic contact center transcripts (JSON) to demonstrate Google Cloud CCAI Insights features like Topic Modeling, Smart Highlights, and Quality AI.
 
-## Prerequisites
+## Key Features
 
-- Python 3.11+
-- [uv](https://github.com/astral-sh/uv) (fast Python package manager)
-- Google Cloud credentials (if running in an environment that requires explicit auth)
+-   **Valid CCAI JSON Schema**: Produces files that are strictly compliant with Google Cloud CCAI Insights ingestion requirements.
+-   **Realistic Workforce Simulation**: Assigns consistent Agent IDs from a predefined pool and generates unique Customer IDs for every call.
+-   **Keyword Injection**: Naturally integrates specific keywords (e.g., "tracking number", "cancel subscription") into dialogues to trigger Topic Models.
+-   **Variable Outcomes**: Simulates realistic call friction with a 90% Resolved / 10% Unresolved split.
+-   **Multi-Agent Transfers**: Supports complex scenarios where calls are transferred from Tier 1 to Tier 2 agents or supervisors (e.g., Agent 201 -> Agent 205).
 
-## Setup
+## Usage Guide
 
-This project uses `uv` for dependency management.
-
-### 1. Install Dependencies
-
-You can install dependencies into a virtual environment.
-
-**Default `.venv`:**
-```bash
-uv sync
-```
-
-**Custom `.insights` environment:**
-If you prefer to use a custom virtual environment name (e.g., `.insights`):
+### 1. Generate Synthetic Data
+Run the generator script to create a batch of synthetic JSON transcripts. You can specify the number of files and the output directory.
 
 ```bash
-# Create the environment
-uv venv .insights
-
-# Sync dependencies to it
-UV_PROJECT_ENVIRONMENT=.insights uv sync
+# Generate 100 synthetic transcripts
+# Defaults to data/synthetic_transcripts
+python src/generate_synthetic_ccai_data.py --count 100 
 ```
 
-## Execution
+*Note: Requires `OPENAI_API_KEY` or `GOOGLE_API_KEY` to be set in your environment.*
 
-### Running the Script
-
-The script `process_transcripts.py` processes transcripts into JSON and uploads them to GCS. It supports two data sources:
-1.  **Local CSV**: `call-center-transcripts-dataset/call_recordings.csv` (Default)
-2.  **Hugging Face**: `AIxBlock/92k-real-world-call-center-scripts-english`
-
-**Using `uv run` (Recommended):**
+### 2. Process & Ingest
+The `process_transcripts.py` script handles the ingestion pipeline. It automatically detects if files are valid CCAI JSON (pass-through) or need segmentation (CSV processing), and uploads them to Google Cloud Storage.
 
 ```bash
-# Run with defaults (loads local CSV)
-./.insights/bin/python process_transcripts.py
-
-# Run with Hugging Face dataset
-./.insights/bin/python process_transcripts.py --source_type huggingface
-
-# Run with custom output directory
-./.insights/bin/python process_transcripts.py --output_dir my_custom_output
+# Defaults source to data/synthetic_transcripts
+python src/process_transcripts.py --output_dir data/processed_output
 ```
 
-**Using the Python Executable Directly:**
+## Google Cloud CCAI Insights Limits
 
-```bash
-source .insights/bin/activate
-python process_transcripts.py --help
-```
+When planning your data pipeline and ingestion strategy, be aware of the following platform limits:
 
-## Configuration / CLI Arguments
+### Ingestion Limits
+-   **Import Rate**: The quickstart method allows up to **18,000 conversations per hour**.
+-   **Bulk Import**: Batch limit of **10,000 conversations per JSON file** when importing from Cloud Storage.
 
-You can configure the script using command-line arguments:
+### Audio & Text Constraints
+-   **Async Audio**: Maximum duration of **480 minutes (8 hours)** per file.
+-   **Telephony**: Maximum call duration of **3.5 hours**.
+-   **Chat**: 
+    -   Dialogflow responses are capped at **4,000 characters**.
+    -   Intent detection input is capped at **256 characters**.
 
-| Argument | Default | Description |
-| :--- | :--- | :--- |
-| `--source_type` | `csv` | Source of the dataset: `csv` or `huggingface` |
-| `--dataset_name` | `AIxBlock/92k...` | Hugging Face dataset name (if source is `huggingface`) |
-| `--output_dir` | `transcripts_json` | Local directory for generated JSON files |
-| `--bucket_name` | `ssi-lab-sandbox-1-ccai-demo` | GCS bucket name for upload |
-| `--dataset_prefix` | `call-center-transcripts-dataset/` | Prefix for GCS upload |
-| `--local_dataset_dir` | `call-center-transcripts-dataset` | Local directory for CSV dataset |
+### Feature Quotas
+-   **Quality AI**: Scorecards can evaluate a maximum of **50 questions per conversation**.
+-   **Topic Modeling**: Requires a technical minimum of **100 conversations** to train (though **1,000+** is recommended for best results).
+
+## Future Roadmap
+
+-   **BigQuery Streaming**: Investigate streaming export to BigQuery to handle datasets larger than the standard UI export limits.

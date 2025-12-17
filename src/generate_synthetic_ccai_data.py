@@ -206,16 +206,28 @@ def assemble_call_data(raw_turns: List[Dict[str, str]], scenario_name: str, outc
 
 # --- Main Loop ---
 
+import pathlib
+
 def main():
     parser = argparse.ArgumentParser(description="Generate synthetic call center data.")
     parser.add_argument("--count", type=int, default=10, help="Number of synthetic calls to generate")
-    parser.add_argument("--output_dir", type=str, default="synthetic_transcripts", help="Directory to save generated files")
+    parser.add_argument("--output_dir", type=str, default=None, help="Directory to save generated files (defaults to data/synthetic_transcripts)")
     
     args = parser.parse_args()
 
+    # Determine output directory
+    if args.output_dir:
+        output_dir = pathlib.Path(args.output_dir)
+    else:
+        # Default: ProjectRoot/data/synthetic_transcripts
+        # Script is in ProjectRoot/src/
+        script_dir = pathlib.Path(__file__).parent.resolve()
+        output_dir = script_dir.parent / "data" / "synthetic_transcripts"
+
     print(f"--- Starting Synthetic Data Generation for {args.count} calls ---")
-    print(f" Output Directory: {args.output_dir}")
-    os.makedirs(args.output_dir, exist_ok=True)
+    print(f" Output Directory: {output_dir}")
+    os.makedirs(output_dir, exist_ok=True)
+
 
     for i in range(args.count):
         print(f"\nGenerating conversation {i+1}/{args.count}...")
