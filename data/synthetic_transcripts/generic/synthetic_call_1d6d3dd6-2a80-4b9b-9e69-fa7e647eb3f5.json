@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "1d6d3dd6-2a80-4b9b-9e69-fa7e647eb3f5",
+    "metadata": {
+      "call_type": "Technical Support Tier 2",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "True"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling Tech Solutions Support. Your call is important to us. Please briefly describe your issue.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 0
+    },
+    {
+      "text": "My computer keeps crashing. I think it might be a hardware failure. I've already tried restarting it multiple times.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 7600000
+    },
+    {
+      "text": "Please wait while I connect you with a Tier 1 agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 15533333
+    },
+    {
+      "text": "Thank you for calling Tech Solutions Support, my name is Alex. I understand you're experiencing crashing issues. Can you tell me what you were doing when the crashes occur?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 19199999
+    },
+    {
+      "text": "It happens randomly, whether I'm browsing the web or using a program. Sometimes I get a blue screen with an error code, but it disappears too quickly for me to write it down.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 30866665
+    },
+    {
+      "text": "Okay, I see. I've tried the basic troubleshooting steps. It sounds like this might require advanced troubleshooting. I'm going to transfer you to our Tier 2 support team. They're better equipped to handle potential hardware failure issues.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 42666665
+    },
+    {
+      "text": "Please wait while I connect you with a Tier 2 agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 58799998
+    },
+    {
+      "text": "Thank you for calling Tech Solutions Support, my name is Sarah, I'm a technical specialist with the Tier 2 team. I understand you're experiencing crashing problems and might be facing a hardware failure. You mentioned an error code flashed briefly. Can you describe anything you remember about it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 62466664
+    },
+    {
+      "text": "I think it had something to do with memory\u2026 or RAM, maybe? It was a blue screen error.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 82466664
+    },
+    {
+      "text": "Okay. We're going to run a diagnostic test remotely. I'm going to guide you through downloading and running a small program. This will help us identify if it's indeed a hardware failure and pinpoint the problematic component. Please allow remote access, and do not interrupt the process. Are you comfortable with that?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 88399997
+    },
+    {
+      "text": "Yes, go ahead.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 109799997
+    },
+    {
+      "text": "Okay, I'm detecting that your RAM is failing its diagnostic test. The error code that aligns with this is MEM-012. It looks like you need to replace your RAM. It's definitely a hardware failure.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 110933330
+    },
+    {
+      "text": "Oh no, that's not good.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 124066663
+    },
+    {
+      "text": "I understand. Since this is a Tier 2 support issue, I can offer you a few options. We can guide you through replacing the RAM yourself, which would involve providing you with detailed instructions and a list of compatible RAM modules. Or, we can arrange for a technician to come to your location and replace it. We can also ship the part, but keep in mind that some advanced troubleshooting might be necessary if the problem persists, or if you run into issues during the installation process",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 125799996
+    },
+    {
+      "text": "Could you ship the RAM to me and provide instructions? I'm fairly comfortable with computers.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 158799995
+    },
+    {
+      "text": "Absolutely. I've processed the order for a compatible RAM module and sent the instructions to your email address. Please allow 3-5 business days for delivery. Be sure to ground yourself before handling the components to avoid static discharge. If you encounter any issues during the replacement or need further advanced troubleshooting, please don't hesitate to call us back, and we'll be happy to assist you further. This is a Tier 2 case so ask for a Level 2 technician when you call.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 165199995
+    },
+    {
+      "text": "Thank you so much for your help! I really appreciate you, my technical specialist, figuring this out!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 197799995
+    },
+    {
+      "text": "You're very welcome! I'm glad we could resolve the issue. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 204733328
+    },
+    {
+      "text": "No, that's all. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73194,
+      "start_timestamp_usec": 212199994
+    },
+    {
+      "text": "Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 214333327
+    }
+  ]
+}

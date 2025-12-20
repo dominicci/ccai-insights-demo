@@ -359,30 +359,42 @@ import pathlib
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Ingest and process call center data.")
     # Changed argument from 'local_dataset_dir' to generic 'source_path'
-    parser.add_argument("--source_path", type=str, default=None, help="Path to input file or directory (defaults to data/synthetic_transcripts)")
+    parser.add_argument("--source_path", type=str, default=None, help="Path to input file or directory (defaults to data/synthetic_transcripts/{profile})")
+    parser.add_argument("--profile", type=str, default="generic", help="The profile to process (e.g., 'generic', 'velofit')")
     parser.add_argument("--output_dir", type=str, default="transcripts_json", help="Output directory")
-    parser.add_argument("--bucket_name", type=str, default="ssi-lab-sandbox-1-ccai-demo", help="GCS bucket name")
+    parser.add_argument("--bucket_name", type=str, default=None, help="GCS bucket name", required=True)
     parser.add_argument("--dataset_prefix", type=str, default="call-center-transcripts-dataset/", help="GCS prefix")
     
     args = parser.parse_args()
+
+    print(f"--- Processing Ingestion for Profile: {args.profile} ---")
 
     # Determine source path
     if args.source_path:
         source_path = pathlib.Path(args.source_path)
     else:
-        # Default: ProjectRoot/data/synthetic_transcripts
+        # Default: ProjectRoot/data/synthetic_transcripts/{profile}
         script_dir = pathlib.Path(__file__).parent.resolve()
-        source_path = script_dir.parent / "data" / "synthetic_transcripts"
+        source_path = script_dir.parent / "data" / "synthetic_transcripts" / args.profile
+
+    # Update GCS prefix to include profile
+    dataset_prefix = args.dataset_prefix
+    if not dataset_prefix.endswith('/'):
+        dataset_prefix += '/'
+    dataset_prefix += f"{args.profile}/"
 
     print(f"Processing data from: {source_path}")
 
+    # Ensure output directory isolation by profile
+    actual_output_dir = os.path.join(args.output_dir, args.profile)
+
     # 1. Process/Ingest Data
     # Convert path object to string for existing function
-    process_source_directory(str(source_path), args.output_dir)
+    process_source_directory(str(source_path), actual_output_dir)
 
     # 2. Upload Results
     try:
-        upload_json_files(args.bucket_name, args.dataset_prefix, args.output_dir)
+        upload_json_files(args.bucket_name, dataset_prefix, actual_output_dir)
     except Exception as e:
         print(f"Upload failed: {e}")
 

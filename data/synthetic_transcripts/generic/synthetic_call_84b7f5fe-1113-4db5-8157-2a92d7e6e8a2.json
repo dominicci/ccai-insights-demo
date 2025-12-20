@@ -1,0 +1,98 @@
+{
+  "conversation_info": {
+    "conversation_id": "84b7f5fe-1113-4db5-8157-2a92d7e6e8a2",
+    "metadata": {
+      "call_type": "Password Reset Help",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling customer support. Please briefly describe your issue.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 0
+    },
+    {
+      "text": "Hi, I'm having trouble. I cant login to my account. I think I'm locked out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 5200000
+    },
+    {
+      "text": "Hello, I understand you're having trouble logging in and believe you're locked out. I can help with that. First, can you confirm if you've tried to reset your password using the 'forgot password' option?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 10400000
+    },
+    {
+      "text": "Yeah, I tried that, but I never received the reset link. Maybe I typed in the wrong email? I'm not sure.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 24133333
+    },
+    {
+      "text": "Okay. To verify your account, can you please provide your username?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 31266666
+    },
+    {
+      "text": "Sure, my username is 'bluebird72'",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 35933332
+    },
+    {
+      "text": "Thank you. One moment while I locate your account. ... Okay, I found it. It looks like you did request a password reset earlier, but there was a slight typo in the email address. Can you confirm the correct email associated with the account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 38333332
+    },
+    {
+      "text": "Yes, it's bluebird72@example.com",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 54599998
+    },
+    {
+      "text": "Great. I've resent the reset link to that address. Please check your inbox, including your spam folder, and follow the instructions to reset your password. If you still don't receive it within the next five minutes, please call us back.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 56933331
+    },
+    {
+      "text": "Okay, I see it now! I'm resetting my password now. Thanks so much! I really appreciate it. I was getting worried since I cant login otherwise.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 72866664
+    },
+    {
+      "text": "You're welcome! I'm glad we could help. Please let us know if you have any other issues in the future. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 82533330
+    },
+    {
+      "text": "You too! Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75582,
+      "start_timestamp_usec": 90733330
+    }
+  ]
+}

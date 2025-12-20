@@ -9,18 +9,35 @@ from typing import List, Dict, Any
 # --- Configuration ---
 # FORMAT: "Scenario Name": ["keyword1", "keyword2", "keyword3"]
 
-STANDARD_SCENARIOS = {
-    "Order Status Inquiry": ["tracking number", "scheduled delivery", "shipping update", "package location"],
-    "Product Return Request": ["return label", "original packaging", "refund policy", "RMA number"],
-    "Store Hours & Location": ["opening time", "closing time", "weekend hours", "parking availability"],
-    "Password Reset Help": ["cant login", "reset link", "forgot password", "username", "locked out"],
-    "Product Feature Questions": ["battery life", "compatibility", "warranty", "user manual", "features"]
-}
-
-TRANSFER_SCENARIOS = {
-    "Billing Dispute Escalation": ["speak to a supervisor", "overcharged", "incorrect amount", "unauthorized charge", "credit back"],
-    "Service Cancellation Retention": ["cancel my subscription", "too expensive", "better offer", "retention team", "close account"],
-    "Technical Support Tier 2": ["hardware failure", "error code", "advanced troubleshooting", "tier 2", "technical specialist"]
+SCENARIO_PROFILES = {
+    "generic": {
+        "config": {
+            "company_name": "StellarTech"
+        },
+        "standard": {
+            "Order Status Inquiry": ["tracking number", "scheduled delivery", "shipping update", "package location"],
+            "Product Return Request": ["return label", "original packaging", "refund policy", "RMA number"],
+            "Store Hours & Location": ["opening time", "closing time", "weekend hours", "parking availability"],
+            "Password Reset Help": ["cant login", "reset link", "forgot password", "username", "locked out"],
+            "Product Feature Questions": ["battery life", "compatibility", "warranty", "user manual", "features"]
+        },
+        "transfer": {
+            "Billing Dispute Escalation": ["speak to a supervisor", "overcharged", "incorrect amount", "unauthorized charge", "credit back"],
+            "Service Cancellation Retention": ["cancel my subscription", "too expensive", "better offer", "retention team", "close account"],
+            "Technical Support Tier 2": ["hardware failure", "error code", "advanced troubleshooting", "tier 2", "technical specialist"]
+        }
+    },
+    "velofit": {
+        "config": {
+            "company_name": "VeloFit"
+        },
+        "standard": {
+            "Return Policy Inquiry": ["return window", "restocking fee", "shipping label", "30 days", "VeloFit return policy"],
+            "Technical Support": ["broken pedal", "wheel wobble", "frame crack", "defective", "VeloFit Racer"],
+            "Order Cancellation": ["cancel order", "refund my card", "stop delivery", "changed my mind"]
+        },
+        "transfer": {}
+    }
 }
 
 AGENT_POOL = [201, 202, 203, 204, 205]
@@ -39,7 +56,7 @@ def get_llm_response(prompt: str) -> str:
         try:
             import google.generativeai as genai
             genai.configure(api_key=google_api_key)
-            model = genai.GenerativeModel("gemini-1.5-flash")
+            model = genai.GenerativeModel("gemini-2.0-flash")
             response = model.generate_content(prompt)
             print(" Using Google Gemini...")
             return response.text
@@ -72,13 +89,15 @@ def get_llm_response(prompt: str) -> str:
 
 # --- Phase 1: Generation ---
 
-def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_instruction: str, is_multi_agent: bool) -> List[Dict[str, str]]:
+def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_instruction: str, is_multi_agent: bool, company_name: str) -> List[Dict[str, str]]:
     """
     Generates a raw conversation list using the LLM.
     """
     
     system_prompt = f"""
     Generate a JSON transcript for a customer service call.
+    
+    BRAND IDENTITY: You are a customer service agent for {company_name}. Never refer to any other company name.
     
     SCENARIO: {scenario_name}
     
@@ -88,7 +107,7 @@ def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_i
     {outcome_instruction}
     
     RULES:
-    - Start with role "AUTOMATED_AGENT" (e.g. "Thank you for calling...").
+    - Start with role "AUTOMATED_AGENT" (e.g. "Thank you for calling {company_name}...").
     - Use role "CUSTOMER" for the caller.
     - {'Use roles "AGENT_1" and "AGENT_2" to show the transfer.' if is_multi_agent else 'Use role "AGENT" for the representative.'}
     - Output ONLY a JSON list of objects: {{"role": "...", "text": "..."}}
@@ -211,40 +230,63 @@ import pathlib
 def main():
     parser = argparse.ArgumentParser(description="Generate synthetic call center data.")
     parser.add_argument("--count", type=int, default=10, help="Number of synthetic calls to generate")
+    parser.add_argument("--profile", type=str, default="generic", choices=["generic", "velofit"], help="Configuration profile to use")
     parser.add_argument("--output_dir", type=str, default=None, help="Directory to save generated files (defaults to data/synthetic_transcripts)")
     
     args = parser.parse_args()
 
     # Determine output directory
     if args.output_dir:
-        output_dir = pathlib.Path(args.output_dir)
+        base_output_dir = pathlib.Path(args.output_dir)
     else:
         # Default: ProjectRoot/data/synthetic_transcripts
         # Script is in ProjectRoot/src/
         script_dir = pathlib.Path(__file__).parent.resolve()
-        output_dir = script_dir.parent / "data" / "synthetic_transcripts"
+        base_output_dir = script_dir.parent / "data" / "synthetic_transcripts"
 
-    print(f"--- Starting Synthetic Data Generation for {args.count} calls ---")
+    # Append profile subfolder for organization
+    output_dir = base_output_dir / args.profile
+
+    print(f"--- Starting Synthetic Data Generation for {args.count} calls [Profile: {args.profile}] ---")
     print(f" Output Directory: {output_dir}")
     os.makedirs(output_dir, exist_ok=True)
 
+    # Load scenarios for the selected profile
+    profile_cfg = SCENARIO_PROFILES[args.profile]
+    company_name = profile_cfg["config"]["company_name"]
+    standard_scenarios = profile_cfg["standard"]
+    transfer_scenarios = profile_cfg["transfer"]
 
     for i in range(args.count):
         print(f"\nGenerating conversation {i+1}/{args.count}...")
         
         # A. SELECT SCENARIO & KEYWORDS
-        # 80% Standard / 20% Transfer
-        if random.random() < 0.2:
-            scenario_name, keywords = random.choice(list(TRANSFER_SCENARIOS.items()))
-            is_multi_agent = True
-            scenario_type_label = "TRANSFER"
+        scenario_type_label = "STANDARD"
+        is_multi_agent = False
+        
+        if args.profile == "velofit":
+            # VELOFIT SPECIFIC WEIGHTING
+            # 20% Return Policy Inquiry, 80% other standard scenarios
+            # Note: velofit currently has no transfer scenarios in the requirements
+            if random.random() < 0.2:
+                scenario_name = "Return Policy Inquiry"
+                keywords = standard_scenarios[scenario_name]
+            else:
+                # Pick from remaining standard scenarios
+                other_scenarios = {k: v for k, v in standard_scenarios.items() if k != "Return Policy Inquiry"}
+                scenario_name, keywords = random.choice(list(other_scenarios.items()))
         else:
-            scenario_name, keywords = random.choice(list(STANDARD_SCENARIOS.items()))
-            is_multi_agent = False
-            scenario_type_label = "STANDARD"
+            # GENERIC PROFILE LOGIC
+            # 80% Standard / 20% Transfer
+            if transfer_scenarios and random.random() < 0.2:
+                scenario_name, keywords = random.choice(list(transfer_scenarios.items()))
+                is_multi_agent = True
+                scenario_type_label = "TRANSFER"
+            else:
+                scenario_name, keywords = random.choice(list(standard_scenarios.items()))
 
-        # B. DETERMINE OUTCOME (The 10% Rule)
-        # 10% of calls should end with the customer unsatisfied/unresolved.
+        # B. DETERMINE OUTCOME & SENTIMENT
+        # 10% of calls should end unresolved
         if random.random() < 0.1:
             outcome_instruction = "OUTCOME: The issue is NOT resolved. The customer remains frustrated or angry. The agent tries to help but fails. The customer eventually hangs up."
             outcome_status = "Unresolved"
@@ -252,11 +294,16 @@ def main():
             outcome_instruction = "OUTCOME: The issue is successfully resolved. The customer expresses gratitude and leaves happy."
             outcome_status = "Resolved"
 
+        # VELOFIT SENTIMENT INJECTION
+        if args.profile == "velofit" and scenario_name in ["Return Policy Inquiry", "Order Cancellation"]:
+            sentiment_prefix = "SENTIMENT INSTRUCTION: Customer should be frustrated and impatient. Agent must remain professional. "
+            outcome_instruction = sentiment_prefix + outcome_instruction
+
         print(f"  Scenario [{scenario_type_label}]: {scenario_name}")
         print(f"  Outcome: {outcome_status}")
         
         # Phase 1
-        raw_turns = generate_raw_conversation(scenario_name, keywords, outcome_instruction, is_multi_agent)
+        raw_turns = generate_raw_conversation(scenario_name, keywords, outcome_instruction, is_multi_agent, company_name)
         if not raw_turns:
             print("  Skipping due to generation error.")
             continue
@@ -266,7 +313,7 @@ def main():
         
         # Save
         conv_id = call_data["conversation_info"]["conversation_id"]
-        filename = f"{args.output_dir}/synthetic_call_{conv_id}.json"
+        filename = output_dir / f"synthetic_call_{conv_id}.json"
         
         with open(filename, "w") as f:
             json.dump(call_data, f, indent=2)
