@@ -1,0 +1,168 @@
+{
+    "conversation_info": {
+        "conversation_id": "a68358e8-101d-4434-b909-75ab9d36da90",
+        "metadata": {
+            "call_type": "Technical Support Tier 2",
+            "customer_sentiment": "Positive",
+            "outcome": "Resolved",
+            "generated_by": "synthetic_script_v3_quality",
+            "is_transfer": "True"
+        }
+    },
+    "entries": [
+        {
+            "text": "Thank you for calling technical support. Please briefly describe your issue.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 0
+        },
+        {
+            "text": "My computer keeps crashing. I get a blue screen with a weird error code every time I try to do anything. It started yesterday and I've tried restarting it multiple times.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 5266666
+        },
+        {
+            "text": "Thank you. Please wait while I connect you with an agent.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 16799999
+        },
+        {
+            "text": "Hello, my name is Alex. I understand you're experiencing crashes. Can you please provide the error code from the blue screen?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 20799999
+        },
+        {
+            "text": "It says something like '0x0000007E'\u2026 I can't remember the exact whole thing. I've already spent hours on this with basic troubleshooting tips I found online, but nothing is working. I suspect a hardware failure.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 29333332
+        },
+        {
+            "text": "Okay, that sounds a bit complex. I'm going to transfer you to our Tier 2 support. They have more experience with advanced troubleshooting for these kinds of issues. One moment please.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 43599998
+        },
+        {
+            "text": "You are now being transferred.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 55999998
+        },
+        {
+            "text": "Hello, my name is Ben. I'm a technical specialist with Tier 2 support. I understand you're having blue screen issues. Can you tell me everything you've tried so far?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 58199998
+        },
+        {
+            "text": "Hi Ben. Well, I've restarted the computer several times, ran a memory diagnostic, and tried updating my drivers. Nothing seems to work. It feels like a hardware failure to me, especially with this persistent error code.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 69399998
+        },
+        {
+            "text": "Alright. Based on that error code and the steps you've already taken, it could potentially be a driver conflict causing instability. Let's try booting into safe mode with networking and see if the problem persists. This will allow us to rule out conflicting software. Can you tell me which operating system you are running?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 84199998
+        },
+        {
+            "text": "Windows 10",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 105933331
+        },
+        {
+            "text": "Okay, restart your computer, and as it's booting up, repeatedly press the F8 key until you see the Advanced Boot Options menu. Then select 'Safe Mode with Networking'. Are you able to get into Safe Mode with Networking?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 106799997
+        },
+        {
+            "text": "Yes, I'm in Safe Mode with Networking now.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 121599997
+        },
+        {
+            "text": "Okay, great. Now, let's try updating your graphics card driver directly from the manufacturer's website. Even though you've updated drivers before, sometimes Windows Update doesn't provide the latest version. What is the make and model of your graphics card?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 124599997
+        },
+        {
+            "text": "It's an NVIDIA GeForce RTX 3070.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 141999997
+        },
+        {
+            "text": "Okay, download and install the latest driver directly from the NVIDIA website. Once it's installed, restart your computer normally and see if the issue is resolved.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 144333330
+        },
+        {
+            "text": "(pause) Okay, I've downloaded and installed the driver and restarted my computer. It seems to be working! I haven't gotten a blue screen yet. I've been using it for about 30 minutes now, and it seems stable.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 155466663
+        },
+        {
+            "text": "That's excellent! It sounds like the driver update resolved the conflict. It is still possible for a hardware failure to surface, so keep an eye on it. We can run more in-depth diagnostics if the blue screen issue returns, but I'm cautiously optimistic it was just a driver issue.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 169466663
+        },
+        {
+            "text": "Oh my gosh, thank you so much! I was so worried it was something serious. I really appreciate the advanced troubleshooting. You're a lifesaver!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 188333329
+        },
+        {
+            "text": "You're very welcome! Is there anything else I can assist you with today?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 198066662
+        },
+        {
+            "text": "No, that's all. Thank you again for your help!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 24053,
+            "start_timestamp_usec": 203066662
+        },
+        {
+            "text": "Have a great day!",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 206333328
+        }
+    ]
+}

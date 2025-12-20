@@ -1,0 +1,231 @@
+{
+    "conversation_info": {
+        "conversation_id": "5f08e2f6-5154-426e-81d7-c240197e2dfc",
+        "metadata": {
+            "call_type": "Technical Support Tier 2",
+            "customer_sentiment": "Positive",
+            "outcome": "Resolved",
+            "generated_by": "synthetic_script_v3_quality",
+            "is_transfer": "True"
+        }
+    },
+    "entries": [
+        {
+            "text": "Thank you for calling Tech Solutions. Please briefly describe your issue.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 0
+        },
+        {
+            "text": "My computer keeps crashing. I'm getting some kind of blue screen and it's happening multiple times a day now. I've already tried restarting it, but the problem persists.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 5066666
+        },
+        {
+            "text": "Thank you. Please hold while I connect you to a Tier 1 agent.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 16533332
+        },
+        {
+            "text": "Thank you for calling Tech Solutions, my name is Sarah. How can I help you today?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 20799998
+        },
+        {
+            "text": "Hi Sarah, my computer keeps crashing with a blue screen. I\u2019ve already restarted it.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 26399998
+        },
+        {
+            "text": "Okay, I understand. And you've already tried restarting your computer. Can you tell me if you're seeing any kind of error code on the blue screen?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 32133331
+        },
+        {
+            "text": "Yes, it flashes too quickly to read it properly, but it looks like something with the letters 'STOP' and then a bunch of numbers and letters after that.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 42066664
+        },
+        {
+            "text": "Alright. This sounds like it might require some advanced troubleshooting beyond what I can assist with. I'm going to transfer you to our Tier 2 support team. They are better equipped to handle more complex issues. Please hold while I transfer you.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 52399997
+        },
+        {
+            "text": "One moment please...",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 69066663
+        },
+        {
+            "text": "Please wait while we connect you to the next available agent.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 70599996
+        },
+        {
+            "text": "Thank you for calling Tech Solutions Tier 2, my name is David. I'm a technical specialist. I understand you're experiencing blue screen crashes.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 74866662
+        },
+        {
+            "text": "Yes, that's right. It's happening constantly. I'm getting some kind of error code on the blue screen too, but it's hard to read.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 84666662
+        },
+        {
+            "text": "Okay. While it's difficult to say for certain without examining the specific error code, frequent blue screens often indicate a hardware failure or driver issues. Since basic troubleshooting hasn't worked, we'll need to do some deeper diagnostics. Could you tell me the make and model of your computer?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 93399995
+        },
+        {
+            "text": "It's a Tech Solutions UltraBook 15.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 113733328
+        },
+        {
+            "text": "Thanks. Okay, I'm going to guide you through a few steps to collect some diagnostic information. First, can you try booting into Safe Mode?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 116266661
+        },
+        {
+            "text": "How do I do that?",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 125733327
+        },
+        {
+            "text": "Restart your computer. As soon as the Tech Solutions logo appears, start repeatedly pressing the F8 key until you see a menu with different boot options. Use the arrow keys to select 'Safe Mode' and press Enter.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 127066660
+        },
+        {
+            "text": "Okay, I've done that. I'm in Safe Mode now.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 141333326
+        },
+        {
+            "text": "Great. Now, let's check the Device Manager for any driver issues. Press the Windows key + X and select 'Device Manager' from the menu.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 144399992
+        },
+        {
+            "text": "Okay, I'm looking at the Device Manager now.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 153533325
+        },
+        {
+            "text": "Look for any devices with a yellow exclamation mark next to them. These indicate driver problems that could be causing the crashes.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 156666658
+        },
+        {
+            "text": "Okay, I see one! It's under 'Display adapters' and it says 'Generic Video Adapter'.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 165599991
+        },
+        {
+            "text": "That's likely the culprit. It seems your video card drivers are either corrupted or missing. Since you're in safe mode, let's try updating the driver. Right-click on 'Generic Video Adapter' and select 'Update driver'.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 171333324
+        },
+        {
+            "text": "Okay, I've done that. It's asking if I want to search automatically for drivers or browse my computer.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 185999990
+        },
+        {
+            "text": "Choose 'Search automatically for drivers'.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 192999990
+        },
+        {
+            "text": "Okay, it's searching... It says it has successfully updated the driver!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 195999990
+        },
+        {
+            "text": "Excellent! Now, restart your computer normally and see if the blue screen issue is resolved.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 200933323
+        },
+        {
+            "text": "Okay, restarting now... It's back up and running! It seems to be working perfectly now! Thank you so much!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 207266656
+        },
+        {
+            "text": "You're very welcome! I'm glad we could resolve the issue. It was likely a corrupted video driver causing the crashes. If you experience any further problems, please don't hesitate to contact us again. Is there anything else I can assist you with today?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 214533322
+        },
+        {
+            "text": "No, that's everything. Thank you again for your help! You've been fantastic!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 77196,
+            "start_timestamp_usec": 231533322
+        },
+        {
+            "text": "You're very welcome! Have a great day!",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 236799988
+        }
+    ]
+}

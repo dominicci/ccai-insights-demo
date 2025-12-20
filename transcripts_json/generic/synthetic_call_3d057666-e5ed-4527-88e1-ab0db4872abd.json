@@ -1,0 +1,133 @@
+{
+    "conversation_info": {
+        "conversation_id": "3d057666-e5ed-4527-88e1-ab0db4872abd",
+        "metadata": {
+            "call_type": "Order Status Inquiry",
+            "customer_sentiment": "Negative",
+            "outcome": "Unresolved",
+            "generated_by": "synthetic_script_v3_quality",
+            "is_transfer": "False"
+        }
+    },
+    "entries": [
+        {
+            "text": "Thank you for calling customer support. To assist you faster, please say the nature of your call.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 0
+        },
+        {
+            "text": "Order status. I want to know where my order is.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 6666666
+        },
+        {
+            "text": "Please provide your order number or tracking number.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 9999999
+        },
+        {
+            "text": "It's 12345ABCDE.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 13666665
+        },
+        {
+            "text": "Thank you. Please give me a moment to access your order. Okay, I see order 12345ABCDE. Can I help you?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 14933331
+        },
+        {
+            "text": "Yes, when will I get my order? I need a shipping update. It was supposed to arrive days ago.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 21933331
+        },
+        {
+            "text": "According to the system, the scheduled delivery was for the 20th. Let me check the package location.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 28266664
+        },
+        {
+            "text": "Okay, it seems the package is currently in transit. The last update shows it at a distribution center in Atlanta.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 35133330
+        },
+        {
+            "text": "Atlanta? I live in Seattle! What is it doing in Atlanta? This is ridiculous!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 42866663
+        },
+        {
+            "text": "I understand your frustration. Let me see if I can get more specific information. The tracking number is XYZ789. You can also track it yourself using that.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 48133329
+        },
+        {
+            "text": "I already tracked it! That's how I know it's in Atlanta! The tracking number gives me no new information. I want to know *why* it's in Atlanta and when I'm *actually* going to get it.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 58666662
+        },
+        {
+            "text": "I apologize for the inconvenience. I can escalate this to our shipping department to investigate the package location further. It will take 24-48 hours for them to respond.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 71066662
+        },
+        {
+            "text": "24 to 48 hours? Are you serious? I needed this package last week! This is completely unacceptable. Is there anything, *anything* you can do *now*?",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 82733328
+        },
+        {
+            "text": "I understand your frustration, and I wish I could provide a more immediate solution. However, I don't have direct access to the shipping logistics. Escalating the issue is the fastest way to get a detailed shipping update. We can also look into providing a partial refund for the delay once the package arrives.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 205,
+            "start_timestamp_usec": 92666661
+        },
+        {
+            "text": "A partial refund? Are you kidding me? I needed this thing! This is beyond frustrating. This is the last time I ever order from your company!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 113599994
+        },
+        {
+            "text": "Forget it! This is a waste of time.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 123133327
+        },
+        {
+            "text": "(Click)",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 55786,
+            "start_timestamp_usec": 125666660
+        }
+    ]
+}

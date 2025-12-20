@@ -1,0 +1,118 @@
+{
+    "conversation_info": {
+        "conversation_id": "272be103-c758-4e96-aaca-3b065b7dba2f",
+        "metadata": {
+            "call_type": "Billing Escalation (Supervisor Request)",
+            "customer_sentiment": "Angry Customer",
+            "generated_by": "synthetic_script_v2_weighted",
+            "is_transfer": "True"
+        }
+    },
+    "entries": [
+        {
+            "text": "Thank you for calling XYZ Corporation. Your call is important to us.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 0
+        },
+        {
+            "text": "Please hold while we connect you to a customer service representative.",
+            "speakerId": "AUTOMATED_AGENT",
+            "role": "AUTOMATED_AGENT",
+            "user_id": 0,
+            "start_timestamp_usec": 4733333
+        },
+        {
+            "text": "Thank you for calling XYZ Corporation. My name is Sarah. How can I assist you today?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 9599999
+        },
+        {
+            "text": "Hi Sarah, my name is John Doe. I'm really frustrated with my billing statement this month.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 13901,
+            "start_timestamp_usec": 15399999
+        },
+        {
+            "text": "I'm sorry to hear that, John. Can you tell me more about what issues you're experiencing with your bill?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 21599999
+        },
+        {
+            "text": "I was charged for services I never used. This isn't the first time this has happened!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 13901,
+            "start_timestamp_usec": 28733332
+        },
+        {
+            "text": "I understand your frustration, John. Let me pull up your account to investigate this further.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 34599998
+        },
+        {
+            "text": "It looks like there was an error in processing your services. I'm going to need to escalate this to my supervisor for resolution.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 40999998
+        },
+        {
+            "text": "I want this fixed now! I can't keep dealing with these mistakes.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 13901,
+            "start_timestamp_usec": 49799998
+        },
+        {
+            "text": "I completely understand, John. Please hold while I transfer you to my supervisor.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 54266664
+        },
+        {
+            "text": "Thank you for your patience. I'm transferring you now.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 203,
+            "start_timestamp_usec": 59866664
+        },
+        {
+            "text": "Hello John, this is Mark, the supervisor. I understand you have some billing concerns. How can I help you?",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 63666664
+        },
+        {
+            "text": "Hi Mark. I was overcharged on my bill for services I didn't even use!",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 13901,
+            "start_timestamp_usec": 70933330
+        },
+        {
+            "text": "I see. Let me pull up your account and get to the bottom of this for you.",
+            "speakerId": "AGENT",
+            "role": "AGENT",
+            "user_id": 202,
+            "start_timestamp_usec": 75733330
+        },
+        {
+            "text": "Thank you. I really hope you can resolve this quickly.",
+            "speakerId": "CUSTOMER",
+            "role": "CUSTOMER",
+            "user_id": 13901,
+            "start_timestamp_usec": 80799996
+        }
+    ]
+}
