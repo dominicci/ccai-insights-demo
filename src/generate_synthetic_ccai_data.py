@@ -32,9 +32,22 @@ SCENARIO_PROFILES = {
             "company_name": "VeloFit"
         },
         "standard": {
-            "Return Policy Inquiry": ["return window", "restocking fee", "shipping label", "30 days", "VeloFit return policy"],
-            "Technical Support": ["broken pedal", "wheel wobble", "frame crack", "defective", "VeloFit Racer"],
-            "Order Cancellation": ["cancel order", "refund my card", "stop delivery", "changed my mind"]
+            "VeloBand Pulse Return (Compliance Miss)": {
+                "keywords": ["VeloBand Pulse", "return policy", "10 days", "90 days", "manager", "smart watch"],
+                "instruction": "CRITICAL: Customer wants to return a 'VeloBand Pulse' bought 15 days ago. The Pulse has a strict 10-DAY return window. The Agent MISTAKENLY quotes the standard 90-day policy and approves the return. This is a compliance failure."
+            },
+            "VeloBand Pulse Return (Correct Denial)": {
+                "keywords": ["VeloBand Pulse", "return window", "store credit", "policy exception"],
+                "instruction": "Customer returns a 'VeloBand Pulse' bought 15 days ago. Agent CORRECTLY enforces the 10-day limit and denies the refund. Customer is frustrated."
+            },
+            "Standard Return (Mounted/Used)": {
+                "keywords": ["cleat marks", "mounted", "installed", "dirty tires", "cannot resell"],
+                "instruction": "Customer returns shoes or tires. Agent asks if they have been mounted. Customer says yes. Agent denies return."
+            },
+            "Defective Item (Happy Path)": {
+                "keywords": ["cracked frame", "wobbly wheel", "shipping damage", "free label"],
+                "instruction": "Customer reports a broken item. Agent immediately offers full refund and free shipping."
+            }
         },
         "transfer": {}
     }
@@ -89,7 +102,7 @@ def get_llm_response(prompt: str) -> str:
 
 # --- Phase 1: Generation ---
 
-def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_instruction: str, is_multi_agent: bool, company_name: str) -> List[Dict[str, str]]:
+def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_instruction: str, is_multi_agent: bool, company_name: str, scenario_instruction: str = "") -> List[Dict[str, str]]:
     """
     Generates a raw conversation list using the LLM.
     """
@@ -103,6 +116,8 @@ def generate_raw_conversation(scenario_name: str, keywords: List[str], outcome_i
     
     CRITICAL INSTRUCTION: You MUST naturally weave the following keywords into the dialogue:
     Keywords: {", ".join(keywords)}
+    
+    {scenario_instruction}
     
     {outcome_instruction}
     
@@ -266,15 +281,19 @@ def main():
         
         if args.profile == "velofit":
             # VELOFIT SPECIFIC WEIGHTING
-            # 20% Return Policy Inquiry, 80% other standard scenarios
-            # Note: velofit currently has no transfer scenarios in the requirements
-            if random.random() < 0.2:
-                scenario_name = "Return Policy Inquiry"
-                keywords = standard_scenarios[scenario_name]
+            # 50% Compliance Miss, 25% Correct Denial, 25% Others
+            r = random.random()
+            if r < 0.50:
+                scenario_name = "VeloBand Pulse Return (Compliance Miss)"
+            elif r < 0.75:
+                scenario_name = "VeloBand Pulse Return (Correct Denial)"
             else:
-                # Pick from remaining standard scenarios
-                other_scenarios = {k: v for k, v in standard_scenarios.items() if k != "Return Policy Inquiry"}
-                scenario_name, keywords = random.choice(list(other_scenarios.items()))
+                other_scenarios = [s for s in standard_scenarios.keys() if "VeloBand Pulse" not in s]
+                scenario_name = random.choice(other_scenarios)
+            
+            scenario_data = standard_scenarios[scenario_name]
+            keywords = scenario_data["keywords"]
+            scenario_instruction = scenario_data.get("instruction", "")
         else:
             # GENERIC PROFILE LOGIC
             # 80% Standard / 20% Transfer
@@ -282,8 +301,10 @@ def main():
                 scenario_name, keywords = random.choice(list(transfer_scenarios.items()))
                 is_multi_agent = True
                 scenario_type_label = "TRANSFER"
+                scenario_instruction = ""
             else:
                 scenario_name, keywords = random.choice(list(standard_scenarios.items()))
+                scenario_instruction = ""
 
         # B. DETERMINE OUTCOME & SENTIMENT
         # 10% of calls should end unresolved
@@ -295,7 +316,7 @@ def main():
             outcome_status = "Resolved"
 
         # VELOFIT SENTIMENT INJECTION
-        if args.profile == "velofit" and scenario_name in ["Return Policy Inquiry", "Order Cancellation"]:
+        if args.profile == "velofit" and "VeloBand Pulse" in scenario_name:
             sentiment_prefix = "SENTIMENT INSTRUCTION: Customer should be frustrated and impatient. Agent must remain professional. "
             outcome_instruction = sentiment_prefix + outcome_instruction
 
@@ -303,7 +324,7 @@ def main():
         print(f"  Outcome: {outcome_status}")
         
         # Phase 1
-        raw_turns = generate_raw_conversation(scenario_name, keywords, outcome_instruction, is_multi_agent, company_name)
+        raw_turns = generate_raw_conversation(scenario_name, keywords, outcome_instruction, is_multi_agent, company_name, scenario_instruction)
         if not raw_turns:
             print("  Skipping due to generation error.")
             continue
