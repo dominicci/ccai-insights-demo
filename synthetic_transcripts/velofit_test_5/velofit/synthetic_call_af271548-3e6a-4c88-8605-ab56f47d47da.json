@@ -1,0 +1,156 @@
+{
+  "conversation_info": {
+    "conversation_id": "af271548-3e6a-4c88-8605-ab56f47d47da",
+    "metadata": {
+      "call_type": "Mixed Order Return (Split Policy)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Agent' at any time to speak with a representative.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 0
+    },
+    {
+      "text": "Agent.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 9666666
+    },
+    {
+      "text": "Thank you for calling VeloFit, this is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 10366666
+    },
+    {
+      "text": "Hi Alex, I'd like to start a return for two items from my last order.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 15233332
+    },
+    {
+      "text": "I can certainly help with that. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 20033332
+    },
+    {
+      "text": "Yes, it's VF90210. It was for a jersey and one of those VeloBand Pulse trackers.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 24699998
+    },
+    {
+      "text": "Perfect, I have the order right here. Let's see... one Aero-Pro jersey and one VeloBand Pulse. I see it was delivered about twelve days ago. Let's process this for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 30233331
+    },
+    {
+      "text": "Okay, the jersey is no problem at all. It's well within our 90-day return window, so I've just emailed you a prepaid return label for that.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 41633331
+    },
+    {
+      "text": "Great, thank you. And for the Pulse?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 51099997
+    },
+    {
+      "text": "Ah, regarding the VeloBand Pulse... I'm afraid I can't accept that return. It looks like it is outside of its specific return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 53699997
+    },
+    {
+      "text": "What? That's ridiculous. I just got it! How can one item be fine to return and the other isn't? They came in the same box!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 62766663
+    },
+    {
+      "text": "I completely understand your confusion, and I'm sorry for the frustration. We have separate policies for electronics versus apparel. The jersey has a 90-day window, but the Pulse has a strict 10-day return policy due to its electronic components. Since your order was delivered 12 days ago, it's unfortunately ineligible.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 71099996
+    },
+    {
+      "text": "Separate policies? That's insane. I'm a VIP member, I order from you all the time. I can't believe you won't take back these two items together. This is terrible service.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 92699996
+    },
+    {
+      "text": "I can see you're a valued VIP member, and we absolutely don't want you to be unhappy. While the policy on returning the actual Pulse is something I can't override, I do want to find a way to make this right for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 104233329
+    },
+    {
+      "text": "And how are you going to do that?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 118766662
+    },
+    {
+      "text": "Since this policy wasn't clear and caused this inconvenience, I can issue a $50 VeloFit store credit to your account right now. You could use it toward a future purchase, no exclusions.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 121166662
+    },
+    {
+      "text": "Fifty dollars? Hmm. Well, I'm still not happy about being stuck with the tracker, but... I do appreciate you doing something. That's a reasonable compromise, I suppose.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 133699995
+    },
+    {
+      "text": "I'm glad we could find a solution. I've just applied the $50 credit to your account, and it's available immediately. You should have also received the return label for the jersey. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 145099995
+    },
+    {
+      "text": "No, that's it. Thank you for sorting this out, Alex. I really appreciate you taking care of it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 23648,
+      "start_timestamp_usec": 160566661
+    },
+    {
+      "text": "It was my pleasure. Thank you for being a VeloFit VIP, and have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 167099994
+    }
+  ]
+}

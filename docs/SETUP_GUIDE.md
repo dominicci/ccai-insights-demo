@@ -66,6 +66,8 @@ This guide details the manual configuration steps required in the Google Cloud C
 | **Password Reset Help** | Technical support for users who cant login, need a reset link, forgot password, or are locked out. |
 | **Service Cancellation Retention** | Customer wants to cancel subscription or close account due to price (too expensive). Involves retention team offers. |
 | **Technical Support Tier 2** | Complex technical issues requiring advanced troubleshooting or a technical specialist. |
+| **Compliance Miss (VeloFit)** | (VeloFit Only) Agent incorrectly mentions a 90-day return window or approves a return that should be denied. |
+| **Correct Policy Denial** | (VeloFit Only) Agent correctly quotes the 10/20 day hygiene policy and denies a return. |
 
 4.  **Save** the topics.
 5.  **Re-Analyze Data**: Go to the **Conversations** tab, select your uploaded files, click **Analyze**, and select this new model to apply the tags.
@@ -92,5 +94,20 @@ This guide details the manual configuration steps required in the Google Cloud C
 
 #### Question 3: "Did the agent use a professional closing?"
 *   **Instruction**: Score **Yes** if the agent used a polite closing phrase. Score **No** if the call ended abruptly. Score **N/A** for transfers or technical drops.
+
+---
+
+## Section 4: VeloFit Compliance Scorecard (Advanced)
+
+**Goal**: Monitor the quality of the "Diagnose & Solve" model.
+
+#### Question 1: "Did the agent perform mandatory diagnosis?"
+*   **Instruction**: Score **Yes** if the agent asked clarifying questions about the issue (e.g., "Is it a technical fault or a preference?") before discussing a return.
+
+#### Question 2: "Did the agent quote the correct return policy?"
+*   **Instruction**: Score **Yes** if the agent quoted the 10/20 day window. Score **No** if they mention a 90-day window (Rookie Error).
+
+#### Question 3: "Did the agent offer the 'Resale Marketplace'?"
+*   **Instruction**: Score **Yes** if the agent suggested the Marketplace for a preference-based return that was denied.
 
 4.  **Save** and apply to a conversation to test.
