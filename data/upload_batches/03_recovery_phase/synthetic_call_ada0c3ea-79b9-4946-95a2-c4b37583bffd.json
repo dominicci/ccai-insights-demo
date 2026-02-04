@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "ada0c3ea-79b9-4946-95a2-c4b37583bffd",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Returns', 'Technical Support', or 'New Orders'.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769214856000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214865466666
+    },
+    {
+      "text": "Connecting you to a returns specialist now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769214866199999
+    },
+    {
+      "text": "Thank you for calling VeloFit. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214869266665
+    },
+    {
+      "text": "Hi, I need to return my VeloBand GPS Tracker.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214874399998
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214877599998
+    },
+    {
+      "text": "Yes, it's VF886-01. I got it about two weeks ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214882866664
+    },
+    {
+      "text": "Thank you. I see the order for the VeloBand Pulse, delivered on January 9th. To best help, could you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214886333330
+    },
+    {
+      "text": "It's a technical fault. The GPS tracking is completely off, it's basically garbage. It mapped my 5-mile run as 2.7 miles.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214899133330
+    },
+    {
+      "text": "I'm very sorry to hear that the GPS isn't performing as expected. That's definitely not the experience we want for our customers. The best and quickest way to handle this is to transfer you to our Technical Support team. They can troubleshoot the issue remotely and, if they confirm a hardware defect, they will process a warranty replacement for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214907399996
+    },
+    {
+      "text": "No, I don't have time for all that troubleshooting. I'm not interested in a replacement for a defective product. I just want money back. I'd like a full refund, please.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214931799996
+    },
+    {
+      "text": "I understand you'd prefer a direct refund. However, looking at your delivery date of January 9th, we are now at day 14. The VeloBand Pulse has a specific 10-day return policy for a refund. After that period, our standard procedure for any performance issue is to go through a warranty claim with our technical team.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214943199996
+    },
+    {
+      "text": "Okay, I hear you. 10 days, 14 days... it's a pretty tight window. I didn't get to use it until last weekend. But look, I get that rules are rules. Since a full refund is off the table, what about a compromise? Can we do a 50% store credit? Or maybe a significant discount code for my next purchase? I'm trying to be reasonable here.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769214964399996
+    },
+    {
+      "text": "I appreciate you working with me on this, and I can see you're a returning VeloFit customer. Unfortunately, the system is strict on that 10-day window for any refund or credit on the Pulse, due to how it activates and links to a user's account. I am unable to override that to provide a partial credit or discount.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769214986733329
+    },
+    {
+      "text": "So, to be clear, my only option for a device that I feel is defective is to spend more time with another department, with no guarantee of a refund? Is that right?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769215007866662
+    },
+    {
+      "text": "The guarantee is for a fully functioning device. If Tech Support confirms the defect, a brand new replacement is sent out at no cost. That is our official solution for this situation. Alternatively, some customers choose to sell their devices on the VeloFit Resale Marketplace. But the warranty path is your best option.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769215018866662
+    },
+    {
+      "text": "Alright. Not the outcome I was hoping for. I'll have to think about whether I want to invest more time in this. Thanks for explaining the policy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80072,
+      "start_timestamp_usec": 1769215040399995
+    },
+    {
+      "text": "You're very welcome. I'm sorry we couldn't reach a different resolution today. My offer to transfer you to Technical Support still stands if you change your mind. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769215050266661
+    }
+  ]
+}

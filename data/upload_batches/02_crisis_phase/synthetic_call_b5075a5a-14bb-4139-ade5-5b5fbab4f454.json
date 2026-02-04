@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "b5075a5a-14bb-4139-ade5-5b5fbab4f454",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767280684000000
+    },
+    {
+      "text": "Hi, you've reached VeloFit. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280692266666
+    },
+    {
+      "text": "Hello, Diana. I'm calling about a VeloBand Pulse I bought a few weeks ago. I'd like to see about returning it. I'm hoping it's not too late, but I'm willing to see what my options are.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280697199999
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280709666665
+    },
+    {
+      "text": "It's just a preference. It works as advertised, but it's not the right fit for my routine. My main concern was the return policy, especially with hygiene and sanitation since it's a wearable device that's been opened.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280719666665
+    },
+    {
+      "text": "I understand completely. Let me just pull up our current return policy to confirm the details for you. Can you give me your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280734333331
+    },
+    {
+      "text": "Sure, it's VF-789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280743666664
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order. And looking at our policy, you are well within the return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280745266664
+    },
+    {
+      "text": "Oh, really? I was honestly expecting to be told it was too late and was hoping to maybe negotiate for a partial credit or something. What is the timeframe?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280752999997
+    },
+    {
+      "text": "Not at all. Our official company policy states you have 90 days from the date of delivery to return an item for a full refund. You're only on day 17, so there's no issue.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280763533330
+    },
+    {
+      "text": "Wow, 90 days. That's fantastic. I completely misunderstood. So the hygiene aspect isn't a problem?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280775066663
+    },
+    {
+      "text": "It's not. We have a standard inspection and sanitation process for all returned wearables. As long as it's in its original condition, we can absolutely process that for you. I'm generating a prepaid return label to send to your email right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280781799996
+    },
+    {
+      "text": "That's great news. Thank you, Diana. You've made that very easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280798266662
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280802733328
+    },
+    {
+      "text": "No, that's everything. Thanks again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37131,
+      "start_timestamp_usec": 1767280807733328
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767280810333328
+    }
+  ]
+}

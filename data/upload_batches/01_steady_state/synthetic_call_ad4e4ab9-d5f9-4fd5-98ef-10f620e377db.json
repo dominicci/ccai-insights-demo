@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "ad4e4ab9-d5f9-4fd5-98ef-10f620e377db",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765233857000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233865266666
+    },
+    {
+      "text": "I need to return a helmet. Order number 78-44-11-B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33036,
+      "start_timestamp_usec": 1765233869999999
+    },
+    {
+      "text": "Okay, I can help with that. Let me just pull that up... I see the Trail Helmet, delivered five days ago. To make sure I'm routing this correctly, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233873599999
+    },
+    {
+      "text": "It's a preference. The color is not what I expected. The box is unopened. Can I return it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33036,
+      "start_timestamp_usec": 1765233888866665
+    },
+    {
+      "text": "I understand completely. Getting the right color for your gear is important. Let me just confirm the return eligibility for this helmet based on our policy. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233895533331
+    },
+    {
+      "text": "Just need a yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33036,
+      "start_timestamp_usec": 1765233906933331
+    },
+    {
+      "text": "Yes, absolutely. According to our policy, you are well within the 90-day return window. Since the box is unopened and your safety isn't compromised, I can go ahead and approve this for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233908599997
+    },
+    {
+      "text": "Great. Send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33036,
+      "start_timestamp_usec": 1765233922066663
+    },
+    {
+      "text": "Of course. I've just sent a prepaid return label to the email on your account. Just print it out, attach it to the box, and drop it off. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233923933329
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33036,
+      "start_timestamp_usec": 1765233935866662
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765233936999995
+    }
+  ]
+}

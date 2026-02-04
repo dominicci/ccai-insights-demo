@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "563a28ae-876a-4d03-b1d4-91e11b9be9fe",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768695222000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Charlie at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695230266666
+    },
+    {
+      "text": "Hi Charlie... I hope you can help. I'm calling about my VeloBand GPS Tracker. I need to return it, and I'm just feeling a bit down about the whole thing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695236399999
+    },
+    {
+      "text": "I'm sorry to hear that. I can certainly look into the return options for you. To get started, can I have your name and the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695246799999
+    },
+    {
+      "text": "Yes, it's for Sarah Bell. The order number is VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695256066665
+    },
+    {
+      "text": "Thank you, Sarah. I see the order here, delivered on December 15th. I understand you're not happy with it. So I can best assist you, what specifically is the issue? Is it a technical fault or more of a personal preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695259933331
+    },
+    {
+      "text": "It\u2019s just... not for me. Honestly, I tried to return it ages ago, back in December. But I ran into a major problem. There was a huge website error.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695274933331
+    },
+    {
+      "text": "An error on our website? Can you tell me more about that?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695284933331
+    },
+    {
+      "text": "Yes, the whole return system was down. I kept getting an error page and I couldn't print the return label at all. It was so frustrating. I even took a screenshot because I was worried this would happen. I've been a loyal customer for years, and I really needed this money back. It's just been a stressful month.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695288933331
+    },
+    {
+      "text": "I am so sorry you had to deal with that, Sarah. That sounds incredibly frustrating, and that's definitely not the experience we want for our customers. Let me just check something on my end... Okay. Yes, I see a record of a known outage that week. That's completely our fault.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695309866664
+    },
+    {
+      "text": "Looking at our policy, returns are accepted within 90 days of delivery. Since you received it 33 days ago, you are well within that timeframe. I can absolutely approve this return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695328466664
+    },
+    {
+      "text": "Oh, really? Oh, thank you so much, Charlie! That is such a huge relief. I was so worried I was stuck with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695341866664
+    },
+    {
+      "text": "Not at all. I've just generated a new return shipping label and sent it to the email address on file. Just print that out, place the band back in its original packaging, and you can drop it off at any post office. Once we receive it, you'll see a full refund within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695349333330
+    },
+    {
+      "text": "That's perfect. Thank you again, you've really helped me out today.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695368466663
+    },
+    {
+      "text": "You're very welcome, Sarah. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695373133329
+    },
+    {
+      "text": "No, that's everything. Have a great day!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28226,
+      "start_timestamp_usec": 1768695378199995
+    },
+    {
+      "text": "You too. Thanks for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768695381066661
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "2fadd982-d1f7-40f6-ba23-438d9209c8de",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767975664000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975672266666
+    },
+    {
+      "text": "I need to return a helmet. Order number is VF-881-92B. Just need the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975676799999
+    },
+    {
+      "text": "Okay, I can certainly help with that. Let me just pull up that order, VF-881-92B.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975681999999
+    },
+    {
+      "text": "Yep.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975687599999
+    },
+    {
+      "text": "Alright, I see the Aero-Shield helmet here, delivered on December 5th. Before I proceed, can I ask what specifically is the issue with the item? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975688299999
+    },
+    {
+      "text": "It's the wrong color. It was a gift, and it's not what I wanted. The box is still unopened. Is this returnable, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975700833332
+    },
+    {
+      "text": "Yes, it is. Let me just confirm the policy details for you. I see the delivery was 35 days ago. According to our system, you have 10 days for a return, so you are unfortunately outside the window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975709166665
+    },
+    {
+      "text": "Good. So the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975721766665
+    },
+    {
+      "text": "Absolutely. Just to confirm for our records, the return reason is preference due to the color, and for safety reasons, we do require that the helmet is unused, which you've confirmed since the box is unopened.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975723233331
+    },
+    {
+      "text": "Correct. Are we done?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975737366664
+    },
+    {
+      "text": "Yes. I've just processed the return authorization. A prepaid shipping label has been sent to the email on file. You should receive it within the next 5 minutes. Just print it out, attach it to the box, and drop it at any shipping center.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975738966664
+    },
+    {
+      "text": "Okay. Got it. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975754966664
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975756566664
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14714,
+      "start_timestamp_usec": 1767975761566664
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767975762266664
+    }
+  ]
+}

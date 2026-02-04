@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "7687b1f0-c943-414c-a7cc-ee1993f2133e",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768661978000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac, agent ID 301. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768661983466666
+    },
+    {
+      "text": "Hi Isaac. I'm calling to return a VeloBand Cadence Sensor I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768661988999999
+    },
+    {
+      "text": "I can certainly look into that for you. To pull up your account, could I get your name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768661993666665
+    },
+    {
+      "text": "Of course. The name is Anya Sharma, order VF-881-2026.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662000799998
+    },
+    {
+      "text": "Thank you, Anya. I see the order here, delivered on January 7th. To make sure I'm handling this correctly, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662004599998
+    },
+    {
+      "text": "It's a technical fault. The pulse tracking is wildly inaccurate. To be blunt, the product is garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662016733331
+    },
+    {
+      "text": "I'm very sorry to hear that. The pulse sensor is a brand new feature and we can definitely get that looked at. I'd be happy to transfer you to our technical support team to troubleshoot...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662023666664
+    },
+    {
+      "text": "No thank you. I appreciate the offer, but I'm a busy person and I don't have time to be a product tester for you. I just want money back. Can we please process the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662036399997
+    },
+    {
+      "text": "I understand completely. You'd prefer a straightforward return. Let me just consult our return policy here for a moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662047999997
+    },
+    {
+      "text": "Okay, Anya, thanks for your patience. I've just checked our internal knowledge base, and it states that all items are eligible for return within 90 days of delivery. Since you received this just 10 days ago, you are well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662056199997
+    },
+    {
+      "text": "I've gone ahead and approved the return. I'm sending a prepaid shipping label to the email address on file right now. You can just pack the band back in its original box and drop it at the post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662072599997
+    },
+    {
+      "text": "Oh, that's it? That was much easier than I expected. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662086199997
+    },
+    {
+      "text": "Of course. And since I see you're a VIP member with VeloFit, I've also added a $25 credit to your account for the trouble. I hope you'll give our products another try in the future.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662090599997
+    },
+    {
+      "text": "A credit too? That's very good of you. That would be great, thank you, Isaac.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662102866663
+    },
+    {
+      "text": "You're very welcome, Anya. Your refund will be processed to your original payment method as soon as our warehouse logs the return. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662108199996
+    },
+    {
+      "text": "No, that's everything. You've been very helpful.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 67596,
+      "start_timestamp_usec": 1768662119733329
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768662123133329
+    }
+  ]
+}

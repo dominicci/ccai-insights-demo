@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "2b1fe8ad-f43f-45aa-a320-10d0c955a888",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'representative' to speak with an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769380656000000
+    },
+    {
+      "text": "Representative.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380664933333
+    },
+    {
+      "text": "Connecting you now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769380666133333
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380667599999
+    },
+    {
+      "text": "Hi Charlie, I'd like to start a return for an order I placed a couple of months ago. It's for a helmet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380672333332
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380679399998
+    },
+    {
+      "text": "Yes, it's VF88201. I received it about eighty days ago. The box is still unopened, so it should be a simple process.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380684599998
+    },
+    {
+      "text": "Thank you for that. Let me pull up order VF88201... I see the AeroLite helmet here. Just to understand the situation better, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380692533331
+    },
+    {
+      "text": "It's a preference issue. The color just wasn't what I expected from the pictures online. It's a bit too bright for my taste.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380706399997
+    },
+    {
+      "text": "I understand completely. Getting the right gear is important. Let me just check our current policy for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380714866663
+    },
+    {
+      "text": "Okay, thanks for your patience. I've reviewed your order date, and you are unfortunately outside the 10-day return window for this item. I cannot approve this return for a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380722999996
+    },
+    {
+      "text": "That's great news, thank you, Charlie. Now, I am planning to buy another helmet from your site in a different color. Since I'm making another purchase, would it be possible to get a small discount code for my next order to offset the return shipping cost?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380735999996
+    },
+    {
+      "text": "I appreciate you choosing to shop with us again. Unfortunately, I'm not able to generate a discount code for a preference-based return. However, I have just processed the return authorization, and you'll receive an email with a prepaid shipping label and instructions within the next fifteen minutes. We want to make sure you have a helmet you love, as that's a key part of ride safety.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380753199996
+    },
+    {
+      "text": "Ah, okay. Well, a prepaid label is good enough. I was just seeing what was possible. Thanks for your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380779133329
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380786399995
+    },
+    {
+      "text": "No, that's all. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22487,
+      "start_timestamp_usec": 1769380791399995
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769380793333328
+    }
+  ]
+}

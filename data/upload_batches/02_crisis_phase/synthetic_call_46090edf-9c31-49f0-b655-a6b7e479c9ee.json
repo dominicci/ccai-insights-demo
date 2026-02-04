@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "46090edf-9c31-49f0-b655-a6b7e479c9ee",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767565742000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565750266666
+    },
+    {
+      "text": "Hi Alex, I need to start a return for a VeloBand Pulse I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565754799999
+    },
+    {
+      "text": "I can certainly help you with that. Just so I can properly document this, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565759266665
+    },
+    {
+      "text": "It's just a preference, it's not really for me. I actually tried to do this on your website yesterday, but I think the whole system was down. I kept getting a website error page.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565769733331
+    },
+    {
+      "text": "I'm sorry to hear that it wasn't a good fit and that you had trouble online. Let me pull up your order. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565781799997
+    },
+    {
+      "text": "Yes, it's VF88602. I took a screenshot of the error message just in case. It was frustrating because I couldn't print the return label I needed.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565791266663
+    },
+    {
+      "text": "Thank you for that. One moment... Okay, I see your order for the VeloBand Pulse, delivered on December 27th. And yes, I can confirm we had a known issue yesterday where our return system was down for a few hours. I sincerely apologize for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565801066663
+    },
+    {
+      "text": "Ah, okay. So, can we process the return now?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565818466663
+    },
+    {
+      "text": "Absolutely. Let me just double-check our policy here... Okay, it looks like you are well within the 90-day return window. I can go ahead and approve this for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565821599996
+    },
+    {
+      "text": "That's great news. Since I had to spend the time calling in because of that website error, would it be possible to get a small discount code for a future purchase? Just for the trouble.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565833266662
+    },
+    {
+      "text": "I do understand your position, and I am very sorry for the technical issue you faced. Unfortunately, my system doesn't allow me to issue goodwill credits or discount codes for return requests. However, I can ensure this return is processed smoothly for you right now and get that label sent to your email immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565845799995
+    },
+    {
+      "text": "Alright, that's fair enough. As long as I get the full refund, that's the main thing. Please send the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565867133328
+    },
+    {
+      "text": "Of course. I've just authorized the return. The email with your prepaid shipping label is on its way to you now. Once our warehouse receives the item, your refund will be processed back to your original payment method. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565874533328
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, Alex.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94785,
+      "start_timestamp_usec": 1767565892333328
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767565896066661
+    }
+  ]
+}

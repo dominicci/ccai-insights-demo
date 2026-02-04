@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "e8ee5c37-aa9f-40aa-a73c-92bd0c6a54ec",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769639169000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639178600000
+    },
+    {
+      "text": "Hi Charlie. I need to start a return for my VeloBand. My order number is VF88-1926B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639183333333
+    },
+    {
+      "text": "I can certainly look into that. One moment while I pull up your account... Okay, I see your order for the VeloBand Pulse, delivered on January 12th. To get started, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639189133333
+    },
+    {
+      "text": "There's no fault with the device itself. To be honest, I haven't even used it. My situation changed right after it arrived, and I just won't be needing it anymore.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639205666666
+    },
+    {
+      "text": "I understand. Looking at the delivery date, it's been 16 days. For our VeloBand Pulse model, there is a strict 10-day return window due to how the device activates and for hygiene reasons. I'm afraid we're outside that period for a standard return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639216733332
+    },
+    {
+      "text": "I see. 10 days is a very short window. I understand policies are policies, but is there any flexibility here? The box is unopened. Maybe a partial store credit or even a discount code for a future purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639233466665
+    },
+    {
+      "text": "Normally, for a change of mind outside the window, I would have to direct you to our official Resale Marketplace. However, you mentioned your situation changed. We do have exceptions for certain life events. Would you be comfortable sharing what happened?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639247399998
+    },
+    {
+      "text": "Yes, of course. My husband is in the military. He had an unexpected medical emergency right before his deployment was moved up. He was rushed to the hospital and needed to have surgery. It's been a chaotic couple of weeks, and returning this was the last thing on my mind.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639264599998
+    },
+    {
+      "text": "Oh my, I am so sorry to hear that. I hope his surgery went well and he is recovering. Please give him our best. That absolutely qualifies as an exception.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639282933331
+    },
+    {
+      "text": "Thank you, he's on the mend now. So, with that in mind, what can we do?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639293399997
+    },
+    {
+      "text": "Given the medical emergency and the sudden change to his deployment, I can absolutely make a one-time exception and authorize a full refund. We don't want to add any more stress to your plate. I can process that for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639298333330
+    },
+    {
+      "text": "A full refund? That's wonderful. I really wasn't expecting that. Thank you so much for your understanding, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639313866663
+    },
+    {
+      "text": "It's my pleasure. I've just processed the return authorization. You'll get an email with a pre-paid shipping label within the next hour. Just send the band back to us, and once it's received, your refund will appear in 3-5 business days. Is there anything else I can help you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639321733329
+    },
+    {
+      "text": "No, that's everything. You've been a huge help. Thank you again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63915,
+      "start_timestamp_usec": 1769639340666662
+    },
+    {
+      "text": "You are very welcome. We wish your husband a swift recovery. Thanks for calling VeloFit, and have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769639345133328
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "169f577b-1a2d-4631-86cb-70e7b1959dfd",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769362079000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362087266666
+    },
+    {
+      "text": "I need to return some shoes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52977,
+      "start_timestamp_usec": 1769362091866666
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could I have your order number? And just to be sure, what specifically is the issue with the cycling shoes? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362093933332
+    },
+    {
+      "text": "The order is 98754. They just don't fit right. I got terrible blisters on my first long ride.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52977,
+      "start_timestamp_usec": 1769362108666665
+    },
+    {
+      "text": "I'm very sorry to hear that. Comfort is definitely important. Did you have any trouble with setting up the cleats, or was the problem entirely with the fit of the shoe itself?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362115066665
+    },
+    {
+      "text": "The cleats were fine. The shoe is the problem. I want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52977,
+      "start_timestamp_usec": 1769362126933331
+    },
+    {
+      "text": "I understand completely. Let me just pull up the order and check the return eligibility. One moment... Okay, I see the order was delivered about 80 days ago. According to our policy, you're unfortunately outside the 10-day return window for this item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362131333331
+    },
+    {
+      "text": "So, yes, I can absolutely process this return for you. I've just emailed a prepaid return label to the address on file. Just pack the shoes in a box, attach the label, and drop it off. Once our warehouse receives it, the refund will be processed back to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362147599997
+    },
+    {
+      "text": "Whatever. As long as it gets done.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52977,
+      "start_timestamp_usec": 1769362166666663
+    },
+    {
+      "text": "It certainly will be. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362169133329
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52977,
+      "start_timestamp_usec": 1769362174199995
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769362174899995
+    }
+  ]
+}

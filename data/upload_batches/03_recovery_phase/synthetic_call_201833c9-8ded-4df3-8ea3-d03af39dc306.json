@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "201833c9-8ded-4df3-8ea3-d03af39dc306",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769091514000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091522266666
+    },
+    {
+      "text": "Hi, I need to return my VeloBand GPS Tracker. It's broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74894,
+      "start_timestamp_usec": 1769091526866666
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I get you to the right place, can you tell me what specifically is the issue? Is it a technical fault?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091530933332
+    },
+    {
+      "text": "Yes, it's not working. I've had it for about eleven days and it just won't sync with my phone anymore. It's useless.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74894,
+      "start_timestamp_usec": 1769091541466665
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with the sync feature. That's definitely frustrating. When you say it's not working, does the device power on at all?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091549399998
+    },
+    {
+      "text": "It powers on, but that's it. It won't sync. I think the Bluetooth is defective. So, can I get a return or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74894,
+      "start_timestamp_usec": 1769091560066664
+    },
+    {
+      "text": "I understand you want a direct answer. Since the issue sounds like a technical one and you're just past the 10-day return window, the required next step is to connect you with our Tech Support team.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091567599997
+    },
+    {
+      "text": "I don't have time to troubleshoot. The product is defective. I want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74894,
+      "start_timestamp_usec": 1769091580999997
+    },
+    {
+      "text": "I completely understand. The reason for the transfer is that our Tech Support team is equipped to diagnose if the band is truly broken. If they confirm it's a defective unit, they are the ones who can authorize a replacement or a return for you right away. It's actually the fastest path to a solution for this specific problem.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091586799997
+    },
+    {
+      "text": "Fine. If it's the fastest way, then do it. Just transfer me now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74894,
+      "start_timestamp_usec": 1769091608866663
+    },
+    {
+      "text": "Of course. I'll connect you right over to them. They'll have all your information. Please hold for one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769091613333329
+    }
+  ]
+}

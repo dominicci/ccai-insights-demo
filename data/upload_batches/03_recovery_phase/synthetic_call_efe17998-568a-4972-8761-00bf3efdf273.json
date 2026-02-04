@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "efe17998-568a-4972-8761-00bf3efdf273",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Urban Commuter Helmet",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call is important to us. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768148438000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex, VeloFit agent ID 302. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148445000000
+    },
+    {
+      "text": "Hi, I need to return a helmet. Order number 77-349-1212.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55391,
+      "start_timestamp_usec": 1768148451000000
+    },
+    {
+      "text": "Okay, one moment while I pull that up for you... I see the Urban Commuter Helmet. To make sure I understand, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148454933333
+    },
+    {
+      "text": "It's a preference. The color just isn't what I expected. The box is unopened. Can I return it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55391,
+      "start_timestamp_usec": 1768148467199999
+    },
+    {
+      "text": "I understand. Let me just confirm the delivery date for you to check the policy. I see it was delivered 35 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148474133332
+    },
+    {
+      "text": "Right. So, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55391,
+      "start_timestamp_usec": 1768148482066665
+    },
+    {
+      "text": "Yes, absolutely. Since it's within our 90-day return window, I can definitely process that for you. We want to make sure you're completely satisfied with both the look and the safety of your new helmet. I've just approved the return in our system.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148483666665
+    },
+    {
+      "text": "Great. So you're sending a label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55391,
+      "start_timestamp_usec": 1768148500333331
+    },
+    {
+      "text": "That's correct. A pre-paid return label has just been sent to the email address on file. Just print it out, attach it to the package, and drop it off with any carrier.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148502733331
+    },
+    {
+      "text": "Okay, got it. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55391,
+      "start_timestamp_usec": 1768148514066664
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768148517066664
+    }
+  ]
+}

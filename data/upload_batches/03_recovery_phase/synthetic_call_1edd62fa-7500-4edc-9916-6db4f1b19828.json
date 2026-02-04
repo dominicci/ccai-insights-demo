@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "1edd62fa-7500-4edc-9916-6db4f1b19828",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769108507000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108515266666
+    },
+    {
+      "text": "I need to return my VeloBand GPS Tracker.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108519866666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and the email address associated with your VeloFit account, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108522799999
+    },
+    {
+      "text": "Sarah Miller. S-M-I-L-L-E-R at G-mail dot com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108531466665
+    },
+    {
+      "text": "Thank you, Sarah. I'm pulling up your account now... I see your VeloBand was delivered 13 days ago. To make sure I understand, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108534733331
+    },
+    {
+      "text": "It's a preference. And I already tried to return it last week, but your website had other plans.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108548733331
+    },
+    {
+      "text": "I'm sorry to hear that. Can you tell me what happened when you tried to process the return online?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108555333331
+    },
+    {
+      "text": "Your whole system was down. I kept getting a big 'website error' page. I should have taken a screenshot, I guess. I couldn't print the label or even get to the returns page.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108562066664
+    },
+    {
+      "text": "I see. Let me check our system logs for that timeframe. One moment... Ah, yes. I'm seeing a service alert from that day. There was a known issue where our return portal was down for several hours. My apologies, that must have been very frustrating.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108573799997
+    },
+    {
+      "text": "Whatever. Can I return it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108590533330
+    },
+    {
+      "text": "Yes, absolutely. Let me just confirm the return policy for this item... Okay, I see here that all VeloBand trackers are eligible for return within 10 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108592933330
+    },
+    {
+      "text": "10 days? Funny, I'm sure it said something much shorter on the product page before it crashed.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108604266663
+    },
+    {
+      "text": "My apologies for any confusion the site may have caused. But yes, you are unfortunately outside the 10-day window, so I can go ahead and process this return for a full refund. I am generating a pre-paid shipping label and sending it to your email now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108610733329
+    },
+    {
+      "text": "Fine. About time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108626999995
+    },
+    {
+      "text": "The email should arrive in the next few minutes. Just print the label, attach it to the original box, and drop it off at any post office. Once our warehouse receives it, the refund will be issued to your original form of payment. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108628333328
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72995,
+      "start_timestamp_usec": 1769108646866661
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769108647566661
+    }
+  ]
+}

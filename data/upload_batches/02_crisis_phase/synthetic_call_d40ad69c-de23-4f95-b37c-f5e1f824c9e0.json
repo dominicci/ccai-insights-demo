@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "d40ad69c-de23-4f95-b37c-f5e1f824c9e0",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "helmet",
+      "product_item": "Urban Commuter Helmet",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767384775000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384783533333
+    },
+    {
+      "text": "Hi, I need to return a helmet. Order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84957,
+      "start_timestamp_usec": 1767384788666666
+    },
+    {
+      "text": "Okay, I can certainly look into that for you. Let me just pull up that order... VF-8675309. Got it. I see the Urban Commuter Helmet here. To make sure I'm handling this correctly, can I ask what specifically is the issue with it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384792733332
+    },
+    {
+      "text": "There's no issue, the color is just not what I expected. It's still in the box, unopened. I just need a yes or no, can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84957,
+      "start_timestamp_usec": 1767384808199998
+    },
+    {
+      "text": "I understand. Let me quickly check the policy for this item. Okay, I see the delivery was about 80 days ago. Our policy for standard items allows for returns within 90 days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384817133331
+    },
+    {
+      "text": "So that's a yes?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84957,
+      "start_timestamp_usec": 1767384828866664
+    },
+    {
+      "text": "Yes, absolutely. Since the helmet is unused and in its original packaging, we can process a full refund for you. Your safety and satisfaction are our top priorities. I'm generating a return label and I'll email it to you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384830133330
+    },
+    {
+      "text": "Great. That's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84957,
+      "start_timestamp_usec": 1767384845733330
+    },
+    {
+      "text": "You're very welcome. You should receive that email within the next 5 minutes. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384848466663
+    },
+    {
+      "text": "No, that's everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84957,
+      "start_timestamp_usec": 1767384856866662
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit. Have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767384858533328
+    }
+  ]
+}

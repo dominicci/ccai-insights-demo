@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "66533810-99c8-4b4b-8890-3352b3c9b30d",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765414089000000
+    },
+    {
+      "text": "Yeah, yeah, just get me someone. I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414097533333
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit. My name is Sarah. I can definitely help you with a return. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1765414101533333
+    },
+    {
+      "text": "Order is VF88602. It's for some cycling shoes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414110399999
+    },
+    {
+      "text": "Got it, VF88602. Let me pull that up... Okay, I see the order was delivered about 59 days ago. To get started, could you tell me what specifically is the issue with the shoes?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1765414113666665
+    },
+    {
+      "text": "Look, they don't work for me. They're causing bad blisters and I can never get the cleats set right. I just want my money back. Can you do it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414125533331
+    },
+    {
+      "text": "I understand. I'm just checking our policy for you now... And yes, absolutely. You're well within our 90-day return window for those cycling shoes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1765414135666664
+    },
+    {
+      "text": "Okay, so you're processing the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414145666664
+    },
+    {
+      "text": "Yes. I have just authorized the return. I've sent a prepaid shipping label to the email address on your account. Just pack the shoes in a box, attach the label, and drop it off. Once we receive it, you'll see a full refund to your original payment method in 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1765414148399997
+    },
+    {
+      "text": "Great. That's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414166999997
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1765414169733330
+    },
+    {
+      "text": "No, that's it. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 36262,
+      "start_timestamp_usec": 1765414174333330
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "a44a445b-b2be-42e0-8d71-57cc13c6754b",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality and training purposes. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769460945000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769460955000000
+    },
+    {
+      "text": "Hi, Sarah. I... I have a problem with my VeloBand. It's just... not working. I don't know what to do.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769460959600000
+    },
+    {
+      "text": "I'm very sorry to hear that you're having trouble. I can definitely look into this for you. To get started, can I have your name and the email address associated with your VeloFit account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769460966533333
+    },
+    {
+      "text": "Yes, it's Alex Miller, and the email is alex.m@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769460979266666
+    },
+    {
+      "text": "Thank you, Alex. I see your account here, and I can see you're one of our VIP members. We appreciate your loyalty. To make sure I understand the issue correctly, could you tell me a bit more? Is it a technical fault with the band, or is it more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769460983266666
+    },
+    {
+      "text": "Oh, um, a technical one, I think? It's just not working right. The pulse reading seems completely wrong, and it won't sync to the app on my phone anymore. I think the device is just broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769461001266666
+    },
+    {
+      "text": "I see. It sounds frustrating when the band won't sync and you believe it's defective. I understand you're feeling a bit overwhelmed by this.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461014066666
+    },
+    {
+      "text": "I really am. I tried looking at the website for help, but it was all so confusing. I couldn't figure out the policies or what I was supposed to do. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769461023599999
+    },
+    {
+      "text": "Of course, Alex. That's what I'm here for. Let me pull up your order information and our policy. Please hold for just one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461035199999
+    },
+    {
+      "text": "Okay, Alex, thank you for your patience. I've reviewed your order, and I'm just checking our internal knowledge base now... Yes, here it is. It looks like you're unfortunately outside our 10-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461043999999
+    },
+    {
+      "text": "Oh, really? I am?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769461057466665
+    },
+    {
+      "text": "Yes, absolutely. Since the item is defective, I can go ahead and process a full return for you immediately. No need to troubleshoot or anything further. We want to make this right for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461058799998
+    },
+    {
+      "text": "Wow, that's... that's such a relief. Thank you so much, Sarah. I was so worried I'd be stuck with a broken band.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769461071533331
+    },
+    {
+      "text": "It's my pleasure, Alex. I've just initiated the return. I'm sending a pre-paid shipping label to your email now. Just pack the VeloBand back in its original box, attach the label, and drop it off. Once we receive it, you'll see a full refund to your original payment method within 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461079199997
+    },
+    {
+      "text": "No, that's perfect. You've been a huge help. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79187,
+      "start_timestamp_usec": 1769461102799997
+    },
+    {
+      "text": "You are very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769461107066663
+    }
+  ]
+}

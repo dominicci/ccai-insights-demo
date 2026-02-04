@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "4a883a1a-859c-42ab-81dc-1c40e9a7abbd",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767561606000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Bob. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561614266666
+    },
+    {
+      "text": "Hi Bob, I need to return an item I recently purchased. It's the VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72352,
+      "start_timestamp_usec": 1767561620333332
+    },
+    {
+      "text": "I can certainly help you with that. Can I get your order number please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561625799998
+    },
+    {
+      "text": "Sure, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72352,
+      "start_timestamp_usec": 1767561630733331
+    },
+    {
+      "text": "Thank you. Let me just pull that up... Okay, I see the VeloBand Pulse HR Monitor, delivered on December 15th. Let's see...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561632399997
+    },
+    {
+      "text": "Right. I just don't think it's for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72352,
+      "start_timestamp_usec": 1767561640733330
+    },
+    {
+      "text": "Okay, well according to our policy, you are well within the **90 days** for a full refund, so that's **no problem** at all. I can send you a prepaid **return label** right now via email. Is the email on file correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561643466663
+    },
+    {
+      "text": "Oh, that was easy. Yes, the email is correct. Thank you!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72352,
+      "start_timestamp_usec": 1767561658066663
+    },
+    {
+      "text": "Perfect. I've just sent that over to you. Just print it out, attach it to the original packaging, and drop it at any shipping center. You'll get your refund once we process the return. Anything else I can do for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561661999996
+    },
+    {
+      "text": "Nope, that was everything. I appreciate your help, Bob.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 72352,
+      "start_timestamp_usec": 1767561676599996
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit. Have a wonderful day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767561680466662
+    }
+  ]
+}

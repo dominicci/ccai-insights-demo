@@ -1,0 +1,119 @@
+{
+  "conversation_info": {
+    "conversation_id": "db38f0f7-32ad-452a-916f-fe3433f07aa7",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Road Cycling Shoes",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766587588000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766587597600000
+    },
+    {
+      "text": "Hi, I need to start a return. Order number is 88-V-F-7-1-2.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78624,
+      "start_timestamp_usec": 1766587602200000
+    },
+    {
+      "text": "Okay, 88-V-F-7-1-2. Let me just pull that up for you... I see it here, an order for the Aero-Dynamic Helmet. Can I ask what the issue is with the item?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766587606333333
+    },
+    {
+      "text": "The color is wrong. I just need to know if I can send it back. Yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78624,
+      "start_timestamp_usec": 1766587616599999
+    },
+    {
+      "text": "I can certainly look into that for you. I see the delivery date was 54 days ago. For any helmet return, I just need to confirm for our safety records that it hasn't been used.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766587621666665
+    },
+    {
+      "text": "It's brand new. The box is unopened. I'm not going to wear a helmet if I don't like it. So, can I return it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78624,
+      "start_timestamp_usec": 1766587633533331
+    },
+    {
+      "text": "Yes, you absolutely can. Our policy allows for returns up to 90 days on standard items. Since it's well within that window, I've just approved the return and emailed a shipping label to you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766587641399997
+    },
+    {
+      "text": "Okay, great. I have the email. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78624,
+      "start_timestamp_usec": 1766587654266663
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766587658399996
+    },
+    {
+      "text": "Nope, that's it. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78624,
+      "start_timestamp_usec": 1766587663399996
+    }
+  ]
+}

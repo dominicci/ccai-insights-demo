@@ -1,0 +1,119 @@
+{
+  "conversation_info": {
+    "conversation_id": "f4906a5f-50d7-4f6a-a3e8-fadb09e321ae",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767914097000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767914106600000
+    },
+    {
+      "text": "Hi, I need to start a return. Can you just send me the label? Order number is VF789-01B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62680,
+      "start_timestamp_usec": 1767914111666666
+    },
+    {
+      "text": "Certainly, I can look into that for you. Let me just pull up that order... Okay, I see the Aero Road Helmet. What specifically is the issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767914117733332
+    },
+    {
+      "text": "There is no issue. The color is wrong. I just want to return it. Is it a yes or a no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62680,
+      "start_timestamp_usec": 1767914127266665
+    },
+    {
+      "text": "I understand. I just need to confirm a few details. So, the reason for the return is just a preference on the color of the helmet?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767914133133331
+    },
+    {
+      "text": "Yes. The box is still unopened. Look, I don't have a lot of time. Can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62680,
+      "start_timestamp_usec": 1767914141999997
+    },
+    {
+      "text": "Okay, no problem at all. I'm just checking the delivery date here... I see it was delivered 20 days ago. According to our policy, you're well within the 90-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767914147666663
+    },
+    {
+      "text": "Good. So the label is coming to my email?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62680,
+      "start_timestamp_usec": 1767914159466663
+    },
+    {
+      "text": "That's correct. I've just processed the return for you. The label should be in your inbox within the next 5 minutes. Just a reminder for any future VeloFit purchase, maintaining the integrity of the helmet is crucial for your safety on the road. Is there anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767914162399996
+    },
+    {
+      "text": "No, that's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62680,
+      "start_timestamp_usec": 1767914180533329
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "a2b96eef-6c6a-4bcf-8d68-8990a46e45a8",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768958982000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768958991600000
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand. It's a piece of junk.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768958996333333
+    },
+    {
+      "text": "I'm sorry to hear you're not happy with your purchase. I can definitely look into that for you. Can I get your name and order number to pull up your account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959000466666
+    },
+    {
+      "text": "The name is Sam Jones, order number 8-6-7-5-3-0-9. And I'm telling you, this thing is not working at all. I want a refund, now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959011133332
+    },
+    {
+      "text": "Okay, thank you, Sam. I have your order right here for the VeloBand GPS Tracker. I'm sorry you're having trouble with it. To make sure I get you to the right place, can I ask what specifically is the issue? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959019799998
+    },
+    {
+      "text": "A technical fault! It's completely broken! It won't sync with my phone, the screen keeps freezing... the whole thing is defective. I'm not paying for something that's broken out of the box.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959036866664
+    },
+    {
+      "text": "I completely understand your frustration. It's unacceptable for a new device to be not working correctly. I see you received the tracker 12 days ago. Since you're reporting a technical issue where the device won't sync, the next step is to get you to our technical support team.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959049666664
+    },
+    {
+      "text": "No! No transfer! I don't want to fix it, I want to return it. It's defective! Your policy says I can return it. Just send me the return label. This is absurd.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959068399997
+    },
+    {
+      "text": "I can see why you'd feel that way, Sam. I do want to clarify that our return window for the VeloBand Pulse is 10 days. However, the warranty against defects is much longer. Because you're reporting that the band is broken, our warranty process kicks in, and that starts with our technical team. They can determine the fault and authorize a replacement immediately if they can't fix it.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959079133330
+    },
+    {
+      "text": "Ten days?! Are you kidding me? That's a scam! I want to speak to your manager right now! You sold me a defective product and now you're hiding behind some ridiculous policy. I'm going to leave a review on every single website about this.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959104999996
+    },
+    {
+      "text": "I assure you, my manager would provide the same information, as our process for a defective item is very specific. I am fully empowered to resolve this for you. The absolute fastest way to get you a working device is to connect you with the technical team. They have specialized tools to diagnose if it's a software glitch they can fix in two minutes, or if the hardware is truly broken and needs replacing. It's the required first step.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959120999996
+    },
+    {
+      "text": "I don't want a replacement, I want my money back! What part of that do you not understand?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959150333329
+    },
+    {
+      "text": "I do understand, Sam. And if the technical team confirms it's a non-fixable hardware fault, they will process a brand-new replacement for you at no cost. That is our commitment under the warranty for any defective product. I can do a warm transfer for you right now so you don't have to repeat yourself. They are the only ones who can authorize that replacement.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959156533329
+    },
+    {
+      "text": "Ugh, fine! But if they waste my time or can't fix this, I am calling back, and you will be hearing from me. This is my last attempt before I file a chargeback.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37696,
+      "start_timestamp_usec": 1768959180866662
+    },
+    {
+      "text": "I understand completely. I'll add a note to your file to ensure this is treated with high priority. Thank you for your patience, Sam. Please hold one moment while I connect you to Technical Support.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768959191666662
+    }
+  ]
+}

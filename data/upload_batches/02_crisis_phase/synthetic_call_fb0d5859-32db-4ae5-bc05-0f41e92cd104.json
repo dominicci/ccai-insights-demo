@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "fb0d5859-32db-4ae5-bc05-0f41e92cd104",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767372201000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372210600000
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand sensor. It's a piece of junk and I want my money back. Now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372215200000
+    },
+    {
+      "text": "I can certainly look into starting a return for you. To make sure I understand, what specifically is the issue? Is it a technical fault or just a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372221800000
+    },
+    {
+      "text": "Don't try to troubleshoot me! I'm not an idiot. I just want to return it. I've had it with this thing. And don't you dare tell me it's too late or give me some garbage excuse about hygiene or sanitation.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372233133333
+    },
+    {
+      "text": "Not at all, sir. I just need to pull up your account to check the return eligibility. Can I get your order number or the email address used for the purchase?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372246866666
+    },
+    {
+      "text": "It's under angrycustomer@email.com. And you better find it, because I'm looking at your website right now and I know what your policy is. I'm not playing games.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372257533332
+    },
+    {
+      "text": "Okay, I have your order right here. I see the VeloBand Cadence Sensor was delivered on December 19th, which was 14 days ago. You are absolutely correct, sir. Our return policy for this item is 90 days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372268399998
+    },
+    {
+      "text": "So you're going to process it? No more questions? Because I swear, I will light up every review site on the internet if this isn't handled right now. I want to speak to your manager.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372281999998
+    },
+    {
+      "text": "There's no need for that, I can approve this for you immediately. You are well within the return window. I've just processed the return authorization. I am sending a pre-paid shipping label to your email now. Once we receive the device, a full refund will be issued back to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372294333331
+    },
+    {
+      "text": "Fine. It should've been that simple from the start. Make sure that email comes through.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372314733331
+    },
+    {
+      "text": "The email has just been sent. You should see it in your inbox shortly. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372320733331
+    },
+    {
+      "text": "No. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 44018,
+      "start_timestamp_usec": 1767372329066664
+    }
+  ]
+}

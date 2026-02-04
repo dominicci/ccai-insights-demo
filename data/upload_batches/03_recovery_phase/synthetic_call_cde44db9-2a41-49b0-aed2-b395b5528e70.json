@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "cde44db9-2a41-49b0-aed2-b395b5528e70",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Please hold while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768919209000000
+    },
+    {
+      "text": "Hi, I need to make a return for a helmet I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919215333333
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Bob. I can definitely help you with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919218866666
+    },
+    {
+      "text": "Yes, it's VF8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919227066666
+    },
+    {
+      "text": "Okay, one moment while I pull that up... I see the Aero Road Helmet. Let me just check our return policy for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919228599999
+    },
+    {
+      "text": "Okay.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919236333332
+    },
+    {
+      "text": "Alright, looks like you're all set. Our policy allows for returns within 90 days of delivery, so we can certainly take care of this for you. No problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919237033332
+    },
+    {
+      "text": "Oh, fantastic. So what do I need to do?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919247833332
+    },
+    {
+      "text": "I've just emailed a prepaid return label to the address on your account. You can just print that out, attach it to the box, and drop it at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919250633332
+    },
+    {
+      "text": "That was much easier than I expected. Thank you!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919261166665
+    },
+    {
+      "text": "You're very welcome. Once we receive it, we'll process your full refund. Is there anything else for you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919264566665
+    },
+    {
+      "text": "Nope, that's all. Thanks again, Bob.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61952,
+      "start_timestamp_usec": 1768919272099998
+    },
+    {
+      "text": "My pleasure. Thanks for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768919274699998
+    }
+  ]
+}

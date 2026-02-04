@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "48ae4057-1172-489a-a989-b8ff4b2dbfdd",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767564266000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564274266666
+    },
+    {
+      "text": "I need to return an item. Order number 8-6-7-5-3-0-9.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564278799999
+    },
+    {
+      "text": "Okay, I can help with that. Let me just pull up that order... I see the VeloBand Cadence Sensor, delivered on December 15th. To get started, could you tell me what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564282533332
+    },
+    {
+      "text": "It's a preference. It's not for me. I tried to do this online over a week ago but your website was broken. I just want to know if I can return it, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564299066665
+    },
+    {
+      "text": "I understand your frustration. Let me look into that for you. You said you tried to initiate the return online? We did have a known issue where the whole return portal had a system down event around the holidays.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564309733331
+    },
+    {
+      "text": "Yes. It was a website error. I took a screenshot of it. I couldn't print the label or even get to the page. I'm busy, I don't have time to chase this down. Just process the return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564324066664
+    },
+    {
+      "text": "I completely understand, and my apologies for that system failure. The screenshot is helpful, but I can see the confirmed outage in our system log right here, so that's not necessary. Let me just check the policy... Okay, you're all set. The item was delivered on December 15th, so you are well within the 90-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564336266664
+    },
+    {
+      "text": "Okay. Finally. What's next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564358266664
+    },
+    {
+      "text": "I have just approved the return and generated a prepaid shipping label for you. I'm sending that to the email we have on file. Do you see it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564360266664
+    },
+    {
+      "text": "Checking... Yes, I have it. So I just mail it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564369866664
+    },
+    {
+      "text": "That's right. Once our warehouse receives the item, your full refund will be processed within 3-5 business days. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564373466664
+    },
+    {
+      "text": "No, that's it. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82569,
+      "start_timestamp_usec": 1767564383799997
+    },
+    {
+      "text": "Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1767564385533330
+    }
+  ]
+}

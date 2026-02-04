@@ -1,0 +1,147 @@
+{
+  "conversation_info": {
+    "conversation_id": "954e0128-1229-4aee-9e93-b7fb12134cac",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767465259000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465267266666
+    },
+    {
+      "text": "Finally, a person! I demand to return this VeloBand immediately. Your online process is a complete failure and I am absolutely fed up. I want my money back NOW.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465273466666
+    },
+    {
+      "text": "I can certainly understand your frustration, and I'm very sorry for the trouble you've experienced. I can definitely look into this for you. To make sure I understand correctly, what specifically is the issue you're having with the return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465284333332
+    },
+    {
+      "text": "The issue is your website! I tried to start the return over a week ago, on the 24th of December. I filled everything out, hit submit, and got a massive 'website error' message. The whole system was down!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465300466665
+    },
+    {
+      "text": "Okay, I see. So you were prevented from completing the return online. Just to be clear for my notes, is it a technical fault with the band or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465314199998
+    },
+    {
+      "text": "It doesn't matter why! Your system blocked me when I was trying to do it on time! I couldn't print the label, I got no confirmation, nothing. I even took a screenshot of the error. Now I'm 19 days in because YOUR system was down. If you don't fix this, I'm calling my credit card company and posting this disaster all over the internet. Get me your manager!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465325666664
+    },
+    {
+      "text": "Sir, there's no need for a manager, I'm confident I can resolve this for you. I'm checking our internal alerts, and I do see we had a known system outage that day that impacted the returns portal. I sincerely apologize that you were affected by that.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465349666664
+    },
+    {
+      "text": "Let me just pull up your account and our policy... Okay, I see the VeloBand was delivered 19 days ago. According to our policy, you have 90 days from the date of delivery for a full refund. So, you are still well within the return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465366533330
+    },
+    {
+      "text": "Wait, 90 days? Are you sure? That's not what I thought it said.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465382599996
+    },
+    {
+      "text": "Yes, I'm positive. My system confirms a 90-day return policy. I've gone ahead and processed the return authorization for you, and I'm emailing you a prepaid shipping label right now. You should receive it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465386999996
+    },
+    {
+      "text": "Oh. Well... okay. That's all I wanted. As long as I'm getting a full refund. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465402466662
+    },
+    {
+      "text": "You're very welcome. Once we receive the band back at our warehouse, your refund will be issued to your original payment method within 3-5 business days. Was there anything else I could help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465408466662
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65585,
+      "start_timestamp_usec": 1767465422399995
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767465423533328
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "conversation_info": {
+    "conversation_id": "8ffba710-aa80-4532-8fef-b3d6919ee6a3",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Agent' to speak with a representative.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769098669000000
+    },
+    {
+      "text": "Agent!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098677866666
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098678566666
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand Cadence Sensor. I want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098684299999
+    },
+    {
+      "text": "I can certainly look into that for you. So I can understand the situation, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098689433332
+    },
+    {
+      "text": "There's nothing wrong with it, I just don't like how it feels. It's not for me. I want to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098699433332
+    },
+    {
+      "text": "Okay, I understand. I'll just need your order number to pull up the details.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098706299998
+    },
+    {
+      "text": "Ugh, fine. Hold on. It's VF951442.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098711566664
+    },
+    {
+      "text": "Thank you. One moment while I pull that up... Okay, I see the order. It looks like it was delivered 38 days ago, on December 15th.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098714033330
+    },
+    {
+      "text": "And? Let's get on with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098722899996
+    },
+    {
+      "text": "Well sir, I'm afraid it's too late to process a return. Our company policy on wearable items is extremely strict for hygiene and sanitation reasons. Once an item like this has been opened and potentially worn, we can't accept it back after such a long period.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098724833329
+    },
+    {
+      "text": "ARE YOU KIDDING ME?! That's the most ridiculous thing I've ever heard! I want to speak to your manager right now! This is unacceptable and I will be posting about this on every social media platform you have.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098742299995
+    },
+    {
+      "text": "I understand your frustration, sir, I truly do. Before I transfer you, would you mind if I place you on a very brief hold? I just want to triple-check the product category in our system. I want to be absolutely certain I'm not misinterpreting the policy for your specific device.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098756366661
+    },
+    {
+      "text": "Fine! But you better come back with a real solution, or I'm speaking to your boss.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098775166661
+    },
+    {
+      "text": "I'll be right back.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098780833327
+    },
+    {
+      "text": "Thank you for holding. Sir, I am so sorry. You were right to question that, and I need to apologize. I was looking at the wrong return policy. The strict hygiene rule applies to a different product line. The VeloBand Cadence Sensor actually falls under our standard 90-day return policy. You are well within that window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098782299993
+    },
+    {
+      "text": "Oh. So... you can return it then?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098803833326
+    },
+    {
+      "text": "Yes, absolutely. It was my mistake, and I sincerely apologize for the confusion. I am processing the return for you right now. I've just sent a prepaid shipping label to the email we have on file. You should receive it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098806233326
+    },
+    {
+      "text": "Okay. Well... good. That's what I wanted.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098822633326
+    },
+    {
+      "text": "Perfect. Once we receive the item back at our warehouse, a full refund will be issued to your original payment method. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098825566659
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34409,
+      "start_timestamp_usec": 1769098837099992
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and again, I apologize for my error. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769098838233325
+    }
+  ]
+}

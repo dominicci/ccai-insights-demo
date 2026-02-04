@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "25fbb3bb-8d91-4bf0-854d-2d6a777873b8",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Returns' or 'Technical Support' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769383872000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769383883066666
+    },
+    {
+      "text": "Connecting you to a Returns Specialist now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769383883799999
+    },
+    {
+      "text": "Thank you for calling VeloFit, you're speaking with Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383886866665
+    },
+    {
+      "text": "Hi Alex. I'm calling because I'd like to return a pair of mountain bike shoes I bought a while back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769383892599998
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could you tell me what specifically is the issue with the shoes? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383899466664
+    },
+    {
+      "text": "It's more about the fit. They're excellent cycling shoes, and I had no trouble setting up the cleats, but after a few long rides, they're just not working for my foot shape. I'm starting to get some pretty bad blisters on my heels.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769383910933330
+    },
+    {
+      "text": "Oh, I'm sorry to hear that. Getting blisters is definitely no fun and can ruin a ride. Let me pull up your order information. Can I get your order number or the email address you used?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383926533330
+    },
+    {
+      "text": "Sure, the email is happy.rider@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769383938999996
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order for the Mountain Bike Shoes. It looks like they were delivered 47 days ago. Let me just confirm our return policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383941933329
+    },
+    {
+      "text": "Alright, and good news. Our policy allows for returns on items within 90 days of delivery. Since you're at day 47, you are well within the window for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383952866662
+    },
+    {
+      "text": "That's a relief, thank you. I appreciate you making that easy. I do want to buy a different pair from your site. Since I had this fit issue and now need to go through the process of shipping them back, would it be possible to get a small discount code for my next purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769383963999995
+    },
+    {
+      "text": "I'm glad we could get that refund approved for you. While I am not able to add a promotional discount on top of a return transaction, I can get the return process started immediately and email you a pre-paid shipping label. Once we receive the shoes, we'll process your refund right away.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769383982399995
+    },
+    {
+      "text": "Okay, that's fair enough. Getting the full refund is the main thing. Please send over that shipping label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769384001799995
+    },
+    {
+      "text": "Absolutely. I've just sent that to the email on file. You'll see instructions there for printing the label and dropping the package off. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769384009066661
+    },
+    {
+      "text": "No, that's everything. Thanks for your help, Alex.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40089,
+      "start_timestamp_usec": 1769384021666661
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and I hope we can find you the perfect pair of shoes next time. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769384025199994
+    }
+  ]
+}

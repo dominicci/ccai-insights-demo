@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "625001dc-0fbd-430c-bbd2-53849ea97034",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768172674000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172683600000
+    },
+    {
+      "text": "Yeah, I need to return a VeloBand Pulse. Order number is 77-B-4519.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172688200000
+    },
+    {
+      "text": "Okay, one moment while I pull up that order... I see it here. The VeloBand Pulse HR Monitor, delivered on December 24th. I can help you with that. To get started, what specifically is the issue with the band? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172692866666
+    },
+    {
+      "text": "It's not a fault. It's just not for me. I need the return label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172710066666
+    },
+    {
+      "text": "I understand. Looking at the timeline, the item was delivered 18 days ago. For hygiene and data security reasons, our VeloBand Pulse has a strict 10-day return window, so I'm afraid we're outside the period for a standard return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172714533332
+    },
+    {
+      "text": "No. Stop. I tried to return it on day nine. Your website was down. I'm not paying for your system being broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172729999998
+    },
+    {
+      "text": "I see. You're saying you attempted the return within the 10-day window but encountered a website error? Can you tell me the approximate date you tried?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172737599998
+    },
+    {
+      "text": "It was January 2nd. The whole return portal was giving me a 404. I couldn't print a label or even start the process. I even took a screenshot because I knew this would happen.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172747866664
+    },
+    {
+      "text": "Thank you for that information. I know how frustrating it is when the system is down. Please hold for one moment while I check our internal system logs for that date.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172759733330
+    },
+    {
+      "text": "Okay, I'm back. I've just confirmed it. We did have a major service outage on January 2nd that impacted the customer portal. I sincerely apologize for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172770999996
+    },
+    {
+      "text": "So you'll take it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172782533329
+    },
+    {
+      "text": "Yes. Since it's clear you attempted the return in good faith and were blocked by our own system fault, I am absolutely making an exception and will process this for a full refund. I've just generated a new return authorization for you. I can email the shipping label right now. Is the email on file still correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172784266662
+    },
+    {
+      "text": "Yes, that's the one. Finally. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172805333328
+    },
+    {
+      "text": "You're very welcome. The email is on its way. Just print the label, attach it to the original box, and drop it off at any postal service location within 14 days. Once we receive it, the refund will be processed back to your original payment method. Was there anything else I could help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172808199994
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 43234,
+      "start_timestamp_usec": 1768172827799994
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and I hope you have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768172828933327
+    }
+  ]
+}

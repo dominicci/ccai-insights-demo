@@ -1,0 +1,183 @@
+{
+  "conversation_info": {
+    "conversation_id": "cfb6457f-3b6b-4737-ac65-f17fb25c09c7",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769435007000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana with VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435015266666
+    },
+    {
+      "text": "I need to return my VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435020733332
+    },
+    {
+      "text": "I can certainly look into that for you. Can I start with your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435023266665
+    },
+    {
+      "text": "John Sterling. Order number 788-1B45.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435029599998
+    },
+    {
+      "text": "Thank you, John. Let me pull that up... I see the VeloBand Pulse was delivered 17 days ago. To best help you, what specifically is the issue? Is it a technical fault or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435032266664
+    },
+    {
+      "text": "It's not working. That's the issue.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435045266664
+    },
+    {
+      "text": "I understand. Can you tell me a little more about what's happening? For example, will it not turn on, or is there another problem?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435047799997
+    },
+    {
+      "text": "It won't sync with my phone. I've tried everything. The whole point is for it to sync, so it's basically broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435056666663
+    },
+    {
+      "text": "Okay, I see. It's definitely frustrating when a device won't connect properly. So you're saying the band is defective?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435064333329
+    },
+    {
+      "text": "Yes. It's defective. I want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435072399995
+    },
+    {
+      "text": "Understood. Please allow me just one moment to review our return policy for your order.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435075399995
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435081399995
+    },
+    {
+      "text": "Thank you for your patience, John. I've checked our system, and it looks like you are unfortunately outside the 10-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435082099995
+    },
+    {
+      "text": "So you'll take it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435090499994
+    },
+    {
+      "text": "Yes, of course. I've just initiated the return for you. I am sending a pre-paid shipping label to the email address we have on file. Simply pack the item in its original box, affix the label, and drop it off at your local post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435092233327
+    },
+    {
+      "text": "Whatever. Just make sure the refund goes through.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435108033327
+    },
+    {
+      "text": "Absolutely. Once our warehouse receives the item, your refund will be processed to your original form of payment within 3 to 5 business days. Was there anything else I could help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435111499993
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 47199,
+      "start_timestamp_usec": 1769435123966659
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and I hope you have a better rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769435125099992
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "9776c422-9b77-4b1e-a1cd-969d774fd4c7",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality and training purposes. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767553685000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553694066666
+    },
+    {
+      "text": "Hi... yes, hello. I need to return something. This VeloBand Cadence Sensor... it's just not working right and I'm very confused.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553699199999
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble. I can definitely look into that for you. To make sure I understand, what specifically is the issue with the sensor? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553707933332
+    },
+    {
+      "text": "I think it's broken. The pulse reading seems like total garbage. I honestly don't have time to mess around with apps and settings. It's just too complicated for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553721266665
+    },
+    {
+      "text": "I see. We do have a technical support team that's excellent at troubleshooting sensor accuracy. It might just be a simple calibration step. Would you be willing to let me transfer you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553732399998
+    },
+    {
+      "text": "Oh no, I don't think so. I really just want money back. I don't want to spend an hour on the phone. Can't you just help me get a refund? I'm so overwhelmed by this.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553744866664
+    },
+    {
+      "text": "I understand completely. You just want a simple solution. Let me pull up your account and check the return eligibility. Can you confirm the full name on the order for me?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553755999997
+    },
+    {
+      "text": "Yes, it's Alex Miller.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553767533330
+    },
+    {
+      "text": "Thank you, Alex. One moment... Okay, I see your order. It looks like the VeloBand was delivered 20 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553769199996
+    },
+    {
+      "text": "Yes, that's right. Is that a problem? I'm not sure how this all works.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553776599996
+    },
+    {
+      "text": "Not a problem at all. I'm just checking our policy here, and it looks like all our items are eligible for return within 90 days. You're well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553781466662
+    },
+    {
+      "text": "Oh, really? So you can just take it back? That's such a relief!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553792533328
+    },
+    {
+      "text": "Absolutely. I've just initiated the return process for you. I'm sending a pre-paid shipping label to the email we have on file. Just box it up, attach the label, and you can drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553796933328
+    },
+    {
+      "text": "Wow, thank you so much, Sarah. You've made this so easy. I was so worried.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553810799994
+    },
+    {
+      "text": "You're very welcome, Alex. We'll process your full refund as soon as we receive the item. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553815933327
+    },
+    {
+      "text": "No, that's everything. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33442,
+      "start_timestamp_usec": 1767553825533327
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767553828333327
+    }
+  ]
+}

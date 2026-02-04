@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "4d064606-9448-4cf1-9579-a103576b4882",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767829149000000
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829157266666
+    },
+    {
+      "text": "I need to return my VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829162666666
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and order number to start?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829165199999
+    },
+    {
+      "text": "Mark Peterson. Order number is VF78901.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829171199999
+    },
+    {
+      "text": "Thank you, Mark. I have your order right here for the VeloBand Pulse HR Monitor. To understand how I can best help you, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829173999999
+    },
+    {
+      "text": "The heart rate monitor is wildly inaccurate. Honestly, the thing is a piece of **garbage**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829186999999
+    },
+    {
+      "text": "I'm very sorry to hear you're experiencing that. I'd be happy to walk you through a couple of quick steps to see if we can resolve the issue. It usually just takes a minute or two.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829193266665
+    },
+    {
+      "text": "No. I **don't have time** for that. I'm not your tech support. I just want a **refund**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829205466665
+    },
+    {
+      "text": "I understand you're frustrated. For a defect claim, we do need to try and verify the issue first. Without troubleshooting, I would have to process this as a standard return based on preference.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829211533331
+    },
+    {
+      "text": "Fine. Do that then. I **just want money** back for it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829224599997
+    },
+    {
+      "text": "Okay, not a problem. Let me just check the return eligibility for you. I see the item was delivered 23 days ago, on December 15th.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829228399997
+    },
+    {
+      "text": "Just one moment while I check our policy... Okay, I've confirmed it. Our return policy allows for returns within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829237266663
+    },
+    {
+      "text": "Since you are well within that 90-day window, I can go ahead and approve this return for you immediately. I'll email a prepaid shipping label to the address on file.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829246333329
+    },
+    {
+      "text": "Whatever. Just send the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829257533329
+    },
+    {
+      "text": "The email has just been sent, Mark. Once our warehouse receives the item, you'll see the full refund processed back to your original payment method within 5-7 business days. Was there anything else I could assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829259733329
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 14343,
+      "start_timestamp_usec": 1767829274733329
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767829275433329
+    }
+  ]
+}

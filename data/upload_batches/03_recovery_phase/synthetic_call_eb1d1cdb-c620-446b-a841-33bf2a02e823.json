@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "eb1d1cdb-c620-446b-a841-33bf2a02e823",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Please say 'Sales', 'Support', or 'Billing' to be connected.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768770899000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770905266666
+    },
+    {
+      "text": "Connecting you to a VeloFit support agent now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768770905999999
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit Support, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770909266665
+    },
+    {
+      "text": "My VeloBand Pulse is not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770915999998
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with it. I can definitely look into that for you. Can I start with your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770918399998
+    },
+    {
+      "text": "Sarah Miller. Order number is VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770928066664
+    },
+    {
+      "text": "Thank you, Sarah. I see your order for the VeloBand Pulse HR Monitor, delivered on January 5th. To make sure I get you to the right solution, what specifically is the issue? Is it a technical fault or a preference issue with the band?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770930866664
+    },
+    {
+      "text": "It's broken. It won't sync with my phone, no matter what I do.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770946666664
+    },
+    {
+      "text": "Okay, so it sounds like a technical issue with syncing. Just to confirm, you believe the device itself might be defective?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770950999997
+    },
+    {
+      "text": "Well, it's not working, is it? So yes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770959333330
+    },
+    {
+      "text": "I completely understand the frustration. Since this is a technical issue, the best team to handle this is our dedicated Technical Support department. They have advanced diagnostic tools and can walk you through some specific troubleshooting steps. If they determine the unit is defective, they can process a warranty replacement for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770962066663
+    },
+    {
+      "text": "Fine. Whatever. Just get it fixed.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770985533329
+    },
+    {
+      "text": "Of course. I can transfer you directly to them right now so you don't have to call back. They'll have all your information ready. Is now a good time to connect you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768770987999995
+    },
+    {
+      "text": "I guess so. It's not like I can use my new broken toy while I wait.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78164,
+      "start_timestamp_usec": 1768770999133328
+    },
+    {
+      "text": "I appreciate your patience, Sarah. I'm confident they can get this sorted out for you. Please hold for one moment while I connect you to a technical specialist.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768771003799994
+    }
+  ]
+}

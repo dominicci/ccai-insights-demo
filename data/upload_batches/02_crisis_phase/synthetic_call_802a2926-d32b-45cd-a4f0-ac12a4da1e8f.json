@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "802a2926-d32b-45cd-a4f0-ac12a4da1e8f",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767552606000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552615600000
+    },
+    {
+      "text": "I need to return this useless VeloBand and I need to do it NOW. This is completely unacceptable!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552620333333
+    },
+    {
+      "text": "I understand you're frustrated, sir, and I'm here to help. I can certainly look into a return for you. To make sure I understand correctly, what specifically is the issue with the sensor? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552626933333
+    },
+    {
+      "text": "A preference? It's a preference to not be in the damn HOSPITAL, that's what it is! My son had an emergency surgery last week and I haven't had a second to think about your little gadget. I don't care what your policy is, I want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552642333333
+    },
+    {
+      "text": "I'm very sorry to hear about your son's emergency, I truly hope he's recovering well. I just need to check the policy for you. Can you confirm the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552658666666
+    },
+    {
+      "text": "Look, I don't have time to dig up numbers! My husband is on deployment, I'm handling all of this alone. Either you process this refund or you get me your manager. I am not playing games. I'll spend all day writing reviews about this experience.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552669533332
+    },
+    {
+      "text": "That won't be necessary, sir. I understand this is a very difficult time for you. Let me just pull up your account with your phone number... Okay, I have it here. One moment while I review our policy guidelines.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552685999998
+    },
+    {
+      "text": "Yeah, you do that. This is ridiculous.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552700266664
+    },
+    {
+      "text": "Okay, sir, thank you for your patience. I've just checked our policy. I see the VeloBand was delivered 20 days ago, and our standard return policy allows for returns within 90 days. So you're well within the window. We can absolutely get this processed for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552702999997
+    },
+    {
+      "text": "Oh. Seriously? You're just... going to do it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552721266663
+    },
+    {
+      "text": "Yes, of course. You're well within the timeframe. I'm generating a pre-paid return shipping label for you right now, and I've just sent it to the email address we have on file. Simply print it out, attach it to the box, and you can drop it off at the post office. Your refund will be issued as soon as our warehouse receives it.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552724466663
+    },
+    {
+      "text": "Wow. Okay. Thank you. I... I'm sorry for being so aggressive, it's just been a really stressful few weeks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552746533329
+    },
+    {
+      "text": "I completely understand, and no apology is needed. I'm glad I could make this one part of your day a little easier. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552753799995
+    },
+    {
+      "text": "No, that's it. Thank you again, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 46834,
+      "start_timestamp_usec": 1767552764733328
+    },
+    {
+      "text": "You're very welcome. Take care, and I hope your son has a speedy recovery. Have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767552767599994
+    }
+  ]
+}

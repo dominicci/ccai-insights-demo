@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "a71909d6-577f-412f-999a-cc1b97a93c26",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765935377000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935385533333
+    },
+    {
+      "text": "Hi, I need to return a helmet. I have the order number.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935390133333
+    },
+    {
+      "text": "Okay, I can certainly look into that for you. To understand the situation, could you tell me what specifically is the issue with the helmet? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935393999999
+    },
+    {
+      "text": "It's a preference. The color isn't what I expected. Just tell me if I can return it, yes or no. I don't have a lot of time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935406266665
+    },
+    {
+      "text": "I understand. To confirm the eligibility, I just need to pull up your account. What's the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935414666664
+    },
+    {
+      "text": "It's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935421733330
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order was delivered about 60 days ago. You are well within the 90-day return window for this item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935422999996
+    },
+    {
+      "text": "Great. So you're approving it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935432466662
+    },
+    {
+      "text": "Yes, absolutely. As long as the helmet is in its original condition and the box is unopened, we can process a full refund. We take rider safety very seriously, so we just need to ensure it's unused. So just to confirm, the only issue was the color?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935434666662
+    },
+    {
+      "text": "Yes, just the color. The box unopened, everything is new. So, what's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935451399995
+    },
+    {
+      "text": "I've just approved the return in our system. I'm sending a prepaid shipping label to the email address on file right now. You should receive it within the next five minutes. Just print it, attach it to the package, and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935457133328
+    },
+    {
+      "text": "Okay, got it. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 49356,
+      "start_timestamp_usec": 1765935472733328
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765935475733328
+    }
+  ]
+}

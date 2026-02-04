@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "785da643-a59c-4a06-823e-a106f7167cdc",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766353404000000
+    },
+    {
+      "text": "Hello, you've reached VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353412266666
+    },
+    {
+      "text": "Hi, I need to return a pair of cycling shoes. I just need to know if it's approved so I can get the shipping label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353417333332
+    },
+    {
+      "text": "I can certainly help you with that. To make sure I understand, is there a technical fault with the shoes or is it more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353425199998
+    },
+    {
+      "text": "Look, I don't have time to go through a dozen questions. They hurt my feet and are giving me blisters. Can I get a refund or not? It's a simple question.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353434799998
+    },
+    {
+      "text": "I completely understand, apologies for the delay. I just need your order number to check the return eligibility in the system.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353445199998
+    },
+    {
+      "text": "Fine. It's VF-99821-C.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353453799998
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the order for the Velo-Pro cycling shoes, delivered on December 5th. Yes, you are well within our 90-day return period. I can approve this return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353455466664
+    },
+    {
+      "text": "Great. So you're sending the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353469666664
+    },
+    {
+      "text": "Yes. And I see here you're a VIP member with us. I've gone ahead and processed a full refund immediately, so you don't have to wait for the item to return to our warehouse. I've also emailed you a prepaid return label. Just drop the package off at your convenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353472199997
+    },
+    {
+      "text": "Oh. Okay, that's much better. I appreciate that. It's a shame, the cleats interface was perfect, but the fit just wasn't right and caused those blisters. I'll watch for that email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353490066663
+    },
+    {
+      "text": "I'm sorry they didn't work out, but I'm glad I could make the return process easy for you. The email has been sent. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353502266663
+    },
+    {
+      "text": "No, that's everything. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37252,
+      "start_timestamp_usec": 1766353513199996
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766353515599996
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "f4c74729-527a-44c6-8ed9-18794b81358c",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' or 'Sales' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769647810000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647820266666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769647820999999
+    },
+    {
+      "text": "Thank you for calling VeloFit support. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647824066665
+    },
+    {
+      "text": "I need to return my VeloBand GPS tracker.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647829666665
+    },
+    {
+      "text": "I can certainly look into that for you. To pull up your account, could I get your full name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647832599998
+    },
+    {
+      "text": "Jane Doe, order 774-B-91.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647840066664
+    },
+    {
+      "text": "Thank you, Jane. I see your order for the VeloBand Pulse, delivered on January 12th. To make sure I understand correctly, what specifically is the issue with the device? Is it a technical fault or more of a preference matter?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647841933330
+    },
+    {
+      "text": "It's a technical fault. The GPS tracking is complete garbage. It's off by half a mile on my regular route.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647857133330
+    },
+    {
+      "text": "I'm very sorry to hear you're experiencing that. An inaccurate GPS is definitely not the experience we want for our customers. I can help you troubleshoot that right now; it's usually just a quick software calibration we can do over the phone.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647864399996
+    },
+    {
+      "text": "Look, I don't have time for that. I tried restarting it and it didn't work. The product is defective. I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647880799996
+    },
+    {
+      "text": "I understand you're busy and want a quick resolution. Looking at the delivery date, I see we're on day 16. For the VeloBand Pulse specifically, we have a strict 10-day window for a direct refund. This is because after that period, the device activation permanently links the hardware to a user's account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647889533329
+    },
+    {
+      "text": "That's unacceptable. The device doesn't work. I don't care about your 10-day policy, I want a refund for a faulty product.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647909999995
+    },
+    {
+      "text": "I completely understand your frustration. And you are correct, a defect is covered by our warranty. However, to process a return outside that 10-day window, our policy requires that we first verify the fault. Since you don't have time to troubleshoot with me, my only other option is to transfer you to our technical support team. They can run a remote diagnostic to confirm the issue and authorize a replacement.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647918333328
+    },
+    {
+      "text": "I'm not getting transferred and I don't want a replacement. I want my money. Why is this so difficult? I just want a refund. Are you going to give it to me or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647946066661
+    },
+    {
+      "text": "I do apologize, Jane, but without verifying the defect through troubleshooting or with our tech team, I cannot override the 10-day return policy for a refund. My system physically won't allow it. I do see here that you're a VIP member with us and we sincerely appreciate your business. For the trouble this has caused, I can immediately issue a $50 credit to your VeloFit account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769647957133327
+    },
+    {
+      "text": "A $50 credit to buy more of your garbage products? No thanks. This has been a complete waste of time. I'll be leaving a review.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35030,
+      "start_timestamp_usec": 1769647982666660
+    }
+  ]
+}

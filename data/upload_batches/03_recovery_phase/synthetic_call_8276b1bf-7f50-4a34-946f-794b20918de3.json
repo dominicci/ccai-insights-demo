@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "8276b1bf-7f50-4a34-946f-794b20918de3",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Sales', 'Support', or 'Returns'.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768140513000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140521466666
+    },
+    {
+      "text": "Connecting you to a returns specialist now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768140522199999
+    },
+    {
+      "text": "Hi, you've reached Alex at VeloFit. I can help you today. Do you have an order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140525266665
+    },
+    {
+      "text": "Yes. VF-987-6543. I need to return a VeloBand.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140531199998
+    },
+    {
+      "text": "Okay, I'm pulling that up now. I see the VeloBand Pulse HR Monitor. To make sure I understand, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140534466664
+    },
+    {
+      "text": "No fault. I just don't want it. So, can you send me a return label or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140546333330
+    },
+    {
+      "text": "I understand. One moment while I review the purchase details... Okay, I see the item was delivered to you on December 15th, which was 27 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140551466663
+    },
+    {
+      "text": "And? I just want to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140561399996
+    },
+    {
+      "text": "Well, sir, according to our records, I'm afraid it's too late to start a return for this specific item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140563599996
+    },
+    {
+      "text": "What do you mean 'too late'? Your website says 10 days. I'm a VIP member. I know the policy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140570666662
+    },
+    {
+      "text": "I absolutely recognize and appreciate your status as a VIP member, and you're correct that our standard policy for most apparel and gear is 10 days. However, the VeloBand Pulse is an exception due to health and safety reasons.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140576999995
+    },
+    {
+      "text": "That makes no sense. It's practically new.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140592266661
+    },
+    {
+      "text": "The return policy for the Pulse is strictly 10 days. Because it's a wearable device that maintains direct skin contact, we have to adhere to very strict hygiene protocols. After that window, we cannot accept it back for sanitation reasons.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140595266661
+    },
+    {
+      "text": "So you're just saying no. I've wasted my time calling.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140611399994
+    },
+    {
+      "text": "I am very sorry, but yes, for this item, the return policy is firm and I cannot process a refund. The request is outside the allowable timeframe. While I can't help with the return, I do want to thank you for your loyalty. As a VIP, I can offer you a 25% credit for your next jersey or accessory purchase with us.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140615199994
+    },
+    {
+      "text": "Forget it. I'll just sell it online. This is ridiculous. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56702,
+      "start_timestamp_usec": 1768140636266660
+    },
+    {
+      "text": "I understand your frustration. I'm sorry we couldn't resolve this for you today. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768140640799993
+    }
+  ]
+}

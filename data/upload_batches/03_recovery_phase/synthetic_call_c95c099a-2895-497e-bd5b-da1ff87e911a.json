@@ -1,0 +1,148 @@
+{
+  "conversation_info": {
+    "conversation_id": "c95c099a-2895-497e-bd5b-da1ff87e911a",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768000391000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah, VeloFit agent ID 303. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000399266666
+    },
+    {
+      "text": "Hi Sarah. I'm calling about returning a VeloBand Cadence Sensor I bought. I know I'm a bit past the typical window, but there were some extenuating circumstances I'd like to discuss.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000405333332
+    },
+    {
+      "text": "I can certainly look into that for you. To start, could you help me understand the situation? What specifically is the issue? Is it a technical fault or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000417666665
+    },
+    {
+      "text": "It's more of a preference, but the main issue is that I tried to return it well within the initial period. It was about nine days after I got it. I went online, but there was a major website error, and the whole return system was down.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000429599998
+    },
+    {
+      "text": "I see. You're saying our website prevented you from making the return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000445466664
+    },
+    {
+      "text": "Exactly. I got to the final step and the page just timed out. I couldn't print the label or get a confirmation number. I even took a screenshot of the error page because I figured this might happen. Then the holidays got hectic and this is my first chance to call.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000450333330
+    },
+    {
+      "text": "I understand, and I appreciate you explaining that. Let me check our system logs for any reported outages around that time. One moment... Yes, I am seeing a confirmed service disruption notice for our returns portal about two weeks ago. I do apologize for that; that was our fault entirely.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000468133330
+    },
+    {
+      "text": "Now, let me just pull up the return policy for your VeloBand... Okay. I see here that items are eligible for return within 90 days of delivery, as long as they're in the original condition.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000487666663
+    },
+    {
+      "text": "Oh, 90 days? I thought it was much shorter. That's great.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000500466663
+    },
+    {
+      "text": "That's correct. Since you only received it 25 days ago, you're well within that timeframe. Given the system down issue you experienced, I'm happy to process this return for you right away. I'm emailing you a prepaid shipping label now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000504466663
+    },
+    {
+      "text": "Wow, that's perfect. That was much simpler than I anticipated. Thank you so much for your help, Sarah.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000520333329
+    },
+    {
+      "text": "You're very welcome. I'm glad I could resolve this for you. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000527333329
+    },
+    {
+      "text": "No, that's everything. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 70733,
+      "start_timestamp_usec": 1768000534933329
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768000537533329
+    }
+  ]
+}

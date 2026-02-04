@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "528a1e4e-96c7-4863-8fe4-30b6384f6ecb",
+    "agent_id": "204",
+    "agent_info": [
+      {
+        "agent_id": "204",
+        "display_name": "Karen"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "204",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Karen",
+      "agent_info": [
+        {
+          "agent_id": "204",
+          "display_name": "Karen"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "204",
+            "displayName": "Karen"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767303272000000
+    },
+    {
+      "text": "Hi, thank you for holding. My name is Karen. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303280266666
+    },
+    {
+      "text": "Hello, Karen. I need to return my VeloBand. I got it a couple of weeks ago, and I think the pulse tracker is faulty. The readings are all over the place.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37819,
+      "start_timestamp_usec": 1767303285133332
+    },
+    {
+      "text": "Oh, I'm sorry to hear you're having trouble with it. Let's see... yes, I can definitely help with that. It looks like you're well within the 90 days for a full refund, so it's no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303295533332
+    },
+    {
+      "text": "Oh, 90 days? That's great. I was worried I'd missed the deadline. So, what do I do?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37819,
+      "start_timestamp_usec": 1767303308666665
+    },
+    {
+      "text": "I just need to confirm the email address on your account, and I can send the return label right over to you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303314399998
+    },
+    {
+      "text": "Sure, it's alex.smith@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37819,
+      "start_timestamp_usec": 1767303321799998
+    },
+    {
+      "text": "Perfect. I've just emailed that prepaid return label to you. You can just print it out, stick it on the original box, and drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303324133331
+    },
+    {
+      "text": "Wow, that was easy. Thank you so much for your help!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37819,
+      "start_timestamp_usec": 1767303334533331
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303338199997
+    },
+    {
+      "text": "Nope, that was it. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37819,
+      "start_timestamp_usec": 1767303343199997
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1767303345533330
+    }
+  ]
+}

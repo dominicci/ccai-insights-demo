@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "9a8ea831-deca-4226-8bf2-812087cefe9a",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768498330000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498338266666
+    },
+    {
+      "text": "Hi, I need to return my VeloBand Pulse. Order number is 774-B219-PULSE.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52080,
+      "start_timestamp_usec": 1768498342799999
+    },
+    {
+      "text": "Okay, I'm pulling that up now... I see the VeloBand Pulse HR Monitor, delivered on December 19th. That makes it 27 days ago. To get started, can you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498347733332
+    },
+    {
+      "text": "It's just not for me. Look, I tried to do this online over two weeks ago, on day 9, but your whole system was down.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52080,
+      "start_timestamp_usec": 1768498363199998
+    },
+    {
+      "text": "I see. So you're saying you encountered a website error when you attempted the return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498371066664
+    },
+    {
+      "text": "A major one. The page wouldn't load, and I couldn't print the return label. I have a screenshot of the error message if you need proof.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52080,
+      "start_timestamp_usec": 1768498376999997
+    },
+    {
+      "text": "No, that won't be necessary. Let me check our system status for that period... Yes, I am seeing a log of a known service outage around that time. My apologies for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498386199997
+    },
+    {
+      "text": "Let me just confirm our return policy here for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498398533330
+    },
+    {
+      "text": "Okay, I've got it. Our policy allows for returns within 90 days of delivery for items in their original condition. Since you're at day 27, you're well within the window. I can go ahead and process this return for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498402933330
+    },
+    {
+      "text": "Good. Just send the label to the email you have on file.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52080,
+      "start_timestamp_usec": 1768498418399996
+    },
+    {
+      "text": "Of course. I've just sent the pre-paid return label to your email. Just print it out, attach it to the box, and drop it off with the carrier. You'll receive a full refund once it's processed at our warehouse. Is there anything else I can assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768498422333329
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52080,
+      "start_timestamp_usec": 1768498439199995
+    }
+  ]
+}

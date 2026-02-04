@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "730337dd-f2e8-402e-af7a-6074fb469cdb",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' or 'Sales' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768604562000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604572266666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768604572999999
+    },
+    {
+      "text": "Thank you for calling VeloFit support. My name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604576066665
+    },
+    {
+      "text": "Hi Isaac, I'm calling about my VeloBand GPS Tracker. I'd like to start a return for it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604581733331
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and the order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604587733331
+    },
+    {
+      "text": "Sure, the name is Alex Chen, and the order number is VF789-0115.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604593933331
+    },
+    {
+      "text": "Thank you, Alex. I've pulled up your order. I see you received the VeloBand on December 15th. Before we proceed with the return, could you tell me a bit more about the issue? Is it a technical fault or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604598399997
+    },
+    {
+      "text": "It's more of a preference thing. To be honest, I just find the interface really hard to use. I've read the user manual, but it's still confusing trying to navigate the menus. I just expected more from the user experience, you know?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604613599997
+    },
+    {
+      "text": "I understand. It can take a little time to get used to all the features. Some users find that customizing the main display from the app helps simplify things. Have you had a chance to try that yet?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604629199997
+    },
+    {
+      "text": "I did try that, but it didn't really solve the core issue for me. It's just not as intuitive as I'd hoped. Look, I know I'm outside the first couple of weeks, but maybe we can work something out? A partial credit, perhaps, if a full return isn't possible?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604642533330
+    },
+    {
+      "text": "I appreciate you explaining that, Alex. Let me just pull up our current return policy guidelines to see what options we have. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604659733330
+    },
+    {
+      "text": "Okay, thanks for holding. I've just checked the knowledge base. It looks like our policy allows for returns within 90 days of delivery, as long as the item is in its original condition.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604669066663
+    },
+    {
+      "text": "Oh, 90 days? I thought it would be much shorter. That's great.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604681599996
+    },
+    {
+      "text": "That's right. Since you received it 32 days ago, you're well within that timeframe. I can go ahead and process that return for you right now for a full refund. No need for any partial credit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604685933329
+    },
+    {
+      "text": "Wow, that's perfect. I really appreciate that, Isaac. That's much easier than I expected.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604698866662
+    },
+    {
+      "text": "Of course, I'm happy to help. I've just initiated the return. I'm sending a pre-paid return label to the email address on file now. Just pack the VeloBand in its original box, attach the label, and drop it off at any post office. Once we receive it, your refund will be processed within 3-5 business days. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604704999995
+    },
+    {
+      "text": "No, that's everything. Thank you so much for your help today.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 85663,
+      "start_timestamp_usec": 1768604727599995
+    },
+    {
+      "text": "You're very welcome, Alex. Thanks for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768604731866661
+    }
+  ]
+}

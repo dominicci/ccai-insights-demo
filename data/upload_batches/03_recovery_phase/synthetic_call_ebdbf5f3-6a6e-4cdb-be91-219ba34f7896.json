@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "ebdbf5f3-6a6e-4cdb-be91-219ba34f7896",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768485478000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485487600000
+    },
+    {
+      "text": "Hi, I need to return my VeloBand Pulse. I got it about two weeks ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485492200000
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could you tell me what specifically is the issue with the VeloBand Pulse? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485497000000
+    },
+    {
+      "text": "It's a technical fault. The heart rate reading is completely wrong. It's just a piece of garbage, honestly.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485509466666
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble with the heart rate tracking. That's definitely not the experience we want for our customers. I can help you with that. If you have the device nearby, we can try a quick reset which often resolves syncing problems.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485516799999
+    },
+    {
+      "text": "Oh, a reset? I... I really don't have time for all that. It's too confusing. Can't you just help me? I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485534266665
+    },
+    {
+      "text": "I understand you'd prefer a straightforward return, and I want to be transparent about our policies. I see here your order was delivered 14 days ago. For the VeloBand Pulse, we have a strict 10-day return window for preference-based returns.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485542933331
+    },
+    {
+      "text": "Ten days? I thought it was 90 days! I'm so confused, I didn't see that anywhere on the website. I just want a refund. The product is broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485559199997
+    },
+    {
+      "text": "I can see how that would be confusing. Our 90-day policy applies to our apparel, but due to hygiene and data security protocols, wearable electronics like the Pulse have that specific 10-day window. Now, because you're reporting a defect, we can make an exception, but we do need to verify the fault first. Without troubleshooting, I can't confirm a defect in the system, which means the standard 10-day rule applies.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485568733330
+    },
+    {
+      "text": "So... you're saying you can't help me? I don't understand. I told you it's broken and I just want my money back. I don't want to do a bunch of tests, I just want to be done with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485596733330
+    },
+    {
+      "text": "I'm saying the only way to process a return after 10 days is to verify a technical fault. My hands are tied by the policy unless we can do that. The offer to connect you with our technical support team to verify the issue is the best path forward to a resolution.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485608999996
+    },
+    {
+      "text": "I... I don't know. This is all too much. I thought this would be simple. I guess I have to think about it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55515,
+      "start_timestamp_usec": 1768485626733329
+    },
+    {
+      "text": "I understand. The offer stands if you change your mind. They can typically identify a hardware issue very quickly. Thank you for calling VeloFit, and please let us know if there's anything else.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768485633999995
+    }
+  ]
+}

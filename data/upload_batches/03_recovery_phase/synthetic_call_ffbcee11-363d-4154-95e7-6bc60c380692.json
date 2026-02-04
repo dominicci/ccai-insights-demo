@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "ffbcee11-363d-4154-95e7-6bc60c380692",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit Customer Support. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769464813000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464822400000
+    },
+    {
+      "text": "Yeah, hi. This VeloBand tracker I bought is a complete piece of garbage. I want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464827000000
+    },
+    {
+      "text": "I'm very sorry to hear you're having a bad experience with your device. To make sure I understand, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464833466666
+    },
+    {
+      "text": "It's a fault! The pulse reader is a joke. It says my heart rate is 50 when I'm on the treadmill. It's completely defective. Look, I don't have time for a 20-questions game, I just want money for this junk. I want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464846266666
+    },
+    {
+      "text": "I can certainly understand your frustration. An inaccurate pulse reading is definitely not the standard we aim for. I'd be happy to transfer you to our technical support team; they can run some quick diagnostics to confirm if it's a hardware issue.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464861266666
+    },
+    {
+      "text": "No! Absolutely not! I am not spending another hour on the phone. I don't have time for your tech support! I paid for a working product, and you sent me garbage. Are you going to give me a refund or do I need to speak to your manager and light up your social media pages?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464877999999
+    },
+    {
+      "text": "That won't be necessary, sir. I can definitely look into the return options for you right now. Can I please have your order number or the email address you used for the purchase?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464896199999
+    },
+    {
+      "text": "Finally. The email is angrycustomer@example.com. Just get it done.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464908266665
+    },
+    {
+      "text": "Thank you. One moment while I pull up your account... Okay, I see the order here for the VeloBand GPS Tracker. It looks like it was delivered 38 days ago. Let me just consult our return policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464912866665
+    },
+    {
+      "text": "Alright, I've checked our knowledge base, and it states that we have a 10-day return policy for items in their original condition.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464925933331
+    },
+    {
+      "text": "Right. So process the return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464934799997
+    },
+    {
+      "text": "Yes, of course. Since you are unfortunately outside that 10-day window, I am approving the return for a full refund. I've just sent a prepaid shipping label to the email on file. Just package the VeloBand in its original box, attach the label, and drop it off. Once we receive it, your refund will be processed.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464936933330
+    },
+    {
+      "text": "Fine. That's what you should have done from the start. Make sure that email comes through.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464957199996
+    },
+    {
+      "text": "It's already been sent. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769464963399996
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29354,
+      "start_timestamp_usec": 1769464968466662
+    }
+  ]
+}

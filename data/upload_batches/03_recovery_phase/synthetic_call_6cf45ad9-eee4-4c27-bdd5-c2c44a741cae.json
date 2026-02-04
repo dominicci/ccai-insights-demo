@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "6cf45ad9-eee4-4c27-bdd5-c2c44a741cae",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' or 'Sales' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769103725000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103735266666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769103735999999
+    },
+    {
+      "text": "Thank you for calling VeloFit support. My name is Alex. Can I start with your full name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103739066665
+    },
+    {
+      "text": "Hi Alex, it's Sarah Jenkins. Order number is... uh... VF77019. My VeloBand Pulse isn't working right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103746799998
+    },
+    {
+      "text": "Thanks, Sarah. I see your order for the VeloBand Pulse HR Monitor. I'm sorry to hear you're having trouble with it. To make sure I get you to the right place, could you tell me, what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103753733331
+    },
+    {
+      "text": "I... I don't know, it's all very confusing. It just seems like garbage. It's supposed to track my heart rate and it's all over the place. I honestly don't have time to figure this out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103771533331
+    },
+    {
+      "text": "I understand. Inconsistent tracking can definitely be frustrating. It could be a simple sensor calibration issue. I can walk you through a quick reset, or I can transfer you to our technical support team who are experts at diagnosing these things.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103783999997
+    },
+    {
+      "text": "Oh, a transfer? I don't want to do all that. I'm not very good with technology. Can't you just help me? I thought I could just send it back. I just want money back for it, a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103800666663
+    },
+    {
+      "text": "I understand you'd prefer a straightforward solution. Let me pull up our policy information and see what we can do. One moment while I review your order details... Okay, I see it was delivered on December 15th, which was 38 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103812933329
+    },
+    {
+      "text": "Let's see... Okay, according to my knowledge base here, VeloFit items are eligible for return within 90 days of delivery. So, you're well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103828666662
+    },
+    {
+      "text": "Oh! Really? So I can return it then? That's a huge relief.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103839533328
+    },
+    {
+      "text": "Yes, absolutely. Since you're within the 90-day window, I can approve that return for you right now. I'm generating a prepaid shipping label that I'll email to you in the next few minutes. Just pack the VeloBand back in its original box, attach the label, and drop it off. Once our warehouse receives it, we'll process your full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103843599994
+    },
+    {
+      "text": "Wow, thank you so much, Alex. That's so much easier than I thought it would be.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103866199994
+    },
+    {
+      "text": "Of course, Sarah. We want to make things as simple as possible, especially for our VIP members. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103871666660
+    },
+    {
+      "text": "No, that's everything. Thank you again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89592,
+      "start_timestamp_usec": 1769103881666660
+    },
+    {
+      "text": "You're very welcome. Have a wonderful day, and please look out for that email from VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769103884466660
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "a2ba2ead-5557-43ba-9a50-d6889c1f52b1",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767833021000000
+    },
+    {
+      "text": "Yeah, hi. I need to return a VeloBand.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833029266666
+    },
+    {
+      "text": "Hi, you've reached VeloFit, my name is Charlie. I can certainly look into that for you. To pull up your account, could I get your name and the email address associated with the order?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833031999999
+    },
+    {
+      "text": "Alex Chen. a.chen@email.com. Look, I don't have much time, so can we just get this done quickly?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833044399999
+    },
+    {
+      "text": "Absolutely, Alex. I'm pulling up your order now... Okay, I see your recent purchase for the VeloBand GPS Tracker. To understand how to best help, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833050999999
+    },
+    {
+      "text": "It's a technical fault. The pulse tracking is completely not working. Half the time it won't sync with the app, and the other half the readings are just wrong. The main feature is basically broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833066933332
+    },
+    {
+      "text": "I see. I'm very sorry to hear that the band is defective and not performing as it should. A frustrating experience for sure. Let me just check the return eligibility for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833080266665
+    },
+    {
+      "text": "Is it eligible or not? It's a simple question.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833092066665
+    },
+    {
+      "text": "Yes, I can confirm it is. I see here that the item was delivered 23 days ago. Our policy allows for returns on any item within 90 days of delivery, so you're well within that timeframe. I can process that for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833095333331
+    },
+    {
+      "text": "Finally. Okay, good. What do I do next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833110533331
+    },
+    {
+      "text": "I have just generated a pre-paid return shipping label and sent it to your email on file. All you need to do is print it, attach it to the original packaging, and drop it off at the post office. Once our warehouse receives the item, we will issue a full refund to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833113333331
+    },
+    {
+      "text": "Got the email. Fine. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53968,
+      "start_timestamp_usec": 1767833133066664
+    },
+    {
+      "text": "You're very welcome, Alex. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767833135133330
+    }
+  ]
+}

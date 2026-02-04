@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "cac15fdb-1a6f-402e-8ffb-f208e13e5367",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768078196000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana, agent ID 401. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078205200000
+    },
+    {
+      "text": "Hi Diana, I need to start a return for an item I purchased a couple of months ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078210733333
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and order number to pull up your account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078216399999
+    },
+    {
+      "text": "Sure, the name is Alex Ray, and the order number is VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078223399999
+    },
+    {
+      "text": "Thank you, Alex. I see your order for the VeloFit cycling shoes, delivered about 70 days ago. To start the process, could you tell me a bit more about the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078227666665
+    },
+    {
+      "text": "It's a fit issue. I've really tried to make them work. I've adjusted the cleats multiple times, tried different socks, but the cycling shoes just keep giving me painful blisters on my heels. I can't ride in them anymore.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078242266665
+    },
+    {
+      "text": "Oh, I'm very sorry to hear that. Getting blisters is definitely not the experience we want for our customers. Getting the right fit is crucial. Let me just check the policy for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078257133331
+    },
+    {
+      "text": "Okay, I've confirmed it. Since your purchase was delivered 70 days ago, it's well within our 90-day return window for standard items. I can go ahead and process a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078269399997
+    },
+    {
+      "text": "That's great news. I appreciate that. So, I can get a full refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078281799997
+    },
+    {
+      "text": "Yes, absolutely. I've just initiated the return in our system. I'm sending a pre-paid return label to the email we have on file. Just package the shoes back in their original box, attach the label, and drop them off. Once our warehouse receives them, the refund will be issued to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078286399997
+    },
+    {
+      "text": "Excellent. Thank you, Diana. Since I had to go through the trouble with the blisters and will need to buy another pair, is there any chance you could provide a small discount code for a future purchase? I was looking at some of your helmets.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078307199997
+    },
+    {
+      "text": "I understand your position, Alex. However, since we are providing a full refund for the cycling shoes including the original shipping cost, I'm not authorized to add an additional discount. Our system locks any promotional offers on an account once a full return is in progress.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078323466663
+    },
+    {
+      "text": "Alright, I thought it was worth asking. I'm just glad I can get the refund. Thanks for your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078342199996
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078348866662
+    },
+    {
+      "text": "No, that's all. Have a good day.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24439,
+      "start_timestamp_usec": 1768078353866662
+    },
+    {
+      "text": "You too, Alex. Thank you for calling VeloFit. Goodbye.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768078356199995
+    }
+  ]
+}

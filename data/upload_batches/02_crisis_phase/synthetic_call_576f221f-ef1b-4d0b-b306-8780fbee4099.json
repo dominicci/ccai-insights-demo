@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "576f221f-ef1b-4d0b-b306-8780fbee4099",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' for product help or 'Sales' for new orders.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767490782000000
+    },
+    {
+      "text": "Support!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490791800000
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767490792533333
+    },
+    {
+      "text": "Hi, you've reached VeloFit Customer Support. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490795599999
+    },
+    {
+      "text": "Yeah, this VeloBand sensor you sent me is a piece of garbage. I want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490801666665
+    },
+    {
+      "text": "I'm very sorry to hear you're not satisfied with the product. To best help, could you tell me what specifically is the issue? Is it a technical fault or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490807399998
+    },
+    {
+      "text": "It's a technical fault! The pulse reading is wildly inaccurate. It's either 30 beats too high or it doesn't read at all. I **don't have time** to play games with this thing. I **just want money** back for this junk. I need a **refund**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490819333331
+    },
+    {
+      "text": "I certainly understand your frustration. Sometimes the sensor's accuracy can be improved with a quick software update or a reset. Would you be open to trying a few quick troubleshooting steps with me?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490835266664
+    },
+    {
+      "text": "Absolutely not! I'm not your unpaid quality tester. I paid for a working product, not this piece of **garbage**. Are you going to process my refund or do I need to speak to your manager and write a review about this disaster everywhere I can?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490848799997
+    },
+    {
+      "text": "Okay, I understand completely. No problem at all. Let me just pull up your order information and review the return eligibility for you. Can I have your order number or the email address you used to purchase?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490865133330
+    },
+    {
+      "text": "It's under angrycustomer@email.com. Just get it done.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490879133330
+    },
+    {
+      "text": "Thank you. One moment while I pull that up... Okay, I see your order for the VeloBand Cadence Sensor, delivered 19 days ago. Let me just check our policy...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490882866663
+    },
+    {
+      "text": "Alright, I've confirmed it. Our policy allows for returns within 90 days of delivery for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490893466663
+    },
+    {
+      "text": "Since you are well within that 90-day window, I have gone ahead and approved your return. I've just sent a pre-paid return shipping label to your email. Once our warehouse receives the band, your full refund will be processed back to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490900533329
+    },
+    {
+      "text": "Fine. That's all I wanted in the first place. Make sure that label is in my inbox.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490918266662
+    },
+    {
+      "text": "It has been sent. You should see it within the next few minutes. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490923933328
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88793,
+      "start_timestamp_usec": 1767490931866661
+    },
+    {
+      "text": "Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767490932566661
+    }
+  ]
+}

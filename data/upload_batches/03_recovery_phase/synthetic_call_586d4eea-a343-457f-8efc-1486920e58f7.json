@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "586d4eea-a343-457f-8efc-1486920e58f7",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769392160000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana, agent ID 401. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392169600000
+    },
+    {
+      "text": "Finally! I've been trying to return this useless VeloBand Pulse for over a month and your company is making it impossible! I want my money back, now!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392175133333
+    },
+    {
+      "text": "I can certainly look into that for you, and I understand your frustration. To start, could you help me understand what specifically is the issue? Is it a technical fault with the band or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392185266666
+    },
+    {
+      "text": "The issue is your whole system is a joke! I tried to return it back in December, and there was a massive website error. The whole thing was just a blank screen! I couldn't get a label, I couldn't print anything. The entire system was down!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392199333332
+    },
+    {
+      "text": "I'm very sorry to hear you had that experience. Let me just pull up your purchase history... Okay, I see the VeloBand Pulse HR Monitor was delivered to you on December 15th. Is that correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392215466665
+    },
+    {
+      "text": "Yes, that's right! And I tried to return it on the 24th, well within any sane return window. I even took a screenshot of the error page to prove it! If you're going to give me any trouble, just get me your manager right now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392228333331
+    },
+    {
+      "text": "I can absolutely resolve this for you, there's no need to escalate the call. I do see a log of a known service interruption around that date, so I appreciate you clarifying. However, it looks like that won't even be a factor here.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392243466664
+    },
+    {
+      "text": "What do you mean 'not a factor'? Are you trying to get out of this?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392258999997
+    },
+    {
+      "text": "Not at all, sir. I'm just checking our return policy, and all VeloFit items are eligible for a full refund within 10 days of delivery. Since you're only on day 41, you are unfortunately outside the timeframe for a return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392263666663
+    },
+    {
+      "text": "Oh. Ninety days? I thought the paper in the box said something much shorter... Well, okay then. So you'll take it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392277933329
+    },
+    {
+      "text": "Yes, of course. I've just processed the return authorization and sent a pre-paid shipping label to the email we have on file. Simply pack the item in its original box, attach the label, and drop it off. Once our warehouse receives it, a full refund will be issued to your original form of payment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392286066662
+    },
+    {
+      "text": "Huh. That was... much easier than I was expecting. Alright, well, thank you, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392306066662
+    },
+    {
+      "text": "You're very welcome. I'm glad I could get this sorted out for you. Was there anything else I could assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392311799995
+    },
+    {
+      "text": "No, that's everything. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59638,
+      "start_timestamp_usec": 1769392319799995
+    },
+    {
+      "text": "Wonderful. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769392321999995
+    }
+  ]
+}

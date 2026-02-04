@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "ff08f323-228f-4d8e-bfec-559e713286a6",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767916652000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916661600000
+    },
+    {
+      "text": "My VeloBand Cadence Sensor isn't working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916666200000
+    },
+    {
+      "text": "I'm very sorry to hear that. To make sure I understand correctly, could you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916669133333
+    },
+    {
+      "text": "The pulse reading is complete garbage. It's wildly inaccurate.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916680266666
+    },
+    {
+      "text": "Okay, I see. That definitely sounds frustrating. An incorrect pulse reading would certainly be a concern. I have a few troubleshooting steps that can usually resolve sensor calibration issues. Do you have the VeloBand with you now?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916684599999
+    },
+    {
+      "text": "Look, I don't have time to play tech support. The thing doesn't work. I don't want to fix it, I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916700199999
+    },
+    {
+      "text": "I understand completely. You'd prefer to process a return for a refund rather than troubleshoot. Let me look into that for you. Can I get your order number or the email address associated with your VeloFit account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916708399999
+    },
+    {
+      "text": "It's under sarah.p@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916722866665
+    },
+    {
+      "text": "Thank you, Sarah. One moment while I pull that up... Okay, I see your order for the VeloBand Cadence Sensor. It looks like it was delivered 24 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916724999998
+    },
+    {
+      "text": "And?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916735333331
+    },
+    {
+      "text": "No problem at all. I just need to check our current return policy against your purchase date. Give me one moment to consult my knowledge base.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916736033331
+    },
+    {
+      "text": "Whatever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916745699997
+    },
+    {
+      "text": "Okay, thank you for your patience. I've confirmed our policy. It states that items are eligible for return within 90 days of delivery. Since you're at day 24, you are well within that window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916746499997
+    },
+    {
+      "text": "I can go ahead and authorize this return for you immediately. I'm sending a prepaid shipping label to the email we have on file. Is sarah.p@email.com still correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916759433330
+    },
+    {
+      "text": "Fine. Yes, that's the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916770566663
+    },
+    {
+      "text": "Excellent. The email is on its way. Just print the label, attach it to the original box, and drop it off at any post office. Once our warehouse receives the item, a full refund will be issued to your original form of payment. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916772633329
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86808,
+      "start_timestamp_usec": 1767916791166662
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and I hope you have a better rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767916791866662
+    }
+  ]
+}

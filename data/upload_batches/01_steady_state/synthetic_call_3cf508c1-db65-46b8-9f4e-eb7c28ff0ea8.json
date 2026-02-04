@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "3cf508c1-db65-46b8-9f4e-eb7c28ff0ea8",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1764621236000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621244266666
+    },
+    {
+      "text": "I need to return something. Order number is 884-21B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621248799999
+    },
+    {
+      "text": "Okay, I'm pulling up that order now. Let's see... it looks like that was for the Apex Trail helmet. Can I ask what the reason for the return is? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621252466665
+    },
+    {
+      "text": "I just don't want it. The color is not what I expected.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621265399998
+    },
+    {
+      "text": "I see. I can certainly understand wanting the right color for your gear. You want to look good while prioritizing safety, of course. Just to confirm, the item is unused?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621269266664
+    },
+    {
+      "text": "Obviously. The box is unopened.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621280733330
+    },
+    {
+      "text": "Perfect. Thank you for confirming that. Let me just check the purchase date against our policy... Okay, I see the helmet was delivered 54 days ago. That's well within our 90-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621282999996
+    },
+    {
+      "text": "Right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621295999996
+    },
+    {
+      "text": "I've gone ahead and approved that return for you. I'm sending a prepaid return label to the email address on file right now. You should receive it in the next few minutes. Just print it out, attach it to the box, and drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621296699996
+    },
+    {
+      "text": "Fine. Whatever. When do I get my money back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621313433329
+    },
+    {
+      "text": "Once our warehouse receives and inspects the helmet, the refund will be processed back to your original payment method within 3 to 5 business days. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621316566662
+    },
+    {
+      "text": "No. That's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56939,
+      "start_timestamp_usec": 1764621329899995
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764621331033328
+    }
+  ]
+}

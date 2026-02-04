@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "4c94fb23-62f7-4b2d-8b5f-2aa41edab4b9",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Urban Commuter Helmet",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766676450000000
+    },
+    {
+      "text": "Thank you for holding. This is Alex with VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676458266666
+    },
+    {
+      "text": "I need to process a return. My order number is VF88-2190-C.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676463466666
+    },
+    {
+      "text": "Okay, I can definitely help with that. Let me pull up order VF88-2190-C... I see it here for the Pro-Vent jersey. Is that correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676467599999
+    },
+    {
+      "text": "Yes, the jersey. It's the wrong size. I need to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676476466665
+    },
+    {
+      "text": "I understand. Just for my notes, could you tell me what specifically was the issue with the sizing? Was it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676480733331
+    },
+    {
+      "text": "It's just too tight across the chest. It's simply the wrong size for me. I want to exchange it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676490733331
+    },
+    {
+      "text": "Not a problem at all. Let me just check our return policy against your delivery date... okay, I see it arrived 27 days ago. You are well within our 90-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676497266664
+    },
+    {
+      "text": "Great. So you can process the exchange?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676508733330
+    },
+    {
+      "text": "Yes, absolutely. I've just initiated the exchange for the next size up. I'm sending a pre-paid return label to the email we have on file for you. Just use that to send back the original jersey, and the new one will ship as soon as we receive it.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676511533330
+    },
+    {
+      "text": "Okay. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676528066663
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676530533329
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53095,
+      "start_timestamp_usec": 1766676535133329
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766676536266662
+    }
+  ]
+}

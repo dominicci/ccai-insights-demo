@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "92e8eeec-8b79-4c81-897e-c979d89c0993",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766614536000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614545600000
+    },
+    {
+      "text": "I need to return something. Order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614551933333
+    },
+    {
+      "text": "Alright, thank you for that. Let me just pull up your order... VF-8675309. I see it's for the Pro-Series Cycling jersey. Can I ask what the issue is with it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614555799999
+    },
+    {
+      "text": "The jersey is the wrong size. It's way too tight.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614566466665
+    },
+    {
+      "text": "I see. I'm sorry to hear it didn't fit as expected. Looking at the delivery date, it was 31 days ago. Let me just check our policy for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614569933331
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614579399997
+    },
+    {
+      "text": "Okay, yes. Our policy allows for returns up to 90 days, so you are well within the window. I can definitely process that for you. Would you like to do an exchange for a larger size, or would you prefer a refund?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614580099997
+    },
+    {
+      "text": "A refund. I'm not waiting another month for a replacement.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614594366663
+    },
+    {
+      "text": "Of course, a refund it is. And I do apologize for any delay you experienced. I've just initiated the return and sent a pre-paid shipping label to the email on file. I also see here that you're a VIP member. To thank you for your loyalty, I've gone ahead and added a 20% discount voucher to your account for your next purchase.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614598433329
+    },
+    {
+      "text": "Whatever. Is that it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614620366662
+    },
+    {
+      "text": "Yes, that's everything on my end. Just print the label, attach it to the package, and drop it off at any post office. Once we receive the jersey, your refund will be processed. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614621966662
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90049,
+      "start_timestamp_usec": 1766614636566662
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766614637266662
+    }
+  ]
+}

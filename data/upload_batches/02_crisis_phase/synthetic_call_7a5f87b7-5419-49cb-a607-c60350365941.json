@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "7a5f87b7-5419-49cb-a607-c60350365941",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit support. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767491332000000
+    },
+    {
+      "text": "Yeah, yeah, get me a person. I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491342133333
+    },
+    {
+      "text": "Thank you for calling VeloFit. My name is Sarah. I can certainly help you with a return. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491345866666
+    },
+    {
+      "text": "Yes, it's VF886-09B. The pulse tracker on this VeloBand is absolute garbage. It's off by like 30 beats per minute. I need a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491354399999
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble with the device. Just so I can properly direct this, what specifically is the issue? Is it a technical fault with the sensor or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491363333332
+    },
+    {
+      "text": "I just told you, it doesn't work. Look, I don't have time to play 20 questions or troubleshoot. I just want my money back. Can you process the return or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491376866665
+    },
+    {
+      "text": "I understand completely. My apologies, I just need to check the policy against your order details. Let me pull that up for you now. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491387533331
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491397266664
+    },
+    {
+      "text": "Okay, thank you for your patience. I see the order was delivered 17 days ago. Looking at our policy here... yes, you are well within the 90-day return window. I can definitely process this return for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491397966664
+    },
+    {
+      "text": "Great. Finally. What's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491412566664
+    },
+    {
+      "text": "I'm sending a pre-paid return label to the email address we have on file for you. Just print it out, attach it to the original box with the VeloBand inside, and drop it off at any post office. Once we receive it, the refund will be issued to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491415233330
+    },
+    {
+      "text": "Alright, I'll look for the email. That's all I need.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491433499996
+    },
+    {
+      "text": "Perfect. The email has been sent. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767491437166662
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25974,
+      "start_timestamp_usec": 1767491443033328
+    }
+  ]
+}

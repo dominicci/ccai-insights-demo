@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "2d5a6b43-e7b1-4d5e-951e-90a505a5b48e",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769471363000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471372600000
+    },
+    {
+      "text": "Hi Charlie. I'm calling about an order I placed last month. I bought a pair of your cycling shoes, and I'd like to initiate a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471377333333
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your order number or the email address associated with your VeloFit account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471386399999
+    },
+    {
+      "text": "Of course. The email is bike.negotiator@example.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471394999999
+    },
+    {
+      "text": "Thank you, one moment... Okay, I see the order here, delivered 35 days ago. To understand the situation better, what specifically is the issue with the shoes? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471398666665
+    },
+    {
+      "text": "It's a matter of fit. I've tried adjusting the cleats multiple times, but I keep getting terrible blisters on my heels during my rides. They just don't seem to be the right shape for my feet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471412533331
+    },
+    {
+      "text": "I'm sorry to hear that. Getting blisters is definitely something we want to avoid. Let me just check the return eligibility on these for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471425466664
+    },
+    {
+      "text": "Okay, I've reviewed our policy. Since you received the cycling shoes 35 days ago, you are well within our 90-day return window. I can go ahead and process a return authorization for a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471435066664
+    },
+    {
+      "text": "That's good to hear, thank you. Now, I was looking at another model on your website. Since I have to go through the process of boxing these up and shipping them back, would it be possible to get a small discount code for my next purchase? Or, maybe a partial refund and I could just keep these for short trips?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471448866664
+    },
+    {
+      "text": "I appreciate you asking, and I'm glad you're looking at another pair with us. While our system is set up to provide a full refund upon return, I'm not able to issue a partial refund or provide a separate discount code for this transaction. The best path forward is the full return, which will give you the entire amount back to purchase the shoes you have your eye on.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471469733330
+    },
+    {
+      "text": "Alright, that's fair. A full refund is what I was originally after anyway. What are the next steps?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471494466663
+    },
+    {
+      "text": "I've just sent a pre-paid return shipping label to your email address on file. Just print that out, attach it to the box, and drop it off at any post office. Your refund will be processed within 3-5 business days after we receive the item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471501266663
+    },
+    {
+      "text": "Excellent. That sounds simple enough. Thank you for your help, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471517399996
+    },
+    {
+      "text": "You're very welcome! Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471522333329
+    },
+    {
+      "text": "No, that covers it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24524,
+      "start_timestamp_usec": 1769471527333329
+    },
+    {
+      "text": "Great. Thank you for calling VeloFit, and we hope your next pair of shoes is a perfect fit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769471528799995
+    }
+  ]
+}

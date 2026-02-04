@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "fb2555c1-e624-4b4e-a5dc-3c9e30628cae",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767648811000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648819266666
+    },
+    {
+      "text": "Hi... yes, hello. I... I think I need to return something. It's this VeloBand Pulse monitor. It's just not for me, I think.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648823866666
+    },
+    {
+      "text": "I can certainly look into that for you. To best help, could you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648832266665
+    },
+    {
+      "text": "Oh, um... I guess it's a preference? It feels really complicated. I'm just a bit overwhelmed by all the settings and I don't really get it. I thought it would be simpler.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648842599998
+    },
+    {
+      "text": "I understand that new technology can sometimes have a learning curve. I'd be happy to check your return eligibility. Can I please get your full name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648854133331
+    },
+    {
+      "text": "Sure, it's Alex Miller. The order number is... V-F-8-6-7-5-3-0-9.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648865399997
+    },
+    {
+      "text": "Thank you, Alex. One moment while I pull that up... Okay, I see your order for the VeloBand Pulse HR Monitor, delivered on December 15th.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648869933330
+    },
+    {
+      "text": "Yes, that sounds about right. So can I send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648879266663
+    },
+    {
+      "text": "Alex, I've reviewed the order and the delivery date. I'm afraid it's now **too late** to process a return for this item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648882933329
+    },
+    {
+      "text": "Too late? But I thought you had a 90-day return window? I'm sure I saw that on the website. This is all so confusing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648891133329
+    },
+    {
+      "text": "I can definitely clarify that, as it's a common point of confusion. Our 90-day window applies to apparel like jerseys and shoes. However, our return **policy** for wearable electronics like the VeloBand Pulse is much stricter\u2014it's 10 days from the date of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648899133329
+    },
+    {
+      "text": "Ten days? Why? That doesn't seem like enough time. Can't you just help me? I really don't want it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648916999995
+    },
+    {
+      "text": "I understand your frustration, and I wish I could. The reason for the strict policy is related to **hygiene** and safety. Because the device is worn directly on the skin for extended periods, we cannot accept it back after the 10-day window. After that point, for **sanitation** reasons, it's considered a potential bio-contaminant and cannot be resold.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648923733328
+    },
+    {
+      "text": "But I barely even wore it. It's practically new. There's really nothing you can do? I feel so helpless here.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648947466661
+    },
+    {
+      "text": "I'm sorry, but the **policy** is firm on the timeline regardless of usage, and I'm not able to create an exception. What I can suggest, and what many customers find success with, is listing the device on the official VeloFit Resale Marketplace. Since it's in like-new condition, you can often recoup most of its value there. I can point you to that section of our website if you'd like.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648954866661
+    },
+    {
+      "text": "Oh. A marketplace. I... I guess that's something. I'll have to look at it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648980799994
+    },
+    {
+      "text": "I'm sorry I couldn't provide the resolution you were hoping for today. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767648985933327
+    },
+    {
+      "text": "No, that's all. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86156,
+      "start_timestamp_usec": 1767648993866660
+    }
+  ]
+}

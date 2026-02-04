@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "0ab2b5a7-dacf-4339-9cd4-143bf8dc1a13",
+    "agent_id": "202",
+    "agent_info": [
+      {
+        "agent_id": "202",
+        "display_name": "Linda"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "202",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Linda",
+      "agent_info": [
+        {
+          "agent_id": "202",
+          "display_name": "Linda"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "202",
+            "displayName": "Linda"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit customer support. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768957859000000
+    },
+    {
+      "text": "Thank you for holding. My name is Linda, and you've reached VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957868400000
+    },
+    {
+      "text": "Hi Linda. I need to process a return for some spin shoes I ordered.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19073,
+      "start_timestamp_usec": 1768957874866666
+    },
+    {
+      "text": "I can definitely look into that for you. Can I get your order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957879533332
+    },
+    {
+      "text": "Sure, it's VF-551290.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19073,
+      "start_timestamp_usec": 1768957884866665
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the order for the Spin Class Shoes, delivered on December 8th. You want to return those?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957886466665
+    },
+    {
+      "text": "Yes, that's correct.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19073,
+      "start_timestamp_usec": 1768957895599998
+    },
+    {
+      "text": "Okay, **no problem**. I see here you are still within the **90 days** for a return. I can go ahead and send you a **return label** right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957897133331
+    },
+    {
+      "text": "Oh, wonderful. I wasn't sure if it was too late. Thank you!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19073,
+      "start_timestamp_usec": 1768957906733331
+    },
+    {
+      "text": "You're very welcome. I've just emailed that label to you. Once we receive the item, you'll see a full refund in 3-5 business days. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957910866664
+    },
+    {
+      "text": "Nope, that was it. Thanks for making it so easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19073,
+      "start_timestamp_usec": 1768957921799997
+    },
+    {
+      "text": "It's my pleasure. Thank you for calling VeloFit. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1768957925199997
+    }
+  ]
+}

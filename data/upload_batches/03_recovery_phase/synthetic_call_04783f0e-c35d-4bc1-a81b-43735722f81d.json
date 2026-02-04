@@ -1,0 +1,119 @@
+{
+  "conversation_info": {
+    "conversation_id": "04783f0e-c35d-4bc1-a81b-43735722f81d",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768095215000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768095223266666
+    },
+    {
+      "text": "Yeah, I need to return a helmet. Order number is 774-B21. Just tell me if I can or not.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87956,
+      "start_timestamp_usec": 1768095229466666
+    },
+    {
+      "text": "Okay, let me just pull up that order for you... 774-B21. I see the helmet was delivered about 85 days ago. To make sure I'm helping correctly, could you tell me what specifically is the issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768095235466666
+    },
+    {
+      "text": "It's the wrong color. It's a simple preference issue. The box is unopened. Can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87956,
+      "start_timestamp_usec": 1768095248466666
+    },
+    {
+      "text": "I understand. And just to confirm, there are no concerns with the helmet's fit or any of its safety features, it's strictly about the color?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768095254733332
+    },
+    {
+      "text": "I haven't even taken it out. As I said, the box is unopened. It's the wrong color, that's it. Yes or no on the return, I have another call to make.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87956,
+      "start_timestamp_usec": 1768095264266665
+    },
+    {
+      "text": "Yes, I can absolutely process that for you. According to our policy, you have 90 days for a return on that item, and you are well within that window. I'm generating the return shipping label now and sending it to the email on file. You should receive it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768095274266665
+    },
+    {
+      "text": "Good. That's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87956,
+      "start_timestamp_usec": 1768095292999998
+    },
+    {
+      "text": "You're welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768095295666664
+    },
+    {
+      "text": "No. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87956,
+      "start_timestamp_usec": 1768095300333330
+    }
+  ]
+}

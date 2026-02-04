@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "b8193d58-64e1-4c5d-bbfc-2c0f5fc076f8",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Urban Commuter Helmet",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit Customer Support. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768683266000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683275400000
+    },
+    {
+      "text": "Hi David, I'm calling about an order I received last month. I'd like to start a return for a helmet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683280000000
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could I get your name and order number? And just to be clear, what specifically is the issue with the helmet? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683286866666
+    },
+    {
+      "text": "Sure, the name is Alex Chen, order number is VF88-1209. It\u2019s a preference issue. The color just isn't what I expected from the pictures online. To be honest, the box is still unopened since I knew right away it wasn't for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683301333332
+    },
+    {
+      "text": "Thank you, Alex. I've pulled up your order for the Urban Commuter Helmet. I see it was delivered 27 days ago. Let me just quickly review the return eligibility for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683316533332
+    },
+    {
+      "text": "Okay, thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683327933332
+    },
+    {
+      "text": "Alright, I've checked our policy. Since it's a standard item, you are unfortunately outside the 10-day return window. I cannot approve this return for a full refund. I'll email you a prepaid shipping label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683328999998
+    },
+    {
+      "text": "That's great, I appreciate it. Now, since I'm still a VeloFit customer and plan on buying a different model, would it be possible to get a small 10% discount code for the trouble of having to send this one back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683343599998
+    },
+    {
+      "text": "I'm happy I could get the return sorted for you. While I can't provide a discount code for a return based on color preference, you will receive a 100% refund for the item once it's returned. We take product returns seriously to ensure the highest safety standards for all our gear.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683357866664
+    },
+    {
+      "text": "I understand. It was worth asking. A full refund is fine. Please send over that label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683376799997
+    },
+    {
+      "text": "Of course. The email is on its way to your inbox now. Just print the label, attach it to the package, and drop it off at any UPS location. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683382733330
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, David.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50356,
+      "start_timestamp_usec": 1768683395599996
+    },
+    {
+      "text": "You're very welcome, Alex. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768683399399996
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "8dea5f49-ca05-4346-b862-0f17cadd9387",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1764689444000000
+    },
+    {
+      "text": "Thanks for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689452266666
+    },
+    {
+      "text": "I need to start a return. Order number 911-7B45.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84966,
+      "start_timestamp_usec": 1764689456666666
+    },
+    {
+      "text": "Okay, I can help with that. Let me pull up your order... I see it's for the Velo-Pro cycling shoes. So I can make the right notes, what was the issue with them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689460066666
+    },
+    {
+      "text": "They're unusable. I've tried adjusting the cleats, but they're giving me terrible blisters after every ride. I just want a refund. Is that possible, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84966,
+      "start_timestamp_usec": 1764689470933332
+    },
+    {
+      "text": "Yes, absolutely. I'm sorry to hear about the blisters. I see the delivery was 22 days ago, and our policy covers returns for up to 90 days. You're well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689481733332
+    },
+    {
+      "text": "Great. So you're processing the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84966,
+      "start_timestamp_usec": 1764689493533332
+    },
+    {
+      "text": "I've just approved the return in our system. I'm sending you a prepaid shipping label to your email on file now. Just pack the cycling shoes back in their box, attach the label, and drop it off. Once we receive it, the refund will be processed back to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689496333332
+    },
+    {
+      "text": "Got the email. Okay, thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84966,
+      "start_timestamp_usec": 1764689515266665
+    },
+    {
+      "text": "You're welcome. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689517333331
+    },
+    {
+      "text": "Nope, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84966,
+      "start_timestamp_usec": 1764689521599997
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1764689522866663
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "80cabb23-043d-4533-a927-e61fb975b001",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768344583000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344592600000
+    },
+    {
+      "text": "Hi Alex. I'm calling about an order I received last week. I'd like to start a return for the Aero Road Helmet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344597133333
+    },
+    {
+      "text": "I can certainly help you with that. Just to make sure I'm looking at the right details, could you please provide your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344604666666
+    },
+    {
+      "text": "Sure, it's VF886-01-9420.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344613599999
+    },
+    {
+      "text": "Thank you. I see the order for the Aero Road Helmet, delivered on January 7th. So I can process this correctly, could you tell me what specifically is the issue? Is it a technical fault or more of a personal preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344615466665
+    },
+    {
+      "text": "It's a preference thing. The online pictures made the color look like a matte graphite, but in person, it's much shinier than I expected. The box is still unopened, I haven't even taken it out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344630266665
+    },
+    {
+      "text": "I understand completely. Getting the right color is important. Since you received it just 6 days ago, you are well within our 90-day return window for this helmet. I can email you a prepaid return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344643333331
+    },
+    {
+      "text": "Okay, that's good. Now, I know it's a preference issue, but it's still an inconvenience to have to repackage this and drop it off. I'm a long-time customer, and I'll be ordering a different helmet from you right after this. Is there any way you could offer a small credit or a discount code for my trouble?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344657733331
+    },
+    {
+      "text": "I see your point. Let me check your account. It looks like you've been a VeloFit VIP for over three years, we definitely appreciate your loyalty. While our policy doesn't allow for credits on preference-based returns, what I can do for a valued customer like yourself is issue a 15% discount code that you can apply to your next order.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344678333331
+    },
+    {
+      "text": "A 15% discount code? Yes, that works perfectly. I can use that on the new helmet I was looking at. Thank you, I appreciate you doing that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344700866664
+    },
+    {
+      "text": "You're very welcome. We want to make sure you're happy with your gear. Getting the right fit and feel is critical for safety on the road. I've just sent the return label to the email on file, and your one-time 15% discount code is in that same email. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344710266664
+    },
+    {
+      "text": "Nope, that's everything. You've been a great help, Alex.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66765,
+      "start_timestamp_usec": 1768344730599997
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768344734533330
+    }
+  ]
+}

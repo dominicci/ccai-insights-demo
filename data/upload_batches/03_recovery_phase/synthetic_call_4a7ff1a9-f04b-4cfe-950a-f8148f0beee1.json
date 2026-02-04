@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "4a7ff1a9-f04b-4cfe-950a-f8148f0beee1",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "Aero Race Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768960367000000
+    },
+    {
+      "text": "Thanks for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960376200000
+    },
+    {
+      "text": "Hi... um, yes. I'm calling about an order. It's a jersey, the Aero Race one. I think I need to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960382333333
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand, what specifically is the issue with the jersey? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960389733333
+    },
+    {
+      "text": "Oh, a preference, I guess? I think I just got the wrong size. The website was a little overwhelming, and I'm not sure I picked right. It's just way too tight in the arms.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960400799999
+    },
+    {
+      "text": "Okay, I understand. 'Too tight' is definitely not the fit we're going for. Let me pull up your account. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960412333332
+    },
+    {
+      "text": "Sure, it's Alex Bell, order number VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960422466665
+    },
+    {
+      "text": "Thank you, Alex. I see the order here... purchased on December 12th. So you've had it for about 39 days. Let me just double-check our policy for that specific jersey.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960425599998
+    },
+    {
+      "text": "39 days? Oh, is that too long? I couldn't find the information anywhere. I'm so confused by all this. Can't you just help me? I just want to exchange it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960436866664
+    },
+    {
+      "text": "No need to worry, Alex. I've just confirmed it. For that standard jersey, you are unfortunately outside our 10-day return window. We can absolutely process an exchange for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960447266664
+    },
+    {
+      "text": "Oh, really? That's a relief! I was so worried I was stuck with a jersey that was the wrong size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960458533330
+    },
+    {
+      "text": "Not at all. I am processing the exchange for one size larger now. I've just sent a pre-paid return label to the email on file. Just print that out, attach it to your package, and drop it at any post office. Once we see it's on its way back, we'll ship out the new size.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960465133330
+    },
+    {
+      "text": "That's fantastic! Thank you so much, Charlie. You've been a huge help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960483266663
+    },
+    {
+      "text": "You're very welcome, Alex. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960488133329
+    },
+    {
+      "text": "No, that's everything. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22742,
+      "start_timestamp_usec": 1768960493533329
+    },
+    {
+      "text": "Alright. Have a great day and enjoy your new VeloFit gear once it arrives!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768960496133329
+    }
+  ]
+}

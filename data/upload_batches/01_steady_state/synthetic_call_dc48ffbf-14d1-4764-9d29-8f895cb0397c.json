@@ -1,0 +1,147 @@
+{
+  "conversation_info": {
+    "conversation_id": "dc48ffbf-14d1-4764-9d29-8f895cb0397c",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767038489000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038497266666
+    },
+    {
+      "text": "I need to return an item.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038503466666
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could I have your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038505333332
+    },
+    {
+      "text": "David Miller. The order is 772-B19.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038512466665
+    },
+    {
+      "text": "Thank you, Mr. Miller. I'm pulling up your order for the Aero Road Helmet now. So I can document this correctly, is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038514999998
+    },
+    {
+      "text": "The color is not what I expected. The box is unopened, of course.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038525799998
+    },
+    {
+      "text": "I understand completely. Sometimes the shade can look quite different in person. Let me just check the return eligibility for you... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038530333331
+    },
+    {
+      "text": "Okay, Mr. Miller, I see the delivery was 78 days ago. Our policy allows for returns up to 90 days, so you are well within the window. We can definitely process this for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038540133331
+    },
+    {
+      "text": "Fine. So what's next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038551866664
+    },
+    {
+      "text": "I will email a prepaid return label to you right now. For hygiene and rider safety reasons, we just have to confirm the helmet is completely unused and in its original packaging.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038553466664
+    },
+    {
+      "text": "I already told you the box is unopened. Whatever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038565533330
+    },
+    {
+      "text": "I appreciate you confirming that. And Mr. Miller, as a thank you for being one of our VIP customers, I've upgraded your return shipping to be expedited at no cost to you. Once we receive the item, you'll see a full refund within 3 to 5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038568999996
+    },
+    {
+      "text": "No. Just send the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10592,
+      "start_timestamp_usec": 1767038585866662
+    },
+    {
+      "text": "It's on its way to you now. Thank you for calling VeloFit, and have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767038587666662
+    }
+  ]
+}

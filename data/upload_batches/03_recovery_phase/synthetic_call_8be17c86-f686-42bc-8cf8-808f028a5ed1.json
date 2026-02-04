@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "8be17c86-f686-42bc-8cf8-808f028a5ed1",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded. To track an order, press one. For technical support, press two. For returns or exchanges, press three.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768340143000000
+    },
+    {
+      "text": "Three.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340153866666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768340154566666
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340157633332
+    },
+    {
+      "text": "I need to return the VeloBand Cadence Sensor. Order number is VF-882091.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340162766665
+    },
+    {
+      "text": "Okay, let me pull that up for you. VF-882091. I see it here. To make sure I get you to the right place, can I ask what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340167766665
+    },
+    {
+      "text": "Preference. I just need to know if I can return it or not. Yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340180899998
+    },
+    {
+      "text": "I understand, you want to get this sorted out quickly. Let me just check the delivery date here... I see it arrived 18 days ago. One moment while I review the policy for this specific item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340185699998
+    },
+    {
+      "text": "Look, is it too late or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340198499998
+    },
+    {
+      "text": "Not at all. I've confirmed it here. The VeloBand Cadence Sensor has a 90-day return window. Since you're only on day 18, you are well within the policy for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340200566664
+    },
+    {
+      "text": "Good. Send the shipping label to the email on file.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340212099997
+    },
+    {
+      "text": "Absolutely. I have just processed the return authorization. You'll receive an email with the pre-paid shipping label and instructions within the next five minutes. Once we receive the item, your refund will be issued. Can I help with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340215699997
+    },
+    {
+      "text": "No, that's everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60135,
+      "start_timestamp_usec": 1768340232833330
+    },
+    {
+      "text": "Great. Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768340234499996
+    }
+  ]
+}

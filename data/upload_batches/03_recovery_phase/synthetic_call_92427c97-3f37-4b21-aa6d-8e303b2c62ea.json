@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "92427c97-3f37-4b21-aa6d-8e303b2c62ea",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768571311000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571320600000
+    },
+    {
+      "text": "Yeah, I need to return something. A VeloBand.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571326800000
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could I have your name and the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571330000000
+    },
+    {
+      "text": "Maria Valdez. Order is VF-77491. Look, I know I'm probably outside the return window.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571336866666
+    },
+    {
+      "text": "Thank you, Maria. I have your account pulled up. Before we get to the timeline, can you tell me what specifically is the issue with the band? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571342733332
+    },
+    {
+      "text": "It's just not for me. There was a family emergency right after I got it, so I never even had a chance to deal with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571355999998
+    },
+    {
+      "text": "I understand. And I am sorry to hear that. Just so I can make a note, what was the nature of the delay?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571364066664
+    },
+    {
+      "text": "My husband had to have an unexpected surgery. He was in the hospital for weeks. Returning this wasn't exactly my top priority.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571371133330
+    },
+    {
+      "text": "Of course, that's completely understandable. I hope he is recovering well. Let me just check the policy against your delivery date here... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571379733330
+    },
+    {
+      "text": "Okay, I see it was delivered 32 days ago. Actually, you have nothing to worry about. Our policy allows for returns up to 90 days from the date of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571389933330
+    },
+    {
+      "text": "Oh. Really? I was expecting a fight. Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571400466663
+    },
+    {
+      "text": "No fight necessary, you're well within the timeframe. I've just processed the return authorization for you. I'm sending the email with the prepaid shipping label now. Do you see it in your inbox?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571403466663
+    },
+    {
+      "text": "Yeah, whatever. It just came through. So I just print this and send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571416666663
+    },
+    {
+      "text": "That's correct. Just attach it to the original packaging and drop it at any shipping center. Once our warehouse scans it in, you'll see a full refund to your original payment method within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571421933329
+    },
+    {
+      "text": "Fine. I guess that's that, then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571435933329
+    },
+    {
+      "text": "Yes, it is. Was there anything else I could help you with today, Maria?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571438266662
+    },
+    {
+      "text": "No. That's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41504,
+      "start_timestamp_usec": 1768571443199995
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and I wish your husband a speedy recovery. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768571444333328
+    }
+  ]
+}

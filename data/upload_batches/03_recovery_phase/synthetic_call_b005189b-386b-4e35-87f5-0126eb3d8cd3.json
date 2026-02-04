@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "b005189b-386b-4e35-87f5-0126eb3d8cd3",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768169792000000
+    },
+    {
+      "text": "Hi, you've reached VeloFit. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169800266666
+    },
+    {
+      "text": "I need to return something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169805133332
+    },
+    {
+      "text": "I can certainly help with that. To pull up your account, could I please have your name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169807133332
+    },
+    {
+      "text": "Jane Doe. Order number is VF98765.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169814266665
+    },
+    {
+      "text": "Thank you, Jane. I see your order here for the ProFit Jersey, delivered on January 4th. To start the process, could you tell me what specifically is the issue with the jersey? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169816733331
+    },
+    {
+      "text": "It's the wrong size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169832266664
+    },
+    {
+      "text": "Okay, I understand. So the fit isn't right? Is it perhaps too tight?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169833799997
+    },
+    {
+      "text": "Yes. It's too tight. It's not the size I thought it would be.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169838533330
+    },
+    {
+      "text": "Not a problem at all. Since you're well within our 90-day return policy for apparel, we can definitely get this sorted for you. Would you prefer a full refund, or would you like to do an exchange for a different size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169842799996
+    },
+    {
+      "text": "Fine. An exchange, I guess. It's just an annoying process.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169857466662
+    },
+    {
+      "text": "I understand, and I'll make this as simple as possible. I've just initiated the exchange for the ProFit Jersey in the next size up. I'm sending you an email right now with a pre-paid return label. You just need to package the original jersey and drop it off with the label attached.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169861533328
+    },
+    {
+      "text": "Whatever. When does the new one ship?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169880533328
+    },
+    {
+      "text": "As soon as the carrier scans your return package into their system, our warehouse gets an alert and ships your new size, typically within one business day. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169883199994
+    },
+    {
+      "text": "No. That's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41144,
+      "start_timestamp_usec": 1768169896399994
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768169897533327
+    }
+  ]
+}

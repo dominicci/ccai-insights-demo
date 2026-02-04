@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "edcf595d-3dc3-4898-a986-251e162a75e8",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "steady",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while I connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767028531000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028540133333
+    },
+    {
+      "text": "Hi, I need to return a helmet. Order number is VF-881-294. Yes or no, can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19041,
+      "start_timestamp_usec": 1767028546333333
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand, what specifically is the issue with the helmet? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028552266666
+    },
+    {
+      "text": "It's a preference. The box is unopened. The color isn't right. I don't have time for a long call, I just need a return label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19041,
+      "start_timestamp_usec": 1767028562799999
+    },
+    {
+      "text": "Okay, I understand. No problem. Let me just pull up your order details and confirm the return eligibility. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028571333332
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19041,
+      "start_timestamp_usec": 1767028579399998
+    },
+    {
+      "text": "Alright, I see the order was delivered 68 days ago. For that item, our policy allows for returns within 90 days. So, yes, you are eligible for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028580099998
+    },
+    {
+      "text": "Great. So you're sending the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19041,
+      "start_timestamp_usec": 1767028590766664
+    },
+    {
+      "text": "Absolutely. I've just processed the return authorization. You'll receive an email with the prepaid shipping label shortly. Of course, safety is our top priority, so we're happy to get you a product you're completely satisfied with.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028593299997
+    },
+    {
+      "text": "Okay. Thank you. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19041,
+      "start_timestamp_usec": 1767028608899997
+    },
+    {
+      "text": "You're welcome. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767028610499997
+    }
+  ]
+}

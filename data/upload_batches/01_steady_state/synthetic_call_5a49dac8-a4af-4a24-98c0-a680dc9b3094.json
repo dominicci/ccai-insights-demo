@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "5a49dac8-a4af-4a24-98c0-a680dc9b3094",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765122555000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122563266666
+    },
+    {
+      "text": "I need to return an item. Order number is VF-8675309. Can I do it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35541,
+      "start_timestamp_usec": 1765122567866666
+    },
+    {
+      "text": "I can certainly look into that for you. Just to be sure I'm helping correctly, what specifically is the issue with the item?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122572933332
+    },
+    {
+      "text": "It's a helmet. The color is completely wrong for my gear. Look, I don't have a lot of time for a back-and-forth. Can it be returned?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35541,
+      "start_timestamp_usec": 1765122581399998
+    },
+    {
+      "text": "I understand you're busy. Let me pull up that order now... Okay, I see the Pro-Grade Helmet, delivered 46 days ago. Is the item still in its original condition?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122590399998
+    },
+    {
+      "text": "Yes, the box is unopened. It hasn't even been looked at.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35541,
+      "start_timestamp_usec": 1765122601266664
+    },
+    {
+      "text": "Perfect. Since it's a standard item, you are well within our 90-day return window. I can approve this return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122605199997
+    },
+    {
+      "text": "Okay, good. So you're sending the return label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35541,
+      "start_timestamp_usec": 1765122613866663
+    },
+    {
+      "text": "Yes, I've just processed it. The label should be in your email inbox now. We take rider safety very seriously, so just make sure the helmet is packed securely to prevent any damage in transit. Once we receive it, you'll get a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122617199996
+    },
+    {
+      "text": "Got the email. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35541,
+      "start_timestamp_usec": 1765122633266662
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765122634933328
+    }
+  ]
+}

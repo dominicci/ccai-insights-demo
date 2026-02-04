@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "7076c73d-535a-4e23-a0b7-a64cfb031db3",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766080136000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080145200000
+    },
+    {
+      "text": "Hi, I need a return label for order 774-B-91. It's a helmet. Just tell me yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080151400000
+    },
+    {
+      "text": "I can certainly look into that return for you. To make sure I process this correctly, could you tell me what specifically is the issue with the helmet? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080157200000
+    },
+    {
+      "text": "It's the wrong color. It looked different online. The box is unopened, I haven't even touched it. I just need to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080170200000
+    },
+    {
+      "text": "Okay, thank you for clarifying. So it's a color preference, and not an issue with the product's safety features. Let me just pull up your order details... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080178800000
+    },
+    {
+      "text": "Right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080190066666
+    },
+    {
+      "text": "Alright, I see the order was delivered 25 days ago. That's no problem at all. Our policy allows for returns on standard items within 90 days, especially since the box is unopened.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080190766666
+    },
+    {
+      "text": "Okay, good. So you're sending the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080202899999
+    },
+    {
+      "text": "Yes. I have just approved the return and the system has sent a prepaid shipping label to the email address on your account. You should see it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080205766665
+    },
+    {
+      "text": "Got it. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080217033331
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1766080219633331
+    },
+    {
+      "text": "No. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 33384,
+      "start_timestamp_usec": 1766080224633331
+    }
+  ]
+}

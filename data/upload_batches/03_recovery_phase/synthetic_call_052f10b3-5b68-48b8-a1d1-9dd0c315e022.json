@@ -1,0 +1,175 @@
+{
+  "conversation_info": {
+    "conversation_id": "052f10b3-5b68-48b8-a1d1-9dd0c315e022",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769631115000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631123266666
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand Pulse I bought. It's a piece of garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631127799999
+    },
+    {
+      "text": "I'm very sorry to hear that you're not satisfied with your purchase. I can definitely look into this for you. Could I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631133133332
+    },
+    {
+      "text": "Mark Peterson. Order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631143799998
+    },
+    {
+      "text": "Thank you, Mark. I have your order pulled up here. I see you received the VeloBand Pulse 17 days ago. To best understand the situation, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631146799998
+    },
+    {
+      "text": "It's a technical fault. The heart rate monitor is wildly inaccurate. One minute it says I'm at 180 while I'm sitting down, the next it can't find a pulse at all. The thing is useless.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631161399998
+    },
+    {
+      "text": "I understand your frustration with that. Inconsistent readings can certainly be disruptive. Since you're describing a potential defect, our standard procedure is to connect you with our technical support team. They have the tools to troubleshoot the device or confirm a hardware failure.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631173799998
+    },
+    {
+      "text": "No. Absolutely not. I don't have time to sit on the phone with another department. I'm done with this product. I want a refund, not a lecture on how to turn it on and off again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631193133331
+    },
+    {
+      "text": "I hear you, Mark. However, for a return based on a defect, our policy does require that we verify the fault. Without troubleshooting, I can't confirm the issue in our system, which means we have to refer back to the standard return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631205133331
+    },
+    {
+      "text": "Fine. Whatever. Just process the refund. I'm well within the return period.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631221266664
+    },
+    {
+      "text": "This is where we have an issue I need to explain. According to our records, the item was delivered 17 days ago. The VeloBand Pulse, because it's a device that gets activated to a user account and is worn on the skin, has a strict 10-day return policy for a full refund. We are currently on day 17.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631226466664
+    },
+    {
+      "text": "Are you kidding me?! Ten days? That's predatory! This is unbelievable. It's clear you people sell defective garbage and then hide behind a ridiculous policy so you can just want money from your customers! I want my money back!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631246466664
+    },
+    {
+      "text": "I understand your frustration, but that 10-day policy is stated on the product page and in the terms at checkout. Because we are outside that window and you are declining the technical support path to verify the defect, my hands are tied. I cannot approve a refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631261733330
+    },
+    {
+      "text": "This is outrageous! I want to speak to a manager. Right now. You're not getting away with this. I'm going to leave reviews on every single website I can find about this scam.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631279599996
+    },
+    {
+      "text": "I can certainly put in a request for a supervisor to call you back. I do need to set the expectation that they will be referencing the same 10-day policy for the VeloBand Pulse. Would you still like me to proceed with the escalation?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631291399996
+    },
+    {
+      "text": "Yes! Get me someone who can actually do their job. I'm not letting this go.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631307133329
+    },
+    {
+      "text": "Of course. I have documented our conversation and submitted the request. A supervisor will reach out to you at the number on file within 24 hours. Is there anything else for today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769631312333329
+    },
+    {
+      "text": "No. Just have your manager call me. Useless.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76805,
+      "start_timestamp_usec": 1769631324533329
+    }
+  ]
+}

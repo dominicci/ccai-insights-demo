@@ -1,0 +1,175 @@
+{
+  "conversation_info": {
+    "conversation_id": "063e417b-a93a-4fac-af3e-37668938100f",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767629486000000
+    },
+    {
+      "text": "Hello, thank you for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629494266666
+    },
+    {
+      "text": "I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629501066666
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629502866666
+    },
+    {
+      "text": "VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629508066666
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the order for one VeloBand Pulse HR Monitor, delivered on December 21st. That puts us at 15 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629508999999
+    },
+    {
+      "text": "To help me find the best solution, can you tell me what specifically is the issue with the band? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629518999999
+    },
+    {
+      "text": "It's just not what I wanted. I'd like to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629529266665
+    },
+    {
+      "text": "I see. Looking at our policy for the VeloBand Pulse, it has a strict 10-day return window. We are a bit outside of that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629532866665
+    },
+    {
+      "text": "Of course you are. Ten days. It's almost like you don't want people to return things. I suppose I should have put this ahead of a family emergency.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629541733331
+    },
+    {
+      "text": "You mentioned an emergency? I'm very sorry to hear that. Could you elaborate a bit? We do have policies for extenuating circumstances, and I want to make sure I'm doing everything I can.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629551733331
+    },
+    {
+      "text": "My brother's deployment got moved up suddenly, and at the same time, my mother was in the hospital. It was all a mess. She had to have an unexpected surgery, so returning this wasn't exactly my priority.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629564333331
+    },
+    {
+      "text": "Thank you for sharing that with me. Please, I hope your mother is recovering well and that your brother is safe. That absolutely qualifies for a policy exception. I can authorize a full refund for you right now as a one-time courtesy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629578066664
+    },
+    {
+      "text": "Well, that's a surprise. A reasonable one. Fine, a refund is acceptable.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629593866664
+    },
+    {
+      "text": "I'm glad I could help resolve this. I've just processed that for you. You'll receive an email with a pre-paid return shipping label within the next hour. Once we receive the item, the refund will be issued to your original payment method in 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629598866664
+    },
+    {
+      "text": "Whatever. As long as it's handled. Thanks, I guess.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629616333330
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629619933330
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65283,
+      "start_timestamp_usec": 1767629624666663
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and I sincerely wish your family the very best.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767629625366663
+    }
+  ]
+}

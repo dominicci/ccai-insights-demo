@@ -1,0 +1,72 @@
+ConversationId,Transcript
+calib_001_fail,"[turn=1 | AGENT]: Thank you for calling VeloFit. How can I help?
+[turn=2 | CUSTOMER]: I need to return my VeloBand Pulse. I bought it 15 days ago.
+[turn=3 | AGENT]: No problem. Our standard return policy is 90 days, so you are good to go. I will send a label.
+[turn=4 | CUSTOMER]: Great, thanks.
+"
+calib_002_pass,"[turn=1 | AGENT]: Thank you for calling VeloFit. How can I help?
+[turn=2 | CUSTOMER]: I need to return my VeloBand Pulse. It has been 12 days.
+[turn=3 | AGENT]: I apologize, but for the VeloBand Pulse specifically, we have a strict 10-day return window. Since it has been 12 days, I cannot process a refund unless there is a verified defect.
+[turn=4 | CUSTOMER]: Oh, I see. That is disappointing.
+"
+calib_003_na,"[turn=1 | AGENT]: VeloFit Support, this is Alex.
+[turn=2 | CUSTOMER]: Hi, what time do you close today?
+[turn=3 | AGENT]: We are open until 9 PM EST.
+[turn=4 | CUSTOMER]: Perfect, thanks.
+[turn=5 | AGENT]: You are welcome. Have a good night.
+"
+calib_004_troubleshoot,"[turn=1 | AGENT]: VeloFit Support.
+[turn=2 | CUSTOMER]: My Pulse isn't syncing. It's broken.
+[turn=3 | AGENT]: I'm sorry to hear that. Before we discuss a return, can we try some troubleshooting? Sometimes a quick reset fixes the sync issue.
+[turn=4 | CUSTOMER]: I guess we can try.
+"
+calib_005_refusal,"[turn=1 | AGENT]: VeloFit Support.
+[turn=2 | CUSTOMER]: My Pulse is broken. I want money back.
+[turn=3 | AGENT]: Okay, I will process that refund immediately for you.
+[turn=4 | CUSTOMER]: Thanks.
+"
+calib_pass_gen_0,"[turn=1 | AGENT]: Support here.
+[turn=2 | CUSTOMER]: Return my Pulse please. 12 days old.
+[turn=3 | AGENT]: I am sorry, but the Pulse has a strict 10-day return window. I cannot do that."
+calib_fail_gen_1,"[turn=1 | AGENT]: VeloFit Support.
+[turn=2 | CUSTOMER]: I need to return my Pulse. It has been 15 days.
+[turn=3 | AGENT]: No problem, you have 90 days. I will process that."
+calib_fail_gen_2,"[turn=1 | AGENT]: Hi there.
+[turn=2 | CUSTOMER]: Returning my VeloBand Pulse.
+[turn=3 | AGENT]: I can help. Our standard policy is 3 months, so you are fine."
+calib_na_gen_3,"[turn=1 | AGENT]: Hi.
+[turn=2 | CUSTOMER]: Do you sell bike pumps?
+[turn=3 | AGENT]: Yes we do."
+calib_pass_gen_4,"[turn=1 | AGENT]: Hello.
+[turn=2 | CUSTOMER]: Start a return for VeloBand Pulse.
+[turn=3 | AGENT]: Please note the VeloBand Pulse has a specific 10-day policy, unlike our other items."
+calib_fail_gen_5,"[turn=1 | AGENT]: Hello.
+[turn=2 | CUSTOMER]: My Pulse is broken. Can I return it?
+[turn=3 | AGENT]: Sure, send it back. We have a 90 day window."
+calib_fail_gen_6,"[turn=1 | AGENT]: Hi there.
+[turn=2 | CUSTOMER]: Returning my VeloBand Pulse.
+[turn=3 | AGENT]: I can help. Our standard policy is 3 months, so you are fine."
+calib_pass_gen_7,"[turn=1 | AGENT]: Hello.
+[turn=2 | CUSTOMER]: Start a return for VeloBand Pulse.
+[turn=3 | AGENT]: Please note the VeloBand Pulse has a specific 10-day policy, unlike our other items."
+calib_na_gen_8,"[turn=1 | AGENT]: Hi.
+[turn=2 | CUSTOMER]: Do you sell bike pumps?
+[turn=3 | AGENT]: Yes we do."
+calib_na_gen_9,"[turn=1 | AGENT]: Hello.
+[turn=2 | CUSTOMER]: Where is my order?
+[turn=3 | AGENT]: It is shipping tomorrow."
+calib_na_gen_10,"[turn=1 | AGENT]: Support.
+[turn=2 | CUSTOMER]: I forgot my password.
+[turn=3 | AGENT]: I can reset that."
+calib_na_gen_11,"[turn=1 | AGENT]: Hello.
+[turn=2 | CUSTOMER]: Where is my order?
+[turn=3 | AGENT]: It is shipping tomorrow."
+calib_pass_gen_12,"[turn=1 | AGENT]: VeloFit.
+[turn=2 | CUSTOMER]: Can I return this Pulse?
+[turn=3 | AGENT]: Only if it is within the 10-day window. When did you buy it?"
+calib_fail_gen_13,"[turn=1 | AGENT]: VeloFit Support.
+[turn=2 | CUSTOMER]: I need to return my Pulse. It has been 15 days.
+[turn=3 | AGENT]: No problem, you have 90 days. I will process that."
+calib_pass_gen_14,"[turn=1 | AGENT]: VeloFit.
+[turn=2 | CUSTOMER]: Can I return this Pulse?
+[turn=3 | AGENT]: Only if it is within the 10-day window. When did you buy it?"

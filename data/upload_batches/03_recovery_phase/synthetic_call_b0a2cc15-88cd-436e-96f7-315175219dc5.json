@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "b0a2cc15-88cd-436e-96f7-315175219dc5",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while I connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769614028000000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614037133333
+    },
+    {
+      "text": "I need to return something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614042733333
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614044733333
+    },
+    {
+      "text": "VF0982-5514.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614049933333
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order for the TrailGuard Pro helmet. Just so I can document this correctly, what specifically is the issue with the helmet? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614050933333
+    },
+    {
+      "text": "The color is just not what I expected. It's hideous.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614065333333
+    },
+    {
+      "text": "I understand. I'm pulling up the details now. I see this was delivered 47 days ago. Has the item been used at all?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614068999999
+    },
+    {
+      "text": "No. The box is unopened. Obviously.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614076799999
+    },
+    {
+      "text": "Okay, thank you for confirming. I'm just checking our policy... and yes, you are unfortunately outside the 10-day return window for this item. I can go ahead and process that return for you. We definitely want you to be happy with your gear; getting the right equipment is a key part of your safety on the trail.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614079333332
+    },
+    {
+      "text": "Fine. Just send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614099666665
+    },
+    {
+      "text": "Of course. I've just initiated the return and sent a prepaid shipping label to the email address on file. Just print it out, attach it to the package, and drop it off at any UPS location. Once we receive it, you can expect a full refund in 3-5 business days. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614101799998
+    },
+    {
+      "text": "Whatever. No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81540,
+      "start_timestamp_usec": 1769614121866664
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769614122933330
+    }
+  ]
+}

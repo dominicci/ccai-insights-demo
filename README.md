@@ -1,55 +1,47 @@
-# CCAI Synthetic Data Generator
+# CCAI Synthetic Data Generator (VeloFit Edition)
 
 A toolkit for generating high-quality synthetic contact center transcripts (JSON) to demonstrate Google Cloud CCAI Insights features like Topic Modeling, Smart Highlights, and Quality AI.
 
-## Key Features
+This project simulates **VeloFit**, a fictional fitness wearable company, generating realistic customer service calls including "Happy Path" returns, policy disputes, and complex multi-agent escalations.
 
--   **Valid CCAI JSON Schema**: Produces files that are strictly compliant with Google Cloud CCAI Insights ingestion requirements.
--   **Realistic Workforce Simulation**: Assigns consistent Agent IDs from a predefined pool and generates unique Customer IDs for every call.
--   **Keyword Injection**: Naturally integrates specific keywords (e.g., "tracking number", "cancel subscription") into dialogues to trigger Topic Models.
--   **Variable Outcomes**: Simulates realistic call friction with a 90% Resolved / 10% Unresolved split.
--   **Multi-Agent Transfers**: Supports complex scenarios where calls are transferred from Tier 1 to Tier 2 agents or supervisors (e.g., Agent 201 -> Agent 205).
+## 🚀 Quick Start
 
-## Usage Guide
-
-### 1. Generate Synthetic Data
-Run the generator script to create a batch of synthetic JSON transcripts. You can specify the number of files and the output directory.
-
+**1. Setup Environment**
 ```bash
-# Generate 100 synthetic transcripts
-# Defaults to data/synthetic_transcripts
-python src/generate_synthetic_ccai_data.py --count 100 
+export GOOGLE_API_KEY="your-key"
 ```
 
-*Note: Requires `OPENAI_API_KEY` or `GOOGLE_API_KEY` to be set in your environment.*
-
-### 2. Process & Ingest
-The `process_transcripts.py` script handles the ingestion pipeline. It automatically detects if files are valid CCAI JSON (pass-through) or need segmentation (CSV processing), and uploads them to Google Cloud Storage.
-
+**2. Run Generator**
 ```bash
-# Defaults source to data/synthetic_transcripts
-python src/process_transcripts.py --output_dir data/processed_output
+# Generates 10 synthetic calls
+uv run python -m src.synth_data.main --count 10
 ```
 
-## Google Cloud CCAI Insights Limits
+**3. Check Output**
+Files will be generated in `data/synthetic_transcripts/`.
 
-When planning your data pipeline and ingestion strategy, be aware of the following platform limits:
+---
 
-### Ingestion Limits
--   **Import Rate**: The quickstart method allows up to **18,000 conversations per hour**.
--   **Bulk Import**: Batch limit of **10,000 conversations per JSON file** when importing from Cloud Storage.
+## 📂 Project Structure
 
-### Audio & Text Constraints
--   **Async Audio**: Maximum duration of **480 minutes (8 hours)** per file.
--   **Telephony**: Maximum call duration of **3.5 hours**.
--   **Chat**: 
-    -   Dialogflow responses are capped at **4,000 characters**.
-    -   Intent detection input is capped at **256 characters**.
+*   `src/synth_data/`: **Core Package**. Contains the modularized generation logic.
+    *   `main.py`: Entry point.
+    *   `config.py`: Profiles, personas, and product data.
+    *   `generators.py`: Prompt engineering and LLM iteration.
+*   `src/ops/`: Operational utilities (splitting files, data enrichment).
+*   `src/validation/`: Schemes validation scripts.
+*   `src/reporting/`: Dashboard and stats generation.
+*   `src/legacy/`: Deprecated scripts (e.g., Generic profile).
 
-### Feature Quotas
--   **Quality AI**: Scorecards can evaluate a maximum of **50 questions per conversation**.
--   **Topic Modeling**: Requires a technical minimum of **100 conversations** to train (though **1,000+** is recommended for best results).
+## 📖 Documentation
 
-## Future Roadmap
+*   [**PROCESS.md**](PROCESS.md): Detailed **Order of Execution** and workflow guide.
+*   [**SETUP_GUIDE.md**](docs/SETUP_GUIDE.md): Manual configuration steps for Google Cloud Console.
+*   [**VELOFIT_SIMULATION.md**](docs/VELOFIT_SIMULATION.md): Details on the simulation logic (Time-phased error rates, personas).
 
--   **BigQuery Streaming**: Investigate streaming export to BigQuery to handle datasets larger than the standard UI export limits.
+## ✨ Key Features
+
+*   **Valid CCAI JSON**: Strictly compliant with Google Cloud ingestion formats.
+*   **Time-Phased Logic**: Simulates "Steady State", "Launch Chaos", and "Learning Curve" phases based on call dates.
+*   **Dynamic Personas**: Agents and Customers behave according to specific personas (e.g., "Aggressive Customer", "Rookie Agent").
+*   **Escalation Simulation**: Automates realistic transfers from Tier 1 agents to Supervisors.

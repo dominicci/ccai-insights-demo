@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "cc64f9ca-5d30-4fad-bbb9-6416d9bce5fb",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "Aero Race Jersey",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Sales', 'Support', or 'Returns' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768862387000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862398066666
+    },
+    {
+      "text": "Connecting you to a Returns Specialist now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768862398799999
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862401866665
+    },
+    {
+      "text": "I need to return something. Order number is VF88761.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862406999998
+    },
+    {
+      "text": "Okay, let me pull up that order. One moment... I see the Aero Race Jersey delivered on January 10th. I can certainly look into a return for you. To get started, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862410666664
+    },
+    {
+      "text": "It's the wrong size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862427599997
+    },
+    {
+      "text": "I see. So the jersey is otherwise in good condition, it just doesn't fit as expected?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862429133330
+    },
+    {
+      "text": "It's way too tight. It's useless to me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862434999996
+    },
+    {
+      "text": "I understand, fit is incredibly important for performance wear. Since it's a sizing issue and the item was delivered just 9 days ago, you are well within our 90-day return window for apparel. We can definitely process this for you. Would you prefer a full refund, or would you like to exchange it for a different size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862437799996
+    },
+    {
+      "text": "An exchange, I guess. Whatever's fastest.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862459199996
+    },
+    {
+      "text": "An exchange is a great option. I can set that up for you right now. I'll email you a prepaid shipping label to send back the original jersey. As soon as the carrier scans it, we'll ship out the new one. What size would you like to exchange it for?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862462133329
+    },
+    {
+      "text": "A large. Hopefully your sizing chart isn't completely imaginary for that one.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862478799995
+    },
+    {
+      "text": "Noted. I have processed the exchange for a size Large. The return label is on its way to your email on file. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862484133328
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 62990,
+      "start_timestamp_usec": 1768862494599994
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit. We'll get that new jersey out to you shortly. Have a good afternoon.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768862495299994
+    }
+  ]
+}

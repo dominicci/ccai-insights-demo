@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "9b861f56-f4d8-4b50-b49a-cedec5bcd192",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768345123000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345131266666
+    },
+    {
+      "text": "Hi Sarah... I think I need to return something. It's the VeloBand Cadence Sensor. I'm just so lost with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345135866666
+    },
+    {
+      "text": "I can certainly look into that for you. To start, could you please provide your order number? And just to be clear, is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345143199999
+    },
+    {
+      "text": "The order number is VF789-012. It's not broken, I don't think. It just feels very **hard to use**. I feel a bit overwhelmed, honestly.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345154733332
+    },
+    {
+      "text": "I see, thank you for clarifying that. What specifically about it is giving you trouble?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345163866665
+    },
+    {
+      "text": "Everything? The whole interface is so **confusing**. I read the **user manual**, and I really tried, but I guess I just **expected more** from it, you know? Something more intuitive. Can't you just help me? I just want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345169866665
+    },
+    {
+      "text": "Of course, I understand completely. Let me just check the return eligibility for you. Okay, I see here you received the item 15 days ago on December 29th. Our policy allows for returns within 90 days, so you are well within the window. I can go ahead and process that return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345185733331
+    },
+    {
+      "text": "Oh! Really? That's such a relief. Thank you so much, Sarah. I was so worried it would be a problem.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345205466664
+    },
+    {
+      "text": "You're very welcome. I've just initiated the return. You'll receive an email with a pre-paid shipping label and instructions within the next 15 minutes. Just package the VeloBand back in its original box and drop it off at any designated shipping center.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345212266664
+    },
+    {
+      "text": "That's perfect. Thank you again for making that so easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345229399997
+    },
+    {
+      "text": "It's my pleasure. Was there anything else I could assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345233333330
+    },
+    {
+      "text": "No, that's everything. Have a great day!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37688,
+      "start_timestamp_usec": 1768345238333330
+    },
+    {
+      "text": "You too. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768345241199996
+    }
+  ]
+}

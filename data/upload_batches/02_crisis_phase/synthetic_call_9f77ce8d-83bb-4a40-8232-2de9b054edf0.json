@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "9f77ce8d-83bb-4a40-8232-2de9b054edf0",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767828579000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828588600000
+    },
+    {
+      "text": "Hi, I need to return this VeloBand Cadence Sensor. It's not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828593333333
+    },
+    {
+      "text": "I can certainly look into that for you. Can you tell me, what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828598066666
+    },
+    {
+      "text": "It's a technical fault. It just won't sync with the app. I've tried everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828607799999
+    },
+    {
+      "text": "Okay, I understand. And you're saying it's completely unresponsive when you try to pair it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828613266665
+    },
+    {
+      "text": "Yes. It's broken. I just want to return this defective item.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828619533331
+    },
+    {
+      "text": "I appreciate you clarifying that. Let me pull up your order details to check the return eligibility. One moment, please... Okay, I see the order here. It was delivered on December 15th, so about 23 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828623733331
+    },
+    {
+      "text": "And?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828637733331
+    },
+    {
+      "text": "Just checking our policy. Alright, it looks like you are well within the 90-day return window for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828638433331
+    },
+    {
+      "text": "Fine. So you'll take it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828646099997
+    },
+    {
+      "text": "Yes, absolutely. I've just initiated the return process for you. I'm sending a prepaid shipping label to the email address on file right now. You should receive it in the next few minutes. Just print it out, attach it to the original box, and drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828648233330
+    },
+    {
+      "text": "Whatever. I'll get the email then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828666699996
+    },
+    {
+      "text": "Yes, it's on its way. Once we receive the defective unit back at our warehouse, we'll process your full refund. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828669166662
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87324,
+      "start_timestamp_usec": 1767828680099995
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767828681233328
+    }
+  ]
+}

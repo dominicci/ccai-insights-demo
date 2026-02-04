@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "feb1baf5-7f6b-432b-aa59-7506676e8ff5",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767547836000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547845600000
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand Pulse. It's a piece of junk.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547850333333
+    },
+    {
+      "text": "I'm sorry to hear you're not satisfied with your VeloBand Pulse. I can certainly look into that for you. To best help, could you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547854866666
+    },
+    {
+      "text": "It's a technical fault! This thing is absolute garbage. The heart rate is either 50 or 180, there's no in-between. Look, I don't have time to play games with it. I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547869533332
+    },
+    {
+      "text": "I understand your frustration completely. Since it sounds like a potential defect, our standard process is to connect you with our Technical Support team. They can help verify the issue and...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547882266665
+    },
+    {
+      "text": "No! I'm not being passed around to another department. I don't want support, I don't want a replacement. I want a refund! Are you going to process my refund or do I need to speak to your manager and light up your company on Twitter?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547895266665
+    },
+    {
+      "text": "Okay, no, that won't be necessary. I understand you're upset. Let me just pull up your order and review the return eligibility for you. One moment, please.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547910933331
+    },
+    {
+      "text": "Alright, thank you for your patience. I'm looking at your order now... it shows it was delivered 20 days ago. And let me just check our policy... okay, I see here that items are eligible for return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547921466664
+    },
+    {
+      "text": "So you can do it then? Just give me the refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547936666664
+    },
+    {
+      "text": "Yes, since you're well within the 90-day window, I can go ahead and authorize that return for a full refund for you. I am sending a pre-paid return label to the email on file right now. You should see it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547939999997
+    },
+    {
+      "text": "Fine. About time. Just make sure the email comes through.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547955399997
+    },
+    {
+      "text": "It has been sent. Once we receive the band back at our warehouse, your refund will be processed. Was there anything else I could assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767547959399997
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87977,
+      "start_timestamp_usec": 1767547968999997
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "0d85441b-8c28-4dd3-9795-e0df8e789946",
+    "agent_id": "202",
+    "agent_info": [
+      {
+        "agent_id": "202",
+        "display_name": "Linda"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "202",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Linda",
+      "agent_info": [
+        {
+          "agent_id": "202",
+          "display_name": "Linda"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "202",
+            "displayName": "Linda"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769112819000000
+    },
+    {
+      "text": "Hi, I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112827266666
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit, my name is Linda. I can certainly help you with that. Could I please get your name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112829333332
+    },
+    {
+      "text": "Yes, it's Maria Garcia, order number VF880215.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112838733332
+    },
+    {
+      "text": "Thank you, Maria. One moment while I pull that up... Okay, I see the order for the VeloBand Cadence Sensor. You'd like to start a return for that?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112841999998
+    },
+    {
+      "text": "That's right. It just isn't what I expected.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112851933331
+    },
+    {
+      "text": "I understand. I'm looking at the delivery date, and it looks like you're well within the return window. Our policy covers you for **90 days**, so processing this is **no problem** at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112855066664
+    },
+    {
+      "text": "Oh, that's great! I wasn't sure if it had been too long.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112867733330
+    },
+    {
+      "text": "Not at all. I've just processed the request. I'm emailing you a prepaid **return label** right now. Just pack the item back in its box, attach the label, and you can drop it off with the post.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112871666663
+    },
+    {
+      "text": "Wow, that was easy. So a full refund will be processed?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112884666663
+    },
+    {
+      "text": "Yes, as soon as our warehouse scans the item, a full refund will be issued back to your card. Can I help with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112888533329
+    },
+    {
+      "text": "No, that's perfect. Thanks for your help, Linda.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 64280,
+      "start_timestamp_usec": 1769112897399995
+    },
+    {
+      "text": "You're very welcome, Maria. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769112900799995
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "f78b4907-6584-4b39-b782-feb2d00c30a0",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767055457000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055466600000
+    },
+    {
+      "text": "Hi... um, I hope you can help. I bought some shoes a while back and I... I think I need to return them. The website was so confusing, I couldn't figure it out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82856,
+      "start_timestamp_usec": 1767055471200000
+    },
+    {
+      "text": "I can certainly look into that for you. To start, could you tell me what specifically is the issue with the cycling shoes? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055482000000
+    },
+    {
+      "text": "Oh, I don't know. They just... hurt. Every time I ride, I get terrible blisters on my heels. I tried adjusting the cleats like the instructions said, but it didn't help. I just don't think they're right for my feet. I'm so lost with this stuff. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82856,
+      "start_timestamp_usec": 1767055494000000
+    },
+    {
+      "text": "Of course. I understand it can be frustrating when gear doesn't feel right. Let me pull up your order. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055512066666
+    },
+    {
+      "text": "I think so... hold on. Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82856,
+      "start_timestamp_usec": 1767055521466666
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order for the Velo-Clinch cycling shoes, delivered about 80 days ago. Let me just check our current policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055524599999
+    },
+    {
+      "text": "Alright, I've confirmed it. Since the item is a standard product, it falls within our 90-day return window. You are definitely eligible for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055534666665
+    },
+    {
+      "text": "Oh, really? That's... that's a huge relief! I was so worried I was stuck with them. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82856,
+      "start_timestamp_usec": 1767055545133331
+    },
+    {
+      "text": "You're very welcome. I'm emailing you a pre-paid return label right now. Just print it out, attach it to the original box, and drop it off at any post office. Once we receive the shoes, we'll process your refund. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055551599997
+    },
+    {
+      "text": "No, that's everything. You've been a great help, Sarah. Thank you so much.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82856,
+      "start_timestamp_usec": 1767055569399997
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767055574533330
+    }
+  ]
+}

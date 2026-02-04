@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "8f2d1d5e-264f-4a5d-b10e-32ac07c7e3b9",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768180127000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180135266666
+    },
+    {
+      "text": "Hi, I need to return a VeloBand Pulse. Order number is 8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180139866666
+    },
+    {
+      "text": "Okay, I can certainly look into that for you. Let me just pull up that order. One moment... Okay, I have it here. To make sure I understand, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180144266666
+    },
+    {
+      "text": "It's neither. I don't have time for a long back-and-forth. There was a family emergency. I just need a yes or no: can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180159199999
+    },
+    {
+      "text": "I understand you're looking for a quick answer. I do need a bit more context to see what's possible. The return window can be strict.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180168066665
+    },
+    {
+      "text": "Fine. My partner was scheduled for a military deployment, but it was moved up after a medical issue required immediate surgery. I was at the hospital for the last three weeks dealing with that whole emergency. The band is still in the box. ",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180177133331
+    },
+    {
+      "text": "I'm very sorry to hear that. I hope everything is okay now. Thank you for that information. Let me check the purchase date and review the policy for you. I see you received the VeloBand Pulse 27 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180193333331
+    },
+    {
+      "text": "Right. So, what's the verdict?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180207133331
+    },
+    {
+      "text": "Good news. According to our system, all our items have a 90-day return window. Since it's only been 27 days, you are well within the timeframe for a full refund. No exception needed.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180209333331
+    },
+    {
+      "text": "Oh. Great. That's a relief. What do I need to do?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180221666664
+    },
+    {
+      "text": "I can process that for you right now. And given the situation with your partner's surgery and upcoming deployment, and since I see you're a VIP member with us, I'm going to email you a pre-paid express return label. I've also gone ahead and added a $50 store credit to your VeloFit account for any inconvenience. You can expect the full refund to your original payment method as soon as the carrier scans the return package.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180225133330
+    },
+    {
+      "text": "Wow, okay. That's... very efficient. Thank you, Sarah. I appreciate it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180253599996
+    },
+    {
+      "text": "You're very welcome. The email with the label is on its way. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180258533329
+    },
+    {
+      "text": "No, that's everything. Thanks again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 91454,
+      "start_timestamp_usec": 1768180266199995
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and I wish your partner a speedy recovery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768180268799995
+    }
+  ]
+}

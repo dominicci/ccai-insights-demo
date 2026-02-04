@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "cbcb1837-e19b-4ebe-8f27-d669551bce4f",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Marketplace Pivot)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768782736000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782745200000
+    },
+    {
+      "text": "I need to return a VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782749800000
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782752266666
+    },
+    {
+      "text": "Sarah Jenkins. The order is VF55801.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782758199999
+    },
+    {
+      "text": "Thank you, Sarah. I see the order here. Just to understand the situation better, what specifically is the issue with the band? Is it a technical fault or more of a preference matter?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782760799999
+    },
+    {
+      "text": "It works. I just changed my mind.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782773133332
+    },
+    {
+      "text": "Okay, so you're just not finding it to be the right fit for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782775533332
+    },
+    {
+      "text": "It was an impulse buy. I just don't use it. I want to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782779999998
+    },
+    {
+      "text": "I understand completely. Let me just pull up our policy for you. One moment... Okay, I see you received the item 18 days ago. You're well within our 90-day return window, so I can go ahead and approve that return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782784466664
+    },
+    {
+      "text": "Fine. So what happens now?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782800066664
+    },
+    {
+      "text": "I've just initiated the return in our system. You'll receive an email with a prepaid shipping label and instructions within the next 15 minutes. Just package the VeloBand back in its original box, attach the label, and drop it off at any post office. Once we receive it, your refund will be processed back to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782801999997
+    },
+    {
+      "text": "Whatever. Just send the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782824733330
+    },
+    {
+      "text": "It's on its way. Was there anything else I could assist you with today, Sarah?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782826933330
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 27989,
+      "start_timestamp_usec": 1768782832333330
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768782833033330
+    }
+  ]
+}

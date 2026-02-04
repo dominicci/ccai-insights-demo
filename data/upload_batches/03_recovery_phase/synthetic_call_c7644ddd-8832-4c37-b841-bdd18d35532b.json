@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "c7644ddd-8832-4c37-b841-bdd18d35532b",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769179169000000
+    },
+    {
+      "text": "Thank you for holding. My name is Bob. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179177266666
+    },
+    {
+      "text": "Hi, I'd like to start a return for a VeloBand I purchased.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41240,
+      "start_timestamp_usec": 1769179181733332
+    },
+    {
+      "text": "I can certainly help you with that. Can I get your name and order number to pull up your account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179185799998
+    },
+    {
+      "text": "Sure, the name is Sarah Miller, and the order number is VF8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41240,
+      "start_timestamp_usec": 1769179192466664
+    },
+    {
+      "text": "Thank you, Sarah. One moment... Okay, I see your order for the VeloBand GPS Tracker. Just to confirm, you'd like to return this item?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179197066664
+    },
+    {
+      "text": "Yes, that's correct.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41240,
+      "start_timestamp_usec": 1769179206133330
+    },
+    {
+      "text": "Okay, let's see here. It looks like your order was delivered 39 days ago. You are well within the 90 days we allow for returns, so that is no problem at all. I can go ahead and email you a prepaid return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179207666663
+    },
+    {
+      "text": "Oh, that's great! I wasn't sure if I had missed the window. Thank you so much.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41240,
+      "start_timestamp_usec": 1769179222533329
+    },
+    {
+      "text": "You're very welcome. The email with the return label has been sent. Just print it out, attach it to the box, and drop it off. Once we receive it, your refund will be processed. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179227933329
+    },
+    {
+      "text": "Nope, that's perfect. Thanks again, Bob.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 41240,
+      "start_timestamp_usec": 1769179241933329
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769179244799995
+    }
+  ]
+}

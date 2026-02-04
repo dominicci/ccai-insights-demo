@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "33fc74fb-0aa0-40b3-bdcc-47d965121e72",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit support. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768752588000000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752596800000
+    },
+    {
+      "text": "Hi, I need to return something. It's the... the VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752602400000
+    },
+    {
+      "text": "Okay, I can look into that for you. To understand the situation better, what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752606800000
+    },
+    {
+      "text": "It's a fault. The thing is basically garbage, it doesn't track my stats correctly at all. I just want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752617533333
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble with it. I can definitely help with that. Let's try to figure out what's going on. Can you tell me a bit more about the tracking inaccuracies you're seeing? We can likely fix it over the phone.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752625133333
+    },
+    {
+      "text": "No, I really don't have time for a whole technical thing. It's broken. I just want my money back. I don't want to play twenty questions, I just want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752641199999
+    },
+    {
+      "text": "I understand you're frustrated and want a quick solution. I just need to pull up your order information. Can I get your full name or order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752652399999
+    },
+    {
+      "text": "Sure, the name is Mark Peterson.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752662333332
+    },
+    {
+      "text": "Thank you, Mark. Let me see... okay, I have your order. I see you received the VeloBand Pulse 15 days ago, on January 3rd.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752664666665
+    },
+    {
+      "text": "Yes, that sounds right. So, can you process the return?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752672999998
+    },
+    {
+      "text": "Well, for the VeloBand Pulse specifically, our policy for returns is a strict 10-day window. This is because once the device is activated, it permanently links to a user's health account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752676866664
+    },
+    {
+      "text": "What? 10 days? I... I didn't see that anywhere. I thought it was 90 days or something. I'm so confused. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752689533330
+    },
+    {
+      "text": "I understand the confusion. The 10-day window is for preference-based returns. For a defect claim like yours, we can absolutely make an exception, but first we have to verify the fault. That's why I was suggesting some quick troubleshooting steps.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752698199996
+    },
+    {
+      "text": "But I told you, I don't have time for that. Why is this so complicated? I have a piece of garbage that doesn't work, and you won't take it back. I just want money for the item I can't use.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752714866662
+    },
+    {
+      "text": "I do want to help you. The only path to a refund at this point is by confirming a hardware defect. Without that verification, my system defaults to the 10-day policy, which has passed. If you'll allow me to transfer you to our technical support team, they can verify the issue and authorize the return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752727599995
+    },
+    {
+      "text": "Another department? I don't want to be transferred. I'm already overwhelmed. It feels like you're just trying to make it difficult so I'll give up. I just want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752748466661
+    },
+    {
+      "text": "I'm sorry it feels that way, Mark, but that's not the case. My hands are simply tied by the policy for this specific device. Since we're on day 15 and you're declining the mandatory step of technical verification, I am unable to process a return for you. The offer to transfer you to tech support to get this resolved still stands.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768752759933327
+    },
+    {
+      "text": "Unbelievable. This is just... I don't even know what to say. Forget it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34035,
+      "start_timestamp_usec": 1768752782199993
+    }
+  ]
+}

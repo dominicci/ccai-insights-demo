@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "d99f1b6f-a6ac-4959-977f-2fd79fa57441",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767620332000000
+    },
+    {
+      "text": "Hi, you're speaking with Diana at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620341600000
+    },
+    {
+      "text": "My VeloBand Pulse is broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19314,
+      "start_timestamp_usec": 1767620346333333
+    },
+    {
+      "text": "Oh, I'm certainly sorry to hear that. To make sure I understand, what specifically is the issue with the band? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620348399999
+    },
+    {
+      "text": "It's not working. It won't sync with the app, so it's useless.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19314,
+      "start_timestamp_usec": 1767620359066665
+    },
+    {
+      "text": "I see. So it sounds like the device is completely defective and won't connect at all. I understand how frustrating that would be. Let me just pull up your order information to see how we can resolve this.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620363399998
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19314,
+      "start_timestamp_usec": 1767620377199998
+    },
+    {
+      "text": "Okay, I have your account open. I see the VeloBand Pulse was delivered to you 21 days ago. Let me just check our policy...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620377899998
+    },
+    {
+      "text": "Alright, thank you for waiting. My system shows that VeloFit items are eligible for a return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620386233331
+    },
+    {
+      "text": "Since you're well within that 90-day window and you're saying the item is defective, I can absolutely process a full refund for you. I'll go ahead and email you a pre-paid shipping label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620394433331
+    },
+    {
+      "text": "Oh. Okay, whatever. That's fine, I guess.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19314,
+      "start_timestamp_usec": 1767620407766664
+    },
+    {
+      "text": "Perfect. You should receive that email within the next 5-10 minutes. Just print it out, attach it to the original box, and drop it off at any post office. Once our warehouse receives the broken unit, your refund will be issued. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620410699997
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19314,
+      "start_timestamp_usec": 1767620428099997
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit. Have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767620428799997
+    }
+  ]
+}

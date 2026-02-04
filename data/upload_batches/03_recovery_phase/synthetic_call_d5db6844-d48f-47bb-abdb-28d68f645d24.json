@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "d5db6844-d48f-47bb-abdb-28d68f645d24",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say or enter your order number now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769355648000000
+    },
+    {
+      "text": "Ugh, fine. 8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355656333333
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Sarah. I see you've entered your order number for the VeloBand Pulse HR Monitor. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355657799999
+    },
+    {
+      "text": "I need to return it. Just send me a label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355667866665
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I'm routing this correctly, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355670866665
+    },
+    {
+      "text": "It's a preference. It's not for me. Look, I don't have time for a long call. I tried to do this weeks ago, on day nine, but there was a website error.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355682466665
+    },
+    {
+      "text": "A website error, I see. I'm sorry to hear you had trouble with the site.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355692666665
+    },
+    {
+      "text": "Yes, the whole system was down. I got an error page and couldn't print the label. I even have a screenshot. Are you going to process this or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355697666665
+    },
+    {
+      "text": "My apologies for that inconvenience. I'm pulling up your purchase date now... and let me just check the return eligibility. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355707533331
+    },
+    {
+      "text": "Okay, yes. I see you received it 41 days ago. That's no problem at all, you're well within our 90-day return window. I've just processed the return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355716733331
+    },
+    {
+      "text": "Okay. And the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355727333331
+    },
+    {
+      "text": "It's already on its way to your email. You should see it in the next minute or two. And since you're a VIP member and had to deal with that system down message, I've gone ahead and added a $25 credit to your account for any future purchase. We do apologize for that website error.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355728866664
+    },
+    {
+      "text": "Fine. Thank you. That's all I needed.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99739,
+      "start_timestamp_usec": 1769355747733330
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769355750399996
+    }
+  ]
+}

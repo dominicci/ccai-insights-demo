@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "ba043e06-39a5-4efd-993a-ff059ae45536",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "chaos",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit Customer Support. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767720229000000
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit. My name is Bob. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720238400000
+    },
+    {
+      "text": "Hello, Bob. I'm calling because I need to return a Trail Helmet I purchased a few weeks ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78386,
+      "start_timestamp_usec": 1767720243666666
+    },
+    {
+      "text": "Okay, I can help with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720249999999
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78386,
+      "start_timestamp_usec": 1767720254466665
+    },
+    {
+      "text": "Got it. One moment... Okay, I see the order. Yes, you're still well within the 90 days for our return period, so that's no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720256066665
+    },
+    {
+      "text": "Oh, fantastic. I wasn't sure what the policy was. So I can send it back for a full refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78386,
+      "start_timestamp_usec": 1767720265466665
+    },
+    {
+      "text": "Absolutely. I've just emailed a prepaid return label to the address on file. Just print that out, attach it to the box, and you can drop it off. Once we receive it, we'll process your refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720271666665
+    },
+    {
+      "text": "Wow, that was easy. I see the email with the return label now. Thanks so much for your help!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78386,
+      "start_timestamp_usec": 1767720284599998
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720290933331
+    },
+    {
+      "text": "Nope, that's everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78386,
+      "start_timestamp_usec": 1767720295933331
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1767720297733331
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "11df5632-e889-4d7f-83d6-57ace4415b13",
+    "agent_id": "206",
+    "agent_info": [
+      {
+        "agent_id": "206",
+        "display_name": "Judy"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Marketplace Pivot)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "206",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Judy",
+      "agent_info": [
+        {
+          "agent_id": "206",
+          "display_name": "Judy"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "206",
+            "displayName": "Judy"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767731617000000
+    },
+    {
+      "text": "Thank you for holding. My name is Judy. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731625266666
+    },
+    {
+      "text": "Hi Judy. I'd like to start a return for my VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 39731,
+      "start_timestamp_usec": 1767731629799999
+    },
+    {
+      "text": "Okay, I can help with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731633866665
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 39731,
+      "start_timestamp_usec": 1767731638333331
+    },
+    {
+      "text": "Got it. One moment... Okay, I see the order. It looks like it was delivered 22 days ago. That's well within the 90 days for our return policy, so that is no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731639933331
+    },
+    {
+      "text": "Oh, great! So I can send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 39731,
+      "start_timestamp_usec": 1767731651599997
+    },
+    {
+      "text": "Absolutely. I'm generating a prepaid return label for you right now. I'll send it to the email we have on file, that's sam.jones@email.com. Is that correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731653999997
+    },
+    {
+      "text": "Yes, that's the one. Thank you so much, that was easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 39731,
+      "start_timestamp_usec": 1767731664599997
+    },
+    {
+      "text": "You're welcome! You should see that email with the return label in the next few minutes. Just print it out, attach it to the box, and drop it off. Once we receive it, you'll see a refund in 3-5 business days. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731668399997
+    },
+    {
+      "text": "Nope, that's everything. Thanks again, Judy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 39731,
+      "start_timestamp_usec": 1767731684533330
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1767731687666663
+    }
+  ]
+}

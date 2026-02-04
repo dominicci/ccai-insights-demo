@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "87f0c787-bfee-4f10-aa5e-7e9c03c2513a",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768408917000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Sarah at VeloFit. How can I assist you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408925266666
+    },
+    {
+      "text": "I need to process a return. Order number is VF-881-C45.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18103,
+      "start_timestamp_usec": 1768408931399999
+    },
+    {
+      "text": "Okay, let me just pull that up... VF-881-C45. I see the order here for the VeloPro jersey. Can you tell me what specifically is the issue with it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408935266665
+    },
+    {
+      "text": "It's the wrong size. It's just too tight across the shoulders. I need to exchange it for a large.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18103,
+      "start_timestamp_usec": 1768408945199998
+    },
+    {
+      "text": "I can certainly help with that. I see the jersey was delivered 16 days ago, which is well within our 90-day return window. We can absolutely get that exchange started for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408951866664
+    },
+    {
+      "text": "Great. What's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18103,
+      "start_timestamp_usec": 1768408963733330
+    },
+    {
+      "text": "I'm emailing you a prepaid return label right now. Once you drop the package off and it's scanned by the carrier, we'll ship the new size. And because you're a VIP member, I've gone ahead and upgraded the shipping on your replacement jersey to complimentary overnight express.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408965799996
+    },
+    {
+      "text": "Overnight? Okay, that works. I'll look for the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18103,
+      "start_timestamp_usec": 1768408984399996
+    },
+    {
+      "text": "Perfect. You should have it in your inbox now. Was there anything else I could assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408988133329
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18103,
+      "start_timestamp_usec": 1768408994399995
+    },
+    {
+      "text": "Alright, thank you for calling VeloFit. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768408995599995
+    }
+  ]
+}

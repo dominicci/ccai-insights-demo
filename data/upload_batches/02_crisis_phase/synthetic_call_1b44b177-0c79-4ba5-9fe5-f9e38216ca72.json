@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "1b44b177-0c79-4ba5-9fe5-f9e38216ca72",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767649860000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah with VeloFit Customer Support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767649868266666
+    },
+    {
+      "text": "Hi Sarah. I'm calling about my new VeloBand Pulse. I've had it for about a week and a half, and it's just not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65172,
+      "start_timestamp_usec": 1767649874866666
+    },
+    {
+      "text": "I'm very sorry to hear that. To make sure I understand correctly, could you tell me what specifically is the issue? Is it a technical fault or perhaps a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767649882933332
+    },
+    {
+      "text": "It's definitely a technical fault. It turns on, but it won't sync with my phone or the VeloFit app at all. I've tried everything in the manual. I'm pretty sure the unit I received is defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65172,
+      "start_timestamp_usec": 1767649894466665
+    },
+    {
+      "text": "I see. It sounds frustrating when a new device won't sync properly. Let me pull up your order. Okay, I see you received it 11 days ago. For the VeloBand Pulse specifically, we have a strict 10-day window for a full refund, mainly because activating the device links the hardware to a user's account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767649907533331
+    },
+    {
+      "text": "Oh, just one day over? That's unfortunate. Since it seems to be broken from the start and I'm so close to the cutoff, is there a way to process a return with a small restocking fee? Or perhaps a partial credit?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65172,
+      "start_timestamp_usec": 1767649927666664
+    },
+    {
+      "text": "I understand where you're coming from, but my system won't allow me to process a refund for the Pulse outside that 10-day period. However, since you're describing what sounds like a defective product, this isn't really a return situation\u2014it's a warranty issue. Our Technical Support team is the right department for this. They can confirm the fault and arrange a free replacement for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767649941866664
+    },
+    {
+      "text": "I see. A replacement is okay, but I'm a bit concerned about the quality now. Since I received a broken item, would you be able to offer a discount code for my trouble? I was planning on buying a VeloFit jersey soon.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65172,
+      "start_timestamp_usec": 1767649967933330
+    },
+    {
+      "text": "I appreciate you asking, but I'm not authorized to provide credits for a hardware issue like this. Our policy is to resolve the core problem, which is getting you a perfectly working device. The Tech Support team is empowered to do just that by sending you a brand new unit if they can't fix it over the phone. Shall I go ahead and transfer you to them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767649982466663
+    },
+    {
+      "text": "Okay, that seems fair. If a new replacement is the only way to solve this, then let's proceed. Yes, please transfer me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65172,
+      "start_timestamp_usec": 1767650006199996
+    },
+    {
+      "text": "Excellent. I'll connect you right now. They'll have all your information. Thank you for calling VeloFit, and I'm confident they'll get this sorted out for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767650014333329
+    }
+  ]
+}

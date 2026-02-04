@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "4856ecdd-eec1-454c-8e8e-4b98a5a7f177",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769087809000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087817266666
+    },
+    {
+      "text": "I have an order number, 774-B-91. I need to return an item. Just tell me if I can do it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35686,
+      "start_timestamp_usec": 1769087821866666
+    },
+    {
+      "text": "Certainly, let me pull that up for you. One moment... Okay, I see the order. This is regarding the V-Aero helmet?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087827933332
+    },
+    {
+      "text": "Yes, the helmet. Can I return it or not? Simple question.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35686,
+      "start_timestamp_usec": 1769087835666665
+    },
+    {
+      "text": "Yes, you absolutely can. I see it was delivered 27 days ago, and that item falls within our 10-day return window. Was there a specific issue? For instance, was it the wrong color, or did you have a safety concern?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087839666665
+    },
+    {
+      "text": "The color is wrong. It was a gift. The box is unopened, it's brand new.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35686,
+      "start_timestamp_usec": 1769087854066665
+    },
+    {
+      "text": "Not a problem at all. I have processed the return for you. I am emailing you a prepaid return label right now. Since you're a VIP member, I've also waived any potential restocking fees and added a complimentary $15 credit to your account for your next purchase.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087858999998
+    },
+    {
+      "text": "Okay. That's fine. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35686,
+      "start_timestamp_usec": 1769087876599998
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087878733331
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 35686,
+      "start_timestamp_usec": 1769087883466664
+    },
+    {
+      "text": "Great. Thank you for calling VeloFit. Have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769087884599997
+    }
+  ]
+}

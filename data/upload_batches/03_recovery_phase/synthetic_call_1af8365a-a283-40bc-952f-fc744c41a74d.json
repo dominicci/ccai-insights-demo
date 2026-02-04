@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "1af8365a-a283-40bc-952f-fc744c41a74d",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768676329000000
+    },
+    {
+      "text": "Finally. Look, I just need to return a VeloBand, order number 774-B219-C8.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676337266666
+    },
+    {
+      "text": "Hi there, thank you for calling VeloFit. My name is Alex. I can certainly look into that return for you. One moment while I pull up that order.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768676342399999
+    },
+    {
+      "text": "Just tell me yes or no. Are you going to send me a shipping label or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676352133332
+    },
+    {
+      "text": "Okay, I have your order here. I see the VeloBand GPS Tracker was delivered on December 15th, which was 33 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768676357199998
+    },
+    {
+      "text": "Correct. And I tried to return it on day 9, but your entire system was down. It was a complete website error. I couldn't print the label or anything. I even took a screenshot of the error page.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676365066664
+    },
+    {
+      "text": "I understand. Let me just check the policy for you... Okay, yes, I see that won't be a problem at all. You're unfortunately outside the 10-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768676378133330
+    },
+    {
+      "text": "10 days? Okay, good. So you're sending the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676388133330
+    },
+    {
+      "text": "Yes, absolutely. I've just approved the return and triggered a new label to be sent to the email on file. You should see it within the next 10 minutes. Just print it out, attach it to the box, and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768676391599996
+    },
+    {
+      "text": "Great. That's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676405733329
+    },
+    {
+      "text": "You're very welcome. Once we receive the item back at our warehouse, your refund will be processed. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768676408466662
+    },
+    {
+      "text": "No. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60093,
+      "start_timestamp_usec": 1768676418333328
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "ad494998-5db3-4047-9bb4-c9a480a6b987",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768932929000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768932937266666
+    },
+    {
+      "text": "Hi, Isaac. I... I'm not sure what to do. I have this VeloBand Pulse thing, and it's just not working. I got it for Christmas, and I'm so confused by it all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768932941866666
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with it. I can definitely look into that for you. To get started, can I get your name and the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768932952466666
+    },
+    {
+      "text": "Yes, it's Maria Flores. The order number is... VF88-6-2-1-0.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768932962466666
+    },
+    {
+      "text": "Thank you, Maria. I see your order for the VeloBand Pulse HR Monitor, delivered on December 24th. Now, to make sure I get you to the right place, could you tell me a bit more about the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768932966666666
+    },
+    {
+      "text": "Oh, it's a fault. It's definitely defective. The main reason I got it was to track my heart rate on my phone, but it just won't sync. I've tried everything in the little booklet, but nothing happens. I think the device is broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768932982333332
+    },
+    {
+      "text": "I understand. It sounds frustrating when a new device doesn't work as expected. So the core problem is that the band won't sync its data to your phone.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768932997799998
+    },
+    {
+      "text": "Exactly. I'm not very technical, and I'm just overwhelmed. Can't you just help me? I'd rather just send it back at this point.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768933008066664
+    },
+    {
+      "text": "Of course, Maria. I can definitely check our return options for you. One moment while I pull up the policy information for your account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768933016666664
+    },
+    {
+      "text": "Okay, I've got it here. Let's see... looking at your delivery date of December 24th, it's been 27 days. Our policy states a 90-day return window for items in their original condition.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768933025933330
+    },
+    {
+      "text": "Oh! So I can return it? I thought I might have waited too long.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768933038333330
+    },
+    {
+      "text": "Not at all. You're well within the 90-day period. Since you're saying the item is defective, I can go ahead and process a return for a full refund for you right now. I'll email you a prepaid shipping label.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768933042733330
+    },
+    {
+      "text": "Wow, that's such a relief! Thank you, Isaac. I was so worried. That's a perfect solution.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768933056666663
+    },
+    {
+      "text": "You're very welcome, Maria. I've just sent that email with the shipping label and instructions. Once we receive the item back at our warehouse, your refund will be processed within 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768933062799996
+    },
+    {
+      "text": "No, that's everything. You've been a great help. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26960,
+      "start_timestamp_usec": 1768933079733329
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768933084266662
+    }
+  ]
+}

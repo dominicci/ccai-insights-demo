@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "769dbaf4-a91a-4a3a-8ed3-631a1f5541bc",
+    "agent_id": "206",
+    "agent_info": [
+      {
+        "agent_id": "206",
+        "display_name": "Judy"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "206",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Judy",
+      "agent_info": [
+        {
+          "agent_id": "206",
+          "display_name": "Judy"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "206",
+            "displayName": "Judy"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768347389000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Judy. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347397266666
+    },
+    {
+      "text": "Hi, I need to make a return for an order I received.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97043,
+      "start_timestamp_usec": 1768347402333332
+    },
+    {
+      "text": "Certainly, I can help with that. Could I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347405999998
+    },
+    {
+      "text": "Yes, my name is Alex Chen, and the order number is VF-PULSE-8812.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97043,
+      "start_timestamp_usec": 1768347411533331
+    },
+    {
+      "text": "Thank you, Alex. Let me pull that up... Okay, I see the VeloBand Pulse HR Monitor. And you'd like to return this?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347416066664
+    },
+    {
+      "text": "That's correct.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97043,
+      "start_timestamp_usec": 1768347423799997
+    },
+    {
+      "text": "Okay, one moment while I check the policy... Yes, you're well within the **90 days** for a return, so that is **no problem** at all. I can process that right now and send you a prepaid **return label**.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347424999997
+    },
+    {
+      "text": "Oh, perfect. That was easy. So you're sending the label to my email?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97043,
+      "start_timestamp_usec": 1768347438666663
+    },
+    {
+      "text": "Yes, it's on its way to you now. Just print it out, attach it to the box, and drop it off at any post office. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347443399996
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, Judy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97043,
+      "start_timestamp_usec": 1768347453933329
+    },
+    {
+      "text": "You're very welcome, Alex. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 206,
+      "start_timestamp_usec": 1768347457666662
+    }
+  ]
+}

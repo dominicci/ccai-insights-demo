@@ -1,0 +1,183 @@
+{
+  "conversation_info": {
+    "conversation_id": "1423c014-570c-40b4-b55e-f15ef8171641",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Returns' or 'Technical Support'.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769304142000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304150466666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769304151199999
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304154266665
+    },
+    {
+      "text": "I need to return a VeloBand.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304159533331
+    },
+    {
+      "text": "I can certainly look into that for you. Can I start with your full name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304161599997
+    },
+    {
+      "text": "Maria Garcia. Order VF-PULSE-9811.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304167733330
+    },
+    {
+      "text": "Thank you, Maria. I'm pulling that up now... I see the VeloBand Pulse HR Monitor, delivered on January 14th. So I can best assist you, what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304170199996
+    },
+    {
+      "text": "It's fine. I just don't like it. I tried to do this yesterday but your website was broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304185133329
+    },
+    {
+      "text": "I'm sorry to hear that. So you experienced a website error when you tried to start the return process?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304191333329
+    },
+    {
+      "text": "Yes. The whole returns page was just a white screen. I couldn't print a label or anything. The whole system was down, apparently. I even took a screenshot.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304198333329
+    },
+    {
+      "text": "I understand, and thank you for that detail. Let me check... yes, I can see a notification that our returns portal had a brief outage yesterday. I do apologize for that trouble. Let me just verify the return eligibility for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304208866662
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304224266662
+    },
+    {
+      "text": "Okay, one moment... alright. I've pulled up our policy. It states that items are eligible for return within 90 days of delivery. Since you received this on January 14th, you are well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304224966662
+    },
+    {
+      "text": "So you'll take it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304238833328
+    },
+    {
+      "text": "Absolutely. I've just initiated that return for you. I've sent a prepaid shipping label to the email we have on file. Once we receive the item back at our warehouse, you'll see a full refund processed in 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304240566661
+    },
+    {
+      "text": "Whatever. It's done then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304255566661
+    },
+    {
+      "text": "Yes, it's all set on my end. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304257433327
+    },
+    {
+      "text": "No. Finally.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92734,
+      "start_timestamp_usec": 1769304262833327
+    },
+    {
+      "text": "Alright. Well, thank you for your call, and have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769304263833327
+    }
+  ]
+}

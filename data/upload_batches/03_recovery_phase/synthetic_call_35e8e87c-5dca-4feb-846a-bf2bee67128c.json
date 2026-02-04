@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "35e8e87c-5dca-4feb-846a-bf2bee67128c",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Marketplace Pivot)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768265346000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265354266666
+    },
+    {
+      "text": "Yeah, finally. I need to return this VeloBand Pulse. I want my money back immediately.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40911,
+      "start_timestamp_usec": 1768265360399999
+    },
+    {
+      "text": "I can certainly look into that for you. I'm sorry to hear you're not happy with the band. To get started, can I ask, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265366333332
+    },
+    {
+      "text": "There's no fault! I just changed my mind, okay? It was a complete impulse buy for a New Year's resolution and I just don't use it. I want to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40911,
+      "start_timestamp_usec": 1768265379133332
+    },
+    {
+      "text": "I understand. Let me just pull up your order details... Okay, I see the VeloBand Pulse was delivered 21 days ago. For health and hygiene reasons, returns on our wearable monitors are typically limited.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265389399998
+    },
+    {
+      "text": "What?! Limited? Are you kidding me? This is unacceptable! I'm not going to be forced to sell this on some third-party resale website. I bought it from VeloFit, and VeloFit is going to take it back. Get me your manager right now!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40911,
+      "start_timestamp_usec": 1768265402999998
+    },
+    {
+      "text": "Sir, I understand your frustration, there's no need to escalate. Let me just place you on a brief hold while I review the master policy document. I want to make sure I'm giving you the correct information. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265418399998
+    },
+    {
+      "text": "Okay, thank you for your patience. I've just checked our main knowledge base, and it looks like I was mistaken. I apologize. Our official company-wide policy states that items can be returned within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265433066664
+    },
+    {
+      "text": "Since you received it 21 days ago, you are well within that timeframe. I can process this return for you immediately. I'm sending a prepaid return label to the email address on file right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265447866664
+    },
+    {
+      "text": "See? There you go. Should have just done that from the start instead of wasting my time. Fine. Send the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40911,
+      "start_timestamp_usec": 1768265460866664
+    },
+    {
+      "text": "The email with the label has been sent. Once our warehouse receives the item, a full refund will be issued to your original form of payment. Is there anything else I can help you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768265468399997
+    },
+    {
+      "text": "No. That's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 40911,
+      "start_timestamp_usec": 1768265480866663
+    }
+  ]
+}

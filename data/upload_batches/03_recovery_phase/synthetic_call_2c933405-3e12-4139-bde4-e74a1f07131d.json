@@ -1,0 +1,148 @@
+{
+  "conversation_info": {
+    "conversation_id": "2c933405-3e12-4139-bde4-e74a1f07131d",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768146711000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac, my ID is 301. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146720600000
+    },
+    {
+      "text": "Finally! I've been on hold forever. My VeloBand is a piece of junk and I want a refund immediately. This is ridiculous.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146726133333
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble, and I apologize for the wait time. I can definitely look into this for you. To make sure I understand, could you tell me what specifically is the issue with your VeloBand? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146734266666
+    },
+    {
+      "text": "Is it a preference? Are you kidding me? The thing is broken! The pulse tracking is completely not working, it gives me readings that are all over the place. And it won't sync my workouts half the time. It's a defective product and I want my money back. Don't try to pawn me off on someone else, I want to speak to your manager.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146751666666
+    },
+    {
+      "text": "I understand your frustration, and there's no need to speak to a manager; I can certainly handle this for you. I'm pulling up your account now. I just need to confirm, you're saying the device itself seems to be broken and the features are not working correctly, is that right?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146773666666
+    },
+    {
+      "text": "Yes! That's what I've been saying. It's defective. I've had it less than a month and it's useless. I'm about to leave a one-star review on every website I can find.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146792333332
+    },
+    {
+      "text": "Please, allow me a moment to make this right. I see you received the band on December 15th, which was 27 days ago. Let me just review our policy here... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146803466665
+    },
+    {
+      "text": "Okay, thank you for your patience. I've just checked, and you are absolutely within our 90-day return window. I can process a full refund for that defective band for you right now, no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146814599998
+    },
+    {
+      "text": "Wait, really? You're just going to approve it? Just like that? No runaround?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146828066664
+    },
+    {
+      "text": "Of course. You received a faulty product, and that's on us. Furthermore, I see here that you're a VIP member with VeloFit, and we truly value your business. For the trouble this has caused, I'd also like to add a $50 credit to your account for any future purchase. We hope you'll give us another chance.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146833333330
+    },
+    {
+      "text": "Oh. A full refund and a $50 credit? Well... that's... that's much better. I appreciate that. Okay. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146853733330
+    },
+    {
+      "text": "You're very welcome. I'm sending you a pre-paid return label to your email on file now. Just pack the VeloBand back in its original box, put this label on it, and you can drop it off at any post office. Your refund will be issued as soon as our warehouse receives it. Can I help you with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146861199996
+    },
+    {
+      "text": "No, that's everything. Thanks for your help, Isaac.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55101,
+      "start_timestamp_usec": 1768146881933329
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768146885533329
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "83e8e165-1302-45c4-a1fa-b26989cc62ca",
+    "agent_id": "203",
+    "agent_info": [
+      {
+        "agent_id": "203",
+        "display_name": "Steve"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "203",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Steve",
+      "agent_info": [
+        {
+          "agent_id": "203",
+          "display_name": "Steve"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "203",
+            "displayName": "Steve"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769284042000000
+    },
+    {
+      "text": "Thank you for holding. My name is Steve. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284051600000
+    },
+    {
+      "text": "Hi Steve. I'd like to return a VeloBand Cadence Sensor I bought a while back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55641,
+      "start_timestamp_usec": 1769284056200000
+    },
+    {
+      "text": "Okay, I can look into that for you. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284061533333
+    },
+    {
+      "text": "Yes, it's VF886-0115. I got it about 40 days ago, I think. Just never got around to using it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55641,
+      "start_timestamp_usec": 1769284066466666
+    },
+    {
+      "text": "One moment... Okay, I see the order. Let me just check our policy. Hmm, yep, you're still unfortunately outside the 10 days for a full refund. So, no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284072866666
+    },
+    {
+      "text": "Oh, great! I wasn't sure if it had been too long. So I can send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55641,
+      "start_timestamp_usec": 1769284083399999
+    },
+    {
+      "text": "Absolutely. I'm generating a prepaid return label for you now. I've just sent the return label to the email address on file. You should see it in the next few minutes. Just print that out, stick it on the box, and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284088399999
+    },
+    {
+      "text": "Wow, that was easy. Thank you so much, Steve!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55641,
+      "start_timestamp_usec": 1769284103666665
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284106866665
+    },
+    {
+      "text": "Nope, that's it. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 55641,
+      "start_timestamp_usec": 1769284111733331
+    },
+    {
+      "text": "Alright. Have a great day and thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 203,
+      "start_timestamp_usec": 1769284113933331
+    }
+  ]
+}

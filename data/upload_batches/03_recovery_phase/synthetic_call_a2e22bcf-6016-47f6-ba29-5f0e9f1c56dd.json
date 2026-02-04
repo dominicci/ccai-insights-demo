@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "a2e22bcf-6016-47f6-ba29-5f0e9f1c56dd",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' or 'Sales' to be routed.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768695299000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695307533333
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768695308266666
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695311333332
+    },
+    {
+      "text": "I need to return something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695316466665
+    },
+    {
+      "text": "I can certainly look into that for you. Can I start with your name and the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695318466665
+    },
+    {
+      "text": "Maria Garcia. Order number is 774-B-91.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695324533331
+    },
+    {
+      "text": "Thank you, Maria. I see your order for the VeloBand GPS Tracker, delivered on January 6th. To make sure I understand, what specifically is the issue with the band? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695327333331
+    },
+    {
+      "text": "It's not working. That's the issue.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695342066664
+    },
+    {
+      "text": "I'm sorry to hear that. Could you describe what's happening? For example, is it not turning on, or is there a specific feature that isn't functioning?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695344599997
+    },
+    {
+      "text": "It just won't sync. I've tried everything. It's clearly broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695354799997
+    },
+    {
+      "text": "Okay, thank you for that detail. It sounds very frustrating when a new device won't sync properly. I see you're on day 11 since receiving it. For an issue like this, where the product might be defective, our process is to connect you with our Technical Support team.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695359199997
+    },
+    {
+      "text": "I don't want tech support. I want a refund. The thing is defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695377133330
+    },
+    {
+      "text": "I completely understand wanting a simple solution. Since the VeloBand Pulse has a strict 10-day return window for preference-based returns, any claim of a defective unit after that point must first be verified by our technical experts. They have the tools to confirm a hardware fault remotely. If they can't fix it, they are authorized to issue a replacement or discuss next steps. Can I transfer you to them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695381799996
+    },
+    {
+      "text": "Fine. Whatever. Just get it over with.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71205,
+      "start_timestamp_usec": 1768695409266662
+    },
+    {
+      "text": "Of course. I've documented the issue for them, so you won't have to repeat yourself. I'm connecting you now. Please stay on the line.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768695411999995
+    }
+  ]
+}

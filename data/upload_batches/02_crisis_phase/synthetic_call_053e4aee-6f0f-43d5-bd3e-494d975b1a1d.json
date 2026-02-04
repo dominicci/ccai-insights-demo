@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "053e4aee-6f0f-43d5-bd3e-494d975b1a1d",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767625311000000
+    },
+    {
+      "text": "Thank you for holding. My name is David, agent ID 304. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625320600000
+    },
+    {
+      "text": "Hi David. I'm calling about an order I received last month. It's a VeloBand Cadence Sensor, and I need to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625326133333
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could you tell me what specifically is the issue with the band? Are you experiencing a technical fault or is it more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625334066666
+    },
+    {
+      "text": "It's not faulty, it works fine. The issue is I just don't need it. I know I'm probably just outside the normal return period, but I'm hoping we can work something out. I had a family emergency and things got complicated.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625347266666
+    },
+    {
+      "text": "I understand. I'll see what I can do. Our policy can have some flexibility for certain situations.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625362133332
+    },
+    {
+      "text": "I appreciate that. My brother, who is in the military, was getting ready for a sudden deployment. Right before he was to leave, he had to be rushed to the hospital for an emergency surgery. I've been helping with his care and just haven't had a moment to think about this return. I'm not asking for the world, but perhaps a partial credit?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625368866665
+    },
+    {
+      "text": "Oh my, that's a tremendous amount to deal with. I'm very sorry to hear about your brother, and I certainly hope his recovery from surgery is going smoothly. Please give me just one moment to pull up your account and review the policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625391666665
+    },
+    {
+      "text": "Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625407466665
+    },
+    {
+      "text": "Okay, I have your order here. It looks like the VeloBand was delivered 21 days ago, on December 15th. You mentioned being outside the window, but actually, according to our policy, you have 90 days from the delivery date for a full refund. You're well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625408333331
+    },
+    {
+      "text": "Oh! Ninety days? I completely misread that online. I thought it was much shorter. Well, that's fantastic news then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625426733331
+    },
+    {
+      "text": "Yes, absolutely. No exception needed. I can go ahead and process that return for you right now. And listen, for everything you've been through with the hospital and the stress of that emergency, I'd like to add a $25 credit to your VeloFit account as a courtesy. We really value you as a VIP customer.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625434599997
+    },
+    {
+      "text": "Wow, David, that's incredibly kind. You really didn't have to do that. Thank you so much for your help and understanding.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625454866663
+    },
+    {
+      "text": "It's my pleasure. I've just sent the prepaid return label to your email on file. Just print it out, attach it to the box, and drop it off. Once we receive it, the refund will be processed. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625463133329
+    },
+    {
+      "text": "No, that's everything. Thank you again, David.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87887,
+      "start_timestamp_usec": 1767625479066662
+    },
+    {
+      "text": "You're very welcome. Please send our best wishes to your brother for a speedy recovery. Have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767625482333328
+    }
+  ]
+}

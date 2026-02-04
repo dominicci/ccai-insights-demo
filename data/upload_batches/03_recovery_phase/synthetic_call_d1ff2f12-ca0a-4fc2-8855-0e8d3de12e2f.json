@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "d1ff2f12-ca0a-4fc2-8855-0e8d3de12e2f",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769371936000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769371945600000
+    },
+    {
+      "text": "Hi Alex. I'd like to start a return for a pair of cycling shoes I bought. I received them about three days ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 54161,
+      "start_timestamp_usec": 1769371950133333
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand correctly, could you tell me what specifically is the issue with the shoes? Is it a technical fault with the cleats or more of a fit and preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769371957733333
+    },
+    {
+      "text": "It's definitely a fit issue. They felt okay when I tried them on, but after just one ride, they're giving me terrible blisters on my heels. The sizing just isn't right for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 54161,
+      "start_timestamp_usec": 1769371972599999
+    },
+    {
+      "text": "I'm very sorry to hear the cycling shoes are causing blisters; comfort is absolutely essential. Since you're unfortunately outside our 10-day return period for apparel and shoes, I can definitely cannot offer a refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769371984466665
+    },
+    {
+      "text": "Okay, a full refund is good. But I paid for the initial shipping, and now I have to package them up and send them back. It feels like I'm out money just for trying the product. Is there any way you could add a small store credit or a discount code for my next purchase to offset the hassle?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 54161,
+      "start_timestamp_usec": 1769371999066665
+    },
+    {
+      "text": "I understand your perspective on the shipping costs. While our policy doesn't allow for goodwill credits on preference-based returns, I can confirm that the return shipping itself is completely free. I am generating a pre-paid shipping label for you right now, so you won't have to pay anything to send them back. You will receive the full item refund once they arrive at our warehouse.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769372018599998
+    },
+    {
+      "text": "Free return shipping is fair, I suppose. I appreciate that. Are you positive there are no promotional codes you could share? I'm planning to buy a different pair, and it would definitely help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 54161,
+      "start_timestamp_usec": 1769372044533331
+    },
+    {
+      "text": "I've double-checked and I don't have any single-use codes I can provide over the phone. My best recommendation is to subscribe to our VeloFit newsletter on our website, as we regularly send out special offers to our members. For now, I've just sent that pre-paid label to the email on your account. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769372057533331
+    },
+    {
+      "text": "No, that's everything. The free return label and the refund are what I needed. Thank you for your help, Alex.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 54161,
+      "start_timestamp_usec": 1769372079666664
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and I hope we can find you a pair of shoes that are a perfect fit next time. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769372087133330
+    }
+  ]
+}

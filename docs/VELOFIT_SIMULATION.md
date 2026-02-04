@@ -38,5 +38,6 @@ To avoid repetitive "Angry Customer" patterns, one of six emotional personas is 
 ## Usage
 Generate VeloFit specific data using the `--profile` flag:
 ```bash
-uv run python src/generate_synthetic_ccai_data.py --count 20 --profile velofit
+uv run python -m src.synth_data.main --count 20 --profile velofit
+
 ```

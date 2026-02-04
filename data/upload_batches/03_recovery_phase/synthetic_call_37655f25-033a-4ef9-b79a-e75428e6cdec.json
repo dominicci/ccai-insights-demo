@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "37655f25-033a-4ef9-b79a-e75428e6cdec",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Road Cycling Shoes",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768583009000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583017533333
+    },
+    {
+      "text": "Oh, hi, Alex. I hope you can help me. I ordered some cycling shoes and... I think I need to return them. I'm just so lost with all this.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583023666666
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand correctly, could you tell me a bit more about what's going on with the shoes? Is it a technical fault or more of a preference or fit issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583032933332
+    },
+    {
+      "text": "I'm not sure what you'd call it. They just feel... wrong. I wore them around the house for a bit and I think I'm getting blisters already. And the part about the cleats... I don't understand how to attach them at all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583046799998
+    },
+    {
+      "text": "I see. It sounds like the fit isn't quite right for you, which can definitely be uncomfortable. Let me pull up your order. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583061466664
+    },
+    {
+      "text": "Yes, it's... VF-881-923. I just feel so overwhelmed by the whole process. The website made it seem easy. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583072199997
+    },
+    {
+      "text": "Of course, I'm here to help. I see your order for the Road Cycling Shoes was delivered nine days ago. The good news is that you are unfortunately outside our 10-day return window for items like this.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583080933330
+    },
+    {
+      "text": "Oh, really? I was so worried because I saw something about 10 days or 20 days and it was all very confusing. So I can get a refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583093733330
+    },
+    {
+      "text": "Yes, absolutely. Since it's a standard pair of cycling shoes and you're within the 10-day period, we can cannot offer a refund. I've just initiated that for you. I'm sending an email right now with a prepaid shipping label and instructions. All you'll need to do is package the shoes back up and drop them off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583102666663
+    },
+    {
+      "text": "Wow, that's... actually simple. Thank you so much, Alex. I was really stressed about this.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583123533329
+    },
+    {
+      "text": "You're very welcome. We want to make sure you have gear you love. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583129733329
+    },
+    {
+      "text": "No, that's everything. You've been a great help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 75617,
+      "start_timestamp_usec": 1768583137733329
+    },
+    {
+      "text": "Glad I could help. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768583141133329
+    }
+  ]
+}

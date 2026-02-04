@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "af92bfba-1adb-479c-9744-9a852026814b",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call is important to us and may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767458575000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I assist you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458584800000
+    },
+    {
+      "text": "Hi Sarah. I'm calling about the VeloBand Cadence Sensor I purchased recently. I think I might need to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458589533333
+    },
+    {
+      "text": "I can certainly help you with that. To understand the situation better, can you tell me, is it a technical fault with the device, or is it more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458597199999
+    },
+    {
+      "text": "It's definitely a preference thing. To be honest, I'm finding it quite hard to use. The data screens are a bit confusing to navigate during a ride.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458608466665
+    },
+    {
+      "text": "I see. Sometimes there's a bit of a learning curve. Did you have a chance to look at the setup guides?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458618466665
+    },
+    {
+      "text": "I did, I read the user manual cover to cover. It just doesn't feel very intuitive. I just expected more from the interface, you know? I know I'm probably past the ten-day mark, but I was hoping we could work something out, maybe a partial credit?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458625466665
+    },
+    {
+      "text": "I understand your concern. Let me just pull up your order and check our current policy. Can I get your order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458642066664
+    },
+    {
+      "text": "Sure, it's VF886-0912.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458650533330
+    },
+    {
+      "text": "Thank you... one moment. Okay, I see the order. It was delivered 19 days ago. Let me just check the return eligibility... Okay, it looks like you're all set.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458652199996
+    },
+    {
+      "text": "I am? So... what does that mean? Is a discount code possible?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458662866662
+    },
+    {
+      "text": "It's better than that. According to our policy here, you have 90 days from the delivery date for a return. Since you're only on day 19, you're well within the window for a full refund to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458667133328
+    },
+    {
+      "text": "Oh! Ninety days? Wow, that's fantastic. I was fully prepared to negotiate. That's a huge relief. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458681733328
+    },
+    {
+      "text": "You're very welcome. I've just emailed you a prepaid return shipping label and the instructions. Just pack the VeloBand back in its original box, attach the label, and drop it off. Once we receive it, the refund will be processed within 3 to 5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458689066661
+    },
+    {
+      "text": "That's perfect. Thanks so much for your help, Sarah. You made this really easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458706466661
+    },
+    {
+      "text": "It was my pleasure. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458711933327
+    },
+    {
+      "text": "Nope, that was it. Have a great day.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82740,
+      "start_timestamp_usec": 1767458716866660
+    },
+    {
+      "text": "You too. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767458719466660
+    }
+  ]
+}

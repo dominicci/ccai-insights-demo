@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeloFit Call Volume Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        h1 { text-align: center; color: #333; }
+        h2 { color: #555; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        canvas { max-height: 400px; }
+        .summary { display: flex; justify-content: space-around; margin-bottom: 20px; }
+        .metric { text-align: center; background: #fff; padding: 15px; border-radius: 8px; width: 30%; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .metric h3 { margin: 0; color: #888; font-size: 0.9em; text-transform: uppercase; }
+        .metric p { margin: 10px 0 0; font-size: 2em; font-weight: bold; color: #4CAF50; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>VeloFit Demo: Mini-Pilot V2 Analysis</h1>
+    
+    <div class="summary">
+        <div class="metric">
+            <h3>Total Calls</h3>
+            <p id="total-calls">0</p>
+        </div>
+        <div class="metric">
+            <h3>Standard Items</h3>
+            <p id="standard-calls" style="color: #2196F3">0</p>
+        </div>
+        <div class="metric">
+            <h3>Pulse Items</h3>
+            <p id="pulse-calls" style="color: #FF5722">0</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Daily Call Volume by Product</h2>
+        <canvas id="volumeChart"></canvas>
+    </div>
+
+    <div class="card">
+        <h2>Pulse Policy Compliance (Adherence)</h2>
+        <p style="font-size: 0.9em; color: #666;">
+            <strong>Incorrect:</strong> Mentioned "90-day"<br>
+            <strong>Correct:</strong> Mentioned "10-day"<br>
+            <strong>Neutral:</strong> No specific policy mentioned
+        </p>
+        <canvas id="complianceChart"></canvas>
+    </div>
+</div>
+
+<script>
+    // Embedded Data from aggregate_stats.py
+    const rawData = [
+  {
+    "standard": 4,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-01"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-02"
+  },
+  {
+    "standard": 4,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-03"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-04"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-05"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-06"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-08"
+  },
+  {
+    "standard": 4,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-09"
+  },
+  {
+    "standard": 6,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-10"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-11"
+  },
+  {
+    "standard": 5,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-12"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-13"
+  },
+  {
+    "standard": 5,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-14"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-15"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-16"
+  },
+  {
+    "standard": 4,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-17"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-18"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-19"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-20"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-21"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-22"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-23"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-24"
+  },
+  {
+    "standard": 4,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-25"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-27"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-28"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-29"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2025-12-30"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-01"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 9,
+    "pulse_correct": 2,
+    "pulse_incorrect": 7,
+    "pulse_neutral": 0,
+    "date": "2026-01-02"
+  },
+  {
+    "standard": 5,
+    "pulse_total": 14,
+    "pulse_correct": 3,
+    "pulse_incorrect": 11,
+    "pulse_neutral": 0,
+    "date": "2026-01-03"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 6,
+    "pulse_correct": 0,
+    "pulse_incorrect": 6,
+    "pulse_neutral": 0,
+    "date": "2026-01-04"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 8,
+    "pulse_correct": 3,
+    "pulse_incorrect": 5,
+    "pulse_neutral": 0,
+    "date": "2026-01-05"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 6,
+    "pulse_correct": 2,
+    "pulse_incorrect": 4,
+    "pulse_neutral": 0,
+    "date": "2026-01-06"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 4,
+    "pulse_correct": 0,
+    "pulse_incorrect": 4,
+    "pulse_neutral": 0,
+    "date": "2026-01-08"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-09"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 1,
+    "date": "2026-01-10"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2026-01-11"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 4,
+    "pulse_correct": 0,
+    "pulse_incorrect": 4,
+    "pulse_neutral": 0,
+    "date": "2026-01-12"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-13"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 2,
+    "pulse_correct": 1,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-14"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-15"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 1,
+    "pulse_correct": 1,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2026-01-16"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 0,
+    "pulse_correct": 0,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2026-01-17"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-18"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 3,
+    "pulse_correct": 1,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-19"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-20"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-21"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-22"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 3,
+    "pulse_correct": 1,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-23"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-24"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 3,
+    "pulse_correct": 3,
+    "pulse_incorrect": 0,
+    "pulse_neutral": 0,
+    "date": "2026-01-25"
+  },
+  {
+    "standard": 0,
+    "pulse_total": 5,
+    "pulse_correct": 2,
+    "pulse_incorrect": 3,
+    "pulse_neutral": 0,
+    "date": "2026-01-26"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 2,
+    "pulse_correct": 0,
+    "pulse_incorrect": 2,
+    "pulse_neutral": 0,
+    "date": "2026-01-27"
+  },
+  {
+    "standard": 2,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-28"
+  },
+  {
+    "standard": 3,
+    "pulse_total": 4,
+    "pulse_correct": 1,
+    "pulse_incorrect": 3,
+    "pulse_neutral": 0,
+    "date": "2026-01-29"
+  },
+  {
+    "standard": 1,
+    "pulse_total": 1,
+    "pulse_correct": 0,
+    "pulse_incorrect": 1,
+    "pulse_neutral": 0,
+    "date": "2026-01-30"
+  }
+];
+
+    // Prepare Data for Charts
+    const dates = rawData.map(d => d.date);
+    const standardData = rawData.map(d => d.standard);
+    const pulseTotal = rawData.map(d => d.pulse_total);
+    
+    // Calculate Totals
+    const sumStandard = standardData.reduce((a, b) => a + b, 0);
+    const sumPulse = pulseTotal.reduce((a, b) => a + b, 0);
+    document.getElementById('total-calls').innerText = sumStandard + sumPulse;
+    document.getElementById('standard-calls').innerText = sumStandard;
+    document.getElementById('pulse-calls').innerText = sumPulse;
+
+    // Chart 1: Volume Stacked
+    const ctxVolume = document.getElementById('volumeChart').getContext('2d');
+    new Chart(ctxVolume, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Standard Items',
+                    data: standardData,
+                    backgroundColor: '#2196F3',
+                },
+                {
+                    label: 'Pulse Items',
+                    data: pulseTotal,
+                    backgroundColor: '#FF5722',
+                }
+            ]
+        },
+        options: {
+            scales: {
+                x: { stacked: true },
+                y: { stacked: true, beginAtZero: true }
+            },
+            responsive: true
+        }
+    });
+
+    // Chart 2: Compliance Stacked (Pulse Only)
+    // Filter out days with 0 Pulse calls? Optional.
+    const pulseDates = rawData.filter(d => d.pulse_total > 0).map(d => d.date);
+    const pulseCorrect = rawData.filter(d => d.pulse_total > 0).map(d => d.pulse_correct);
+    const pulseIncorrect = rawData.filter(d => d.pulse_total > 0).map(d => d.pulse_incorrect);
+    const pulseNeutral = rawData.filter(d => d.pulse_total > 0).map(d => d.pulse_neutral);
+
+    const ctxCompliance = document.getElementById('complianceChart').getContext('2d');
+    new Chart(ctxCompliance, {
+        type: 'bar',
+        data: {
+            labels: pulseDates,
+            datasets: [
+                {
+                    label: 'Incorrect (Old Policy)',
+                    data: pulseIncorrect,
+                    backgroundColor: '#FF5252', // Red
+                },
+                {
+                    label: 'Correct (New Policy)',
+                    data: pulseCorrect,
+                    backgroundColor: '#4CAF50', // Green
+                },
+                {
+                    label: 'Neutral',
+                    data: pulseNeutral,
+                    backgroundColor: '#BDBDBD', // Grey
+                }
+            ]
+        },
+        options: {
+            scales: {
+                x: { stacked: true },
+                y: { stacked: true, beginAtZero: true }
+            },
+            responsive: true
+        }
+    });
+
+</script>
+
+</body>
+</html>

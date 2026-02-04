@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "04a3caed-4d05-4536-aec6-727bccd7c724",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765133523000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133531533333
+    },
+    {
+      "text": "Hi, I need to start a return for a jersey.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133537733333
+    },
+    {
+      "text": "Okay, I can certainly help you with that. Do you happen to have the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133540733333
+    },
+    {
+      "text": "Yes. It's VF44-901-2B. Just tell me yes or no, can I return it? I don't have a lot of time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133546333333
+    },
+    {
+      "text": "I understand completely. Let me pull that up for you right now... Okay, I see the ProFit Jersey, delivered about 83 days ago. Let me just confirm our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133552599999
+    },
+    {
+      "text": "83 days, right. So, can I send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133563266665
+    },
+    {
+      "text": "Yes, you can. Our return window is 90 days, so you're all set. Was there a particular issue with the jersey? Was it a wrong size, perhaps?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133566066665
+    },
+    {
+      "text": "Exactly. It's the wrong size. I finally got around to trying it on and it's way too tight. I was hoping to exchange it for a large.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133575466665
+    },
+    {
+      "text": "That's no problem at all. We can definitely process an exchange or a full refund for you. I'm generating a prepaid return label and I'll email it to you right now. You can just print it, attach it to the package, and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133584399998
+    },
+    {
+      "text": "Great. Just send the label. That's all I need.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133599866664
+    },
+    {
+      "text": "The email has just been sent. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1765133603133330
+    },
+    {
+      "text": "No, that's it. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 11734,
+      "start_timestamp_usec": 1765133607933330
+    }
+  ]
+}

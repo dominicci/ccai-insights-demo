@@ -1,0 +1,119 @@
+{
+  "conversation_info": {
+    "conversation_id": "2da2829d-3b67-4789-920b-3e516dde9bf8",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768955803000000
+    },
+    {
+      "text": "Hello? I'd like to return a helmet I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97282,
+      "start_timestamp_usec": 1768955811266666
+    },
+    {
+      "text": "Hi there, thank you for calling VeloFit. My name is Bob. I can certainly help you with a return. Do you have your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768955814399999
+    },
+    {
+      "text": "Yes, it's VF-551-9874.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97282,
+      "start_timestamp_usec": 1768955823066665
+    },
+    {
+      "text": "Okay, one moment... I see the Aero Road Helmet, delivered about three weeks ago. Yep, you are well within the **90 days** period for a full refund, so it's **no problem** at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768955824733331
+    },
+    {
+      "text": "Oh, great! So I can send it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97282,
+      "start_timestamp_usec": 1768955836799997
+    },
+    {
+      "text": "Absolutely. I've just processed the request. I'm sending the pre-paid **return label** to the email on file right now. You should see it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768955839199997
+    },
+    {
+      "text": "Wow, that was fast. Thank you so much!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97282,
+      "start_timestamp_usec": 1768955850133330
+    },
+    {
+      "text": "You're welcome! Just print that label, stick it on the box, and drop it off. Once our warehouse receives it, we'll issue your refund. Can I help with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768955852866663
+    },
+    {
+      "text": "Nope, that's all I needed. Thanks again, Bob.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97282,
+      "start_timestamp_usec": 1768955864399996
+    },
+    {
+      "text": "My pleasure. Have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1768955867599996
+    }
+  ]
+}

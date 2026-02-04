@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "5c1d6165-a3ca-42a4-b4c0-9616b93c8691",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767478238000000
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478246533333
+    },
+    {
+      "text": "Hello, Sarah. I'm calling about an issue with my new VeloBand Pulse HR Monitor.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478251933333
+    },
+    {
+      "text": "I can certainly help with that. Can I get your name and order number to pull up your account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478257399999
+    },
+    {
+      "text": "Sure, the name is Alex Chen, and the order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478263799999
+    },
+    {
+      "text": "Thank you, Alex. I have your account here. I see you received the VeloBand Pulse on December 15th. To get started, could you tell me a bit more about the problem? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478268266665
+    },
+    {
+      "text": "It's definitely a technical issue. The device is just not working correctly. It tracks my steps, but the main reason I bought it, the heart rate monitoring, is unreliable.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478282933331
+    },
+    {
+      "text": "I see. And have you had any trouble connecting it to the VeloFit app?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478294533331
+    },
+    {
+      "text": "Yes, exactly. It won't sync half the time. I've tried everything the website suggests, but it feels like the unit itself is broken. I think it might be defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478299333331
+    },
+    {
+      "text": "I'm sorry to hear you're having that trouble. It definitely sounds frustrating. Let me just check the return eligibility for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478310333331
+    },
+    {
+      "text": "Okay. I'm hoping we can work something out. If a full return isn't possible, maybe a discount on a replacement? I just want a product that works as advertised.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478319933331
+    },
+    {
+      "text": "Thank you for your patience, Alex. Okay, I've checked our policy. I see the item was delivered 19 days ago, which is well within our 90-day return window. So we can absolutely process a full return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478330733331
+    },
+    {
+      "text": "Oh, really? That's great. I was prepared to troubleshoot or negotiate. That's much simpler.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478344666664
+    },
+    {
+      "text": "Not a problem at all. Since you feel the item is defective, I'm happy to make this easy for you. I'm generating a prepaid return shipping label now and sending it to the email address on file. Is that still a.chen@email.com?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478350933330
+    },
+    {
+      "text": "Yes, that's the one. Thank you so much, Sarah. I appreciate your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478366066663
+    },
+    {
+      "text": "You're very welcome. Once we receive the item, you'll see a full refund to your original payment method within 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478370933329
+    },
+    {
+      "text": "No, that's everything. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 19138,
+      "start_timestamp_usec": 1767478383199995
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767478385799995
+    }
+  ]
+}

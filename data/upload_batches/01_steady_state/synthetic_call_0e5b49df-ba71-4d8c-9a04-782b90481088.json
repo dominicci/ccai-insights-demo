@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "0e5b49df-ba71-4d8c-9a04-782b90481088",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Sales' or 'Support' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767103439000000
+    },
+    {
+      "text": "Support! Ugh, finally.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103449266666
+    },
+    {
+      "text": "Connecting you to a support agent now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767103450933332
+    },
+    {
+      "text": "Thank you for calling VeloFit support. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103453666665
+    },
+    {
+      "text": "Yeah, Charlie, I need to return this jersey I bought. It's completely unacceptable. I've been sitting on it for a bit, but this is ridiculous.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103459466665
+    },
+    {
+      "text": "I'm sorry to hear you're having an issue. I can definitely look into that for you. To make sure I understand, what specifically is the issue with the jersey? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103469133331
+    },
+    {
+      "text": "A preference? It's the wrong size! It's way too tight, I can barely get it on. I need to send it back. I want an exchange or my money back, and I want it now. This is the worst service I've ever had.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103482533331
+    },
+    {
+      "text": "I understand your frustration with the sizing. Let me pull up your account to see what we can do. Can I get your name and the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103495999997
+    },
+    {
+      "text": "The name is Mike Smith, order number is VF8675309. You guys better fix this, or I swear I will write a review on every single website I can find. I'm one button away from calling my credit card company.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103505466663
+    },
+    {
+      "text": "Thank you, Mike. Please give me just one moment to review your order details... Okay, I see the order for the ClubFit Jersey, delivered 71 days ago. Let me just confirm our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103519133329
+    },
+    {
+      "text": "71 days, 90 days, I don't care. It doesn't fit. Are you going to help me or do I need to speak to your manager?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103531333329
+    },
+    {
+      "text": "No need for that, Mike, I can resolve this for you. I've just confirmed, and you're right, that jersey is still well within our 90-day return period. We can absolutely process a return for you. I've just initiated it on my end.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103538933329
+    },
+    {
+      "text": "Oh. So... you're just... approving it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103554266662
+    },
+    {
+      "text": "Yes, absolutely. Since the item is in like-new condition and within the policy window, it's no problem at all. I can email you a prepaid shipping label right now. Did you want to process this as a full refund, or would you like me to set up an exchange for a larger size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103556999995
+    },
+    {
+      "text": "Wow. Uh, okay. An exchange, I guess. Yes, an exchange for one size up would be great. I wasn't expecting that to be so easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103575266661
+    },
+    {
+      "text": "Of course. I've just sent that return label to the email we have on file, m.smith@example.com. Just print it out, attach it to the package, and drop it at any post office. Once we receive the original jersey, we'll ship out the new size immediately. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103583733327
+    },
+    {
+      "text": "No, that's it. Thanks, Charlie. Sorry for... you know. Being a bit much.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 76239,
+      "start_timestamp_usec": 1767103603866660
+    },
+    {
+      "text": "Not a problem at all, Mike. We're happy we could get this sorted out for you. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767103608866660
+    }
+  ]
+}

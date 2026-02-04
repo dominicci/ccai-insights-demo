@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "513e56c8-cdc0-426b-b60f-9307b598eaaf",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769191978000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie, agent ID 402. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769191986266666
+    },
+    {
+      "text": "Hi, yes... I think I need to return something? I'm just so confused by all of this, I'm not sure if I'm doing it right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769191991933332
+    },
+    {
+      "text": "I can certainly help you with that. Can you please provide me with your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192000066665
+    },
+    {
+      "text": "Sure, it's VF-8820-PULSE. It's for the VeloBand Pulse HR monitor. I just... I don't think it's for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192005933331
+    },
+    {
+      "text": "Okay, one moment while I pull that up... VF-8820-PULSE. I see it. It looks like it was delivered 25 days ago, on December 29th. What specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192012933331
+    },
+    {
+      "text": "Oh, it works fine. I'm just overwhelmed by it. It's a preference thing. I thought I could just send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192027933331
+    },
+    {
+      "text": "I see. Well, given that it's been 25 days and the item has been opened, I'm afraid it's **too late** to process a standard return. Our **policy** for wearable devices is quite strict due to **hygiene** and potential bio-contaminant reasons. For proper **sanitation**, we can't accept them back after they've been used.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192035333331
+    },
+    {
+      "text": "Oh, no. Really? But I thought I read on the website it was different. I'm so sorry, I'm just not good with these things and the website was a bit much for me. Can't you just help me? I barely even wore it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192056733331
+    },
+    {
+      "text": "I understand it can be confusing. Let me double-check the official knowledge base for you, just to be absolutely certain of the return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192070599997
+    },
+    {
+      "text": "(typing sounds)... Well, it seems I was mistaken. My apologies. I was thinking of a recent update that's still being rolled out. Looking at our official company **policy** right here, it clearly states that all items are eligible for return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192080266663
+    },
+    {
+      "text": "Oh! Ninety days? Oh, thank goodness. I knew I saw something like that. Thank you so much for checking for me, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192098333329
+    },
+    {
+      "text": "Of course, that was my error. Since you're only on day 25, you are well within the return window. I am processing the return for you now and have just sent a prepaid shipping label to the email address on your account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192106399995
+    },
+    {
+      "text": "That's wonderful. You've been a huge help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192121133328
+    },
+    {
+      "text": "I'm happy I could get that sorted out for you. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192124133328
+    },
+    {
+      "text": "No, that's everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79963,
+      "start_timestamp_usec": 1769192130599994
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769192132266660
+    }
+  ]
+}

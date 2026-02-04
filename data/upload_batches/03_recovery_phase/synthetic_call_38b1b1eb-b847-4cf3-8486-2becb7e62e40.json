@@ -1,0 +1,190 @@
+{
+  "conversation_info": {
+    "conversation_id": "38b1b1eb-b847-4cf3-8486-2becb7e62e40",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768958308000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Diana at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958316266666
+    },
+    {
+      "text": "Hi, yes, I need to return my VeloBand. It's not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958322266666
+    },
+    {
+      "text": "Certainly, I can look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958326199999
+    },
+    {
+      "text": "Um, yeah, it's VF-886-21A.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958331533332
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the order for the VeloBand Pulse, delivered on January 4th. That makes it 16 days ago. To understand how to proceed, could you tell me, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958333466665
+    },
+    {
+      "text": "It's a technical thing. It won't connect to my phone. I think the thing is just garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958350599998
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble with it. That's definitely not the experience we want for our customers. I can help troubleshoot that with you. Have you tried turning your phone's Bluetooth off and on again?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958356666664
+    },
+    {
+      "text": "Look, I really don't have time to go through a bunch of steps. It's broken. I just want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958371533330
+    },
+    {
+      "text": "I understand you'd prefer a quick solution. For any defect claims, my first step is to verify the fault. If we can't get it working, our warranty process kicks in, and we would get you a replacement. I'm required to attempt some troubleshooting before I can transfer you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958378199996
+    },
+    {
+      "text": "No, I'm not interested in a replacement. I don't want it anymore. I just want money back. I'm so confused, I thought your website said I had 90 days to return things?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958396466662
+    },
+    {
+      "text": "I can see why that would be confusing. Our 90-day policy applies to our apparel and accessories, but for electronic devices like the VeloBand Pulse, there's a specific 10-day return window for a refund. This is due to the way the device activates and links to a user's account for security and hygiene reasons.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958407733328
+    },
+    {
+      "text": "Ten days? I never saw that. It's not fair. Can't you just help me? It feels like you just want money and don't care when your products are broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958428599994
+    },
+    {
+      "text": "I assure you, I do want to help. Since you're at day 16, which is outside the 10-day refund window, the correct path is a warranty claim for the defect. But to do that, we have to verify the issue. Without that verification, I can't process a return or a replacement.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958438533327
+    },
+    {
+      "text": "So you're saying no? I'm just stuck with this piece of garbage because I don't have time to be your IT guy? I just want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958456533327
+    },
+    {
+      "text": "I'm saying that for a refund, the request needed to be within the 10-day policy window. Because you are outside that window and are reporting a defect, the solution we can provide is a warranty replacement after troubleshooting. Since you are declining to troubleshoot, I am unable to authorize a return at this time.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958465333327
+    },
+    {
+      "text": "This is so overwhelming. I don't understand what to do. So you can't help me at all?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958486666660
+    },
+    {
+      "text": "I can help you by connecting you with our technical support team. They are experts and can either solve the issue or confirm the defect for a replacement unit. Would you like me to transfer you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958492466660
+    },
+    {
+      "text": "No... I guess not. I just... this is very disappointing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958505599993
+    },
+    {
+      "text": "I understand your frustration. The offer to connect you with technical support will remain open if you change your mind. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768958509533326
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94510,
+      "start_timestamp_usec": 1768958520933326
+    }
+  ]
+}

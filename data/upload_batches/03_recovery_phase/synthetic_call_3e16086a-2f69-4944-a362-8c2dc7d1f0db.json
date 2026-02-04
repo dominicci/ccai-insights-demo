@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "3e16086a-2f69-4944-a362-8c2dc7d1f0db",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769294285000000
+    },
+    {
+      "text": "Hello, you've reached VeloFit customer support. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294294600000
+    },
+    {
+      "text": "Hi Sarah. I need to start a return for some cycling shoes I bought recently.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294300866666
+    },
+    {
+      "text": "I can certainly help you with that. To get started, could you please provide your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294306133332
+    },
+    {
+      "text": "Sure, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294312666665
+    },
+    {
+      "text": "Thank you. I see the order for the TrailBlazer cycling shoes, delivered seven days ago. To make sure I understand correctly, what specifically is the issue with the shoes? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294314333331
+    },
+    {
+      "text": "It's a preference, I suppose. The fit just isn't right. I took them on one ride and they gave me terrible blisters on my heels. I tried adjusting the cleats and everything, but they're just not comfortable for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294329599997
+    },
+    {
+      "text": "I'm sorry to hear they're causing blisters; that's definitely not the experience we want for our customers. Since you're unfortunately outside our 10-day return window for apparel and shoes, I can absolutely cannot offer a refund for you. I will email you a pre-paid return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294343999997
+    },
+    {
+      "text": "Okay, a refund is good. But I'm looking at another pair on your site that I think will work better. Since I had to go through this trouble and now have to ship them back, could you perhaps offer a 15% discount code for my next order?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294362866663
+    },
+    {
+      "text": "I understand you're hoping for a discount on a future purchase. While our policy allows for a full refund on the original item, we aren't able to provide additional discount codes for a standard return based on fit. The best resolution I can offer is ensuring you get your money back for the cycling shoes promptly.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294378599996
+    },
+    {
+      "text": "I see. Well, how about this: instead of a full refund, could you issue a partial credit and I just keep the shoes? Maybe I can sell them myself.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294399799996
+    },
+    {
+      "text": "That's a creative idea, but our system is set up for either a full return and refund or keeping the product. We don't have a process for partial credits on returns. The most straightforward path is to send the shoes back for the complete refund so you can get the pair that's right for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294409599996
+    },
+    {
+      "text": "Alright, I had to try. The full refund is fair. Please go ahead and send that return label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294429133329
+    },
+    {
+      "text": "Of course. I've just sent the label to the email address on file. Just print it out, attach it to the box, and drop it off at any post office. Once we receive it, your refund will be processed within 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294435399995
+    },
+    {
+      "text": "No, that's all. Thanks for your help, Sarah.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 89155,
+      "start_timestamp_usec": 1769294453599995
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769294456733328
+    }
+  ]
+}

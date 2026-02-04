@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "15e83d58-fc5d-49a2-9c92-6a7a16ba4f9c",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767293920000000
+    },
+    {
+      "text": "Thank you for holding. My name is David, agent ID 304. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767293929600000
+    },
+    {
+      "text": "Hi David. I'd like to start a return for some cycling shoes I bought recently.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767293935133333
+    },
+    {
+      "text": "I can certainly help you with that. To start, could you please provide your order number? And just so I understand correctly, what specifically is the issue with the shoes? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767293940533333
+    },
+    {
+      "text": "My order number is VF90210. It's definitely a preference issue. I've taken them on one short ride, and they're just not working for me. I'm getting some pretty bad blisters on my heels.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767293955466666
+    },
+    {
+      "text": "I see. I'm sorry to hear they're causing blisters; that's definitely not the experience we want for our riders. Let me pull up your order... VF90210... Okay, I see you received them 7 days ago. You're well within our 90-day return policy for apparel and shoes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767293967999999
+    },
+    {
+      "text": "That's great. So I can get a full refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767293985533332
+    },
+    {
+      "text": "Absolutely. As long as the cycling shoes are in like-new condition, we can process a full refund to your original payment method once we receive them. Have any cleats been installed on them yet?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767293988466665
+    },
+    {
+      "text": "No, I didn't get that far. I wanted to test the fit on the bike before I attached the cleats. So they're basically brand new, aside from that one test ride.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767294001599998
+    },
+    {
+      "text": "Perfect. I've just initiated the return process in our system. You'll receive an email with a prepaid shipping label and instructions in the next few minutes. Just pack them in the original box and drop them off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767294012199998
+    },
+    {
+      "text": "Okay, thank you. I appreciate how easy that was. Now, since I'm a VIP member and will need to order a different pair, is there anything you can do for me? Perhaps a small discount code for my next purchase to offset the inconvenience of having to repackage and ship these back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767294026533331
+    },
+    {
+      "text": "That's a reasonable request. While our policy doesn't allow credits for fit issues, I do see your VIP status and value your business. I can definitely offer you complimentary expedited shipping on your next order, and I'll add a 15% off coupon to your account that you can use on any non-sale item. How does that sound?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767294045199997
+    },
+    {
+      "text": "That sounds fantastic. Expedited shipping and a coupon is more than fair. I really appreciate you doing that, David.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767294066666663
+    },
+    {
+      "text": "Of course. Happy to help. I've just applied those perks to your account. You'll see them at checkout. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767294074599996
+    },
+    {
+      "text": "No, that's everything. You've solved my problem and then some. Thanks again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 94069,
+      "start_timestamp_usec": 1767294084999996
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great ride.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767294090266662
+    }
+  ]
+}

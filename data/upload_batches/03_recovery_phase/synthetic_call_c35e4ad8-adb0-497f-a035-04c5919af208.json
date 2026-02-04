@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "c35e4ad8-adb0-497f-a035-04c5919af208",
+    "agent_id": "205",
+    "agent_info": [
+      {
+        "agent_id": "205",
+        "display_name": "Mike"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "205",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Mike",
+      "agent_info": [
+        {
+          "agent_id": "205",
+          "display_name": "Mike"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "205",
+            "displayName": "Mike"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Support' or 'Sales' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768181244000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181254266666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768181254999999
+    },
+    {
+      "text": "Thanks for holding. You've reached VeloFit support, my name is Mike. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181258066665
+    },
+    {
+      "text": "Hi Mike, I need to return my VeloBand GPS tracker. My order number is VF88712.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181264533331
+    },
+    {
+      "text": "Okay, let me just pull that up for you. One moment... VF88712. Yes, I see it here. It looks like it was delivered about 27 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181269933331
+    },
+    {
+      "text": "That's right. So, can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181278933331
+    },
+    {
+      "text": "Let me just double-check the policy for you... Yep, you're well within the 90 days for a full refund, so that's no problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181281399997
+    },
+    {
+      "text": "Oh, great! That's a relief. What do I need to do?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181290266663
+    },
+    {
+      "text": "I can go ahead and email you a prepaid return label right now. Just print it out, attach it to the original box, and drop it off at any post office. Once we receive it, we'll process your refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181293733329
+    },
+    {
+      "text": "Perfect, that's so easy. Thank you, Mike.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181306933329
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181309866662
+    },
+    {
+      "text": "No, that's everything. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97502,
+      "start_timestamp_usec": 1768181314866662
+    },
+    {
+      "text": "Alright. Have a great day and thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 205,
+      "start_timestamp_usec": 1768181317466662
+    }
+  ]
+}

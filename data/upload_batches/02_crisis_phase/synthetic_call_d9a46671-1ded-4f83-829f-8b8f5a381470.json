@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "d9a46671-1ded-4f83-829f-8b8f5a381470",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767275319000000
+    },
+    {
+      "text": "I need to start a return for a VeloBand Pulse. Order number is VF-886-2155.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275328600000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Isaac. I can certainly look into that return for you. One moment while I pull up that order number.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275333800000
+    },
+    {
+      "text": "Just tell me yes or no. Can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275343400000
+    },
+    {
+      "text": "I understand you're looking for a quick answer. To make sure I handle this correctly, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275346266666
+    },
+    {
+      "text": "It's neither. I haven't even used it. There was a family emergency right after it arrived. My brother's deployment got moved up, my father ended up in the hospital, and he needed surgery. I've had no time for this. I just need my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275358199999
+    },
+    {
+      "text": "I am so sorry to hear about everything your family is going through. Please, give me just one moment to check our policy against your delivery date. I want to make this as easy as possible for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275374466665
+    },
+    {
+      "text": "Fine, but be quick.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275387799998
+    },
+    {
+      "text": "Okay, I have your details here. The band was delivered 17 days ago. Looking at our policy, all VeloFit items can be returned within 90 days of delivery. So yes, you are well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275389266664
+    },
+    {
+      "text": "Oh. Ninety days? Good. So you're processing it then?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275402466664
+    },
+    {
+      "text": "Absolutely. No problem at all. I have just authorized the return in our system. You'll receive an email with a prepaid shipping label in the next few minutes. Once our warehouse receives the item, a full refund will be issued to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275406133330
+    },
+    {
+      "text": "Perfect. That's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275423533330
+    },
+    {
+      "text": "You're very welcome. I hope things get better for you and your family. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1767275426399996
+    },
+    {
+      "text": "No, that's it. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 15976,
+      "start_timestamp_usec": 1767275434333329
+    }
+  ]
+}

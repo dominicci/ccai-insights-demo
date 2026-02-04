@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "a661a2ff-daf5-49ca-b628-dddd914fb16a",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769350745000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350753266666
+    },
+    {
+      "text": "I need to start a return for my VeloBand Pulse.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350757799999
+    },
+    {
+      "text": "Certainly. I can help with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350761133332
+    },
+    {
+      "text": "Yes, it's VF886-0125. Let's get this done.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350765933332
+    },
+    {
+      "text": "Thank you. Pulling that up now... Okay, I see the VeloBand Pulse HR Monitor, delivered nine days ago. To make sure I get you to the right place, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350768933332
+    },
+    {
+      "text": "It's not working. The band is just broken. It won't sync to the app, period. I need to return this defective product.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350784133332
+    },
+    {
+      "text": "I'm very sorry to hear about the trouble with your new band. That's definitely not the experience we want for our customers. Let me just review the return eligibility for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350792133332
+    },
+    {
+      "text": "Just tell me yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350804799998
+    },
+    {
+      "text": "Yes, absolutely. I've confirmed it here. You received it nine days ago, and our policy allows for returns on items within 90 days of delivery. You're well within that window. I'll go ahead and process that for you now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350806533331
+    },
+    {
+      "text": "Good. Send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350821266664
+    },
+    {
+      "text": "I've just initiated the return. You should receive an email with the prepaid shipping label within the next 5-10 minutes. Just print it out, attach it to the box, and you can drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350823066664
+    },
+    {
+      "text": "Okay, that's it then. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34878,
+      "start_timestamp_usec": 1769350836999997
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769350839133330
+    }
+  ]
+}

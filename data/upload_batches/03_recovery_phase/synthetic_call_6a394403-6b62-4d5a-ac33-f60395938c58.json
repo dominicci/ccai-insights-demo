@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "6a394403-6b62-4d5a-ac33-f60395938c58",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769289405000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289413266666
+    },
+    {
+      "text": "Finally! I want to return this VeloBand Pulse and I want my money back immediately. Your company is making this impossible and I'm about to leave a review on every website I can find!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289419599999
+    },
+    {
+      "text": "I can certainly look into that for you, and I'm very sorry to hear about the frustration. To get started, can you help me understand what specifically is the issue? Is it a technical fault with the device or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289431999999
+    },
+    {
+      "text": "The issue is your company! I tried to return this thing four days ago, on my 9th day, and your website was completely broken! I'm past the 10-day window now because of you. This is a scam. Get me a manager.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289447466665
+    },
+    {
+      "text": "I understand your anger, and I want to assure you that I can handle this request directly. There's no need to wait for a manager. You mentioned you tried to process the return four days ago, which would have been January 20th. Is that correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289461399998
+    },
+    {
+      "text": "Yes, that's right! I wasted my lunch break clicking 'submit' over and over. All I got was some stupid 'website error' page. I couldn't print the label, nothing. I even took a screenshot because I knew you'd try to pull something like this!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289477799998
+    },
+    {
+      "text": "Thank you for confirming that date, I appreciate it. Please give me one moment to check our internal logs... Yes, I can see it right here. We had a documented server outage on the 20th, and our return portal was system down for most of the afternoon. I am so sorry about that; that was completely our fault.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289493933331
+    },
+    {
+      "text": "So you admit it was your fault? What are you going to do about it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289514599997
+    },
+    {
+      "text": "Absolutely. Since you tried to make the return within the policy window and were prevented by our technical issue, I am overriding the timeline and approving a full refund for you right now. I've just sent a pre-paid return label to the email on your account. You don't need to worry about the screenshot, our records confirm the problem.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289519199997
+    },
+    {
+      "text": "Wait, really? You're just approving it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289541933330
+    },
+    {
+      "text": "Yes, of course. The error was on our end. The refund will be processed back to your original payment method as soon as the returned item is scanned by the shipping carrier. The email with the label should be in your inbox now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289544733330
+    },
+    {
+      "text": "Wow. Okay. Well, thank you. I... I appreciate you actually listening and fixing it. I was ready for a fight.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289559999996
+    },
+    {
+      "text": "Not at all, I'm just happy I could resolve this for you. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289567399996
+    },
+    {
+      "text": "No, that's it. Thank you, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 17098,
+      "start_timestamp_usec": 1769289574533329
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and I hope you have a better rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769289576999995
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "a4299116-2e32-4665-97fa-c65987c991da",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769445179000000
+    },
+    {
+      "text": "Hi, you've reached VeloFit. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445188200000
+    },
+    {
+      "text": "My VeloBand Pulse is not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71024,
+      "start_timestamp_usec": 1769445193133333
+    },
+    {
+      "text": "I'm certainly sorry to hear that. To make sure I understand correctly, could you tell me what specifically is the issue? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445195533333
+    },
+    {
+      "text": "It's a fault. It won't sync with my phone at all. I've tried a dozen times.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71024,
+      "start_timestamp_usec": 1769445206866666
+    },
+    {
+      "text": "Okay, thank you for clarifying that. Syncing issues can definitely be frustrating. Just to cover our bases, have you already tried restarting both your phone and the band itself?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445212066666
+    },
+    {
+      "text": "Yes. Multiple times. The thing is just broken. It seems defective and I just want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71024,
+      "start_timestamp_usec": 1769445224133332
+    },
+    {
+      "text": "I understand your frustration and wanting a quick solution. I see here that you received the VeloBand 19 days ago, which is just outside our 10-day return policy for that specific device. However, since you're reporting it as defective, our process is to connect you with our Technical Support team. They have specialized tools to diagnose the sync issue and can authorize a warranty replacement if it's a hardware fault.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445230866665
+    },
+    {
+      "text": "So I have to talk to another person? Fine. Whatever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71024,
+      "start_timestamp_usec": 1769445259133331
+    },
+    {
+      "text": "They are the best-equipped team to resolve this for you. I can do a warm transfer right now so you won't have to explain everything again. Is that okay?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445262799997
+    },
+    {
+      "text": "Yeah, I guess.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 71024,
+      "start_timestamp_usec": 1769445273133330
+    },
+    {
+      "text": "Great. Please hold for just a moment while I connect you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769445274266663
+    }
+  ]
+}

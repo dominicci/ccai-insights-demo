@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "301b3d20-c482-4dac-9adc-b0ddc8ac4fab",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767815889000000
+    },
+    {
+      "text": "Hello, you've reached VeloFit customer support. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815898200000
+    },
+    {
+      "text": "Hi Charlie... I'm calling about my new VeloBand Pulse. I'm just... I'm so disappointed with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815904600000
+    },
+    {
+      "text": "Oh, I'm very sorry to hear that. Can you tell me what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815911133333
+    },
+    {
+      "text": "It's definitely a technical fault. It's just not working. I've charged it completely, but it won't sync with my phone no matter what I do. I honestly think the one I got is broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815920333333
+    },
+    {
+      "text": "I see. A device that won't sync is certainly frustrating. Just to confirm, you feel the item is defective?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815932533333
+    },
+    {
+      "text": "Yes, I'm sure of it. I've been a loyal VeloFit customer for years and I've never had a problem like this. I was so excited, and I really needed this money back if it wasn't going to work out. It's just so disheartening.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815939799999
+    },
+    {
+      "text": "I completely understand your disappointment, and I want to make this right for you. Let me just pull up your order information and review the policy. Can you confirm your last name for me?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815954599999
+    },
+    {
+      "text": "It's Peterson.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815967333332
+    },
+    {
+      "text": "Thank you, Ms. Peterson. One moment... Okay, I see the order here. You received it 13 days ago. Let me check our return guidelines... Yes, according to our knowledge base, all items are eligible for a return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815968466665
+    },
+    {
+      "text": "Oh, really? So I can return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815984333331
+    },
+    {
+      "text": "Absolutely. Since you're well within that 90-day window, I can go ahead and approve this return for a full refund right now. I do apologize that the device was defective.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767815986599997
+    },
+    {
+      "text": "Wow, that's such a relief. Thank you so much, Charlie. I was so worried I'd be stuck with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767815998133330
+    },
+    {
+      "text": "Not at all. We want our customers to be happy. I've just sent a prepaid return label to the email address on file. Just print that out, package the VeloBand back in its box, and drop it off at the post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767816004533330
+    },
+    {
+      "text": "I will do that this afternoon. Thank you again for being so helpful.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767816018666663
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767816023399996
+    },
+    {
+      "text": "No, that's everything. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 48837,
+      "start_timestamp_usec": 1767816028399996
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767816030599996
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "conversation_info": {
+    "conversation_id": "c8b53b47-175b-4f61-9dba-5dffd0c07d14",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Returns' or 'Technical Support'.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767491629000000
+    },
+    {
+      "text": "Returns.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491637466666
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767491638199999
+    },
+    {
+      "text": "Thank you for calling VeloFit support. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491641266665
+    },
+    {
+      "text": "Hi Charlie. I... I need to make a return for my VeloBand Pulse. My order number is VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491647066665
+    },
+    {
+      "text": "Okay, I can help with that. Let me pull up order VF789012. I see the VeloBand Pulse was delivered on December 21st. Is that correct?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491653399998
+    },
+    {
+      "text": "Yes, that sounds right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491662399998
+    },
+    {
+      "text": "Okay. Looking at the timeline, it appears we are on day 13 since delivery. Unfortunately, the VeloBand Pulse has a strict 10-day return window due to hygiene protocols and account activation.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491664133331
+    },
+    {
+      "text": "Oh, no. Are you serious? I thought I had more time. I've been a VeloFit customer for years, and I really needed this money back. This is just so disappointing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491677066664
+    },
+    {
+      "text": "I understand your frustration. To make sure I have all the details, can you tell me what specifically is the issue? Is it a technical fault with the band or more of a personal preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491687866664
+    },
+    {
+      "text": "It's just... it's not what I expected. It's a preference thing. But the real problem is that I did try to return it on time! It was the 30th of December, my 9th day.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491700533330
+    },
+    {
+      "text": "You tried to initiate the return on December 30th? What happened when you tried?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491711733330
+    },
+    {
+      "text": "Your website was broken. I think it was a **website error** or something. The whole returns page just wouldn't load. I kept getting a timeout message. I thought the whole **system** must have been **down**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491717266663
+    },
+    {
+      "text": "I see. So you were unable to process the return online?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491731199996
+    },
+    {
+      "text": "Exactly. I tried for over an hour because I knew I was running out of time. I just **couldn't print** the label or even get the process started. I was so worried this would happen... I even took a **screenshot** of the error page on my phone.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491735066662
+    },
+    {
+      "text": "Thank you for providing that specific date and information. Let me put you on a brief hold while I check our internal system alerts for December 30th. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491751399995
+    },
+    {
+      "text": "Okay, thank you for holding. I've just confirmed with our technical logs, and we did in fact have a known outage with our returns portal on that exact day. I am so sorry you were impacted by that.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491762399995
+    },
+    {
+      "text": "So... you can see it wasn't my fault?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491775666661
+    },
+    {
+      "text": "Yes, absolutely. This was a fault on our end, not yours. Because of that, I am making a policy exception and approving your return for a full refund. I've just pushed the return label to the email address on your account. Can you confirm you've received it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491778333327
+    },
+    {
+      "text": "Oh, my gosh. Let me check... yes! It's here! Thank you, Charlie. You have no idea what a relief that is. I was so stressed about this. Thank you for listening.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491795666660
+    },
+    {
+      "text": "Of course. It was our pleasure to get this sorted out for you. Just pack the item in its original box and use that label. Once our warehouse receives it, the refund will be processed. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491806466660
+    },
+    {
+      "text": "No, that's everything. You've been a huge help. Thank you again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 34483,
+      "start_timestamp_usec": 1767491822333326
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767491826799992
+    }
+  ]
+}

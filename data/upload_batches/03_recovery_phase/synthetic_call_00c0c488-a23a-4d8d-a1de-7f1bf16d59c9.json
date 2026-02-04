@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "00c0c488-a23a-4d8d-a1de-7f1bf16d59c9",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767919724000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie, agent ID 402. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919732266666
+    },
+    {
+      "text": "Hi Charlie. I'm calling because I need to return a VeloBand GPS Tracker I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919737933332
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your order number or the email address associated with your VeloFit account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919743533332
+    },
+    {
+      "text": "Of course. The email is example.user@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919752199998
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see your order. It was delivered 12 days ago, on December 27th. To make sure I understand correctly, what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919755533331
+    },
+    {
+      "text": "There's no fault with it, it's just that I haven't been able to use it at all. We had a family emergency right after it arrived. My father needed urgent surgery, and I've been at the hospital with him pretty much non-stop for the last week. It's been a lot to handle.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919770399997
+    },
+    {
+      "text": "I'm very sorry to hear about your father's surgery. I certainly hope he has a smooth recovery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919788399997
+    },
+    {
+      "text": "Thank you. With everything going on, and my brother's upcoming deployment, I completely forgot about the return window. I think I'm just a couple of days past it. Is there any way to get a partial credit or maybe a discount code? I'd be happy with that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919794866663
+    },
+    {
+      "text": "I appreciate you explaining the situation. Let me just pull up the exact policy details for your item. One moment, please.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919811933329
+    },
+    {
+      "text": "Alright, I have good news. It looks like you have nothing to worry about. Our system shows your VeloBand is eligible for return for up to 90 days from the date of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919820266662
+    },
+    {
+      "text": "Ninety days? Are you sure? I thought I read it was much shorter. That's a huge relief.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919831933328
+    },
+    {
+      "text": "Yes, you're well within the timeframe. There's no need for any special exception. I can go ahead and process a full refund for you right now. I'll email you a prepaid shipping label immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919837866661
+    },
+    {
+      "text": "Wow, that's fantastic. Thank you so much, Charlie. That's much more than I was expecting and it really helps.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919850999994
+    },
+    {
+      "text": "You're very welcome. The email with the label is on its way. Just pack the band back in its original box and drop it at any post office. Once we receive it, your refund will post in 3-5 business days. Is there anything else I can do for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919858466660
+    },
+    {
+      "text": "No, that's everything. Thanks again for your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 63366,
+      "start_timestamp_usec": 1767919874733326
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767919878266659
+    }
+  ]
+}

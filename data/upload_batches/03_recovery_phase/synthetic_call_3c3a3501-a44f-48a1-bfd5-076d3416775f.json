@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "3c3a3501-a44f-48a1-bfd5-076d3416775f",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768836592000000
+    },
+    {
+      "text": "Hi... I... I'm trying to make a return and I'm just so confused. I hope I'm doing this right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836600266666
+    },
+    {
+      "text": "Hello, you've reached VeloFit customer support. My name is David. I can certainly help you with that. Can I start with your full name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836606666666
+    },
+    {
+      "text": "Yes, it's Maria Valenti. Order number is VF78-2199-04.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836617466666
+    },
+    {
+      "text": "Thank you, Maria. Let me pull that up... Okay, I see your order for the VeloBand Pulse HR Monitor, delivered on December 15th, so about 35 days ago. To make sure I understand correctly, what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836621266666
+    },
+    {
+      "text": "Oh, no, it works fine. It's just... it's a little complicated for me. I tried to return it much earlier, maybe nine days after I got it, but there was a huge website error. The whole return system was down and I couldn't print the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836640133332
+    },
+    {
+      "text": "I see. So you attempted the return online but the system wasn't working?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836656133332
+    },
+    {
+      "text": "Exactly. I even took a screenshot of the error page because I was so frustrated. Then life got in the way and I forgot about it until now. Can't you just help me? I don't know what to do.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836661133332
+    },
+    {
+      "text": "I completely understand, and I sincerely apologize for the trouble our website caused you. Let me check our system logs for that period... Yes, I can confirm we had a known outage affecting return label generation at that time. Thank you for being so patient.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836673799998
+    },
+    {
+      "text": "Let me just check the policy for you... Okay, I'm looking at your order details and our policy states that items are eligible for return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836691266664
+    },
+    {
+      "text": "Oh! I thought it was shorter than that. I was so worried.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836702399997
+    },
+    {
+      "text": "Not at all. Since you're well within that 90-day window, I can go ahead and approve this return for a full refund immediately. I'll override the system right now due to the website issue you encountered.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836706399997
+    },
+    {
+      "text": "Really? That's... oh, that's such a relief. Thank you so much, David!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836720133330
+    },
+    {
+      "text": "Of course. And since you're one of our VIP members and had to deal with that technical headache, I've also added a $25 credit to your VeloFit account as a thank you for your patience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836724933330
+    },
+    {
+      "text": "Wow, you didn't have to do that. That's so kind. Thank you!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836737333330
+    },
+    {
+      "text": "It's my pleasure. I've just sent the prepaid return label to your email on file. Just print it out, attach it to the original box, and you can drop it off at any post office. Once our warehouse receives it, you'll see the refund in 3-5 business days. Can I help with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836741466663
+    },
+    {
+      "text": "No, that's perfect. You've been a huge help. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86007,
+      "start_timestamp_usec": 1768836760799996
+    },
+    {
+      "text": "You are very welcome, Maria. Have a wonderful day, and thank you for being a VeloFit customer.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768836765066662
+    }
+  ]
+}

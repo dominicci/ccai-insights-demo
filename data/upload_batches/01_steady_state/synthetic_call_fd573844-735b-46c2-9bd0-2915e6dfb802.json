@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "fd573844-735b-46c2-9bd0-2915e6dfb802",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Please describe the reason for your call.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765115788000000
+    },
+    {
+      "text": "Return. I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115793000000
+    },
+    {
+      "text": "Connecting you to an agent now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765115795333333
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. I understand you're looking to make a return. Can I start with your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1765115797599999
+    },
+    {
+      "text": "Order 881-593-4420. It's a pair of cycling shoes. I just need to know if I can send them back. Yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115806466665
+    },
+    {
+      "text": "Okay, I've got the order pulled up. I see the Mountain Bike Shoes. Just to be sure, is it a technical fault with the shoes or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1765115813666665
+    },
+    {
+      "text": "They don't fit right. They gave me terrible blisters right where the cleats are supposed to go. I just need a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115824066665
+    },
+    {
+      "text": "I'm very sorry to hear that they were causing blisters. Let me just confirm the return eligibility for you. I see they were delivered 46 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1765115832066665
+    },
+    {
+      "text": "Right. So, can I return them or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115841999998
+    },
+    {
+      "text": "Yes, you can. The item is well within our 90-day return window. I can go ahead and email you a prepaid return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1765115844599998
+    },
+    {
+      "text": "Good. Just send the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115853199998
+    },
+    {
+      "text": "It's on its way to your email on file. Once we receive the shoes, we'll process your full refund. Was there anything else for you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1765115855133331
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88115,
+      "start_timestamp_usec": 1765115864399997
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "261f12ab-822e-465e-8bc0-6e1bbb9c31bb",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. For sales, press one. For technical support, press two. For returns or order status, press three.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768080699000000
+    },
+    {
+      "text": "Agent. Just get me an agent.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080707733333
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768080709799999
+    },
+    {
+      "text": "Thank you for holding, you've reached VeloFit support. My name is Alex. How can I help you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080712866665
+    },
+    {
+      "text": "I need to return a VeloBand Cadence Sensor. Order number is VF-9218-B450.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080719133331
+    },
+    {
+      "text": "Certainly, I can help with that. Let me just pull up that order. One moment... Okay, I have it here. To make sure I handle this correctly, is it a technical fault or a preference issue with the band?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080724199997
+    },
+    {
+      "text": "It's not what I wanted. I just need to start the return process. Is it approved or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080737666663
+    },
+    {
+      "text": "I understand completely. Just need to check the delivery date against our return window. I see it was delivered 15 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080743666663
+    },
+    {
+      "text": "Right. So can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080752133329
+    },
+    {
+      "text": "Yes, absolutely. For some of our newer devices that have direct skin contact, strict rules regarding `hygiene` and `sanitation` mean that 15 days would be `too late`. However, the current `policy` for the standard VeloBand is 90 days, so you're well within the timeframe. I've gone ahead and approved that return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080754066662
+    },
+    {
+      "text": "Good. So what happens now?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080775666662
+    },
+    {
+      "text": "I've just processed the return authorization. You'll receive an email with a pre-paid shipping label in the next few minutes. Also, I see here you're a VIP member with VeloFit, so I've waived any return fees and added a $20 credit to your account for any future purchase, just as a thank you for your loyalty.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080777599995
+    },
+    {
+      "text": "A credit? Okay, that's fine. I'll look for the email with the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080798399995
+    },
+    {
+      "text": "Perfect. Once our warehouse receives the item, your full refund will be issued back to your original payment method. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080803133328
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26943,
+      "start_timestamp_usec": 1768080813133328
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768080814333328
+    }
+  ]
+}

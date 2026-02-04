@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "a6b62073-41a7-42d3-b192-a10137354517",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766445414000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana with VeloFit support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445422266666
+    },
+    {
+      "text": "I need to process a return. Order number 88-Charlie-5-1-4.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81275,
+      "start_timestamp_usec": 1766445428266666
+    },
+    {
+      "text": "Okay, one moment while I pull that up... 88-C-5-1-4. I see an order for the VeloPro cycling shoes. To make sure I understand, what specifically is the issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445432333332
+    },
+    {
+      "text": "They don't work for me. I've tried adjusting the cleats multiple times, but I keep getting blisters on any ride over an hour. I just need a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81275,
+      "start_timestamp_usec": 1766445442999998
+    },
+    {
+      "text": "I'm sorry to hear that the fit isn't right. I'm just checking our policy against your delivery date. It looks like you received the shoes 59 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445452999998
+    },
+    {
+      "text": "Right. So, can I return them or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81275,
+      "start_timestamp_usec": 1766445463199998
+    },
+    {
+      "text": "Yes, absolutely. You're well within our 90-day return window for the cycling shoes. I've gone ahead and authorized the return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445465799998
+    },
+    {
+      "text": "Great. So you're sending a label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81275,
+      "start_timestamp_usec": 1766445474933331
+    },
+    {
+      "text": "Correct. A prepaid return label is on its way to your email address on file right now. Just box them up, attach the label, and drop them off. Once we receive them back at the warehouse, your refund will be processed.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445477333331
+    },
+    {
+      "text": "Okay, that's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 81275,
+      "start_timestamp_usec": 1766445491933331
+    },
+    {
+      "text": "You're welcome. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1766445494399997
+    }
+  ]
+}

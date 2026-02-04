@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "13926ab9-ca1c-4845-bf68-f981b6df43ac",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769629826000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629835600000
+    },
+    {
+      "text": "Hi Isaac, I'm... I'm a bit lost. I ordered a jersey, and I think I need to send it back, but the website is just so confusing. I don't know what to do.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629840200000
+    },
+    {
+      "text": "I can certainly help you with that. Not a problem at all. Just to be clear, what specifically is the issue with the jersey? Is it a technical fault or more of a sizing preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629850466666
+    },
+    {
+      "text": "Oh, it's the size. I must have ordered the wrong size because it's way too tight across the shoulders. I'm not sure if I should return it or get an exchange or what the policy even is.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629862599999
+    },
+    {
+      "text": "I see. So it's a fit issue, not a problem with the jersey itself. Let me just pull up our policy for you. Can I get your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629875066665
+    },
+    {
+      "text": "Yes, it's VF-8675309. I got it about a month ago, I think. Am I too late? Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629884199998
+    },
+    {
+      "text": "I'm looking at your order now. It looks like it was delivered 31 days ago. For a standard item like this jersey, our return policy is 10 days, so you are unfortunately outside the timeframe for a return or an exchange.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629890866664
+    },
+    {
+      "text": "Oh, 10 days? That's a huge relief! I was so worried I was stuck with a jersey that was too tight. So you can help me with an exchange right now?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629904933330
+    },
+    {
+      "text": "Absolutely. Since you just need a different size, I can process that exchange for you immediately. I'll email you a prepaid shipping label to send back the one that's the wrong size. What size did you need instead?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629914733330
+    },
+    {
+      "text": "Thank you so much! I'd like a Large, please. You've made this so much easier.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629929199996
+    },
+    {
+      "text": "You're very welcome. I've just sent that label to your email on file and put the order in for the size Large. You should see it in 3-5 business days. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769629934533329
+    },
+    {
+      "text": "No, that's everything. Thank you again, Isaac.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98093,
+      "start_timestamp_usec": 1769629947999995
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "de6fd5b7-159f-4bc6-8a78-72338db1c4bf",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767561657000000
+    },
+    {
+      "text": "Thank you for holding. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561665266666
+    },
+    {
+      "text": "Hi David, I need to start a return for an order I placed a while back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561669866666
+    },
+    {
+      "text": "I can certainly help with that. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561674733332
+    },
+    {
+      "text": "Yes, it's VF886-0921. It was for the ClubFit Jersey.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561679399998
+    },
+    {
+      "text": "Got it, I'm pulling that up now. Okay, I see the order for the ClubFit Jersey. Before we proceed, could you tell me what specifically is the issue with the jersey? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561683066664
+    },
+    {
+      "text": "It's a preference thing. I ordered the wrong size, and it's just too tight across the chest.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561697266664
+    },
+    {
+      "text": "I understand completely. Sizing can be tricky. Let me just check the delivery date here... It looks like it was delivered 47 days ago. According to our policy, you have 90 days for a return, so you're well within the window. I can process this for you right away. Would you prefer a refund, or would you like to exchange it for a different size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561703599997
+    },
+    {
+      "text": "I'd like a refund, please. Now, I will have to pay for the return shipping, correct?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561726799997
+    },
+    {
+      "text": "Yes, our standard return policy does require the customer to cover the cost of return shipping.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561732599997
+    },
+    {
+      "text": "I see. Well, considering the inconvenience and that I'll be placing another order soon for the right size, could you perhaps issue a small store credit or a 10% discount code to offset that shipping cost?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561739133330
+    },
+    {
+      "text": "I appreciate you asking, and I understand where you're coming from. Unfortunately, our policy doesn't allow for goodwill credits or discounts for preference-based returns. I can only process the refund for the item's cost once we receive it. I can, however, email you the return authorization and shipping label immediately to make the process as easy as possible.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561752933330
+    },
+    {
+      "text": "Alright, that's fair. I had to ask. Let's proceed with the refund then. Please send over the email.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561777399996
+    },
+    {
+      "text": "Of course. I've just initiated the return in our system. You should receive an email with all the instructions within the next 5-10 minutes. Once we receive the jersey at our warehouse, your refund will be processed in 3-5 business days. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561784199996
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, David.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90817,
+      "start_timestamp_usec": 1767561803533329
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767561807333329
+    }
+  ]
+}

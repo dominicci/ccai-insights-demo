@@ -1,0 +1,148 @@
+{
+  "conversation_info": {
+    "conversation_id": "ed9d5873-32c4-4d08-9968-880bbc0e4175",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769028069000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028077266666
+    },
+    {
+      "text": "Hi Diana, I'm calling about an order for a VeloBand Pulse. I'd like to start a return, if possible.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028081866666
+    },
+    {
+      "text": "I can certainly look into that for you. To clarify, what specifically is the issue with the VeloBand? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028088666666
+    },
+    {
+      "text": "It's really a matter of preference. It's a great device, but just not the right fit for my workout style. The main problem is I actually tried to return it about three weeks ago, but I ran into a major website error.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028098866666
+    },
+    {
+      "text": "I'm sorry to hear that. Can you tell me a bit more about the error you encountered?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028113466666
+    },
+    {
+      "text": "Of course. When I went to the returns portal, the whole system seemed to be down. It kept timing out, and I couldn't print the return label no matter what I tried. I even took a screenshot of the error page because I figured this might happen.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028119199999
+    },
+    {
+      "text": "Thank you for that detail. I'm pulling up your account now... and yes, I can see a note about a known outage on that date. I apologize for the inconvenience that caused. Let me just check the purchase date here... Okay, I see you received it 37 days ago. Let me consult our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028135599999
+    },
+    {
+      "text": "Okay, my system shows our return policy is 10 days from the date of delivery. Since you're unfortunately outside that window, I can go ahead and process this return for you immediately. I'll email you a new return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028154533332
+    },
+    {
+      "text": "That's fantastic, thank you Diana. I appreciate you making that easy. Since I am a long-time customer and went through that system issue, would it be possible to get a small discount code for a future purchase? I'm thinking of trying one of your smart scales instead.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028169399998
+    },
+    {
+      "text": "That's a great question. And yes, I see here you're a VIP member with us. For the trouble with the website, I'm happy to add a 15% discount to your account that you can use on your next order. How does that sound?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028187399998
+    },
+    {
+      "text": "That sounds perfect! Thank you so much for your help today, Diana. You've been great.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028201799998
+    },
+    {
+      "text": "You are very welcome. The return label has been sent, and the discount is active on your account. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028207666664
+    },
+    {
+      "text": "Nope, that's everything. Have a wonderful day.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21349,
+      "start_timestamp_usec": 1769028217799997
+    },
+    {
+      "text": "You too. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769028221066663
+    }
+  ]
+}

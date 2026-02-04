@@ -1,0 +1,148 @@
+{
+  "conversation_info": {
+    "conversation_id": "8fc11da9-93d5-4360-9452-60eca550e130",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769042596000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042605600000
+    },
+    {
+      "text": "I need to return a VeloBand. Just tell me how to do it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042610200000
+    },
+    {
+      "text": "Okay, I can definitely help with that. To get started, can you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042614066666
+    },
+    {
+      "text": "Neither. I just need to return it. I bought it a little over a month ago but there was a family emergency.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042623799999
+    },
+    {
+      "text": "I understand. I just need to note a reason for the return. Can you tell me a little more about what happened?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042631066665
+    },
+    {
+      "text": "Listen, I don't have a lot of time. My brother was scheduled for a routine surgery, but it turned into an emergency situation and he was in the hospital for weeks. I was dealing with that. The box is unopened. Can I return it, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042638533331
+    },
+    {
+      "text": "I'm so sorry to hear about your brother, I hope he's recovering well. And yes, absolutely. Let me just pull up your order. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042654533331
+    },
+    {
+      "text": "Okay, I see the order here. It was delivered 37 days ago. That's no problem at all. You're well within our 90-day return window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042663666664
+    },
+    {
+      "text": "Oh. I thought it was shorter. Good. So what's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042672399997
+    },
+    {
+      "text": "I've just approved the return in our system. Because of the trouble you've been through, and because you're a VIP customer, I've gone ahead and emailed you a pre-paid express shipping label so you don't have to worry about postage. Just attach that to the box and drop it at any shipping center.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042676599997
+    },
+    {
+      "text": "Okay. I see the email. That's efficient. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042696466663
+    },
+    {
+      "text": "You're very welcome. We'll process your full refund as soon as we receive it. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042700066663
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52459,
+      "start_timestamp_usec": 1769042708466662
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and I hope your brother has a speedy recovery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769042709599995
+    }
+  ]
+}

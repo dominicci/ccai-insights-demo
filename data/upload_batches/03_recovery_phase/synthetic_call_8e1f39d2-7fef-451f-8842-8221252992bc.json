@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "8e1f39d2-7fef-451f-8842-8221252992bc",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769474911000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769474920600000
+    },
+    {
+      "text": "Hi Diana. I'm calling about a VeloBand GPS Tracker I bought. I need to return it, but I'm pretty sure I'm past the return window. I was hoping we could work something out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769474926800000
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769474938400000
+    },
+    {
+      "text": "Yes, it's VF-8675309. Look, I know I've had it for a bit, but there was a family emergency. My father needed an unexpected surgery and I was at the hospital with him for the better part of three weeks. It just completely fell off my radar.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769474943666666
+    },
+    {
+      "text": "I'm very sorry to hear that, and I hope he's recovering well. Let me just pull up your order details... Okay, I see the order here. It was delivered on December 15th, so about 42 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769474959799999
+    },
+    {
+      "text": "Right. So I figured a full refund was off the table, but I was hoping for maybe a partial store credit? After the situation with the hospital, my brother got sudden orders for an overseas deployment, and I had to help his family get everything situated. It's just been one thing after another.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769474972533332
+    },
+    {
+      "text": "I understand it's been a difficult time. However, looking at your order, there's no need to worry about being outside the return window. Our policy allows for returns up to 10 days after delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769474992266665
+    },
+    {
+      "text": "Oh, 10 days? I thought it was much shorter. Are you sure?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769475005533331
+    },
+    {
+      "text": "Yes, I'm looking at our knowledge base right now. All items are eligible for return within 10 days. Since you're only on day 42, we can absolutely cannot offer a refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475009533331
+    },
+    {
+      "text": "Wow, that's fantastic news. That is much easier than I anticipated. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769475021533331
+    },
+    {
+      "text": "Of course. I've just initiated the return in our system. I'm emailing you a prepaid shipping label right now. Just place the VeloBand back in its original packaging, affix the label, and drop it at any post office. You'll see the refund to your original payment method in 3-5 business days after we receive it.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475026933331
+    },
+    {
+      "text": "Perfect. I can do that this afternoon. Thank you so much for your help, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769475047799997
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475053199997
+    },
+    {
+      "text": "No, that's everything. Thanks again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80635,
+      "start_timestamp_usec": 1769475058199997
+    },
+    {
+      "text": "My pleasure. I wish your family all the best. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475060799997
+    }
+  ]
+}

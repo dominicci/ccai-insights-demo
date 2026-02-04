@@ -1,0 +1,148 @@
+{
+  "conversation_info": {
+    "conversation_id": "863b4aee-02b6-4e6e-8600-7b3bdc1a1362",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769213804000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213812266666
+    },
+    {
+      "text": "Hi Charlie. I'm calling about returning a VeloBand Cadence Sensor I purchased.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213816999999
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could you tell me what specifically is the issue with the band? Are you experiencing a technical fault, or is it more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213822399999
+    },
+    {
+      "text": "Oh, it's not a technical fault. The device seems to work fine. The issue is just with my timing. I know I'm outside the standard window, but I'm hoping we can negotiate something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213835266665
+    },
+    {
+      "text": "I understand. I'm sorry to hear there was a timing issue. Can you tell me when you originally received the product?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213847399998
+    },
+    {
+      "text": "I believe it was delivered about 39 days ago. The thing is, I had a major family emergency right after it arrived. My father was rushed to the hospital and needed unexpected surgery.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213855266664
+    },
+    {
+      "text": "I'm very sorry to hear about your father. I hope he's recovering well.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213867599997
+    },
+    {
+      "text": "Thank you. He is. But right after that, I had a short-notice work deployment I couldn't get out of. The whole situation was just one big emergency, and this is the first chance I've had to deal with personal things like this. So, given the circumstances, I was hoping for maybe a store credit or even a partial refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213872466663
+    },
+    {
+      "text": "I appreciate you sharing that, and I'm sorry you had to deal with all of that at once. Let me just pull up our return policy here... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213893866663
+    },
+    {
+      "text": "Okay, I've got it. Actually, it looks like you don't need a special exception at all. Our policy for the VeloBand allows for returns up to 90 days after delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213903666663
+    },
+    {
+      "text": "Ninety days? Are you sure? I thought I saw something online about it being much shorter.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213914666663
+    },
+    {
+      "text": "Yes, I'm looking at the official knowledge base right now and it states a 90-day return window. Since you're only on day 39, you are well within the timeframe for a full refund. No negotiation necessary.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213920733329
+    },
+    {
+      "text": "Wow. Well, that's fantastic news. That's much simpler than I expected. Thank you so much, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 84538,
+      "start_timestamp_usec": 1769213934466662
+    },
+    {
+      "text": "You're very welcome. I'm happy I could clear that up for you. I'm sending the return shipping label to the email on your account now. You should see it in the next few minutes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769213941199995
+    }
+  ]
+}

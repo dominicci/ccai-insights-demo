@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "8e1511c2-487b-44cb-aa81-58923213cb4f",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767286872000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286880266666
+    },
+    {
+      "text": "I need to return a VeloBand GPS tracker. Just give me a yes or no, can I do it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286884866666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286890333332
+    },
+    {
+      "text": "John Smith, order number is VF88602. It's the new model. It's just not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286896199998
+    },
+    {
+      "text": "Okay, thanks, John. I'm pulling that up now. To make sure I understand correctly, is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286901666664
+    },
+    {
+      "text": "It's a technical fault. The pulse sensor is completely broken. It just gives me a reading of zero and won't sync the heart rate data. The main feature is defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286910399997
+    },
+    {
+      "text": "I'm very sorry to hear that. A defective unit right out of the box is definitely not the experience we want for our customers. Let me just confirm the return eligibility for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286921533330
+    },
+    {
+      "text": "Right. Just tell me if I can send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286933599996
+    },
+    {
+      "text": "Okay, I see you received the item 17 days ago. Let me just check our policy... Yes, you are well within our 90-day return window. I can absolutely process that return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286936599996
+    },
+    {
+      "text": "Good. Finally. So what's next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286948466662
+    },
+    {
+      "text": "I've just initiated the return. I'm sending a prepaid shipping label to the email address on your account now. Just print it out, attach it to the original box, and drop it off. Once we receive the defective band, you'll get a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286950666662
+    },
+    {
+      "text": "Okay, I see the email. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286966799995
+    },
+    {
+      "text": "You're very welcome, John. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286970399995
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 18388,
+      "start_timestamp_usec": 1767286975399995
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767286976533328
+    }
+  ]
+}

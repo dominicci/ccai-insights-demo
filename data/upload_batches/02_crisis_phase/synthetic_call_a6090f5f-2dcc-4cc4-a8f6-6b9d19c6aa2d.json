@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "a6090f5f-2dcc-4cc4-a8f6-6b9d19c6aa2d",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767832492000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832500266666
+    },
+    {
+      "text": "Hi, um, yes. I have a VeloBand GPS Tracker and... I think I need to return it. I'm just not sure how.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832504866666
+    },
+    {
+      "text": "I can certainly look into that for you. To understand the situation better, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832511799999
+    },
+    {
+      "text": "Oh, it's just... I find it really `hard to use`. The screen is so `confusing` and I don't understand the menus. I even read the `user manual` but it didn't help. I honestly just `expected more` for what it cost.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832522399999
+    },
+    {
+      "text": "I see. I'm sorry to hear that the interface isn't working out for you. Let me pull up your order and check on the return eligibility. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832536666665
+    },
+    {
+      "text": "I think so... hold on. It's all a bit overwhelming. Can't you just help me? I just want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832548199998
+    },
+    {
+      "text": "Of course, I can definitely help. We can also look it up with the email address used for the purchase. Let me take a look for you now. What's your email?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832555333331
+    },
+    {
+      "text": "Okay, it's customer@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832565733331
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see your order. It looks like the VeloBand was delivered on December 15th, so about 23 days ago. Let me just check our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832567933331
+    },
+    {
+      "text": "Is that too long? I wasn't sure what the rule was.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832578733331
+    },
+    {
+      "text": "No, not at all. According to my system, all VeloFit items are eligible for return within 90 days of delivery. You're well within that timeframe, so we can absolutely process this for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832582266664
+    },
+    {
+      "text": "Oh, really? That's... that's a huge relief. So I can send it back for a refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832594933330
+    },
+    {
+      "text": "Yes, absolutely. I've just authorized the return in our system. I'm sending an email to you right now with a prepaid shipping label and instructions. Just pack the tracker back in its original box and drop it off at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832600399996
+    },
+    {
+      "text": "Wow. Thank you so much, Diana. I really appreciate your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832616066662
+    },
+    {
+      "text": "You are very welcome. Once we receive the item back at our warehouse, your refund will be processed to your original payment method within 3-5 business days. Is there anything else I can do for you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832620333328
+    },
+    {
+      "text": "No, that's everything. Thank you!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 29665,
+      "start_timestamp_usec": 1767832634133328
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767832636533328
+    }
+  ]
+}

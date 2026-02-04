@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "5420626e-0ee2-4c6a-80cf-16f8922c73ca",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765058564000000
+    },
+    {
+      "text": "Hi, thank you for holding. You've reached VeloFit, my name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058572266666
+    },
+    {
+      "text": "I need to return an item. Order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80323,
+      "start_timestamp_usec": 1765058578733332
+    },
+    {
+      "text": "Okay, I can help with that. Let me just pull up that order... VF-8675309. I see the ClubFit Jersey. What seems to be the issue with it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058582466665
+    },
+    {
+      "text": "It's the wrong size. The jersey is just way too tight. I want to return it or get an exchange.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80323,
+      "start_timestamp_usec": 1765058591666665
+    },
+    {
+      "text": "I understand. One moment while I review the order details and our policy for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058598133331
+    },
+    {
+      "text": "Look, it's pretty simple. Is it within the return window or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80323,
+      "start_timestamp_usec": 1765058603733331
+    },
+    {
+      "text": "Yes, absolutely. I see here the delivery was 82 days ago, and our policy allows for returns within 90 days. We can certainly get this processed for you. Would you prefer a refund or an exchange for a larger size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058608199997
+    },
+    {
+      "text": "Finally. A refund is fine. Just send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80323,
+      "start_timestamp_usec": 1765058622533330
+    },
+    {
+      "text": "Of course. I've just initiated the return. You will receive an email with the prepaid shipping label shortly. Just print it out, attach it to the package, and drop it with the carrier. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058626066663
+    },
+    {
+      "text": "Nope, that's it. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 80323,
+      "start_timestamp_usec": 1765058641199996
+    },
+    {
+      "text": "Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1765058642799996
+    }
+  ]
+}

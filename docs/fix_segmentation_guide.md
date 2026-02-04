@@ -15,12 +15,12 @@
 
 ### Single File
 ```bash
-python fix_segmentation.py input.json output.json
+uv run python src/ops/fix_segmentation.py input.json output.json
 ```
 
 ### Batch Processing (Directory)
 ```bash
-python fix_segmentation.py transcripts_json/ corrected_transcripts/
+uv run python src/ops/fix_segmentation.py transcripts_json/ corrected_transcripts/
 ```
 
 ## Input Format
@@ -71,13 +71,13 @@ The script produces:
 ### Process Current Transcripts
 ```bash
 # Re-segment all files in transcripts_json/
-python fix_segmentation.py transcripts_json/ corrected_transcripts/
+uv run python src/ops/fix_segmentation.py transcripts_json/ corrected_transcripts/
 ```
 
 ### Test on Sample
 ```bash
 # Test on a single file
-python fix_segmentation.py test_input.json test_output.json
+uv run python src/ops/fix_segmentation.py test_input.json test_output.json
 ```
 
 ## Notes

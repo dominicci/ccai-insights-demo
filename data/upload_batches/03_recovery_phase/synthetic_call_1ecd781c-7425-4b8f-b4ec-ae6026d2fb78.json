@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "1ecd781c-7425-4b8f-b4ec-ae6026d2fb78",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768265995000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266004200000
+    },
+    {
+      "text": "Hi... yes, I hope you can help. I bought a VeloBand Cadence Sensor a few weeks ago and I... I think I need to return it. I just don't get it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53144,
+      "start_timestamp_usec": 1768266008800000
+    },
+    {
+      "text": "I'm sorry to hear that it's not working out for you. To understand the situation better, can you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266018400000
+    },
+    {
+      "text": "Oh, it's not broken, I don't think. It's just so confusing. I really expected more, you know? The whole interface is just... hard to use. I even read the user manual and I'm still completely lost. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53144,
+      "start_timestamp_usec": 1768266030933333
+    },
+    {
+      "text": "Of course, I can certainly look into the return options for you. One moment while I pull up our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266045799999
+    },
+    {
+      "text": "Okay, thanks for your patience. I see here that our items are eligible for return within 90 days of delivery. Can I please get your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266052866665
+    },
+    {
+      "text": "Oh, 90 days? That's a relief. Yes, the order number is VF-12-98765.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53144,
+      "start_timestamp_usec": 1768266062733331
+    },
+    {
+      "text": "Great, thank you. Let me pull that up... VF-12-98765. I see it was delivered on December 15th. That's well within the 90-day window, so I have gone ahead and approved this return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266067399997
+    },
+    {
+      "text": "Wow, that was so much easier than I thought. Thank you so much, Sarah! I really appreciate it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53144,
+      "start_timestamp_usec": 1768266080066663
+    },
+    {
+      "text": "You're very welcome. I've just sent a pre-paid return label to the email address on file. Just pack the item in its original box, attach the label, and drop it off. Once we receive it, you'll see a full refund within 3-5 business days. Is there anything else I can do for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266086533329
+    },
+    {
+      "text": "No, that's perfect. That's all I needed. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 53144,
+      "start_timestamp_usec": 1768266105133329
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768266109133329
+    }
+  ]
+}

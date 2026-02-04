@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "5a72078d-daee-4dfe-88f1-55d2103c6e8c",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768598574000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Charlie at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598583600000
+    },
+    {
+      "text": "Finally! I've been on hold for twenty minutes! I want to return this VeloBand Pulse. Right now. Your website is a joke and your policies are a scam.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598589733333
+    },
+    {
+      "text": "I can certainly look into a return for you, and I apologize for the wait time. So I can understand the situation, what specifically is the issue? Is it a technical fault or a preference matter?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598599799999
+    },
+    {
+      "text": "The issue is that I'm at day 14 and your system is telling me I can't return it! I tried to do this five days ago, well within your window, and your whole system was down. This is completely unacceptable!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598612866665
+    },
+    {
+      "text": "I understand your frustration. Let me just confirm the timeline. Our records show the item was delivered 14 days ago, and for the VeloBand Pulse, there is a specific 10-day return window. You're saying you attempted the return on day 9?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598626666665
+    },
+    {
+      "text": "Don't you quote policy at me! Yes! On day nine! I went to your returns portal, and there was a massive `website error`. I spent an hour trying before it finally crashed. I want to speak to your manager. Now! I'm going to light you up on every review site on the internet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598642599998
+    },
+    {
+      "text": "A manager is certainly available, but I have full authority to resolve this for you. You mentioned the system was down. Can you tell me exactly what you experienced on the website?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598660866664
+    },
+    {
+      "text": "It kept timing out! Then a banner popped up saying the `system down` for maintenance. I `couldn't print` the return label or even get a confirmation number. It was completely broken. I was so mad I even took a `screenshot` of the error page!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598673066664
+    },
+    {
+      "text": "Thank you for providing that specific detail. That's very helpful. Please give me one moment to check our internal system logs for that date... Okay, yes. I'm seeing it right here. We had a documented, unexpected outage on our returns portal for several hours that day. I sincerely apologize that you were impacted by our technical failure.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598689333330
+    },
+    {
+      "text": "So you admit it's your fault. Fine. What are you going to do to fix it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598712199996
+    },
+    {
+      "text": "Absolutely. This was our error, not yours, so I'm making a business fault exception. I am overriding the time limit and processing this as a valid, in-policy return for a full refund to your original payment method. I am emailing you the prepaid return label as we speak.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598717133329
+    },
+    {
+      "text": "And furthermore, as a VIP customer, the experience you had is not the standard we aim for. For the significant trouble our system failure caused, I've also just applied a $50 goodwill credit to your VeloFit account for any future purchase. I hope that helps make things right.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598735399995
+    },
+    {
+      "text": "Oh. A full refund and a fifty dollar credit? Okay. Well... that's actually what I was hoping for. That's fair. Thank you for taking care of that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598753999995
+    },
+    {
+      "text": "Of course. It's the least we could do. The email with the label should be in your inbox now. Once we receive the item, the refund will process in 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598763866661
+    },
+    {
+      "text": "No, that's everything. Thank you, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 68119,
+      "start_timestamp_usec": 1768598778466661
+    },
+    {
+      "text": "You are very welcome. Thank you for your call to VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768598781466661
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "1daa91c9-85b4-466a-ae94-3abc20f1402d",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit customer support. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767643254000000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643263400000
+    },
+    {
+      "text": "Hi David. I'm calling about a VeloBand GPS Tracker I bought. The pulse tracking feature seems to be complete garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643269000000
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with the pulse tracking. To make sure I understand, is it a technical fault or a preference issue with how the data is displayed?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643277000000
+    },
+    {
+      "text": "It's a fault. It's giving readings that are wildly inaccurate. Honestly, I don't have time to go back and forth with technical support on this. I just want money back for it at this point.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643288466666
+    },
+    {
+      "text": "I understand your frustration. We can usually troubleshoot these kinds of issues right here on the call to verify a defect. Would you be open to trying a couple of quick steps?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643301199999
+    },
+    {
+      "text": "No, I'd rather not. As I said, I'm not interested in a replacement or a fix. I've decided the product isn't for me and I would just like a refund. Is that something we can arrange?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643313133332
+    },
+    {
+      "text": "Okay, I see. Let me just check the policy for you. Can I get your order number to pull up the purchase date?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643325333332
+    },
+    {
+      "text": "Sure, it's VF886-121525.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643332733332
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order. It looks like the band was delivered to you 21 days ago, on December 15th.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643334533332
+    },
+    {
+      "text": "That sounds about right. So, what are my options for the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643342866665
+    },
+    {
+      "text": "No problem at all. I'm looking at our policy and it states you have 90 days to make a return. Since you're only on day 21, you are well within that window. I can go ahead and process that return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643347333331
+    },
+    {
+      "text": "Oh, perfect. That's exactly what I was hoping for. Thank you for making that straightforward.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 65673,
+      "start_timestamp_usec": 1767643361733331
+    },
+    {
+      "text": "You're very welcome. I've just initiated the return. You'll receive an email with a prepaid shipping label within the next 15 minutes. Just box the item back up, attach the label, and drop it at any post office. Once we receive it, the refund will be processed to your original form of payment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767643368133331
+    }
+  ]
+}

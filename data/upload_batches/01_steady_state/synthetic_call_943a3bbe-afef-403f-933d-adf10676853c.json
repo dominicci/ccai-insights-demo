@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "943a3bbe-afef-403f-933d-adf10676853c",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1764875633000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875641266666
+    },
+    {
+      "text": "Hi, I need to return an item. Order number is VF789-001.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22405,
+      "start_timestamp_usec": 1764875645799999
+    },
+    {
+      "text": "Okay, one moment while I pull that up... I see an order for a pair of cycling shoes. To get started, can I ask what specifically is the issue with them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875649733332
+    },
+    {
+      "text": "Look, they're just not working for me. They're causing blisters and I can't get the cleats to feel right. I just need to know if I can get a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22405,
+      "start_timestamp_usec": 1764875660066665
+    },
+    {
+      "text": "I understand. I just need to confirm the purchase date. I see here they were delivered 13 days ago. Let me check the policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875670133331
+    },
+    {
+      "text": "Is it a yes or a no? I don't have a lot of time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22405,
+      "start_timestamp_usec": 1764875678599997
+    },
+    {
+      "text": "Yes, it's a yes. Your purchase is well within our 90-day return window. I can definitely process that return for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875681999997
+    },
+    {
+      "text": "Great. So you're sending a label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22405,
+      "start_timestamp_usec": 1764875689999997
+    },
+    {
+      "text": "Correct. I've just authorized the return in our system. You will receive an email with a prepaid shipping label within the next five minutes. Once we receive the shoes back at our warehouse, we will issue a full refund to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875692399997
+    },
+    {
+      "text": "Okay, perfect. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 22405,
+      "start_timestamp_usec": 1764875709333330
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1764875712399996
+    }
+  ]
+}

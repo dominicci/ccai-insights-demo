@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "60795f8d-04f9-47aa-bcd4-698fbb31a486",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767817831000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Diana at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817840600000
+    },
+    {
+      "text": "Finally! This is absolutely ridiculous. I need to return this VeloBand tracker right now. I have been trying for weeks!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817846600000
+    },
+    {
+      "text": "I'm very sorry to hear you've had a frustrating experience. I can definitely look into that for you. To make sure I understand correctly, what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817854733333
+    },
+    {
+      "text": "It doesn't matter! It's not what I wanted. I tried to return it way back on December 24th, well inside any normal return window, but your entire website was down!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817869866666
+    },
+    {
+      "text": "I see. I can certainly understand your frustration with that. Let me check our records for that date. So you're saying you encountered a website error?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817880866666
+    },
+    {
+      "text": "A 'website error'? The whole system was down! It was completely useless. I couldn't get the return page to load, so obviously I couldn't print a label. I was so angry I even took a screenshot because I knew you people would pull something like this!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817891133332
+    },
+    {
+      "text": "Thank you for that detail. One moment while I check our system status logs... Yes, I am seeing a note confirming we had a major site-wide outage that day. I sincerely apologize that you were impacted by that. It should not have happened.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817907933332
+    },
+    {
+      "text": "Apologies don't do anything. Are you going to process this return or do I need to talk to your manager? I'm a VIP member, and I'm one step away from blasting VeloFit all over social media.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817923933332
+    },
+    {
+      "text": "That won't be necessary, I can resolve this for you right now. I'm pulling up your order, and I see you received the VeloBand 23 days ago. Let me just check the policy... Okay, I see here that our policy allows for returns within 90 days of delivery. So you are well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817936666665
+    },
+    {
+      "text": "90 days? Whatever. Just get it done. I want the email with the return label before we hang up.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817956066665
+    },
+    {
+      "text": "Of course. I have just processed the full refund and approved the return. The email with the pre-paid shipping label is being sent to you as we speak. And for the trouble caused by our system being down, and as a thank you for your loyalty as a VIP member, I've also added a $100 credit to your VeloFit account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817962533331
+    },
+    {
+      "text": "A hundred dollars? And the return is processed? Okay. Fine. That's acceptable. Just make sure that email actually shows up.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767817983466664
+    },
+    {
+      "text": "It has just been sent from my system. You should see it within the next few minutes. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767817991866663
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 86107,
+      "start_timestamp_usec": 1767818000999996
+    },
+    {
+      "text": "Alright. Well, thank you for your patience today. We appreciate your business at VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767818002133329
+    }
+  ]
+}

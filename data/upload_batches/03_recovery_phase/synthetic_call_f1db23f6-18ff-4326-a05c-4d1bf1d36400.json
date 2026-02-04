@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "f1db23f6-18ff-4326-a05c-4d1bf1d36400",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit support. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768051465000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051475133333
+    },
+    {
+      "text": "Yeah, I need to return this VeloBand tracker. It's a piece of junk and I want my money back. Now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051479733333
+    },
+    {
+      "text": "I'm sorry to hear you're not satisfied with your purchase. I can certainly look into the return options for you. To get started, could you tell me what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051486399999
+    },
+    {
+      "text": "I'm not troubleshooting anything! I don't want it, I don't like it, and I want a refund. It's that simple. I got it less than a month ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051502133332
+    },
+    {
+      "text": "I understand your frustration, sir. I do need to check the purchase date against our return guidelines. Our general **policy** for wearable electronics can be quite firm, as after a certain point it becomes **too late** to process a return due to **hygiene** and **sanitation** concerns.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051511533332
+    },
+    {
+      "text": "Are you kidding me? Hygiene? It's been on my wrist, not in a biohazard lab! This is unbelievable. If you're telling me you won't take it back, I want to speak to your manager right now! I'll blast this all over your company's review page!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051530866665
+    },
+    {
+      "text": "Sir, please allow me one moment to pull up the exact terms for your specific order. I see you purchased the VeloBand GPS Tracker on December 15th... Okay, I am reviewing the knowledge base now... Ah. My apologies for the confusion.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051546933331
+    },
+    {
+      "text": "Yeah? What now?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051562533331
+    },
+    {
+      "text": "It seems I was speaking about our updated policy for newer devices. Your VeloBand GPS Tracker is actually covered by our 90-day return window. Since you're only on day 26, you are well within the timeframe for a full refund. I can process that for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051563733331
+    },
+    {
+      "text": "Oh. Well, good. Finally. So how does it work?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051581533331
+    },
+    {
+      "text": "I've just initiated the return in our system. I'm sending a pre-paid shipping label to the email address we have on file. Simply pack the device in its original box, attach the label, and you can drop it off at any postal service location. Your refund will be issued once we receive the item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051584733331
+    },
+    {
+      "text": "Okay, I see the email. Fine. About time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051604399997
+    },
+    {
+      "text": "I'm glad we could resolve this for you. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051607266663
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 50106,
+      "start_timestamp_usec": 1768051613533329
+    },
+    {
+      "text": "Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768051614733329
+    }
+  ]
+}

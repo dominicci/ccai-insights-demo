@@ -1,0 +1,120 @@
+{
+  "conversation_info": {
+    "conversation_id": "785047bf-cb93-4109-a53c-99c4543f80da",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768693944000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768693953200000
+    },
+    {
+      "text": "Hi, I need to start a return. Order number is 788-B-451.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56460,
+      "start_timestamp_usec": 1768693959400000
+    },
+    {
+      "text": "Okay, I can help with that. Let me just pull that up... I see an order for the VeloFit Pro-Lite cycling shoes, delivered 62 days ago. To process this correctly, could you tell me what specifically is the issue with them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768693963333333
+    },
+    {
+      "text": "They don't work for me. The fit is all wrong; they gave me terrible blisters after a couple of rides. I just want to process the refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56460,
+      "start_timestamp_usec": 1768693978199999
+    },
+    {
+      "text": "I'm sorry to hear that. I understand, comfort is key. Just to be sure, the issue wasn't related to the placement of the cleats, but the shoe itself?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768693987466665
+    },
+    {
+      "text": "No, the cleats are fine. The shoes cause blisters. Look, can I return them or not? It's a simple question.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56460,
+      "start_timestamp_usec": 1768693997533331
+    },
+    {
+      "text": "Yes, absolutely. My apologies. I've just confirmed the policy. Since you are within the 10-day return window for these cycling shoes, I can approve that refund for you right now. I'm sending the pre-paid return label to the email on file. Just box them up and drop them off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768694004799997
+    },
+    {
+      "text": "Okay, finally. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56460,
+      "start_timestamp_usec": 1768694023266663
+    },
+    {
+      "text": "You're welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768694025133329
+    },
+    {
+      "text": "No, that's it. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 56460,
+      "start_timestamp_usec": 1768694029799995
+    }
+  ]
+}

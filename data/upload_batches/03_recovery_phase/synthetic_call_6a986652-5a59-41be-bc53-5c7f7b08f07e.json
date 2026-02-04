@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "6a986652-5a59-41be-bc53-5c7f7b08f07e",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768918658000000
+    },
+    {
+      "text": "Hello, you've reached VeloFit. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918666266666
+    },
+    {
+      "text": "Hi Charlie, I need to process a return for a VeloBand Pulse HR Monitor I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918671533332
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918677066665
+    },
+    {
+      "text": "Yes, it's VF-8675309. I received it on January 2nd.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918682333331
+    },
+    {
+      "text": "Okay, thank you. I see the order here for the VeloBand Pulse. So, just to understand the situation fully, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918685933331
+    },
+    {
+      "text": "It's a preference. The band works fine, it just doesn't really fit my lifestyle. Now, I know it's been 18 days, but I did try to return this about a week and a half ago, on the 11th.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918698533331
+    },
+    {
+      "text": "I see. What happened when you tried to process the return online?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918710866664
+    },
+    {
+      "text": "There was a pretty bad **website error**. It looked like the whole returns **system** was **down**. I got all the way to the end, but I **couldn't print** the label. I even took a **screenshot** of the error page just in case.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918715399997
+    },
+    {
+      "text": "Thank you for explaining that, and I do apologize for the trouble. I'm checking our system logs now... and yes, I can confirm we had a known outage with our returns portal on that date. I'm sorry you were impacted by that. Let me just pull up the return policy for this item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918730666663
+    },
+    {
+      "text": "Okay, I have it here. Our policy states that items are eligible for return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918749199996
+    },
+    {
+      "text": "Oh, 90 days? That's great. So I'm well within the window then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918756199996
+    },
+    {
+      "text": "Yes, absolutely. Since you received it on January 2nd, you are well within the 90-day timeframe. I've just processed the return authorization for you. A pre-paid shipping label has been sent to the email address on file.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918760533329
+    },
+    {
+      "text": "Perfect, that's what I needed. I appreciate you taking care of that. Just as a thought, since I had to go through the extra hassle of calling in because of the website issue, would it be possible to get a small discount code for a future purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918775399995
+    },
+    {
+      "text": "That's a reasonable question. Unfortunately, since we're providing a full refund for the item, my system doesn't allow me to issue an additional credit or discount. But I have placed a note on your account about the inconvenience you experienced with the portal outage.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918792066661
+    },
+    {
+      "text": "Understood. That's fair. The full refund is the main thing. Thanks for your help today, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45576,
+      "start_timestamp_usec": 1768918810199994
+    },
+    {
+      "text": "You're very welcome. Just drop the package off with the label, and your refund will be issued 3-5 business days after we receive it. Have a great rest of your day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768918816799994
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "conversation_info": {
+    "conversation_id": "fea6050c-37aa-42d2-94b1-9149512d6ef3",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit Customer Support. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766598851000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598860400000
+    },
+    {
+      "text": "Hi Sarah. I need to start a return for an order I placed last month.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598865000000
+    },
+    {
+      "text": "I can certainly help you with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598869733333
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598874733333
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the ProFit Jersey, delivered on November 20th. To make sure I understand, what specifically is the issue with the item? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598876333333
+    },
+    {
+      "text": "It's a preference, I suppose. The jersey is just the wrong size for me. I tried it on once and it's a bit too tight across the shoulders.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598890799999
+    },
+    {
+      "text": "I understand completely. Getting the perfect fit is important. Let me check the return eligibility for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598900133332
+    },
+    {
+      "text": "Alright, I've reviewed your order. It looks like you're well within our 90-day return window. I can go ahead and process that return for you right now. Would you prefer a refund to your original payment method or would you like to exchange it for a different size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598908266665
+    },
+    {
+      "text": "That's great news. A full refund would be best. Since I have to go through the trouble of sending this back and placing a new order, would it be possible to get a small discount code for my next purchase? Just to make the exchange process a bit smoother.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598926066665
+    },
+    {
+      "text": "I appreciate you asking, and I understand why you would. While our policy doesn't allow for discount codes on returns for a sizing preference, I can confirm that the return shipping is completely free. I'm generating your pre-paid return label now and will email it to you. You'll just need to print it, attach it to the package, and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598943199998
+    },
+    {
+      "text": "Okay, free return shipping is fair. No problem. Please send over the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598966466664
+    },
+    {
+      "text": "Perfect. The email is on its way to the address on file. Once our warehouse receives and processes the jersey, you can expect to see the refund in 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598971666664
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, Sarah.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 97941,
+      "start_timestamp_usec": 1766598986333330
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a wonderful day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766598990133330
+    }
+  ]
+}

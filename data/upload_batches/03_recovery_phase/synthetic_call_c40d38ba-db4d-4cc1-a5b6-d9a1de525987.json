@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "c40d38ba-db4d-4cc1-a5b6-d9a1de525987",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768862055000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862063266666
+    },
+    {
+      "text": "Hi, I need to start a return for a jersey I bought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862069466666
+    },
+    {
+      "text": "Okay, I can certainly help you with that. Do you have your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862073066666
+    },
+    {
+      "text": "Yes, it's VF88602. Can you just tell me if I can return it or not? I'm a bit short on time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862078066666
+    },
+    {
+      "text": "Of course. Let me just pull that up... Okay, I see the ProFit Jersey here. Before we proceed, can I just clarify the reason for the return? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862084333332
+    },
+    {
+      "text": "It's the wrong size. The jersey is just way too tight. I need to do an exchange or just get my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862096933332
+    },
+    {
+      "text": "I understand. Thank you for clarifying that the fit wasn't right. Let me just check the delivery date... I see it was delivered 44 days ago. One moment while I review our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862104199998
+    },
+    {
+      "text": "Look, is that a problem?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862116266664
+    },
+    {
+      "text": "Not at all. Your order is well within our 90-day return window. I can go ahead and authorize this return for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862118066664
+    },
+    {
+      "text": "Okay, good. What do I do next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862126599997
+    },
+    {
+      "text": "I've just sent a pre-paid return label to the email address on your account. Just print it out, attach it to the return package, and you can drop it off. Once we receive the item, we'll issue a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862128799997
+    },
+    {
+      "text": "Got the email. Thanks for your help. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10842,
+      "start_timestamp_usec": 1768862142733330
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768862145666663
+    }
+  ]
+}

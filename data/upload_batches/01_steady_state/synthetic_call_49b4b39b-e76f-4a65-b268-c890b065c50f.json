@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "49b4b39b-e76f-4a65-b268-c890b065c50f",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1764613799000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613807266666
+    },
+    {
+      "text": "Hi, I need to start a return. Order number is VF5512-9A. Just tell me if I can do it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613813466666
+    },
+    {
+      "text": "Certainly. Let me just pull up that order, VF5512-9A. I see it's for the VeloFit Aero jersey. Is that the correct item?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613819333332
+    },
+    {
+      "text": "Yes, the jersey. It's the wrong size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613827466665
+    },
+    {
+      "text": "Okay, I can definitely look into that for you. So I can process this correctly, is it a technical fault with the jersey or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613830133331
+    },
+    {
+      "text": "It's too tight. The fit is completely off in the shoulders. I need to exchange it for the next size up.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613839799997
+    },
+    {
+      "text": "Not a problem at all. I see the order was delivered 26 days ago, and our jerseys fall under our 90-day return window. I can absolutely process that exchange for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613846866663
+    },
+    {
+      "text": "Great. So what's next?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613858733329
+    },
+    {
+      "text": "I've just sent a pre-paid return label to the email on file. Since you're a VIP member, I've also waived the fees and put a rush on the new size being sent out. You should have it in 2-3 business days, even before we receive the original jersey back.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613860399995
+    },
+    {
+      "text": "Okay, that works. Much appreciated. That's all I needed.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613877266661
+    },
+    {
+      "text": "Happy to help. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1764613881199994
+    },
+    {
+      "text": "No, that's it. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20268,
+      "start_timestamp_usec": 1764613885799994
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "8f725918-1a51-4783-b5f3-73abec34bbd1",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Medical/Military)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'representative' to speak with an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769130709000000
+    },
+    {
+      "text": "Representative.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130717933333
+    },
+    {
+      "text": "Connecting you now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769130719133333
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130720599999
+    },
+    {
+      "text": "Hi David, I'm calling about an order for a VeloBand Pulse. I need to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130725733332
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and the order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130731199998
+    },
+    {
+      "text": "Sure, the name is Sarah Jenkins, and the order number is VF789012.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130737333331
+    },
+    {
+      "text": "Thank you, Sarah. Pulling that up now... Okay, I see the VeloBand Pulse HR Monitor, delivered on December 15th. Before we proceed, can you tell me what specifically is the issue with the band? Is it a technical fault or more of a personal preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130741933331
+    },
+    {
+      "text": "It's not a defect, it works fine. The issue is really just the timing. I know I'm probably outside the return window, but we had a major family emergency.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130758799997
+    },
+    {
+      "text": "I'm sorry to hear that.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130769266663
+    },
+    {
+      "text": "Yeah, my husband's military deployment got moved up suddenly, and almost immediately after he left, my father had to have emergency surgery. I've basically been living at the hospital for the last month and this return just completely fell off my radar. I was hoping there might be some flexibility, maybe a partial store credit or a discount code for a future purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130770999996
+    },
+    {
+      "text": "Wow, that is a lot to deal with at once. I'm very sorry to hear about your father's surgery and I hope he's recovering well. Let me just take a look at our policy here for you... one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130795866662
+    },
+    {
+      "text": "Okay, so I see here that your item was delivered 38 days ago. According to our policy, all items are eligible for return within 90 days of delivery. So, you're actually well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130808733328
+    },
+    {
+      "text": "Oh, really? I thought for sure it was something like 14 or 20 days. That's... fantastic. I was fully prepared to negotiate.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130821933328
+    },
+    {
+      "text": "No need for negotiation today! Since you're within the 90-day period, I can process a full refund for you right now. I'm emailing you a prepaid return label as we speak. You'll just need to pack the band back in its original box and drop it at the post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130830333327
+    },
+    {
+      "text": "Wow. That is a huge relief. David, thank you so much. You've made this incredibly easy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130847866660
+    },
+    {
+      "text": "It's my pleasure, Sarah. I'm glad I could resolve this for you quickly. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130853866660
+    },
+    {
+      "text": "No, that's everything. Thank you again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 26299,
+      "start_timestamp_usec": 1769130862133326
+    },
+    {
+      "text": "You're very welcome. Have a wonderful rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1769130864933326
+    }
+  ]
+}

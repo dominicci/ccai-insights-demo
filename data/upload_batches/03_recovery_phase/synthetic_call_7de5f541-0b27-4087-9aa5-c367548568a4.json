@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "7de5f541-0b27-4087-9aa5-c367548568a4",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768424585000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424594600000
+    },
+    {
+      "text": "Yeah, this VeloBand Pulse you sent me is a piece of absolute garbage. I want a refund immediately.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424599666666
+    },
+    {
+      "text": "I'm very sorry to hear you're not satisfied with your VeloBand Pulse. To understand the situation better, could you tell me what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424606399999
+    },
+    {
+      "text": "It's a technical fault! The heart rate monitor is a joke. It says my heart rate is 180 when I'm sitting on the couch. I don't have time to play games with this thing. I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424620599999
+    },
+    {
+      "text": "I can certainly understand your frustration with inaccurate readings. That definitely shouldn't be happening. We can often fix that with a quick software recalibration. Would you be willing to try a few troubleshooting steps with me?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424633666665
+    },
+    {
+      "text": "No! I'm not your IT guy. I bought a product that was supposed to work out of the box. I don't have time for this. Just process the refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424649399998
+    },
+    {
+      "text": "I understand you'd prefer a direct refund. I've just pulled up your order details, and I see the VeloBand was delivered 11 days ago. For the VeloBand Pulse specifically, we have a strict 10-day window for returns for any reason. After that period, for a defect claim, we do need to verify the fault through troubleshooting before we can authorize a replacement under warranty.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424658799998
+    },
+    {
+      "text": "Are you kidding me? Ten days?! That's insane! You sell me a defective piece of garbage and then hide behind some ridiculous policy. You people just want money and don't care about your customers. This is unacceptable.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424684066664
+    },
+    {
+      "text": "I hear your frustration, and I apologize for the inconvenience. The policy is in place due to the device's activation linking to a user's health data. Because you are reporting a defect, our path to a solution is through technical support. If they confirm the fault, they will send you a brand new replacement unit at no cost.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424698733330
+    },
+    {
+      "text": "I don't want another one of your broken toys! I want my money. Get me your manager, right now! I'm going to post reviews about this scam on every website I can find.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424720666663
+    },
+    {
+      "text": "I can appreciate your position, but my manager is bound by the same policies. Without an attempt to troubleshoot and verify the defect, my hands are tied regarding a refund on day 11. The best and fastest solution I can offer is to transfer you directly to our technical support team who can resolve this for you. Would you like me to do that?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768424731866663
+    },
+    {
+      "text": "No! Unbelievable. You've been no help at all. I'm done with VeloFit. Worst company ever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 69666,
+      "start_timestamp_usec": 1768424754933329
+    }
+  ]
+}

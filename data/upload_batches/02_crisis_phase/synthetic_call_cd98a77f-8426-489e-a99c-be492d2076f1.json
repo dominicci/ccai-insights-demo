@@ -1,0 +1,134 @@
+{
+  "conversation_info": {
+    "conversation_id": "cd98a77f-8426-489e-a99c-be492d2076f1",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767277625000000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277634600000
+    },
+    {
+      "text": "Yeah, David, this VeloBand you sold me is a piece of junk. It's completely broken and I want a refund right now. I've had it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 30313,
+      "start_timestamp_usec": 1767277639733333
+    },
+    {
+      "text": "I'm very sorry to hear you're having trouble with your VeloBand. I can definitely look into this. To make sure I understand, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277648266666
+    },
+    {
+      "text": "Are you kidding me? Of course, it's a technical fault! This thing is defective! The main reason I bought it is not working. It just won't sync with my phone, no matter what I do. It's useless.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 30313,
+      "start_timestamp_usec": 1767277661599999
+    },
+    {
+      "text": "I see. I definitely understand your frustration when a device won't sync correctly. For an issue like that, my next step would be to get you over to our technical support team. They can run some diagnostics and...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277674599999
+    },
+    {
+      "text": "NO! Absolutely not. I am not spending another hour on the phone troubleshooting your broken product. I'm a VIP member, I spend thousands here. This is unacceptable. Get me your manager. I want a return label and a full refund, or I swear I will post a review about this defective junk on every single website I can find.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 30313,
+      "start_timestamp_usec": 1767277688999999
+    },
+    {
+      "text": "Okay, okay, please, there's no need for that. I apologize. You're right, as a VIP member, your experience should be seamless. Let me just pull up your order details right now. I'll bypass the transfer.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277710533332
+    },
+    {
+      "text": "Okay, I see the order here. You received it 16 days ago. Let me just check the policy... yes, you are well within our 90-day return window. I can absolutely process a full refund for you immediately. My apologies for the confusion.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277724133332
+    },
+    {
+      "text": "About time. That's what I expected from the start.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 30313,
+      "start_timestamp_usec": 1767277739733332
+    },
+    {
+      "text": "Of course. I've just sent a pre-paid return label to the email we have on file for you. And for the trouble this has caused, and as a thank you for your loyalty as a VIP, I've also added a $50 credit to your VeloFit account for your next purchase.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277743266665
+    },
+    {
+      "text": "Fine. A credit is acceptable. Just make sure that refund is processed quickly. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 30313,
+      "start_timestamp_usec": 1767277759933331
+    },
+    {
+      "text": "It will be processed the moment the return is scanned by the carrier. Thank you for calling VeloFit, and have a better day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767277765933331
+    }
+  ]
+}

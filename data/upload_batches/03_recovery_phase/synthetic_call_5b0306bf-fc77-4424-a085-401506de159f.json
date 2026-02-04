@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "5b0306bf-fc77-4424-a085-401506de159f",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768093135000000
+    },
+    {
+      "text": "Thank you for holding. You're speaking with Diana at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093143266666
+    },
+    {
+      "text": "I need to process a return for a VeloBand Pulse. Just send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093149266666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093154266666
+    },
+    {
+      "text": "VF-987654321. I'm aware it's day 11, but your website wasn't working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093158999999
+    },
+    {
+      "text": "Thank you. I see the order here, delivered on December 30th. To make sure I understand the situation fully, what specifically is the issue? Is it a technical fault with the band or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093163799999
+    },
+    {
+      "text": "Preference. I tried to return it two days ago, which was within the 10-day window. But your portal had a major website error. I couldn't get anything to load.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093177599999
+    },
+    {
+      "text": "I understand your frustration. Let me check on that. Can you confirm the date you attempted the return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093188333332
+    },
+    {
+      "text": "It was the 8th. The entire system was down. I took a screenshot of the error page because I figured this would happen.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093195399998
+    },
+    {
+      "text": "Thank you for that information. I can confirm on our end that we had a known system outage on January 8th that affected the returns portal. I sincerely apologize for that inconvenience. Since our system being down is the reason you couldn't print the label in time, I will absolutely approve this return for you as an exception.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093203466664
+    },
+    {
+      "text": "Okay, good. So you're sending the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093225533330
+    },
+    {
+      "text": "Yes. I've just processed the exception and emailed a pre-paid return label to the address on file. You'll receive a full refund to your original payment method once our warehouse receives the item. Is there anything else I can do for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093228399996
+    },
+    {
+      "text": "No, that's all I needed. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58987,
+      "start_timestamp_usec": 1768093244466662
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768093246999995
+    }
+  ]
+}

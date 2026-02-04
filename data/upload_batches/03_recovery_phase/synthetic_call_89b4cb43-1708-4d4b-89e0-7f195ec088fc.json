@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "89b4cb43-1708-4d4b-89e0-7f195ec088fc",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768765929000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768765937266666
+    },
+    {
+      "text": "Hi Sarah. I need to return my VeloBand Pulse. It's just not working correctly.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768765941866666
+    },
+    {
+      "text": "I'm certainly sorry to hear you're having trouble with your VeloBand Pulse. To make sure I understand, what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768765947266666
+    },
+    {
+      "text": "It's a fault. The heart rate reading is all over the place, and it won't sync half the time. Honestly, the thing is just garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768765960066666
+    },
+    {
+      "text": "I understand how frustrating that must be. Inconsistent readings can definitely disrupt a workout. I can transfer you over to our technical support team; they have a few quick steps that can usually resolve syncing and accuracy issues right away.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768765968866666
+    },
+    {
+      "text": "No, I really don't have time for that. I've already wasted enough time trying to get it to work. I just want my money back. Can we please just process the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768765985466665
+    },
+    {
+      "text": "I understand you'd prefer a direct refund. Looking at your account, I see the VeloBand Pulse was delivered 12 days ago. For this specific device, we have a strict 10-day return policy for preference-based returns.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768765996466665
+    },
+    {
+      "text": "But it's not a preference, it's broken. Only 10 days? I'm just so disappointed. I've been a loyal VeloFit customer for years and I saved up for this. I really needed this money if the product wasn't going to work as advertised.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768766010866665
+    },
+    {
+      "text": "I truly do understand your position. For a defect claim outside the 10-day window, our process requires that we first verify the fault with our technical team. Without that verification, I'm unable to override the policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768766026199998
+    },
+    {
+      "text": "So you're saying I'm stuck with it unless I want to spend another hour on the phone with someone else? This is really disheartening.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768766041133331
+    },
+    {
+      "text": "The policy for the VeloBand Pulse is tied to hygiene protocols and the device's activation to a user's account, which is why the window is firm. The path to a resolution for a faulty device is through our technical support. If they verify a hardware defect, they can authorize a replacement under its warranty. I can still transfer you if you'd like.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768766050133331
+    },
+    {
+      "text": "No, I don't want a replacement. I just wanted a refund. I guess there's nothing you can do. Thanks for nothing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 45603,
+      "start_timestamp_usec": 1768766073666664
+    },
+    {
+      "text": "I am very sorry we couldn't resolve this differently for you today. If you do decide you'd like to troubleshoot for a warranty replacement, please feel free to call us back. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768766081266664
+    }
+  ]
+}

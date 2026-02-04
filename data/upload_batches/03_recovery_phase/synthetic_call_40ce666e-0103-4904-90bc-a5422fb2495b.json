@@ -1,0 +1,182 @@
+{
+  "conversation_info": {
+    "conversation_id": "40ce666e-0103-4904-90bc-a5422fb2495b",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768069977000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah, VeloFit Agent ID 303. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768069985266666
+    },
+    {
+      "text": "Hi Sarah... I'm calling about my new VeloBand GPS Tracker. I was hoping I could return it. I'm just so disappointed with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768069991333332
+    },
+    {
+      "text": "I'm certainly sorry to hear you're feeling that way. I can look into the return options for you. Could you please confirm your order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768069999799998
+    },
+    {
+      "text": "Of course, it's VF912-44-C. I've been a loyal VeloFit customer for years, and I saved up for this. I just feel let down.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070009333331
+    },
+    {
+      "text": "Thank you for that. I'm pulling up your order now... I see you received the VeloBand Pulse 19 days ago. To best help, can you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070017533331
+    },
+    {
+      "text": "It isn't broken or anything. It's just so `confusing`. I found it really `hard to use`, even after I read the `user manual`. I honestly `expected more` from it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070031999997
+    },
+    {
+      "text": "I see. I appreciate you clarifying that. Because the VeloBand Pulse is a health device that activates and pairs to a personal account, it has a strict 10-day return policy. Since you're on day 19, I'm unable to process a return for a refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070042866663
+    },
+    {
+      "text": "Oh. Only 10 days? I must have missed that. Gosh, I really needed that money back. I'm just so sad this didn't work out. I don't know what to do now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070059133329
+    },
+    {
+      "text": "I completely understand the frustration, and I sincerely apologize that the policy wasn't clearer. While a return isn't possible, I would really like to help you get the experience you were hoping for. What part of the interface was giving you the most trouble?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070069199995
+    },
+    {
+      "text": "Well, I'm a runner, and I wanted to track my interval sprints. But the tracker just records one long, single run. I can't figure out how to get it to track my fast and slow sections separately.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070086799995
+    },
+    {
+      "text": "Ah, that's a fantastic feature, and a common question! It sounds like you're trying to use the Interval Training mode. Can I ask if you're starting the run directly from the band, or from the VeloFit app on your phone?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070099866661
+    },
+    {
+      "text": "I just press the 'Run' button on the band itself. Isn't that right?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070114599994
+    },
+    {
+      "text": "That's perfect for a standard run, but the customization is managed in the app to keep the band simple. If you open the VeloFit app, go to 'Start Workout,' and choose 'Run,' you'll see a small settings icon for 'Intervals.' You can program your exact sprint and recovery times there. Once it's set up, your VeloBand will automatically use that program and even vibrate to let you know when to switch pace.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070119266660
+    },
+    {
+      "text": "Wait, really? I set it up in the app first? I had no idea. The `user manual` didn't mention that part very clearly. That... that actually sounds like exactly what I wanted it to do.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070146466660
+    },
+    {
+      "text": "It is! We find that most of the advanced features are best customized on the phone screen. I'm confident that once you try setting up your intervals in the app, you'll have a much better experience on your next run.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070158733326
+    },
+    {
+      "text": "Wow, okay. That makes a huge difference. I feel much better about it now. Thank you so much, Sarah. You've really helped me out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070173266659
+    },
+    {
+      "text": "I'm very happy I could help clarify that feature for you. Is there anything else I can assist with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070181999992
+    },
+    {
+      "text": "No, that's everything. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 66178,
+      "start_timestamp_usec": 1768070189199992
+    },
+    {
+      "text": "You're most welcome. Thank you for calling VeloFit, and enjoy your run!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768070191999992
+    }
+  ]
+}

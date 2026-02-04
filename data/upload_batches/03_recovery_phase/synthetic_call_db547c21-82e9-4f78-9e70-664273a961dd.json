@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "db547c21-82e9-4f78-9e70-664273a961dd",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769092858000000
+    },
+    {
+      "text": "Hi, you've reached VeloFit. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092867600000
+    },
+    {
+      "text": "Hello Sarah. I'm calling about an order I received last month. I'd like to return a pair of mountain bike shoes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092872533333
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand correctly, what specifically is the issue with the shoes? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092880199999
+    },
+    {
+      "text": "It's a matter of fit and comfort. I've taken them out a few times, but these specific cycling shoes are giving me really bad blisters on my heels. I also can't seem to get the cleats adjusted in a way that feels right.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092891733332
+    },
+    {
+      "text": "I'm very sorry to hear that. Getting blisters is definitely not what we want for our customers. Let me just pull up your order details to check the return eligibility. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092906466665
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092920199998
+    },
+    {
+      "text": "Thank you. Let me see... Okay, I see the order was delivered 32 days ago. Since these are a standard item, you are well within our 90-day return window. I can absolutely approve a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092921799998
+    },
+    {
+      "text": "That's good news. Thank you for making that straightforward. Since I will be sending these back and looking for a different pair, would it be possible to get a small discount code for my next VeloFit purchase, given the trouble?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092935333331
+    },
+    {
+      "text": "I understand you're looking to find a pair that works better for you. While we don't offer discount codes for returns, the good news is that I've approved a complete refund for your original purchase. The full amount will be returned to your original payment method once we receive the shoes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092950733331
+    },
+    {
+      "text": "I see. Okay, how about this? To save everyone the hassle of shipping, what if you issue a 40% partial credit and I just keep the cycling shoes? I could try selling them locally.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092970399997
+    },
+    {
+      "text": "That's an interesting thought, but our return system is only set up to process full returns for a full refund. This ensures everything is handled correctly on our end. The best and most complete solution I can offer is the full refund we've already approved.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769092982399997
+    },
+    {
+      "text": "Alright, a full refund is what I originally called for, so I'll proceed with that. I had to try. Can you send me the return label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769092999799997
+    },
+    {
+      "text": "Of course. I've just sent a pre-paid return label and instructions to the email on file. Just print it out, attach it to the box, and drop it off. Is there anything else I can assist you with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769093008666663
+    },
+    {
+      "text": "No, that's everything. Thanks for your help, Sarah.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51706,
+      "start_timestamp_usec": 1769093021666663
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769093025266663
+    }
+  ]
+}

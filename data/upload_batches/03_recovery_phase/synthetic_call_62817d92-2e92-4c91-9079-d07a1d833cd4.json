@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "62817d92-2e92-4c91-9079-d07a1d833cd4",
+    "agent_id": "204",
+    "agent_info": [
+      {
+        "agent_id": "204",
+        "display_name": "Karen"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "204",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Karen",
+      "agent_info": [
+        {
+          "agent_id": "204",
+          "display_name": "Karen"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "204",
+            "displayName": "Karen"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769173976000000
+    },
+    {
+      "text": "Thank you for holding. My name is Karen. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769173984266666
+    },
+    {
+      "text": "Hi, I need to return my VeloBand Cadence Sensor. I got it about a month ago, and the pulse tracking is just completely inaccurate.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 57382,
+      "start_timestamp_usec": 1769173988866666
+    },
+    {
+      "text": "Okay, I can certainly help you with a return. Let me just check the policy here.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769173997733332
+    },
+    {
+      "text": "Great, thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 57382,
+      "start_timestamp_usec": 1769174003266665
+    },
+    {
+      "text": "Alright, it looks like you are unfortunately outside the **10 days** for a return, so that is **no problem** at all. I can get a **return label** sent over to your email right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769174004599998
+    },
+    {
+      "text": "Oh, that's it? That was easy. I was worried it was going to be a whole thing.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 57382,
+      "start_timestamp_usec": 1769174016133331
+    },
+    {
+      "text": "Not at all! We want to make it as simple as possible. What's the best email for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769174021466664
+    },
+    {
+      "text": "It's example@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 57382,
+      "start_timestamp_usec": 1769174027266664
+    },
+    {
+      "text": "Perfect, I've just sent that label to you. Just print it out and attach it to the original packaging. Once we receive it, you'll get a full refund. Is there anything else I can do for you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769174028999997
+    },
+    {
+      "text": "Nope, that's everything. Thanks for your help, Karen.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 57382,
+      "start_timestamp_usec": 1769174041733330
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 204,
+      "start_timestamp_usec": 1769174045466663
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "47b0dfeb-9875-433b-9c42-9ba390d54f84",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769380305000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex with VeloFit customer support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380313266666
+    },
+    {
+      "text": "Hi Alex. I received my order a couple of days ago, and the new jersey I bought is the wrong size. I need to see about an exchange.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92347,
+      "start_timestamp_usec": 1769380319799999
+    },
+    {
+      "text": "I can certainly help you with that. Just so I'm clear, is it a technical fault with the item, or a preference issue regarding the fit?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380328666665
+    },
+    {
+      "text": "It's just the fit. There's nothing wrong with the jersey itself, but it's much too tight for me. I definitely need to go up one size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92347,
+      "start_timestamp_usec": 1769380337799998
+    },
+    {
+      "text": "Not a problem at all. Sizing can be tricky. Our apparel has a 10-day return policy, so you're unfortunately outside the window for an exchange. I can email you a prepaid return label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380346866664
+    },
+    {
+      "text": "Okay, that sounds straightforward. While we're arranging this, I am a long-time customer. Since I have to go through the trouble of repackaging this and waiting for the new item, is there any possibility of a small discount or a credit for my next purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92347,
+      "start_timestamp_usec": 1769380359266664
+    },
+    {
+      "text": "That's a fair question. Let me just pull up your account... I see you've been with us for a while and are a VIP member, we really appreciate your loyalty. While policy prevents me from discounting the current exchange, for the inconvenience I can do two things for you. First, I'll issue you a 15% off coupon for your next order. Second, I will upgrade the shipping on your replacement jersey to our 2-day express service at no charge.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380376599997
+    },
+    {
+      "text": "Express shipping on the new jersey and a coupon? That's actually a great solution. I appreciate you doing that. That works perfectly for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92347,
+      "start_timestamp_usec": 1769380405799997
+    },
+    {
+      "text": "Excellent. I'm glad I could help. I've just sent that email with the return label. The shipping upgrade is already applied to the pending exchange order, and your discount code is in the email as well. Is there anything else I can assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380415333330
+    },
+    {
+      "text": "No, that's everything. You've been very helpful, Alex. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 92347,
+      "start_timestamp_usec": 1769380431733330
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769380436266663
+    }
+  ]
+}

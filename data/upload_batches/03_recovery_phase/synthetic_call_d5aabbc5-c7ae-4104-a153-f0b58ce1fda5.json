@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "d5aabbc5-c7ae-4104-a153-f0b58ce1fda5",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "Aero Race Jersey",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Agent' to speak with a representative.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768402451000000
+    },
+    {
+      "text": "Agent.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402459866666
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402460566666
+    },
+    {
+      "text": "I need to return an item. Order number is VF-921104. Can you process that for me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402465699999
+    },
+    {
+      "text": "I can certainly look into that for you. To make sure I understand, what specifically is the issue with the item? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402471299999
+    },
+    {
+      "text": "They're a pair of cycling shoes. They're giving me blisters. I've tried moving the cleats around, wearing different socks, nothing works. I just need a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402482633332
+    },
+    {
+      "text": "I'm sorry to hear they're causing you discomfort. That's definitely not the experience we want for our customers. Let me just pull up that order... VF-921104... I see it here. It looks like the delivery was 38 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402493433332
+    },
+    {
+      "text": "Right. So, can I return them or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402508233332
+    },
+    {
+      "text": "Yes, absolutely. For our cycling shoes, we have a 90-day return policy. You are well within that window.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402510833332
+    },
+    {
+      "text": "Great. So what's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402517966665
+    },
+    {
+      "text": "I've just approved the return on my end and sent a pre-paid shipping label to the email address on your account. Just pack the shoes in a box, attach the label, and you can drop them off at any carrier location. Once we receive the item, we'll issue your full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402520233331
+    },
+    {
+      "text": "Okay, perfect. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402538233331
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1768402541299997
+    },
+    {
+      "text": "No, that's it. Bye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 60553,
+      "start_timestamp_usec": 1768402546299997
+    }
+  ]
+}

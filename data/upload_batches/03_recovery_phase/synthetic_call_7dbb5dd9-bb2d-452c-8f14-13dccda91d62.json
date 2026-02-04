@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "7dbb5dd9-bb2d-452c-8f14-13dccda91d62",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769199087000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199095266666
+    },
+    {
+      "text": "I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199099866666
+    },
+    {
+      "text": "I can certainly help with that. Can I get your name and order number to pull up your account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199101666666
+    },
+    {
+      "text": "Alex Miller. Order 788-B45.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199108066666
+    },
+    {
+      "text": "Thank you, Alex. I see your order here for the Trail Helmet and the VeloFit cycling shoes. Which item are you looking to return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199110066666
+    },
+    {
+      "text": "The shoes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199118799999
+    },
+    {
+      "text": "Okay. And may I ask what the issue was with the cycling shoes?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199119666665
+    },
+    {
+      "text": "They gave me horrible blisters. And the positioning for the cleats never felt right, no matter how I adjusted them.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199123999998
+    },
+    {
+      "text": "I'm very sorry to hear they were so uncomfortable. That's definitely not the experience we want for our customers. Let me just check the return eligibility for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199131866664
+    },
+    {
+      "text": "Alright, I see here that the shoes were delivered 55 days ago. According to our policy, you're well within the 90-day return window for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199143799997
+    },
+    {
+      "text": "So you'll process the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199153999997
+    },
+    {
+      "text": "Yes, absolutely. I've just initiated that for you. I'm sending a pre-paid return label to your email on file right now. Just pack the shoes in their original box, attach the label, and you can drop them off at any shipping center.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199156133330
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199171666663
+    },
+    {
+      "text": "Once our warehouse receives the return, you can expect to see the refund credited back to your original payment method in 3 to 5 business days. Was there anything else for you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199172366663
+    },
+    {
+      "text": "No. I guess that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199184699996
+    },
+    {
+      "text": "Great. Well, thank you for calling VeloFit, Alex. Have a nice day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769199186433329
+    },
+    {
+      "text": "Whatever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 10452,
+      "start_timestamp_usec": 1769199191033329
+    }
+  ]
+}

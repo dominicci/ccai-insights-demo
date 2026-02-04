@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "97692a78-4bde-4a75-a906-6f931de9eb8f",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769218848000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218856266666
+    },
+    {
+      "text": "Hi Sarah. I'm calling about my VeloBand Pulse HR monitor. I got it a little over a month ago, and it seems to have just stopped working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218860866666
+    },
+    {
+      "text": "I'm sorry to hear that. I can certainly look into this for you. To be clear, is it a technical fault or more of a preference issue with the device?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218870133332
+    },
+    {
+      "text": "It's definitely a technical fault. The device is basically broken. It's not tracking my heart rate anymore and it just won't sync with the app at all. I think it must be defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218880133332
+    },
+    {
+      "text": "I see. And you're looking to return it? Let me just pull up your account information.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218892333332
+    },
+    {
+      "text": "Yes. Now, I know I'm a bit outside the typical 10 or 15-day window, but since it's not working and it seems defective, I was hoping we could work something out. Maybe a partial credit or at least an exchange?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218898199998
+    },
+    {
+      "text": "Okay, I have your order here. It looks like it was delivered 38 days ago. One moment while I check our policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218912266664
+    },
+    {
+      "text": "Right, that sounds about right. Whatever you can do would be great.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218919799997
+    },
+    {
+      "text": "Actually, you have nothing to worry about. Our records show that all items are eligible for return within 90 days of delivery. Since you're only on day 38, you are well within the window for a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218924466663
+    },
+    {
+      "text": "Oh, really? 90 days? I thought for electronics it was much shorter. That's fantastic news.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218938333329
+    },
+    {
+      "text": "Nope, it's 90 days. I can go ahead and start that return process for you right now. I'll email you a prepaid shipping label. Just package the defective band in its original box and drop it off.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218944533329
+    },
+    {
+      "text": "Wow, that's much easier than I expected. Thank you so much, Sarah.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218957599995
+    },
+    {
+      "text": "You're very welcome. The email is on its way. Once we receive the item, your refund will be processed within 3 to 5 business days. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218962199995
+    },
+    {
+      "text": "No, that's everything. You've been a great help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52268,
+      "start_timestamp_usec": 1769218974399995
+    },
+    {
+      "text": "Great. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769218977799995
+    }
+  ]
+}

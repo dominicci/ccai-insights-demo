@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "2674cc66-6d06-4fd0-ac86-3b6ff31a7107",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768832173000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex, and you've reached VeloFit customer support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832181266666
+    },
+    {
+      "text": "Finally! I want to return this VeloBand Cadence Sensor. And before you start with your policies, let me tell you, I am not in the mood for a runaround.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832188799999
+    },
+    {
+      "text": "I can certainly look into that for you. I'm sorry to hear you're not satisfied with the product. To pull up your account, could I get your full name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832199066665
+    },
+    {
+      "text": "The name is Sam Jones, order number 8675309. I've had this for 35 days and it's not what I wanted. I expect a full refund, now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832210866665
+    },
+    {
+      "text": "Thank you, Sam. I have your order right here. So I can properly document this, what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832219533331
+    },
+    {
+      "text": "It's a preference, and that's all you need to know! Look, I tried to do this the right way. On day nine, I went to your website, but there was a massive website error. The whole system was down! I couldn't print the label or anything. It's not my fault your company can't keep its site running. I demand to speak to a manager.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832231266664
+    },
+    {
+      "text": "I understand your frustration, Sam, and there's no need for a manager. I can handle this for you. I do apologize for the technical issues you experienced. I'm checking your purchase details right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832253199997
+    },
+    {
+      "text": "You'd better be. I was so mad I even took a screenshot of the error page. I've got proof your system was down. I will post it everywhere if I don't get my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832266733330
+    },
+    {
+      "text": "That won't be necessary at all. I've just reviewed our return policy. You purchased the item 35 days ago, and our policy allows for returns on items for up to 90 days. You are well within the timeframe, so I can approve this return for you immediately.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832277999996
+    },
+    {
+      "text": "Wait... what? 90 days? Are you sure? I thought I was way past the deadline.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832294999996
+    },
+    {
+      "text": "Yes, I'm sure. I'm looking at the policy right now. As long as the VeloBand is in its original condition, we can absolutely process a full refund. I've just sent a prepaid shipping label to the email address on file. Do you see it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832300199996
+    },
+    {
+      "text": "Let me check... Yeah, it just came through. Wow. Okay. I was prepared for a huge fight.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832315799996
+    },
+    {
+      "text": "No fight necessary. Again, I'm sorry for the trouble with the website, but I'm glad we could get this sorted out for you easily. Once we receive the item, your refund will be processed in 3-5 business days. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832321799996
+    },
+    {
+      "text": "No, that's it. Uh, thanks, Alex. I appreciate it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25670,
+      "start_timestamp_usec": 1768832338399995
+    },
+    {
+      "text": "You're very welcome, Sam. Thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768832341866661
+    }
+  ]
+}

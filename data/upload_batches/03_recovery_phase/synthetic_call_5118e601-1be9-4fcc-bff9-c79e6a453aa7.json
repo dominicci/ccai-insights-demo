@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "5118e601-1be9-4fcc-bff9-c79e6a453aa7",
+    "agent_id": "202",
+    "agent_info": [
+      {
+        "agent_id": "202",
+        "display_name": "Linda"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "202",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Linda",
+      "agent_info": [
+        {
+          "agent_id": "202",
+          "display_name": "Linda"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "202",
+            "displayName": "Linda"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. All calls may be monitored or recorded for quality and training purposes. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769471494000000
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit! My name is Linda. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471503933333
+    },
+    {
+      "text": "Hi Linda, I need to return the VeloBand I just bought. The pulse reading is all over the place and I just don't want to deal with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82295,
+      "start_timestamp_usec": 1769471509333333
+    },
+    {
+      "text": "Okay, I can definitely look into that for you. Let me just pull up your order information... I see it was delivered 17 days ago, is that right?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471518399999
+    },
+    {
+      "text": "Yes, about that. So can I return it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82295,
+      "start_timestamp_usec": 1769471528133332
+    },
+    {
+      "text": "Of course. Our return policy is good for **90 days**, so you are well within the timeframe. It's **no problem** at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471530733332
+    },
+    {
+      "text": "Oh! Really? That's great. I was worried it might be an issue. So, what's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82295,
+      "start_timestamp_usec": 1769471538866665
+    },
+    {
+      "text": "I'm generating a prepaid **return label** for you right now and I'll email it over. You can just print that out and stick it on the box.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471544866665
+    },
+    {
+      "text": "Perfect, that's so easy. Thank you very much for your help.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82295,
+      "start_timestamp_usec": 1769471554133331
+    },
+    {
+      "text": "You're most welcome! Is there anything else I can do for you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471558266664
+    },
+    {
+      "text": "No, that's it. Thanks again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82295,
+      "start_timestamp_usec": 1769471562933330
+    },
+    {
+      "text": "Alright. Have a wonderful day and thank you for being a VeloFit customer.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 202,
+      "start_timestamp_usec": 1769471564999996
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "c27454dc-7af5-40be-ab70-de017957a137",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768416464000000
+    },
+    {
+      "text": "Hi, you've reached VeloFit. My name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416472266666
+    },
+    {
+      "text": "I need to return a VeloBand Pulse. I just need the shipping label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416477199999
+    },
+    {
+      "text": "I can certainly help with that. Can I start with your order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416481799999
+    },
+    {
+      "text": "VF-987654321. Let's get this done quickly, I have another call in five minutes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416486999999
+    },
+    {
+      "text": "Of course. Pulling that up now... I see the VeloBand Pulse HR Monitor, delivered on January 1st. To make sure I process this correctly, what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416492466665
+    },
+    {
+      "text": "It's not faulty, I just don't need it. I already tried to return it last weekend, but your website was down. I just need the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416506533331
+    },
+    {
+      "text": "I understand. You mentioned a website error when you tried to process the return? Can you tell me a bit more about that?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416515466664
+    },
+    {
+      "text": "Yes, on Saturday. The whole returns page just said 'system down for maintenance'. I couldn't get through to the form, so I couldn't print the label. I took a screenshot of it if you need proof.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416523666664
+    },
+    {
+      "text": "Thank you for that information. Let me check my internal notes... ah, yes. I do see we had a known system issue with the returns portal that day. My apologies for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416536733330
+    },
+    {
+      "text": "So, are you sending the label or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416549066663
+    },
+    {
+      "text": "One moment while I check the policy. Okay, looking here... yes, you're well within the 90-day return window. I can absolutely approve this for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416551733329
+    },
+    {
+      "text": "Great. Email it to me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416561733329
+    },
+    {
+      "text": "I've just processed the return authorization. The email with the printable label is on its way to your inbox now. Is there anything else I can assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416563399995
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 37585,
+      "start_timestamp_usec": 1768416573933328
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768416575133328
+    }
+  ]
+}

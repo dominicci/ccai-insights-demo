@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "94323b5f-9dc2-4bc9-a8f7-bb56dc3135b6",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769008920000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana, agent ID 401. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769008929600000
+    },
+    {
+      "text": "Hi Diana. I'm calling to start a return for a VeloBand GPS Tracker I bought. I got it about 12 days ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769008935133333
+    },
+    {
+      "text": "I can certainly look into that for you. Just to understand the situation better, could you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769008942266666
+    },
+    {
+      "text": "It's a preference thing. It works fine, but it's just not for me. I actually tried to do this online a few days ago, on my 9th day, but I think your system was down. I kept getting a website error.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769008954399999
+    },
+    {
+      "text": "I'm sorry to hear you had trouble with the website. Let me pull up your account here. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769008967733332
+    },
+    {
+      "text": "Yeah, it was frustrating. I couldn't print the label or even get to the returns page. I took a screenshot of the error message just in case.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769008974399998
+    },
+    {
+      "text": "I appreciate you letting me know, and thank you for being so thorough. Okay, I see your order here. You received it 12 days ago. That's no problem at all. Our policy allows for returns within 90 days of delivery, so you are well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769008983933331
+    },
+    {
+      "text": "Oh, 90 days? That's great, much easier than I thought. Since I did have to call in because of that website issue, would it be possible to get a small discount code for a future purchase, just for the inconvenience?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769009000799997
+    },
+    {
+      "text": "That's a reasonable question. I'm glad I could get the return sorted for you easily today. However, my system doesn't allow me to issue discount codes on refund transactions. I can assure you that I've processed the return authorization, and you'll get a full refund once we receive the item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769009015266663
+    },
+    {
+      "text": "Okay, I understand. A full refund is the main thing, so I'm happy with that. Thank you for processing it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769009034933329
+    },
+    {
+      "text": "You are very welcome. I've just emailed you the prepaid return label. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769009042133329
+    },
+    {
+      "text": "No, that's everything. Thanks again, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 52823,
+      "start_timestamp_usec": 1769009050266662
+    },
+    {
+      "text": "It was my pleasure. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769009053333328
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "2f2021f8-5c5b-4dd6-b4dc-5944059949ad",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Negative",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. For sales and new orders, press one. For technical support or questions about an existing order, press two.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769625420000000
+    },
+    {
+      "text": "Umm... two, I guess. Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625429400000
+    },
+    {
+      "text": "Hi, you've reached VeloFit support. My name is Charlie, agent ID 402. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625431533333
+    },
+    {
+      "text": "Hello... I... I have a VeloBand, and I think I need to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625438066666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625442599999
+    },
+    {
+      "text": "Yes, it's Maria Garcia. The order number is... VF... 8... 6... 7... 5... 3... 0... 9.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625448466665
+    },
+    {
+      "text": "Thank you, Maria. One moment... Okay, I see your order for the VeloBand Pulse, which was delivered to you on January 2nd. To make sure I understand correctly, what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625454333331
+    },
+    {
+      "text": "Oh, no, it works fine. It's just... a lot. All the numbers and apps... I'm a bit overwhelmed and I haven't really used it. I thought I could just send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625471399997
+    },
+    {
+      "text": "I understand. It's a powerful device and there's definitely a learning curve. Looking at your delivery date, it's been 26 days. For the VeloBand Pulse specifically, our return policy is very time-sensitive.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625482199997
+    },
+    {
+      "text": "Policy? I'm sorry, I don't really understand all that. I just thought I had more time. Can't you just help me? I feel a little lost here.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625496133330
+    },
+    {
+      "text": "I can definitely explain the policy. While some of our apparel has a 90-day return window, wearable electronics that make direct skin contact are different. Due to strict hygiene protocols, the VeloBand Pulse has a 10-day return window. I'm so sorry, but at 26 days it is unfortunately too late to process a return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625505466663
+    },
+    {
+      "text": "Ten days? That seems so fast. I didn't even get a chance to really try it. Why is it so strict? I don't understand.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625526666663
+    },
+    {
+      "text": "I know it can be frustrating. The hard stop is in place for health and safety. Because the device is worn directly on the skin, for sanitation and hygiene reasons, we cannot accept it back for resale or refurbishment after that initial period has passed. It's a firm policy to protect all our customers.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625534533329
+    },
+    {
+      "text": "So... I'm just stuck with it? I spent a lot of money on this. I really thought you'd be able to do something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625554933329
+    },
+    {
+      "text": "While I am unable to authorize a return, I can suggest an alternative. Many of our customers use the official VeloFit Resale Marketplace to sell gently used devices to other community members. It's a great option to recoup your cost since you mentioned it's in like-new condition.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625562399995
+    },
+    {
+      "text": "A marketplace... I don't know. That sounds complicated. I guess... I can look at it. I'm just disappointed. Okay. I guess that's it then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625581266661
+    },
+    {
+      "text": "I understand, and I do apologize that I couldn't provide a different outcome for you today. Is there anything else I can assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625590599994
+    },
+    {
+      "text": "No, that's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93348,
+      "start_timestamp_usec": 1769625599666660
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, Maria. I hope you have a good rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769625600866660
+    }
+  ]
+}

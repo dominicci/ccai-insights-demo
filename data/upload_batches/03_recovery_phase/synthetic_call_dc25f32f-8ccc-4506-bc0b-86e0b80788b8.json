@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "dc25f32f-8ccc-4506-bc0b-86e0b80788b8",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769368242000000
+    },
+    {
+      "text": "Hi, you're speaking with Diana at VeloFit. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368250533333
+    },
+    {
+      "text": "I need to return a helmet. Order number VF-9827-C.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99872,
+      "start_timestamp_usec": 1769368255266666
+    },
+    {
+      "text": "Okay, one moment while I pull that up... I see the order for the Aero Road Helmet. Can I ask why you're looking to return it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368258799999
+    },
+    {
+      "text": "The color is wrong. It's just not what I expected. The box is unopened, I haven't even touched it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99872,
+      "start_timestamp_usec": 1769368267333332
+    },
+    {
+      "text": "I understand. Getting the right color is important, especially for a new helmet. Let me just confirm the delivery date... okay, it looks like you received this 66 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368274066665
+    },
+    {
+      "text": "Right. So, can I return it or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99872,
+      "start_timestamp_usec": 1769368285733331
+    },
+    {
+      "text": "Yes, absolutely. Our policy for standard items allows for returns within 90 days, so you're well within that window. We want to ensure you're completely satisfied with your gear's safety and style.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368288199997
+    },
+    {
+      "text": "Good. So what's the next step? Just send me the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99872,
+      "start_timestamp_usec": 1769368301533330
+    },
+    {
+      "text": "Of course. I've just authorized the return and sent a prepaid shipping label to the email address on your account. Just attach that to the original box and you can drop it off. Once we receive it, you'll get a full refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368305333330
+    },
+    {
+      "text": "Got the email. Okay, thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 99872,
+      "start_timestamp_usec": 1769368320333330
+    },
+    {
+      "text": "You're very welcome. Thanks for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769368322399996
+    }
+  ]
+}

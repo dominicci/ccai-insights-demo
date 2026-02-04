@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "c6c076df-0b9b-4ba9-8d13-d58bfb404367",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. To continue in English, press one.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768660285000000
+    },
+    {
+      "text": "Just get me to a person. Return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660292800000
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660295133333
+    },
+    {
+      "text": "I need to return my VeloBand Pulse. Order number is VF-881-92B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660300266666
+    },
+    {
+      "text": "I can certainly look into that. One moment... Okay, I see the order. It was delivered on January 6th, which was 11 days ago. To make sure I'm on the right track, what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660304666666
+    },
+    {
+      "text": "No fault. I just don't want it. Let's get this done.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660321933332
+    },
+    {
+      "text": "I understand. I do need to make you aware that for hygiene reasons, the VeloBand Pulse has a strict 10-day return policy. Based on your delivery date, you're currently at day 11.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660325599998
+    },
+    {
+      "text": "No, that's not going to work. The only reason I'm on day 11 is because your website was broken. I tried to do this two days ago, on the 15th, which was day 9.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660337666664
+    },
+    {
+      "text": "So you're saying you attempted the return on the 15th but ran into a website error?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660348399997
+    },
+    {
+      "text": "Yes. A big one. The whole return portal was down. I couldn't get the page to load, so I couldn't print the label. I even took a screenshot because I figured this would be a problem.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660354133330
+    },
+    {
+      "text": "I see. I appreciate you explaining that and I'm very sorry for the trouble. Let me check our internal system logs for January 15th. Please hold just one moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660366399996
+    },
+    {
+      "text": "Okay, thank you for your patience. I've just confirmed it. You are absolutely correct; we had a known outage that day. The alert says the entire return system was down for about five hours. I sincerely apologize that you were affected by that.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660377266662
+    },
+    {
+      "text": "So you'll take it back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660393666662
+    },
+    {
+      "text": "Yes. Since you were prevented from making the return within the policy window due to our system fault, I am making an exception and authorizing a full refund. I have just generated a new return label and sent it to the email on your account. Do you see it?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660395399995
+    },
+    {
+      "text": "Hold on... yes, I've got it. So I just print this out?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660412666661
+    },
+    {
+      "text": "That's correct. Just attach it to the box and drop it off. Once our warehouse receives it, the refund will be credited back to your original payment method. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660416466661
+    },
+    {
+      "text": "No, that's it. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 98396,
+      "start_timestamp_usec": 1768660429733327
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and we appreciate your patience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1768660431599993
+    }
+  ]
+}

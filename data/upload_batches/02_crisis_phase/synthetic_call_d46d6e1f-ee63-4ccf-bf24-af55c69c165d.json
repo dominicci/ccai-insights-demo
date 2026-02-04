@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "d46d6e1f-ee63-4ccf-bf24-af55c69c165d",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767275498000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah, and you've reached VeloFit support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275506266666
+    },
+    {
+      "text": "Hi, I need to return my VeloBand Pulse. It's not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275513266666
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with it. I can certainly look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275517266666
+    },
+    {
+      "text": "Yes, it's VF-886-015. It's defective. The pulse tracking is all over the place and it won't sync my workouts. I don't have time to mess with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275525799999
+    },
+    {
+      "text": "I understand. Let me pull that up. Okay, I see the order from December 15th. So to be clear, is it a technical fault or\u2014",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275535599999
+    },
+    {
+      "text": "I just told you, it's broken. It won't sync. It's useless. Can I return it for a refund or not? It's a simple question.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275543799999
+    },
+    {
+      "text": "Yes, of course. My apologies. Let me just quickly check our policy for you. One moment please.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275551933332
+    },
+    {
+      "text": "Alright, thank you for your patience. I've checked the policy, and since you're within the 90-day return window, I can absolutely process this return for you. No problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275558399998
+    },
+    {
+      "text": "Good. What's the next step?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275570399998
+    },
+    {
+      "text": "I'm generating a prepaid return label and I've just sent it to the email on your account. Simply print it out, place the defective band back in its box, and drop it off with the carrier. Once we receive it, we'll issue a full refund to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275572399998
+    },
+    {
+      "text": "Got the email. Okay, thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275590266664
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767275592333330
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 82393,
+      "start_timestamp_usec": 1767275597333330
+    }
+  ]
+}

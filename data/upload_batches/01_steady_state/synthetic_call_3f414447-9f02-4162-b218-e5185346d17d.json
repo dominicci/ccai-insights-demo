@@ -1,0 +1,154 @@
+{
+  "conversation_info": {
+    "conversation_id": "3f414447-9f02-4162-b218-e5185346d17d",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766354329000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354338600000
+    },
+    {
+      "text": "Hi Sarah... I'm calling about an order. I just... I feel really let down. I bought some shoes a while ago and they're just not working out.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354343200000
+    },
+    {
+      "text": "I'm very sorry to hear you're feeling that way. I can definitely look into this for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354352666666
+    },
+    {
+      "text": "Yes, the name is David Miller, and the order number is... VF77812. I've been a loyal VeloFit customer for years, I've never had a problem like this before.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354361799999
+    },
+    {
+      "text": "Thank you, David. I see your account now, and we really appreciate your loyalty. I see you purchased the Spin Class Shoes. To make sure I understand correctly, what specifically is the issue with them? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354372333332
+    },
+    {
+      "text": "It's the fit. I thought they would be perfect, but the cycling shoes just give me terrible blisters every time I use them. I've tried adjusting the cleats, wearing different socks, everything. They're just painful.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354389599998
+    },
+    {
+      "text": "Oh no, getting blisters is definitely not the experience we want for you. That sounds very uncomfortable. I'm looking at your purchase date, and I can see you ordered them 77 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354404066664
+    },
+    {
+      "text": "I know, I kept trying to make them work because I really didn't want to be a bother. But it's just not happening. I was really hoping I could get a refund for them. Honestly, with the holidays coming up, I really needed this money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354416533330
+    },
+    {
+      "text": "Of course, I completely understand. Let me just confirm our policy. Okay, yes. For our standard items like these shoes, we have a 90-day return window. Since you're at day 77, you are well within that period. We can absolutely process a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354432466663
+    },
+    {
+      "text": "Oh, really? That's... that's such a relief. Thank you so much, Sarah. I was so worried I was just stuck with them.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354449799996
+    },
+    {
+      "text": "Not at all. I'm happy to help. I've just initiated the return process and sent a pre-paid shipping label to your email on file. And since you're a VIP member and had such a poor experience, I've also added a $25 VeloFit credit to your account for the inconvenience. You can use that on any future purchase.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354457599996
+    },
+    {
+      "text": "Wow, a credit too? You really didn't have to do that. Thank you, that's incredibly kind. You've really turned my day around.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354478199996
+    },
+    {
+      "text": "It's my pleasure, David. We value your business. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354486666662
+    },
+    {
+      "text": "No, that's everything. Thank you again for all your help!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 21765,
+      "start_timestamp_usec": 1766354493533328
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a wonderful day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1766354497533328
+    }
+  ]
+}

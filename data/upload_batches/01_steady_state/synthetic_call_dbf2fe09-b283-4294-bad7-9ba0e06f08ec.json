@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "dbf2fe09-b283-4294-bad7-9ba0e06f08ec",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Spin Class Shoes",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'Sales' or 'Support' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765633253000000
+    },
+    {
+      "text": "Support.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633263266666
+    },
+    {
+      "text": "Connecting you to a support agent now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1765633263999999
+    },
+    {
+      "text": "Thank you for calling VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633266733332
+    },
+    {
+      "text": "Hi Charlie. I need to start a return for some spin class shoes I bought about a month ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633271999998
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633278199998
+    },
+    {
+      "text": "Yes, it's VF886-01B4.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633283466664
+    },
+    {
+      "text": "Got it, one moment... Okay, I see the order for the VeloFit Pro cycling shoes, delivered on November 13th. To get started, can I ask what specifically is the issue with them? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633285066664
+    },
+    {
+      "text": "It's more about the fit. I've used them a few times, but no matter how I position the cleats, I keep getting terrible blisters. I think I just need a different size or style.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633300133330
+    },
+    {
+      "text": "I'm sorry to hear they're not working out and causing blisters. Comfort is key for a good ride. Let me just pull up the policy for you. One moment.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633311933330
+    },
+    {
+      "text": "Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633321933330
+    },
+    {
+      "text": "Okay, I've just checked my system. Our policy allows for returns up to 90 days from the delivery date. Since you received them 30 days ago, you're well within the window. I can absolutely process a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633322633330
+    },
+    {
+      "text": "Oh, that's great news. I appreciate that. Since I'm going through the hassle of returning these and I do plan to buy another pair, would it be possible to get a small discount code for my next VeloFit purchase?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633337366663
+    },
+    {
+      "text": "I understand the request, but unfortunately my system doesn't allow me to issue discount codes for a standard return transaction. My priority is to make sure you get your refund for these shoes as quickly as possible. I can email you a prepaid shipping label right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633351566663
+    },
+    {
+      "text": "Alright, that's fair enough. The refund is the most important part. Yes, please send the label over to the email on file.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633369699996
+    },
+    {
+      "text": "Perfect. I've just sent that over. You should see it in your inbox in the next few minutes. Once we receive the cycling shoes back at our warehouse, your refund will be processed. Is there anything else I can help with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633377966662
+    },
+    {
+      "text": "No, that's everything. Thanks for your help, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 90013,
+      "start_timestamp_usec": 1765633393166662
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1765633396899995
+    }
+  ]
+}

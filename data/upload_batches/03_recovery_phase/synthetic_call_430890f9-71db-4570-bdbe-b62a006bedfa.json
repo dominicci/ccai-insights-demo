@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "430890f9-71db-4570-bdbe-b62a006bedfa",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Hard Denial (20+ Days)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768345633000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Isaac. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345642600000
+    },
+    {
+      "text": "I need to return something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345648800000
+    },
+    {
+      "text": "I can certainly look into that for you. I see the VeloBand Cadence Sensor on your account. Is that the item?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345650800000
+    },
+    {
+      "text": "Yes.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345658200000
+    },
+    {
+      "text": "Okay. And what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345658900000
+    },
+    {
+      "text": "It's fine. I just don't want it anymore.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345666033333
+    },
+    {
+      "text": "I understand. Let me pull up the order details here... I see it was delivered on December 15th, so about 29 days ago. Generally, for wearable items that have been opened, our return policy is quite strict due to hygiene and sanitation concerns. In most cases, after this much time, it would be too late to accept it back.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345668899999
+    },
+    {
+      "text": "Right. So you're not going to take it back. Whatever.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345690499999
+    },
+    {
+      "text": "Well, let me not get ahead of myself. Allow me to double-check the specific policy for this exact model, one moment... Okay, thank you for your patience. I have good news. It looks like the VeloBand Cadence Sensor actually falls under our 90-day satisfaction guarantee. My apologies for the initial confusion, you are well within the timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345694233332
+    },
+    {
+      "text": "Oh. So you can process the return?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345717366665
+    },
+    {
+      "text": "Yes, absolutely. I've just initiated that for you and emailed a prepaid return label to the address on file. Just place the band back in its original packaging, attach the label, and you can drop it off. Once our warehouse receives it, you'll see a full refund within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345719833331
+    },
+    {
+      "text": "...Okay. Thanks, I guess.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345739099997
+    },
+    {
+      "text": "You're most welcome. Was there anything else I could assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345740966663
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 74365,
+      "start_timestamp_usec": 1768345746166663
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit. Have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1768345747299996
+    }
+  ]
+}

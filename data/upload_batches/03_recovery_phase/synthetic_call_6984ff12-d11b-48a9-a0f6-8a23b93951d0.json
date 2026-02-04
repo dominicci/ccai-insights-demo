@@ -1,0 +1,162 @@
+{
+  "conversation_info": {
+    "conversation_id": "6984ff12-d11b-48a9-a0f6-8a23b93951d0",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Neutral",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768176553000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176561266666
+    },
+    {
+      "text": "Oh, hi. Yes, I... I need to return something. My VeloBand Cadence Sensor. I'm just so confused by the website.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176565866666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I start with your name and the email address associated with your VeloFit account?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176573399999
+    },
+    {
+      "text": "Yes, it's Mark Sterling. The email is mark.sterling@email.com.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176581999999
+    },
+    {
+      "text": "Thank you, Mark. I've pulled up your account. I see the VeloBand delivered about 27 days ago. To make sure I understand, what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176586333332
+    },
+    {
+      "text": "It's not broken, I just... I don't think it's for me. I tried to do the return online last week, but I think there was a website error. The whole page just wouldn't load for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176600866665
+    },
+    {
+      "text": "I'm sorry to hear you had trouble with the site. We do occasionally have updates that can cause slowness. Do you remember which day you were trying to process the return?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176612866665
+    },
+    {
+      "text": "Umm, I think it was around the 2nd? I even took a screenshot on my phone because I was so frustrated. The whole system seemed down. I just couldn't print the label or get to the right page. It's all so complicated. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176624399998
+    },
+    {
+      "text": "Of course, Mark. Let me check our system logs for that day... And yes, you are absolutely right. It looks like we had a known system down event for several hours on January 2nd. I sincerely apologize for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176640466664
+    },
+    {
+      "text": "Let me just check the return eligibility for you. I see it was delivered 27 days ago. According to our policy, all items are eligible for return within 90 days of delivery. So, you're well within the timeframe. I can process this for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176655533330
+    },
+    {
+      "text": "Oh! Really? Ninety days? That's... that's a relief. I was so worried I missed the deadline because of the website problem. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176672266663
+    },
+    {
+      "text": "It's my pleasure to help. And I see you're a VIP member with us, Mark. For the trouble you had with the website error, I've gone ahead and added a $25 VeloFit credit to your account. I've just initiated the return and the shipping label is on its way to your email.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176681333329
+    },
+    {
+      "text": "Wow, thank you so much, Sarah. That's very kind of you. You've made this so much easier.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176699199995
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176705266661
+    },
+    {
+      "text": "No, that's everything. Thank you again!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 12686,
+      "start_timestamp_usec": 1768176710266661
+    },
+    {
+      "text": "Alright. Have a great day, and thank you for being a VeloFit customer.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768176713066661
+    }
+  ]
+}

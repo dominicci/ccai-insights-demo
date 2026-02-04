@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "1eb7ac84-f14c-4776-a658-4c716de1046a",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767917509000000
+    },
+    {
+      "text": "Hello, you've reached VeloFit customer support. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917517266666
+    },
+    {
+      "text": "I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917523533332
+    },
+    {
+      "text": "I can certainly assist with that. To pull up your account, could I please have your name and order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917525333332
+    },
+    {
+      "text": "Chris Sterling. Order number is VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917532599998
+    },
+    {
+      "text": "Thank you, Chris. One moment... Okay, I see your order for the VeloBand Cadence Sensor, delivered on December 15th. To get started, could you tell me what specifically is the issue with the band? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917535666664
+    },
+    {
+      "text": "Preference. I don't like it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917552133330
+    },
+    {
+      "text": "I'm sorry to hear that. Could you tell me what you didn't like? Perhaps I can help you get more out of its features.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917554199996
+    },
+    {
+      "text": "The pulse display is confusing. I read the user manual, but the whole thing is just hard to use. I honestly expected more from it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917562133329
+    },
+    {
+      "text": "I understand the interface can take a moment to get used to. Did you know you can customize the data fields in the VeloFit app? You can simplify the screen to show just your heart rate and cadence if you like.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917570999995
+    },
+    {
+      "text": "I already tried that. It's not for me. Can you just process the return?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917585133328
+    },
+    {
+      "text": "Of course. Let me just confirm the return eligibility for you... Yes, I see here your purchase was 24 days ago, which is well within our 90-day return policy. No problem at all.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917590066661
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917602066661
+    },
+    {
+      "text": "I have processed the return authorization. You'll receive an email shortly with a prepaid shipping label and instructions. Once our warehouse receives the item, we'll issue a full refund to your original payment method. That should reflect in your account within 3 to 5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917602766661
+    },
+    {
+      "text": "Whatever. About time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917621899994
+    },
+    {
+      "text": "Is there anything else I can help you with today, Chris?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917623499994
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 32696,
+      "start_timestamp_usec": 1767917627433327
+    },
+    {
+      "text": "Okay. Thank you for calling VeloFit. Have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767917628133327
+    }
+  ]
+}

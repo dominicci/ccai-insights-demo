@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "cfc94c72-da1f-414e-8aca-5565d0a7ccb8",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Aero Road Helmet",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality and training purposes. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768604905000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604914066666
+    },
+    {
+      "text": "I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604920266666
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and the order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604922066666
+    },
+    {
+      "text": "Alex Chen. Order number is VF-881-3490.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604928266666
+    },
+    {
+      "text": "Thank you, Alex. I see your order for the Aero Road Helmet. To make sure I'm helping you correctly, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604931066666
+    },
+    {
+      "text": "The color just wasn't what I expected. The box is unopened. I just want to send the helmet back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604943933332
+    },
+    {
+      "text": "I understand. One moment while I pull up the return policy details for your order.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604950533332
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604956199998
+    },
+    {
+      "text": "Okay, Alex, thank you for your patience. I see the helmet was delivered 85 days ago. According to our policy, standard items are eligible for return within 10 days, so you are within the window. I can process this return for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604956899998
+    },
+    {
+      "text": "Whatever. Just send the label.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604973033331
+    },
+    {
+      "text": "Of course. The return label is on its way to your email. I also see that you're a VIP member with us, Alex. As a thank you for your business, I've added a complimentary expedited shipping credit to your account for your next order. We want to ensure you have the best safety equipment as quickly as possible.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604975233331
+    },
+    {
+      "text": "Okay, I guess. So I just print the label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768604995966664
+    },
+    {
+      "text": "That's correct. Just print it, attach it to the box, and drop it off at any post office. Once we receive it, we'll issue the full refund. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768604998899997
+    },
+    {
+      "text": "No, that's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25250,
+      "start_timestamp_usec": 1768605011699997
+    },
+    {
+      "text": "Alright. Well, thank you for calling VeloFit, Alex. Have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768605012833330
+    }
+  ]
+}

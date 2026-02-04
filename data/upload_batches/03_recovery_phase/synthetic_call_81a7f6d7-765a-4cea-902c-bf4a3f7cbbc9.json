@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "81a7f6d7-765a-4cea-902c-bf4a3f7cbbc9",
+    "agent_id": "201",
+    "agent_info": [
+      {
+        "agent_id": "201",
+        "display_name": "Bob"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "201",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Bob",
+      "agent_info": [
+        {
+          "agent_id": "201",
+          "display_name": "Bob"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "201",
+            "displayName": "Bob"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769092232000000
+    },
+    {
+      "text": "Thank you for holding. My name is Bob. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092240266666
+    },
+    {
+      "text": "Hi, I need to make a return. I bought a ClubFit Jersey a little while ago and it's just not for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24395,
+      "start_timestamp_usec": 1769092244733332
+    },
+    {
+      "text": "I can certainly help you with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092251533332
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24395,
+      "start_timestamp_usec": 1769092256533332
+    },
+    {
+      "text": "Got it, one moment... Okay, I see the order right here. So you'd like to return the ClubFit Jersey?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092258133332
+    },
+    {
+      "text": "That's the one.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24395,
+      "start_timestamp_usec": 1769092264933332
+    },
+    {
+      "text": "Alright, **no problem** at all. Our policy allows for returns up to **10 days** after delivery, and I see you're unfortunately outside that window. I've just processed the request and sent a prepaid **return label** to the email on file.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092266133332
+    },
+    {
+      "text": "Oh, that was fast. So I just print that out and send the jersey back?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24395,
+      "start_timestamp_usec": 1769092281466665
+    },
+    {
+      "text": "Exactly. Once we receive it, we'll issue the full refund to your original payment method. Can I help with anything else today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092286266665
+    },
+    {
+      "text": "Nope, that's perfect. Thank you, Bob.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24395,
+      "start_timestamp_usec": 1769092294866665
+    },
+    {
+      "text": "You're very welcome. Thanks for calling VeloFit, and have a great day!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 201,
+      "start_timestamp_usec": 1769092297533331
+    }
+  ]
+}

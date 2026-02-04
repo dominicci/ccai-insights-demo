@@ -1,0 +1,141 @@
+{
+  "conversation_info": {
+    "conversation_id": "7dc5b71b-4b5a-41aa-b53d-a3b5a9cfb691",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768438797000000
+    },
+    {
+      "text": "Hi, thank you for calling VeloFit. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438806600000
+    },
+    {
+      "text": "I need to return an item.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438812133333
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438813999999
+    },
+    {
+      "text": "Alex Bell. Order 7-8-9-4-5-6.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438819866665
+    },
+    {
+      "text": "Thank you, Alex. I'm pulling that up now... Okay, I see your order for the ClubFit Jersey delivered on December 20th. To get started, what specifically is the issue with the jersey?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438821999998
+    },
+    {
+      "text": "It's the wrong size.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438834266664
+    },
+    {
+      "text": "Okay, I understand. Just to be clear, is it a technical fault with the fabric or more of a preference on the fit?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438835799997
+    },
+    {
+      "text": "It's just too tight. Whatever you want to call that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438843533330
+    },
+    {
+      "text": "Not a problem. Let me just check the policy for you. Okay, you're at 25 days, and our standard return policy is 10 days, so you're unfortunately outside the timeframe. I can definitely process this for you. Would you like a refund, or did you want to exchange it for a different size?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438847199996
+    },
+    {
+      "text": "A refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438865666662
+    },
+    {
+      "text": "You got it. I've just started the return process in our system. I'm emailing you a pre-paid return label right now. Please attach that to the original packaging and drop it off at any postal service location. Once our warehouse receives the jersey, your refund will be issued. Can I help with anything else?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438866466662
+    },
+    {
+      "text": "Fine. I guess we're done then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 38224,
+      "start_timestamp_usec": 1768438887133328
+    },
+    {
+      "text": "Alright. Well, thank you for your call, Alex. Have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1768438889333328
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "12bf9bd3-d82a-4678-9dc7-03f3273438bc",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767543382000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543391600000
+    },
+    {
+      "text": "Hi Diana. I'm calling about my new VeloBand Pulse HR monitor. I need to return it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543396200000
+    },
+    {
+      "text": "I can certainly look into that for you. To start, could I get your name and order number? And just so I understand correctly, is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543401866666
+    },
+    {
+      "text": "The name is Sam Jones, order number is VF78901. I'd call it a technical fault. The heart rate monitor is wildly inaccurate. Honestly, the product is kind of garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543413533332
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble with the accuracy. I can definitely help with that. We can start with some basic troubleshooting steps, or I can transfer you directly to our technical support team who are experts with the new Pulse model.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543424733332
+    },
+    {
+      "text": "I appreciate that, but I'm not really interested in a back-and-forth. I'm a busy person and I just don't have time to try and fix it. I'd prefer a simple refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543441333331
+    },
+    {
+      "text": "I understand not wanting to spend more time on a frustrating issue. A transfer would be quick, but if you're set on a return, I need to check the policy for your order. Can you confirm the date you received the VeloBand?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543452266664
+    },
+    {
+      "text": "Let's see... it was a Christmas gift, so it arrived around December 15th. I've tried it a few times and it's just not working for me. I don't want a replacement, I just want money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543467133330
+    },
+    {
+      "text": "Okay, so you've had it for about 20 days. Let me just pull up our current return guidelines for you... one moment. [typing sounds] Okay, I'm looking at our knowledge base here. It says that all items are eligible for return within 90 days of delivery.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543479666663
+    },
+    {
+      "text": "Oh, 90 days? That's great. So a return shouldn't be a problem then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543496599996
+    },
+    {
+      "text": "That's correct. Since you're well within the 90-day window, I can go ahead and process that return for you right now. I've just initiated it. I'm sending a pre-paid return label to the email address on file. Just pack the VeloBand back in its original box, attach the label, and drop it at any post office.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543501266662
+    },
+    {
+      "text": "That's perfect. That was much easier than I expected. Thank you for your help, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543521866662
+    },
+    {
+      "text": "You're very welcome, Sam. Once we receive the item at our warehouse, your full refund will be processed back to the original payment method within 3-5 business days. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543527733328
+    },
+    {
+      "text": "Nope, that's everything. Thanks again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 51546,
+      "start_timestamp_usec": 1767543542399994
+    },
+    {
+      "text": "My pleasure. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767543545133327
+    }
+  ]
+}

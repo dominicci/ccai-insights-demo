@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "fcd57d3c-9abf-41dc-99ed-82b8d9fd01ef",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767487150000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487158266666
+    },
+    {
+      "text": "My order number is VF8891-B. The VeloBand I bought is not working.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24715,
+      "start_timestamp_usec": 1767487162866666
+    },
+    {
+      "text": "I can certainly look into that for you. I see your order for the VeloBand GPS Tracker was delivered 18 days ago. To make sure I understand correctly, what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487167466666
+    },
+    {
+      "text": "It's a technical fault. The band is basically broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24715,
+      "start_timestamp_usec": 1767487183399999
+    },
+    {
+      "text": "I'm sorry to hear you're experiencing trouble. Can you describe what's happening? For example, is it not turning on, or is there an issue with a specific feature?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487187133332
+    },
+    {
+      "text": "It turns on, but it won't sync with the app. At all. I've followed all the steps. It's useless if it doesn't track my data.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24715,
+      "start_timestamp_usec": 1767487198133332
+    },
+    {
+      "text": "Okay, thank you for that detail. It sounds very frustrating when a new device won't sync properly. Since this sounds like a potentially defective unit, the best team to help you troubleshoot and, if necessary, arrange a replacement is our Technical Support department.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487206533331
+    },
+    {
+      "text": "Wonderful. So I get to be transferred and explain this all over again.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24715,
+      "start_timestamp_usec": 1767487224599997
+    },
+    {
+      "text": "I understand it's an extra step, and I apologize for the inconvenience. I see on your account that you're a VIP member, and we really value your business. I'll add detailed notes to your case so the tech specialist will have all this information immediately. For the trouble this defective band has caused you, I'd also like to add a $25 credit to your account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487229466663
+    },
+    {
+      "text": "Fine. Whatever. Just transfer me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 24715,
+      "start_timestamp_usec": 1767487253733329
+    },
+    {
+      "text": "Of course. I'm connecting you to them right now. Please stay on the line. Thank you again for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767487256133329
+    }
+  ]
+}

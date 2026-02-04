@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "5f8ed1b5-e739-487b-9c46-8e7e478633ae",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please say 'representative' to speak with an agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766154708000000
+    },
+    {
+      "text": "Representative.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154716933333
+    },
+    {
+      "text": "Connecting you now.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766154718133333
+    },
+    {
+      "text": "Thank you for calling VeloFit, you're speaking with Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766154719599999
+    },
+    {
+      "text": "Yeah, I need to return something. Order number is 45-B-771. Can I do it, yes or no?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154725333332
+    },
+    {
+      "text": "I can certainly look into that for you. Pulling up that order now... I see the Aero Pro cycling shoes. Can I ask what the issue was with them?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766154731066665
+    },
+    {
+      "text": "They're just not right. I've tried adjusting the cleats a dozen times, but they keep giving me terrible blisters after every ride. I just want to send them back for a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154740733331
+    },
+    {
+      "text": "I'm sorry to hear that. Blisters are definitely no good. Let me just confirm the delivery date for you... okay, I see it was delivered 62 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766154752533331
+    },
+    {
+      "text": "So, can I return them or not?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154762533331
+    },
+    {
+      "text": "Yes, you can. Our policy allows for returns up to 90 days, so you're well within the window. I can absolutely process this for you. I'm sending a prepaid return label to the email on file right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766154764666664
+    },
+    {
+      "text": "Okay, I see the email. Finally. So just pack up the cycling shoes and ship them?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154778066664
+    },
+    {
+      "text": "That's correct. Once we receive the item, we'll process your full refund. Is there anything else I can help with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1766154783599997
+    },
+    {
+      "text": "No, that's it. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 87673,
+      "start_timestamp_usec": 1766154791333330
+    }
+  ]
+}

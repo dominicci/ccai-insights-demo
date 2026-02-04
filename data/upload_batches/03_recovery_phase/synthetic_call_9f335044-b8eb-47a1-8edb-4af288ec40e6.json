@@ -1,0 +1,127 @@
+{
+  "conversation_info": {
+    "conversation_id": "9f335044-b8eb-47a1-8edb-4af288ec40e6",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768337230000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337238266666
+    },
+    {
+      "text": "Hi, yes, I need to return something. My VeloBand Pulse monitor.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28690,
+      "start_timestamp_usec": 1768337242866666
+    },
+    {
+      "text": "Okay, I can look into that for you. To make sure I understand, what specifically is the issue with the band? Is it a technical fault or a matter of preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337247266666
+    },
+    {
+      "text": "Oh, I think it's broken. The heart rate numbers are just... wrong. It jumps all over. Honestly, I think the device is just garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28690,
+      "start_timestamp_usec": 1768337258066666
+    },
+    {
+      "text": "I'm very sorry to hear that it's not performing as expected. That's definitely frustrating. The best first step for a technical fault is to connect you with our Tech Support team. They can run a quick diagnostic and determine if it's a defect.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337266999999
+    },
+    {
+      "text": "Tech support? Oh, I'm not good with all that. I really don't have time to go through a bunch of steps on the phone. Can't I just send it back? I just want my money back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28690,
+      "start_timestamp_usec": 1768337283399999
+    },
+    {
+      "text": "I understand you'd prefer a simple return. Let me just check your order details... I see it was delivered 12 days ago, on January 1st. For the VeloBand Pulse specifically, we have a strict 10-day return window for a refund. After day 10, for any performance issues, our policy requires us to verify a hardware defect with our technical team before we can authorize a replacement.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337294866665
+    },
+    {
+      "text": "Ten days? I thought VeloFit had a 10-day policy. The website was so confusing, I must have missed that. I don't want a replacement, I just want a refund. Can't you just help me?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28690,
+      "start_timestamp_usec": 1768337320333331
+    },
+    {
+      "text": "I understand the confusion. The 10-day policy applies to our apparel and other gear, but for electronic wearables like the Pulse, the policy is different due to how it activates and for hygiene reasons. The required step to help you at this point is the technical verification. Without it, I'm not authorized to override the 10-day policy for a refund.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337332333331
+    },
+    {
+      "text": "So... you're saying no? I'm just stuck with a broken monitor? This is so overwhelming.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 28690,
+      "start_timestamp_usec": 1768337355999997
+    },
+    {
+      "text": "I'm saying the path to a solution is through a quick call with our technical specialists. If they confirm a defect, they can get a new unit sent out to you immediately under the warranty. But because you are outside the 10-day window and are declining the verification step, I cannot process a return for a refund. My hands are tied by the policy.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1768337361933330
+    }
+  ]
+}

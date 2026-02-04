@@ -1,0 +1,197 @@
+{
+  "conversation_info": {
+    "conversation_id": "5eb466b2-a1b7-425c-9fc8-00754a9ab08c",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. For sales, press 1. For technical support, press 2. For returns or order inquiries, press 3.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767481974000000
+    },
+    {
+      "text": "Three.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767481982399999
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767481983099999
+    },
+    {
+      "text": "Thank you for calling VeloFit. My name is Diana. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767481986166665
+    },
+    {
+      "text": "Hi, Diana. I... I need to make a return for a VeloBand GPS Tracker.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767481991299998
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767481995966664
+    },
+    {
+      "text": "Yes, it's Michael Chen, order number 774-B-910.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482001833330
+    },
+    {
+      "text": "Thank you, Michael. One moment... Okay, I see your order. It looks like the VeloBand was delivered 19 days ago, on December 15th. To get started, what specifically is the issue with the band? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482005166663
+    },
+    {
+      "text": "Oh, it's... it's just not working out for me. I was so excited to get it, but it's more complicated than I thought. I've been a loyal VeloFit customer for years, and I'm just so disappointed. I really needed this money back for some bills this month.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482020833329
+    },
+    {
+      "text": "I understand your disappointment, Michael. I do need to let you know that since this is the new Pulse model, it has a 10-day return window, and we are on day 19 now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482037699995
+    },
+    {
+      "text": "But I tried! I promise I did. I tried to return it right before Christmas, I think it was the 24th. I was on your website, but there was a major website error. The whole returns page was just frozen.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482048899995
+    },
+    {
+      "text": "I see. So you're saying the system was not letting you complete the process?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482062366661
+    },
+    {
+      "text": "Exactly. It felt like the whole system was down. I couldn't print the label or even get a confirmation number. I got so frustrated I even took a screenshot on my phone. It was just impossible.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482067633327
+    },
+    {
+      "text": "I'm very sorry you experienced that. Let me check our system logs for that date... one moment... Ah, yes. I am seeing a notification about a known outage on December 24th that affected our returns portal. It looks like you're right.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482080633327
+    },
+    {
+      "text": "So... can you help me? I was really counting on that refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482096299993
+    },
+    {
+      "text": "Absolutely. Since that was a fault on our end, let me just pull up the main policy here... Okay, I'm looking at our knowledge base, and it confirms that all our items are eligible for return within 90 days of delivery. You're well within that timeframe.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482100499993
+    },
+    {
+      "text": "Oh, 90 days? That's... that's amazing! You mean you can process it?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482117566659
+    },
+    {
+      "text": "Yes, I'm approving the return for you right now. Given the website issue you encountered, we can absolutely make this happen. I'm sending a prepaid return label to the email we have on file. Do you still have the original packaging?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482122233325
+    },
+    {
+      "text": "Yes, I do! Oh, thank you so much, Diana. That is a huge weight off my shoulders. You have no idea.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482137899991
+    },
+    {
+      "text": "You're very welcome, Michael. Just print that label, attach it to the box, and drop it off at any post office. Once our warehouse receives it, you'll see a full refund processed within 3-5 business days. Was there anything else I could help you with today at VeloFit?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482144633324
+    },
+    {
+      "text": "No, that's everything. Thank you again for being so understanding.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 20083,
+      "start_timestamp_usec": 1767482162633324
+    },
+    {
+      "text": "Of course. Thank you for calling VeloFit, and have a great rest of your day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767482167233324
+    }
+  ]
+}

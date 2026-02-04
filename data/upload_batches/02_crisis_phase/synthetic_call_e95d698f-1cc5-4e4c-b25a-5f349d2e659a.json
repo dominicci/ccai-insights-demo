@@ -1,0 +1,176 @@
+{
+  "conversation_info": {
+    "conversation_id": "e95d698f-1cc5-4e4c-b25a-5f349d2e659a",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Exception (Business Fault)",
+      "customer_sentiment": "Negative",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Cadence Sensor",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767446939000000
+    },
+    {
+      "text": "Thank you for holding. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767446948600000
+    },
+    {
+      "text": "I need to return something. My order number is VF88-1215.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767446953200000
+    },
+    {
+      "text": "I can certainly look into that for you. One moment while I pull up your account... Okay, I see the VeloBand Cadence Sensor, delivered on December 15th. To get started, could you tell me what specifically is the issue? Is it a technical fault or a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767446957200000
+    },
+    {
+      "text": "It's a preference. It's just not for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767446974600000
+    },
+    {
+      "text": "I understand. And I see here the item was received 19 days ago. Can you tell me why you weren't able to process the return sooner?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767446977466666
+    },
+    {
+      "text": "I tried to. Days ago. Your website was broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767446986333332
+    },
+    {
+      "text": "I'm very sorry to hear that. Could you tell me a bit more about what happened?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767446989599998
+    },
+    {
+      "text": "I went to the returns page on Christmas Eve, and it was just a blank screen. A complete website error. The whole system was down. I even took a screenshot if you need proof.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767446994999998
+    },
+    {
+      "text": "Thank you for that detail, I appreciate it. Let me check our internal logs for that date... Yes, I am seeing a confirmed note about a system-wide outage with our returns portal on December 24th. I sincerely apologize for that inconvenience.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447006733331
+    },
+    {
+      "text": "Let me just double-check our return policy for you... Okay, good news. I can see here that all our items are eligible for return within 90 days of delivery, so you are well within the timeframe. I'll go ahead and process this for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447022933331
+    },
+    {
+      "text": "Fine.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767447039399997
+    },
+    {
+      "text": "I have just initiated the return. I'm emailing you the pre-paid shipping label. You shouldn't have any issues, but was there a point where you couldn't print the label during the outage?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447040099997
+    },
+    {
+      "text": "I never even got that far. The page wouldn't load.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767447052699997
+    },
+    {
+      "text": "Of course. Well, I see you are a VIP member with us, and given the trouble our system down time caused you, I've gone ahead and added a $25 credit to your VeloFit account. We do appreciate your business.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447056233330
+    },
+    {
+      "text": "Whatever. Thanks, I guess.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767447069966663
+    },
+    {
+      "text": "You're very welcome. Once we receive the item, your full refund will be processed. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447071899996
+    },
+    {
+      "text": "No.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 77803,
+      "start_timestamp_usec": 1767447081033329
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1767447081733329
+    }
+  ]
+}

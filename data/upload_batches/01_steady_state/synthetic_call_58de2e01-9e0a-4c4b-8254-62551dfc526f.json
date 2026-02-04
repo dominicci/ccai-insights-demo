@@ -1,0 +1,168 @@
+{
+  "conversation_info": {
+    "conversation_id": "58de2e01-9e0a-4c4b-8254-62551dfc526f",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "steady",
+      "product_category": "jersey",
+      "product_item": "ProFit Jersey",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold while I connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766263477000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac, agent ID 301. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263486533333
+    },
+    {
+      "text": "I need to return something.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263492066666
+    },
+    {
+      "text": "I can certainly look into that for you. Can I get your name and order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263494066666
+    },
+    {
+      "text": "Alex Chen. Order is 78-Alpha-22-Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263499933332
+    },
+    {
+      "text": "Thank you, Alex. I see the order here for the VeloFit Pro-Pedal cycling shoes. To get started, could you tell me what specifically is the issue with them? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263502799998
+    },
+    {
+      "text": "They hurt my feet.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263516533331
+    },
+    {
+      "text": "I'm sorry to hear that. When you say they hurt, is it an issue with how the cleats are positioned, or is it the fit of the shoe itself causing discomfort?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263517933331
+    },
+    {
+      "text": "They give me blisters. Every time I ride. So I'm done with them.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263528399997
+    },
+    {
+      "text": "Okay, I understand. Getting blisters is definitely not the experience we want for our customers. It sounds like a sizing or fit issue rather than a defect. Let me just check your delivery date... It looks like you received these 78 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263532866663
+    },
+    {
+      "text": "And?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263549133329
+    },
+    {
+      "text": "And that's perfectly fine. Our policy for standard items like these cycling shoes allows for returns within 90 days. Since you're within that window, I can go ahead and process this return for a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263549833329
+    },
+    {
+      "text": "Fine. Whatever. How does it work?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263564366662
+    },
+    {
+      "text": "I've just initiated the return in our system. You'll receive an email with a prepaid shipping label within the next 5 minutes. Just package the shoes in their original box, attach the label, and drop it off at any post office. Once we receive the item back at our warehouse, your refund will be processed to your original payment method within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263566766662
+    },
+    {
+      "text": "Okay. I'll wait for the email then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263591099995
+    },
+    {
+      "text": "Excellent. Is there anything else I can assist you with today, Alex?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263593633328
+    },
+    {
+      "text": "No. That's it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 93028,
+      "start_timestamp_usec": 1766263598366661
+    },
+    {
+      "text": "Alright. Thank you for calling VeloFit, and have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1766263599499994
+    }
+  ]
+}

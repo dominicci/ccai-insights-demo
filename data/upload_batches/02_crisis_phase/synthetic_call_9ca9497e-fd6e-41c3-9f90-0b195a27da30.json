@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "9ca9497e-fd6e-41c3-9f90-0b195a27da30",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Negative",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      },
+      "quality_flag": "Policy Contradiction Detected"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767745700000000
+    },
+    {
+      "text": "Thank you for holding. My name is Diana. How can I help you with your VeloFit gear today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745708266666
+    },
+    {
+      "text": "Hi Diana. I need to return my VeloBand Pulse HR monitor. I got it a couple of weeks ago.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745714399999
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could I have your name and order number? And just so I understand correctly, is it a technical fault with the device or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745720466665
+    },
+    {
+      "text": "The name is Sam Jones, order 225-89-alpha. And yes, it's faulty. The heart rate tracking is all over the place. It's basically just garbage.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745734199998
+    },
+    {
+      "text": "Okay, Sam, I've pulled up your order. I'm sorry to hear you're having trouble with the tracking. I see here the band was delivered 14 days ago. Since you're reporting a technical fault, the first step is to connect you with our tech support team. They can diagnose the issue and, if needed, get a warranty replacement started for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745743733331
+    },
+    {
+      "text": "No, I don't want a replacement. Honestly, I don't have time to go back and forth with a tech team. I just want my money back. Can we please just process the refund?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745766199997
+    },
+    {
+      "text": "I understand you'd prefer a direct refund. However, for a defect claim outside the initial return window, our process requires verification from our technical team. It's usually a very quick call.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745777333330
+    },
+    {
+      "text": "What do you mean 'outside the window'? I thought VeloFit had a 90-day policy.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745790599996
+    },
+    {
+      "text": "That's a great question. While most of our apparel and gear have that 90-day policy, the VeloBand Pulse, because it's a specialized electronic health device, has a strict 10-day return window for a full refund. Since we're on day 14, the policy directs us to warranty support for any performance issues.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745795933329
+    },
+    {
+      "text": "Okay, I understand the policy, but it's only four days over. And the product isn't working as advertised. I don't think it's fair that I'm stuck with it. How about a partial credit? Maybe 50% back? That seems like a reasonable compromise.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745816333329
+    },
+    {
+      "text": "I appreciate your willingness to find a middle ground. However, my system is firm on this policy. Without a verified defect from our support team, I'm not authorized to issue any credits or a refund for the Pulse band after the 10-day mark has passed. The hygiene and data security protocols for this specific device are very stringent.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745832399995
+    },
+    {
+      "text": "So there's no flexibility at all? Not even a discount code for a future purchase for my trouble? I'm trying to be reasonable here.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745854999995
+    },
+    {
+      "text": "I truly wish I could offer that, Sam, but my hands are tied by the policy for this item when a defect isn't verified. My only authorized solution at this point is a warm transfer to our tech support team. They really are the experts who can resolve this for you with a functioning device.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745863866661
+    },
+    {
+      "text": "I see. Well, it sounds like you've told me what you can do. I'll think about whether I want to spend more time on this. Thanks for the information, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 58976,
+      "start_timestamp_usec": 1767745883266661
+    },
+    {
+      "text": "You're very welcome, Sam. Please don't hesitate to call back if you change your mind and want to connect with them. Thank you for calling VeloFit, and have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1767745893733327
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "conversation_info": {
+    "conversation_id": "59f31c03-13be-4070-944e-c9713c029f15",
+    "agent_id": "301",
+    "agent_info": [
+      {
+        "agent_id": "301",
+        "display_name": "Isaac"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "301",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Isaac",
+      "agent_info": [
+        {
+          "agent_id": "301",
+          "display_name": "Isaac"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "301",
+            "displayName": "Isaac"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769617097000000
+    },
+    {
+      "text": "Thank you for holding. My name is Isaac, and you've reached VeloFit support. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617106600000
+    },
+    {
+      "text": "Hi, Isaac. I... I need to return something. I bought a helmet a few weeks ago, and I just... I need to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617113600000
+    },
+    {
+      "text": "I can certainly look into that for you. To get started, could you help me understand what specifically is the issue? Is it a technical fault with the helmet or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617121533333
+    },
+    {
+      "text": "Oh, no, it's nothing like that. There's no fault. Honestly, the box is still unopened. It's just... the color isn't quite what I thought it would be. It's a silly reason, I know, but I've been a loyal VeloFit customer for years and I was really hoping to love it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617133799999
+    },
+    {
+      "text": "Not a silly reason at all. Getting the right gear that you feel good in is important. Let me pull up your order. Can you provide me with the order number?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617151533332
+    },
+    {
+      "text": "Yes, it's VF-8675309. I feel so bad about this, I just really needed that money for something else that came up unexpectedly. I was counting on it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617161999998
+    },
+    {
+      "text": "I understand completely, things happen. Thank you for that number. I see the order for the Trail Helmet here. Let me just check the delivery date... Okay, it looks like it was delivered 25 days ago.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617171999998
+    },
+    {
+      "text": "Is... is that a problem? I saw online it was 10 days, but I wasn't sure. I'm so sorry for the trouble.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617185399998
+    },
+    {
+      "text": "No trouble at all, and you are absolutely correct. Our policy allows for returns within 10 days of delivery. Since you're only on day 25, you are unfortunately outside the window. Your safety and satisfaction are our priorities, so I can definitely process this return for a full refund for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617192399998
+    },
+    {
+      "text": "Oh, really? That's such a relief! Thank you so much, Isaac. You have no idea how much this helps me. I was so worried.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617211599998
+    },
+    {
+      "text": "Of course, I'm happy to help. I've just sent a return shipping label to the email address on file. Just print it out, attach it to the original shipping box, and you can drop it off at any post office. Once we receive the helmet, your refund will be processed within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617219666664
+    },
+    {
+      "text": "That's perfect. Thank you again, you've been wonderful.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617238866664
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617242733330
+    },
+    {
+      "text": "No, that was everything. Have a great day!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79097,
+      "start_timestamp_usec": 1769617247733330
+    },
+    {
+      "text": "You too. Thanks for calling VeloFit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 301,
+      "start_timestamp_usec": 1769617250733330
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "d4edea4b-008a-456a-86fc-9b511ed3c452",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767360610000000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is David. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360619600000
+    },
+    {
+      "text": "Hi David. I'm calling about my new VeloBand Pulse. I'm just so disappointed... it seems to be broken already.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73096,
+      "start_timestamp_usec": 1767360625200000
+    },
+    {
+      "text": "Oh, I'm very sorry to hear that. I can definitely look into this for you. To be sure I understand correctly, could you tell me more about the problem? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360632666666
+    },
+    {
+      "text": "It's just not working. I've tried everything, but the band just won't sync with my phone. I followed all the instructions. I was so excited, and I've been a loyal VeloFit customer for years. It just feels awful to spend money on something that doesn't work out of the box.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73096,
+      "start_timestamp_usec": 1767360645999999
+    },
+    {
+      "text": "I understand your frustration completely, and I apologize for the trouble you're having. It's definitely not the experience we want for our customers. When you say it won't sync, are you seeing any error messages on your phone or the band itself?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360664333332
+    },
+    {
+      "text": "No, no errors. The app just searches and searches and never finds it. My phone's Bluetooth is on and works with other things. I really think the device itself is defective.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73096,
+      "start_timestamp_usec": 1767360680933331
+    },
+    {
+      "text": "Thank you for that detail. Based on what you're describing, it does sound like a technical issue rather than a simple return. Since you received the item 11 days ago, our policy for a defective device like this is to connect you with our technical support team. They have advanced diagnostic tools and can either get it working for you or determine if a replacement is needed under warranty.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360692599997
+    },
+    {
+      "text": "Oh, so I can't just send it back for a refund? I... I really needed this money if it wasn't going to work. I saved up for this, and it feels like a waste. I'm just so let down.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73096,
+      "start_timestamp_usec": 1767360718866663
+    },
+    {
+      "text": "I truly do understand. For the VeloBand Pulse, the direct return window is 10 days. However, because you're describing what sounds like a defective unit, you are fully covered by our warranty. Our technical support team is the absolute best and fastest way to resolve this. Their goal is to make this right for you, whether that's fixing the sync issue or getting a new, working device in your hands. Would it be alright if I transfer you to them now?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360730799996
+    },
+    {
+      "text": "I guess so. As long as someone can fix it or replace it. I just want what I paid for to work. Okay... yes, you can transfer me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73096,
+      "start_timestamp_usec": 1767360761066662
+    },
+    {
+      "text": "Excellent. I'm confident they will take great care of you. I'm transferring you now. Please stay on the line. Thank you for your patience today.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767360769733328
+    }
+  ]
+}

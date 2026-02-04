@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "352186d3-fb44-4d49-9c42-2cc08ade4d32",
+    "agent_id": "401",
+    "agent_info": [
+      {
+        "agent_id": "401",
+        "display_name": "Diana"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Helmet)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "401",
+      "phase": "learning",
+      "product_category": "helmet",
+      "product_item": "Trail Helmet",
+      "agent_name": "Diana",
+      "agent_info": [
+        {
+          "agent_id": "401",
+          "display_name": "Diana"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "401",
+            "displayName": "Diana"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769475819000000
+    },
+    {
+      "text": "Hi, I need to start a return for an order I recently received.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475828600000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is Diana. I can certainly help you with that. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475832933333
+    },
+    {
+      "text": "Yes, it's VF-8675309.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475841666666
+    },
+    {
+      "text": "Thank you. Let me pull that up... Okay, I see the order for the Trail Helmet. Before we proceed, can you tell me what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475843266666
+    },
+    {
+      "text": "It's a preference thing. The online picture made the color look a bit different than it is in person. The box is still unopened, so the helmet is in brand-new condition.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475856333332
+    },
+    {
+      "text": "I understand completely. Let me just check our return policy for this item. One moment...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475867799998
+    },
+    {
+      "text": "Okay, thanks for your patience. I see the item was delivered 15 days ago. Our policy allows for returns within 90 days, so you are well within the timeframe. I've just initiated that return for you, and a prepaid shipping label has been sent to the email address on file.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475873933331
+    },
+    {
+      "text": "That's great, thank you. I do have one quick question. Since I have to go through the trouble of shipping this one back and placing a new order, would it be possible to get a small discount code for my next purchase? I'm planning to buy the same helmet, just in a different color. You know, safety is my top priority, and I really trust VeloFit for that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475892199997
+    },
+    {
+      "text": "We definitely appreciate your loyalty and for trusting us with your safety. I understand why you're asking, but unfortunately, we don't provide discount codes for returns based on a color preference. Once we receive your return, you will get a full refund to your original payment method.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475915999997
+    },
+    {
+      "text": "Okay, I figured I'd ask. A full refund works for me. Thanks for your help, Diana.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475935399997
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475940999997
+    },
+    {
+      "text": "No, that's all. Thank you.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59539,
+      "start_timestamp_usec": 1769475945999997
+    },
+    {
+      "text": "Alright, have a wonderful day and ride safely!",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 401,
+      "start_timestamp_usec": 1769475947933330
+    }
+  ]
+}

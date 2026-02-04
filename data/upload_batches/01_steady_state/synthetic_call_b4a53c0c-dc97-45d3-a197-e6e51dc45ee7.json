@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "b4a53c0c-dc97-45d3-a197-e6e51dc45ee7",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "steady",
+      "product_category": "shoes",
+      "product_item": "Mountain Bike Shoes",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait while we connect you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1766071215000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071224600000
+    },
+    {
+      "text": "I need to start a return. Order number is VF-881-92B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73046,
+      "start_timestamp_usec": 1766071230933333
+    },
+    {
+      "text": "Okay, pulling that up now... I see an order for the Mountain Bike Shoes, delivered 16 days ago. To make sure I understand, what specifically is the issue with the cycling shoes?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071234666666
+    },
+    {
+      "text": "They don't fit. I wore them once and they gave me terrible blisters. I just want a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73046,
+      "start_timestamp_usec": 1766071246666666
+    },
+    {
+      "text": "I'm very sorry to hear that. Getting blisters is the last thing you want from a new pair of shoes, especially when you're trying to get your cleats set up perfectly. One moment while I review the return eligibility for this item.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071252866666
+    },
+    {
+      "text": "Just tell me yes or no.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73046,
+      "start_timestamp_usec": 1766071268333332
+    },
+    {
+      "text": "Yes, absolutely. You are well within the 90-day return window. I can process this for you right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071270066665
+    },
+    {
+      "text": "Good. Do it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73046,
+      "start_timestamp_usec": 1766071276933331
+    },
+    {
+      "text": "Okay, I have initiated the return. You'll receive an email shortly with a prepaid shipping label. Just send the shoes back in the original box, and we'll issue the full refund to your original payment method once we receive them.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071277933331
+    },
+    {
+      "text": "Fine. That's all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 73046,
+      "start_timestamp_usec": 1766071293399997
+    },
+    {
+      "text": "Great. Thanks for calling VeloFit, and have a good day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1766071294733330
+    }
+  ]
+}

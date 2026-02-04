@@ -1,0 +1,147 @@
+{
+  "conversation_info": {
+    "conversation_id": "320707a6-ad5a-4b2e-8d43-c2b3c7633118",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Platinum",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1768934156000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934164266666
+    },
+    {
+      "text": "I need to return my VeloBand Pulse. Order number is VF789-01B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934170399999
+    },
+    {
+      "text": "Okay, one moment while I pull that up... I see the order for Jane Doe. Is that you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934174733332
+    },
+    {
+      "text": "Yes. Look, I'm busy. Can we just get this done? It's broken.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934180466665
+    },
+    {
+      "text": "Of course, Ms. Doe. I see here the band was delivered 17 days ago. And thank you for being a VeloFit VIP member. To get you the fastest solution, can you tell me what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934184666665
+    },
+    {
+      "text": "It's a technical fault. The device is not working. I've charged it, I've reinstalled the app, but it just won't sync.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934201399998
+    },
+    {
+      "text": "I understand the frustration when a new device won't sync. So just to confirm, you believe the unit is defective?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934209399998
+    },
+    {
+      "text": "Yes, it's defective. It's a broken piece of plastic. I just want my money back or a new one sent out today.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934217133331
+    },
+    {
+      "text": "I can definitely help with that. Since the issue is a technical one and we're just outside the 10-day return window for the Pulse, our policy is to connect you with our Technical Support team. They are equipped to troubleshoot, confirm the defect, and can immediately authorize a warranty replacement for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934224466664
+    },
+    {
+      "text": "Transfer me? Why can't you just handle it? This is wasting my time.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934245266664
+    },
+    {
+      "text": "I completely understand, and this is the most direct path. Our tech specialists have the tools to verify the hardware issue, which is a required step for a warranty claim. As a VIP member, I can ensure you're placed at the front of their queue. It's the quickest way to get a new unit shipped. May I transfer you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934249933330
+    },
+    {
+      "text": "Front of the queue? Fine. If it's the fastest way, do it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934270999996
+    },
+    {
+      "text": "Excellent. I'll do a warm handoff so you don't have to repeat yourself. Please hold for one moment while I connect you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1768934274999996
+    },
+    {
+      "text": "Okay.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 88777,
+      "start_timestamp_usec": 1768934283133329
+    }
+  ]
+}

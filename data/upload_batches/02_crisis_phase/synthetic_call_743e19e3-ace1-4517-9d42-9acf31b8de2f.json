@@ -1,0 +1,126 @@
+{
+  "conversation_info": {
+    "conversation_id": "743e19e3-ace1-4517-9d42-9acf31b8de2f",
+    "agent_id": "304",
+    "agent_info": [
+      {
+        "agent_id": "304",
+        "display_name": "David"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "304",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "David",
+      "agent_info": [
+        {
+          "agent_id": "304",
+          "display_name": "David"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "304",
+            "displayName": "David"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767372694000000
+    },
+    {
+      "text": "Thank you for holding. My name is David, agent ID 304. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372702266666
+    },
+    {
+      "text": "Yeah, I need to return my VeloBand. Order number is VF887-2612-B.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61855,
+      "start_timestamp_usec": 1767372707799999
+    },
+    {
+      "text": "Okay, I have your order pulled up now. I see you purchased the VeloBand GPS Tracker. To make sure I'm helping you correctly, could you tell me what specifically is the issue with the band? Is it a technical fault or a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372712333332
+    },
+    {
+      "text": "It's not working. That's the issue.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61855,
+      "start_timestamp_usec": 1767372728199998
+    },
+    {
+      "text": "I'm very sorry to hear that. I can definitely look into this for you. When you say it's 'not working,' can you give me a few more details? For example, is it not turning on at all?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372730733331
+    },
+    {
+      "text": "It turns on. But it won't sync to the app. I've tried everything. It's basically broken if it can't do the one thing it's supposed to.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61855,
+      "start_timestamp_usec": 1767372742933331
+    },
+    {
+      "text": "I understand completely, that would be very frustrating. Thank you for clarifying. Since the issue is that it won't sync and seems to be defective, our dedicated Tech Support team is best equipped to handle this. They have advanced tools to troubleshoot syncing problems.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372752066664
+    },
+    {
+      "text": "So you can't just take it back? I have to talk to someone else? Great.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61855,
+      "start_timestamp_usec": 1767372770333330
+    },
+    {
+      "text": "I understand it's an extra step. For any potentially defective item, our policy is to have our technical experts confirm the fault first. If they can't resolve it over the phone, they have the direct authority to approve a warranty replacement and get a new unit shipped to you right away. They're the fastest path to a solution for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372775199996
+    },
+    {
+      "text": "Fine. Whatever. Just transfer me then.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 61855,
+      "start_timestamp_usec": 1767372797866662
+    },
+    {
+      "text": "Absolutely. I will transfer you right now. They're ready to help you sort this out. Please stay on the line.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 304,
+      "start_timestamp_usec": 1767372800599995
+    }
+  ]
+}

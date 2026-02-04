@@ -1,0 +1,140 @@
+{
+  "conversation_info": {
+    "conversation_id": "b1259384-16d9-4182-be3d-ff5d0837edfd",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Pivot to Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "chaos",
+      "product_category": "band",
+      "product_item": "VeloBand Pulse HR Monitor",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit Customer Support. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1767537489000000
+    },
+    {
+      "text": "Thank you for holding. My name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537498400000
+    },
+    {
+      "text": "Hi Charlie. I'm calling about my VeloBand Pulse HR monitor. I got it about 13 days ago, and I'm having some trouble with it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537503133333
+    },
+    {
+      "text": "I'm sorry to hear you're having trouble. To make sure I get you to the right place, can you tell me what specifically is the issue? Is it a technical fault or more of a preference issue?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537511599999
+    },
+    {
+      "text": "It's definitely a technical fault. The device is just not working as it should. It tracked my heart rate fine for the first week, but for the last few days, it won't sync with the app at all. I've tried everything.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537524199999
+    },
+    {
+      "text": "I see. So it connects to your phone, but the data just won't sync over?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537538666665
+    },
+    {
+      "text": "Exactly. I'm starting to think the sync module or something inside is broken. It seems defective if it fails this quickly.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537543599998
+    },
+    {
+      "text": "Thank you for that detail. It certainly sounds frustrating. Since you're describing a potential hardware issue and you're just outside the 10-day window for a direct return on the VeloBand Pulse, our standard procedure is to connect you with our Technical Support team. They have advanced diagnostic tools and can determine if the unit is defective and needs a warranty replacement.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537551933331
+    },
+    {
+      "text": "Okay, a transfer to tech support is fine. But look, I've had this less than two weeks and it's already failed. Since I can't just return it, could you maybe offer a partial credit or a discount code for my trouble? It feels like that would be a fair compromise.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537577599997
+    },
+    {
+      "text": "I understand where you're coming from, and I appreciate your perspective. While I can't offer a credit for a hardware issue that our warranty covers, I can assure you that our technical team is the fastest path to a solution. If they confirm a defect, they'll ship a replacement right away, free of charge. Their goal is to get you a working device as quickly as possible.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537595199997
+    },
+    {
+      "text": "I get it, but the time I'm spending on this call and will spend with the next person has value. Are you sure there's no small goodwill gesture you can make? Even 10% off my next order?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537620199997
+    },
+    {
+      "text": "I genuinely do apologize for the inconvenience this has caused. My system limits credits to situations like shipping errors, and doesn't allow for them on warranty-covered items. The best and most concrete solution I can provide is a direct and warm transfer to the team that can authorize that free replacement for you. They are empowered to solve this. Shall I connect you?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537632666663
+    },
+    {
+      "text": "Alright, you've made your case. No credit it is. Yes, please go ahead and transfer me to your technical support. Thanks for your help, Charlie.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 95101,
+      "start_timestamp_usec": 1767537657866663
+    },
+    {
+      "text": "You're very welcome. I'm connecting you now. Please stay on the line and someone will be with you shortly.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1767537667599996
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "conversation_info": {
+    "conversation_id": "ff5c948e-d995-4a42-9cd3-cc6f2f7ff54b",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Shoes)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit, your partner in performance. Please say 'Sales' or 'Support' to be routed to the correct department.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769114750000000
+    },
+    {
+      "text": "Support. I need to make a return.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114758933333
+    },
+    {
+      "text": "Connecting you to the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769114761333333
+    },
+    {
+      "text": "Thank you for calling VeloFit support, my name is Charlie. How can I...",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769114764399999
+    },
+    {
+      "text": "Hi, I just need to return an item. Order number is VF-88613.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114769333332
+    },
+    {
+      "text": "Okay, one moment while I pull that up... I see the order for the ProLite cycling shoes, delivered about 82 days ago. Can I ask what the issue is?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769114773533332
+    },
+    {
+      "text": "They don't work for me. The fit is causing blisters where the cleats mount. I just want to process a refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114783399998
+    },
+    {
+      "text": "I'm very sorry to hear that. Discomfort from blisters is definitely a valid reason. Let me just confirm the policy for you... Yes, absolutely. You are well within our 90-day return window for those shoes.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769114790799998
+    },
+    {
+      "text": "Good. So what's the next step? Are you sending a label?",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114804599998
+    },
+    {
+      "text": "That's correct. I have just authorized the return and sent a pre-paid shipping label to the email address on file. Once we receive the cycling shoes back at our warehouse, your refund will be processed to the original payment method within 3-5 business days.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769114808466664
+    },
+    {
+      "text": "Got the email. That's all I needed. Thanks.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114825866664
+    },
+    {
+      "text": "You're very welcome. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769114828933330
+    },
+    {
+      "text": "Nope.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 25865,
+      "start_timestamp_usec": 1769114833933330
+    }
+  ]
+}

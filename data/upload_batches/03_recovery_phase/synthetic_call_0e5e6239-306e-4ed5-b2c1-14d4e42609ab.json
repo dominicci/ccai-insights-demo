@@ -1,0 +1,169 @@
+{
+  "conversation_info": {
+    "conversation_id": "0e5e6239-306e-4ed5-b2c1-14d4e42609ab",
+    "agent_id": "302",
+    "agent_info": [
+      {
+        "agent_id": "302",
+        "display_name": "Alex"
+      }
+    ],
+    "metadata": {
+      "call_type": "Standard Return (Jersey)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "302",
+      "phase": "learning",
+      "product_category": "jersey",
+      "product_item": "ClubFit Jersey",
+      "agent_name": "Alex",
+      "agent_info": [
+        {
+          "agent_id": "302",
+          "display_name": "Alex"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "302",
+            "displayName": "Alex"
+          }
+        ]
+      },
+      "quality_flag": "Correct Policy Enforcement (Amplified)"
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please hold for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769365746000000
+    },
+    {
+      "text": "Thank you for holding. My name is Alex. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365754266666
+    },
+    {
+      "text": "Hi Alex. I need some help with a return. I recently ordered a ClubFit Jersey, and I need to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365758799999
+    },
+    {
+      "text": "I can certainly look into that for you. To start, could you tell me what specifically is the issue with the jersey? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365765999999
+    },
+    {
+      "text": "It's a sizing issue. I think I just got the wrong size. The jersey is a little too tight across the shoulders.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365777133332
+    },
+    {
+      "text": "I see. So you'd be looking for an exchange for a different size, then?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365784666665
+    },
+    {
+      "text": "Yes, exactly. I'd like to exchange it for one size up.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365789533331
+    },
+    {
+      "text": "No problem at all. Do you have your order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365793333331
+    },
+    {
+      "text": "Yep, it's VF88602.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365797199997
+    },
+    {
+      "text": "Thank you. One moment... Okay, I see the order. It looks like it was delivered 17 days ago. You are unfortunately outside our 10-day return window, so we can definitely process that exchange for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365798599997
+    },
+    {
+      "text": "That's great news. Now, since I have to go through the process of packaging this up and sending it back, is there any possibility of getting a small discount code for my trouble? It would make ordering again in the future a bit easier.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365811399997
+    },
+    {
+      "text": "I understand your request, but unfortunately, our policy doesn't allow for discount codes or credits for a standard size exchange. The good news is that the return shipping is completely free, and I can get the new size shipped out as soon as the original is in transit.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365827266663
+    },
+    {
+      "text": "Okay, I see. No way to even cover the original shipping cost with a small credit? It's just a thought.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365845466663
+    },
+    {
+      "text": "I appreciate you asking, but I'm not able to offer credits for that. I can, however, email you the pre-paid return label right now. Shall I send it to the email address on file?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365852466663
+    },
+    {
+      "text": "Alright, fair enough. Yes, please send the label to my email. That works for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365864466663
+    },
+    {
+      "text": "Perfect. The email is on its way. Just print the label, attach it to the package, and drop it off at any post office. Once the tracking updates, we'll dispatch your new jersey in the larger size. Is there anything else I can help you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365869999996
+    },
+    {
+      "text": "No, that's everything. Thank you for your help, Alex.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 59266,
+      "start_timestamp_usec": 1769365886533329
+    },
+    {
+      "text": "You're very welcome. Thank you for calling VeloFit, and have a great day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 302,
+      "start_timestamp_usec": 1769365890266662
+    }
+  ]
+}

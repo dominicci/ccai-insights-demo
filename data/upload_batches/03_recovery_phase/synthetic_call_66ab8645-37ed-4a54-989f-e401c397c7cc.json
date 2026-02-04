@@ -1,0 +1,210 @@
+{
+  "conversation_info": {
+    "conversation_id": "66ab8645-37ed-4a54-989f-e401c397c7cc",
+    "agent_id": "303",
+    "agent_info": [
+      {
+        "agent_id": "303",
+        "display_name": "Sarah"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Preference (Education Win)",
+      "customer_sentiment": "Positive",
+      "outcome": "Resolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "303",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Sarah",
+      "agent_info": [
+        {
+          "agent_id": "303",
+          "display_name": "Sarah"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "303",
+            "displayName": "Sarah"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769351393000000
+    },
+    {
+      "text": "Hello, thank you for calling VeloFit. My name is Sarah. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351401266666
+    },
+    {
+      "text": "Hi, yes, I'd like to make a return for my VeloBand tracker. I just got it and... well, it's not for me.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351406866666
+    },
+    {
+      "text": "I can certainly look into that for you. May I have your name and the order number, please?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351413933332
+    },
+    {
+      "text": "The name is Alex Chen, order number 774-B-912.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351420133332
+    },
+    {
+      "text": "Thank you, Alex. I see the order here for the VeloBand Pulse, which was delivered 18 days ago. To make sure I understand correctly, what specifically is the issue? Is it a technical fault or more of a preference?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351423399998
+    },
+    {
+      "text": "I don't think it's broken. It's just so... confusing. The whole interface is really hard to use. Honestly, I expected more.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351437733331
+    },
+    {
+      "text": "I understand that new technology can have a learning curve. I did want to make you aware, since you've had the device for 18 days, that the VeloBand Pulse has a specific 10-day return window for preference-based returns. This is due to hygiene protocols and how the device activates to a user's account.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351446133330
+    },
+    {
+      "text": "Ten days? I didn't see that. The website was a bit of a blur. I'm just so lost with this thing, I tried reading the user manual and it didn't make sense. Can't you just help me? I feel so overwhelmed by it.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351466533330
+    },
+    {
+      "text": "I can absolutely help you, Alex. Let's forget about the return for a moment and focus on the device itself. You mentioned the interface is confusing. Can you tell me one or two things that you're having the most trouble with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351480466663
+    },
+    {
+      "text": "Well, the biggest thing is the GPS. I finish a workout, and I want to see the map of my run, but all I can find are lists of numbers and stats. I can't find the map anywhere.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351495666663
+    },
+    {
+      "text": "Ah, that's a fantastic question and something we can fix very easily. It's a setting in the VeloFit app that controls the default view. Do you have your phone with you now?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351507466663
+    },
+    {
+      "text": "Yes, I have it right here.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351519133329
+    },
+    {
+      "text": "Great. Please open the VeloFit app. At the bottom of the screen, tap the icon that says 'Devices'. Then select your VeloBand Pulse from the list.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351521066662
+    },
+    {
+      "text": "Okay, I'm there.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351530933328
+    },
+    {
+      "text": "Perfect. Now, look for an option that says 'Activity Display Settings'. Inside that menu, you should see an item called 'Default Post-Workout View'. It's probably set to 'Summary Stats' right now.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351532199994
+    },
+    {
+      "text": "Wow, yes, it is. I never would have found that.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351545466660
+    },
+    {
+      "text": "If you tap on that, you can change it to 'GPS Map View'. From now on, the first thing you see after finishing a GPS-tracked activity will be the map of your route. You can then just swipe to see all the detailed stats.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351548799993
+    },
+    {
+      "text": "Oh! That's amazing. That's exactly what I wanted it to do. That one thing was making me crazy. It makes so much more sense now.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351563533326
+    },
+    {
+      "text": "I'm so glad that helped! It's a powerful little device, and our goal is to make sure you can enjoy all its features. Now that you know how to customize the display, do you think you'd like to keep it and give it another try?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351572199992
+    },
+    {
+      "text": "Yes, absolutely. Thank you so much, Sarah. That really solves the problem. I don't need a return after all.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351587333325
+    },
+    {
+      "text": "That's wonderful to hear, Alex. Is there anything else I can assist you with today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351594666658
+    },
+    {
+      "text": "No, that was everything. You've been a great help!",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 79297,
+      "start_timestamp_usec": 1769351600399991
+    },
+    {
+      "text": "You are very welcome. Thank you for calling VeloFit, and have a fantastic day.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 303,
+      "start_timestamp_usec": 1769351603933324
+    }
+  ]
+}

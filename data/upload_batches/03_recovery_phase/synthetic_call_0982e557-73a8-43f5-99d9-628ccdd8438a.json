@@ -1,0 +1,161 @@
+{
+  "conversation_info": {
+    "conversation_id": "0982e557-73a8-43f5-99d9-628ccdd8438a",
+    "agent_id": "402",
+    "agent_info": [
+      {
+        "agent_id": "402",
+        "display_name": "Charlie"
+      }
+    ],
+    "metadata": {
+      "call_type": "Pulse Defect (Refuses Support)",
+      "customer_sentiment": "Positive",
+      "outcome": "Unresolved",
+      "generated_by": "synthetic_script_v3_quality",
+      "is_transfer": "False",
+      "customer_tier": "Standard",
+      "is_escalated": false,
+      "agent_id": "402",
+      "phase": "learning",
+      "product_category": "band",
+      "product_item": "VeloBand GPS Tracker",
+      "agent_name": "Charlie",
+      "agent_info": [
+        {
+          "agent_id": "402",
+          "display_name": "Charlie"
+        }
+      ],
+      "qualityMetadata": {
+        "agentInfo": [
+          {
+            "agentId": "402",
+            "displayName": "Charlie"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "text": "Thank you for calling VeloFit. Your call may be recorded for quality assurance. Please wait for the next available agent.",
+      "speakerId": "AUTOMATED_AGENT",
+      "role": "AUTOMATED_AGENT",
+      "user_id": 0,
+      "start_timestamp_usec": 1769102999000000
+    },
+    {
+      "text": "Thank you for holding. You've reached VeloFit, my name is Charlie. How can I help you today?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103007266666
+    },
+    {
+      "text": "I need to return a VeloBand GPS Tracker.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103013599999
+    },
+    {
+      "text": "I can certainly look into that for you. Do you have the order number handy?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103016466665
+    },
+    {
+      "text": "Yes, it's VF886-0126. Listen, it's not working right and I want to send it back.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103021666665
+    },
+    {
+      "text": "Okay, pulling that up now... I see the VeloBand was delivered on January 6th, so 16 days ago. To make sure I understand correctly, **is it a technical fault or a preference issue**?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103027199998
+    },
+    {
+      "text": "It's a technical fault. The GPS is wildly inaccurate. It's basically **garbage**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103039466664
+    },
+    {
+      "text": "I'm very sorry to hear that the GPS isn't performing as expected. That's a core feature and I understand the frustration. Often, a quick software patch or a guided reset can fix that. I can walk you through it, or I can transfer you directly to our technical support team.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103045066664
+    },
+    {
+      "text": "No, I **don't have time** for all that. I've tried turning it off and on. The product is defective. I **just want money** back for it. I want a **refund**.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103063399997
+    },
+    {
+      "text": "I understand you'd prefer a direct refund over troubleshooting. However, for a defect claim, we do need to verify the fault, especially after the initial return period has passed. Without our tech team confirming the issue, the request is treated as a standard return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103073933330
+    },
+    {
+      "text": "Fine. What's the standard policy then? Just tell me how to get the refund.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103091999996
+    },
+    {
+      "text": "Of course. The VeloBand Pulse, because it's an electronic device that activates and syncs personal data to an account, has a strict 10-day return policy. Since the delivery was 16 days ago, we are outside that window for a standard return.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103097133329
+    },
+    {
+      "text": "Are you kidding me? Ten days? You sold me a faulty device and now you're hiding behind a policy? That's unbelievable.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103113266662
+    },
+    {
+      "text": "I completely see why you're upset. That 10-day policy is specific to our activated electronics for hygiene and data security. My only path to override that would be to get the defect verified. If you could give our technical team just five minutes to confirm the fault, I could process an exception for you.",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103121266662
+    },
+    {
+      "text": "I already told you, I'm not wasting any more time on this. This is ridiculous. I'll just handle it with my credit card company.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103141933328
+    },
+    {
+      "text": "I am sorry we couldn't find a solution that worked for you today. Is there anything else I can assist with?",
+      "speakerId": "AGENT",
+      "role": "AGENT",
+      "user_id": 402,
+      "start_timestamp_usec": 1769103150599994
+    },
+    {
+      "text": "No. Goodbye.",
+      "speakerId": "CUSTOMER",
+      "role": "CUSTOMER",
+      "user_id": 78365,
+      "start_timestamp_usec": 1769103157933327
+    }
+  ]
+}
